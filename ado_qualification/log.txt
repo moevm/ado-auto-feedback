@@ -1,0 +1,64 @@
+0.0: Check ended
+time=1791204498.3063312 gym-duckietown 2019.0.0
+
+time=1791204499.8303354 Registering gym environment id: Duckietown-4way-v0
+time=1791204499.8304353 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1791204499.8304691 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1791204499.830497 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1791204499.8305223 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1791204499.8305478 Registering gym environment id: Duckietown-loop_empty-v0
+time=1791204499.8305721 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1791204499.8305962 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1791204499.8306243 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1791204499.8306484 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1791204499.830671 Registering gym environment id: Duckietown-small_loop-v0
+time=1791204499.8306935 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1791204499.8307161 Registering gym environment id: Duckietown-straight_road-v0
+time=1791204499.8307388 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1791204499.8307614 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1791204499.8307843 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1791204499.8308063 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1791204499.8308282 Registering gym environment id: Duckietown-udem1-v0
+time=1791204499.8308501 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1791204509.297055 Falling back to non-multisampled frame buffer
+time=1791204509.3007212 Falling back to non-multisampled frame buffer
+time=1791204509.3054755 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1791204509.3183541 loading mesh "duckiebot.obj"
+time=1791204509.3184993 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1791204509.5305803 loading mesh "house.obj"
+time=1791204509.61997 loading texture "house.png"
+time=1791204510.7737653 loading mesh "truck.obj"
+time=1791204510.8122976 loading texture "truck.png"
+time=1791204511.1500046 loading mesh "bus.obj"
+time=1791204511.17921 loading texture "bus.png"
+time=1791204511.4353595 loading mesh "barrier.obj"
+time=1791204511.4439557 loading texture "barrier.png"
+time=1791204511.5087876 loading mesh "duckie.obj"
+time=1791204511.5631807 loading texture "duckie.png"
+time=1791204511.8146029 loading mesh "cone.obj"
+time=1791204511.8231256 loading texture "cone.png"
+time=1791204511.8445215 loading texture "floor_1.png"
+time=1791204511.9062526 loading texture "curve_left_1.png"
+time=1791204511.912842 loading texture "straight_1.png"
+time=1791204511.9406216 loading texture "grass_1.png"
+time=1791204512.2167385 loading texture "3way_left_1.png"
+time=1791204512.385867 loading texture "curve_right_1.png"
+time=1791204512.394852 using user tile start: (1, 1)
+time=1791204512.3953812 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7f7db3e4b1c0>, 'color': array([1, 1, 1])}
+time=1791204512.3962564 road_tile_size=0.585
+time=1791204512.3964849 Starting at [0.75124601 0.         1.13901544] 1.0383610559561465
+time=1791204512.3966713 Pos: [0.75124601 0.         1.13901544] angle 1.0383610559561465
+time=1791204512.53613 using DuckietownEnv
+time=1791204513.2083488 Pos: [0.75124601 0.         1.13901544] angle 1.0383610559561465
+0.585
+0.7512460143972085 1.1390154396346677
+BAD SOLUTION
+0.0: Check ended
