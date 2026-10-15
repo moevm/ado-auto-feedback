@@ -1,0 +1,64 @@
+False: Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+time=1792090518.4251971 gym-duckietown 2019.0.0
+
+time=1792090518.507612 Registering gym environment id: Duckietown-4way-v0
+time=1792090518.5077033 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792090518.507733 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792090518.5077639 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792090518.5078 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792090518.5078487 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792090518.5079362 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792090518.5079668 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792090518.5080056 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792090518.5080347 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792090518.5080585 Registering gym environment id: Duckietown-small_loop-v0
+time=1792090518.5080922 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792090518.5081124 Registering gym environment id: Duckietown-straight_road-v0
+time=1792090518.508133 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792090518.5081534 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792090518.5081735 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792090518.5081935 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792090518.508213 Registering gym environment id: Duckietown-udem1-v0
+time=1792090518.5082326 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792090520.0935853 Falling back to non-multisampled frame buffer
+time=1792090520.0955322 Falling back to non-multisampled frame buffer
+time=1792090520.0989535 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792090520.1077852 loading mesh "duckiebot.obj"
+time=1792090520.1079159 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792090520.3054283 loading mesh "house.obj"
+time=1792090520.328986 loading texture "house.png"
+time=1792090521.3718839 loading mesh "truck.obj"
+time=1792090521.3779159 loading texture "truck.png"
+time=1792090521.6324987 loading mesh "bus.obj"
+time=1792090521.6411893 loading texture "bus.png"
+time=1792090521.8945043 loading mesh "barrier.obj"
+time=1792090521.9022644 loading texture "barrier.png"
+time=1792090521.9658003 loading mesh "duckie.obj"
+time=1792090521.9881465 loading texture "duckie.png"
+time=1792090522.2623942 loading mesh "cone.obj"
+time=1792090522.268188 loading texture "cone.png"
+time=1792090522.2893507 loading texture "floor_1.png"
+time=1792090522.3538167 loading texture "curve_left_1.png"
+time=1792090522.359634 loading texture "straight_1.png"
+time=1792090522.365796 loading texture "grass_1.png"
+time=1792090522.6171246 loading texture "3way_left_1.png"
+time=1792090522.7628715 loading texture "curve_right_1.png"
+time=1792090522.771407 using user tile start: (1, 1)
+time=1792090522.7718842 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x71d88a20b1c0>, 'color': array([1, 1, 1])}
+time=1792090522.7730603 road_tile_size=0.585
+time=1792090522.7732358 Starting at [1.16316061 0.         1.03099713] 2.898437256752745
+time=1792090522.773448 Pos: [1.16316061 0.         1.03099713] angle 2.898437256752745
+time=1792090522.9133716 using DuckietownEnv
+time=1792090523.049406 Pos: [1.16316061 0.         1.03099713] angle 2.898437256752745
+0.585
+1.1631606115112447 1.0309971255627872
+total reward =  -5.154815917199606
+False: Incorrect solution execution: ctypes objects containing pointers cannot be pickled
