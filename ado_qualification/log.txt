@@ -1,0 +1,79 @@
+False: Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+time=1792092633.612862 gym-duckietown 2019.0.0
+
+time=1792092633.6951575 Registering gym environment id: Duckietown-4way-v0
+time=1792092633.695246 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792092633.695279 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792092633.6953032 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792092633.6953487 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792092633.6954134 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792092633.695483 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792092633.6955235 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792092633.695564 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792092633.6956139 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792092633.6956549 Registering gym environment id: Duckietown-small_loop-v0
+time=1792092633.6956909 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792092633.6957278 Registering gym environment id: Duckietown-straight_road-v0
+time=1792092633.695764 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792092633.6958032 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792092633.69584 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792092633.6958776 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792092633.6959147 Registering gym environment id: Duckietown-udem1-v0
+time=1792092633.695951 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792092635.6344843 Falling back to non-multisampled frame buffer
+time=1792092635.6365435 Falling back to non-multisampled frame buffer
+time=1792092635.639345 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792092635.6484807 loading mesh "duckiebot.obj"
+time=1792092635.6485987 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792092635.8455923 loading mesh "house.obj"
+time=1792092635.8694685 loading texture "house.png"
+time=1792092636.890254 loading mesh "truck.obj"
+time=1792092636.896562 loading texture "truck.png"
+time=1792092637.1476967 loading mesh "bus.obj"
+time=1792092637.1540208 loading texture "bus.png"
+time=1792092637.400484 loading mesh "barrier.obj"
+time=1792092637.4091005 loading texture "barrier.png"
+time=1792092637.4710565 loading mesh "duckie.obj"
+time=1792092637.4927354 loading texture "duckie.png"
+time=1792092637.7597125 loading mesh "cone.obj"
+time=1792092637.7659626 loading texture "cone.png"
+time=1792092637.7871785 loading texture "floor_1.png"
+time=1792092637.8511882 loading texture "curve_left_1.png"
+time=1792092637.857274 loading texture "straight_1.png"
+time=1792092637.8634412 loading texture "grass_1.png"
+time=1792092638.1196818 loading texture "3way_left_1.png"
+time=1792092638.265909 loading texture "curve_right_1.png"
+time=1792092638.2744424 using user tile start: (1, 1)
+time=1792092638.275007 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7c9e5a9e51c0>, 'color': array([1, 1, 1])}
+time=1792092638.2763436 [0.83760996 0.         0.57707947] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7c9e5a9e5040>, 'color': array([1, 1, 1])}
+time=1792092638.2767065 Invalid pose. Collision free: True On drivable area: False
+time=1792092638.2767515 safety_factor: 1.3
+time=1792092638.2769127 pos: [0.92850453 0.         0.61235591]
+time=1792092638.2770662 l_pos: [1.0193991  0.         0.64763235]
+time=1792092638.277199 r_pos: [0.83760996 0.         0.57707947]
+time=1792092638.277397 f_pos: [0.8861728 0.        0.7214294]
+time=1792092638.2786522 road_tile_size=0.585
+time=1792092638.2788787 Starting at [1.04531408 0.         1.16810047] 0.9843574476442128
+time=1792092638.2790592 Pos: [1.04531408 0.         1.16810047] angle 0.9843574476442128
+time=1792092638.4191408 using DuckietownEnv
+time=1792092638.5547354 Pos: [1.04531408 0.         1.16810047] angle 0.9843574476442128
+0.585
+0.7082663739881223 1.014055965471403
+0.585
+1.0163225509227918 0.6513278533954544
+0.585
+0.9198210974405763 0.6347299585178381
+0.585
+0.8365555444663668 0.8810853655429708
+0.585
+1.0453140810539685 1.1681004742908545
+total reward =  -0.5080806376616274
+False: Incorrect solution execution: ctypes objects containing pointers cannot be pickled
