@@ -1,0 +1,64 @@
+0.0: Check ended
+time=1792172488.326948 gym-duckietown 2019.0.0
+
+time=1792172488.417842 Registering gym environment id: Duckietown-4way-v0
+time=1792172488.4179194 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792172488.417949 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792172488.417987 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792172488.4180193 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792172488.4180586 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792172488.4180923 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792172488.418136 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792172488.4181795 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792172488.418216 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792172488.418253 Registering gym environment id: Duckietown-small_loop-v0
+time=1792172488.4182918 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792172488.4183278 Registering gym environment id: Duckietown-straight_road-v0
+time=1792172488.4183629 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792172488.4183998 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792172488.4184399 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792172488.4184785 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792172488.4185123 Registering gym environment id: Duckietown-udem1-v0
+time=1792172488.4185467 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792172490.0969117 Falling back to non-multisampled frame buffer
+time=1792172490.0992026 Falling back to non-multisampled frame buffer
+time=1792172490.1019435 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792172490.1111367 loading mesh "duckiebot.obj"
+time=1792172490.1112568 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792172490.3263354 loading mesh "house.obj"
+time=1792172490.3627083 loading texture "house.png"
+time=1792172491.4309466 loading mesh "truck.obj"
+time=1792172491.4374254 loading texture "truck.png"
+time=1792172491.682227 loading mesh "bus.obj"
+time=1792172491.689323 loading texture "bus.png"
+time=1792172491.9468117 loading mesh "barrier.obj"
+time=1792172491.9553993 loading texture "barrier.png"
+time=1792172492.017833 loading mesh "duckie.obj"
+time=1792172492.0390804 loading texture "duckie.png"
+time=1792172492.3039784 loading mesh "cone.obj"
+time=1792172492.3100712 loading texture "cone.png"
+time=1792172492.3315933 loading texture "floor_1.png"
+time=1792172492.3915298 loading texture "curve_left_1.png"
+time=1792172492.3973675 loading texture "straight_1.png"
+time=1792172492.4034376 loading texture "grass_1.png"
+time=1792172492.6495137 loading texture "3way_left_1.png"
+time=1792172492.796678 loading texture "curve_right_1.png"
+time=1792172492.8050656 using user tile start: (1, 1)
+time=1792172492.8055737 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7e358fd4d1c0>, 'color': array([1, 1, 1])}
+time=1792172492.8064384 road_tile_size=0.585
+time=1792172492.806639 Starting at [1.0933762  0.         1.03060156] 2.3826727530284795
+time=1792172492.8068306 Pos: [1.0933762  0.         1.03060156] angle 2.3826727530284795
+time=1792172492.9464254 using DuckietownEnv
+time=1792172493.1189663 Pos: [1.0933762  0.         1.03060156] angle 2.3826727530284795
+time=1792172494.597995 Pos: [1.0933762  0.         1.03060156] angle 2.3826727530284795
+0.585
+1.0933761960725992 1.030601560122793
+0.0: Check ended
