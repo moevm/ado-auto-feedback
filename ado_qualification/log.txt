@@ -1,0 +1,132 @@
+0.0: Check ended
+time=1792176018.6635191 gym-duckietown 2019.0.0
+
+time=1792176018.7467964 Registering gym environment id: Duckietown-4way-v0
+time=1792176018.7468865 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792176018.746917 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792176018.746949 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792176018.747003 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792176018.7470517 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792176018.7471235 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792176018.7471678 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792176018.747234 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792176018.7472804 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792176018.7473285 Registering gym environment id: Duckietown-small_loop-v0
+time=1792176018.7473698 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792176018.747415 Registering gym environment id: Duckietown-straight_road-v0
+time=1792176018.7474558 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792176018.7474997 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792176018.7475393 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792176018.7475865 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792176018.7476287 Registering gym environment id: Duckietown-udem1-v0
+time=1792176018.7476678 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792176021.693309 Falling back to non-multisampled frame buffer
+time=1792176021.6952858 Falling back to non-multisampled frame buffer
+time=1792176021.6979985 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792176021.7080748 loading mesh "duckiebot.obj"
+time=1792176021.7082784 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792176021.9185257 loading mesh "house.obj"
+time=1792176021.9445417 loading texture "house.png"
+time=1792176022.9929304 loading mesh "truck.obj"
+time=1792176022.9991283 loading texture "truck.png"
+time=1792176023.2490993 loading mesh "bus.obj"
+time=1792176023.2554808 loading texture "bus.png"
+time=1792176023.5074563 loading mesh "barrier.obj"
+time=1792176023.5150495 loading texture "barrier.png"
+time=1792176023.5767713 loading mesh "duckie.obj"
+time=1792176023.597756 loading texture "duckie.png"
+time=1792176023.848339 loading mesh "cone.obj"
+time=1792176023.8541183 loading texture "cone.png"
+time=1792176023.874844 loading texture "floor_1.png"
+time=1792176023.9384077 loading texture "curve_left_1.png"
+time=1792176023.9444575 loading texture "straight_1.png"
+time=1792176023.9507196 loading texture "grass_1.png"
+time=1792176024.2026927 loading texture "3way_left_1.png"
+time=1792176024.3517048 loading texture "curve_right_1.png"
+time=1792176024.3607047 using user tile start: (1, 1)
+time=1792176024.3612711 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7d834c105220>, 'color': array([1, 1, 1])}
+time=1792176024.3632753 road_tile_size=0.585
+time=1792176024.3634832 Starting at [1.15609961 0.         0.84982409] 3.3183249276121414
+time=1792176024.3636966 Pos: [1.15609961 0.         0.84982409] angle 3.3183249276121414
+time=1792176024.5025551 using DuckietownEnv
+time=1792176024.65431 Pos: [1.15609961 0.         0.84982409] angle 3.3183249276121414
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/solutions/solution.py", line 14, in solve
+    return self._solve()
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/solutions/solution.py", line 110, in _solve
+    grid = getattr(base, "grid", None)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 605, in grid
+    return copy.deepcopy(self._grid)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 205, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+ValueError: ctypes objects containing pointers cannot be pickled
+0.585
+0.6969696488485775 1.0808205542525913
+0.585
+1.156099609952725 0.849824087091515
+[SOLVE CRASHED]
+0.0: Check ended
