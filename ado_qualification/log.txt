@@ -1,0 +1,63 @@
+False: Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+time=1792171244.037661 gym-duckietown 2019.0.0
+
+time=1792171245.598717 Registering gym environment id: Duckietown-4way-v0
+time=1792171245.5990849 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792171245.5993404 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792171245.5995488 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792171245.5997431 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792171245.5999334 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792171245.6003017 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792171245.6005394 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792171245.6007838 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792171245.6010566 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792171245.6012962 Registering gym environment id: Duckietown-small_loop-v0
+time=1792171245.6015034 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792171245.6017077 Registering gym environment id: Duckietown-straight_road-v0
+time=1792171245.6019163 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792171245.6021602 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792171245.6023786 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792171245.602582 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792171245.6027884 Registering gym environment id: Duckietown-udem1-v0
+time=1792171245.602992 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792171254.8489308 Falling back to non-multisampled frame buffer
+time=1792171254.853512 Falling back to non-multisampled frame buffer
+time=1792171254.861557 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792171254.8787024 loading mesh "duckiebot.obj"
+time=1792171254.8788571 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792171255.1468894 loading mesh "house.obj"
+time=1792171255.2097673 loading texture "house.png"
+time=1792171256.5624583 loading mesh "truck.obj"
+time=1792171256.5722518 loading texture "truck.png"
+time=1792171256.8619 loading mesh "bus.obj"
+time=1792171256.8921943 loading texture "bus.png"
+time=1792171257.2290268 loading mesh "barrier.obj"
+time=1792171257.2491987 loading texture "barrier.png"
+time=1792171257.3605955 loading mesh "duckie.obj"
+time=1792171257.381759 loading texture "duckie.png"
+time=1792171257.6406944 loading mesh "cone.obj"
+time=1792171257.6870592 loading texture "cone.png"
+time=1792171257.7911716 loading texture "floor_1.png"
+time=1792171257.9087415 loading texture "curve_left_1.png"
+time=1792171257.915229 loading texture "straight_1.png"
+time=1792171257.943986 loading texture "grass_1.png"
+time=1792171258.2098625 loading texture "3way_left_1.png"
+time=1792171258.408878 loading texture "curve_right_1.png"
+time=1792171258.5424714 using user tile start: (1, 1)
+time=1792171258.5430725 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x781a2768d1c0>, 'color': array([1, 1, 1])}
+time=1792171258.544479 road_tile_size=0.585
+time=1792171258.5447314 Starting at [0.91552098 0.         1.15855928] 3.980101888478714
+time=1792171258.5449018 Pos: [0.91552098 0.         1.15855928] angle 3.980101888478714
+time=1792171258.686762 using DuckietownEnv
+0.585
+0.9155209789908845 1.15855927663063
+total reward =  0
+False: Incorrect solution execution: ctypes objects containing pointers cannot be pickled
