@@ -1,0 +1,67 @@
+0.0: Check ended
+time=1792316980.5796027 gym-duckietown 2019.0.0
+
+time=1792316980.6636052 Registering gym environment id: Duckietown-4way-v0
+time=1792316980.6636906 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792316980.6637204 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792316980.6637607 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792316980.6637902 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792316980.6638393 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792316980.6639023 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792316980.6639447 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792316980.6639893 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792316980.6640172 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792316980.6640818 Registering gym environment id: Duckietown-small_loop-v0
+time=1792316980.6641223 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792316980.6641626 Registering gym environment id: Duckietown-straight_road-v0
+time=1792316980.6641989 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792316980.6642482 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792316980.6642885 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792316980.664327 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792316980.6643636 Registering gym environment id: Duckietown-udem1-v0
+time=1792316980.6643977 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792316984.2266092 Falling back to non-multisampled frame buffer
+time=1792316984.2285998 Falling back to non-multisampled frame buffer
+time=1792316984.231381 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792316984.240994 loading mesh "duckiebot.obj"
+time=1792316984.2412047 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792316984.4410062 loading mesh "house.obj"
+time=1792316984.464645 loading texture "house.png"
+time=1792316985.4934118 loading mesh "truck.obj"
+time=1792316985.5024529 loading texture "truck.png"
+time=1792316985.7491221 loading mesh "bus.obj"
+time=1792316985.755212 loading texture "bus.png"
+time=1792316986.0035696 loading mesh "barrier.obj"
+time=1792316986.0117006 loading texture "barrier.png"
+time=1792316986.072831 loading mesh "duckie.obj"
+time=1792316986.0936775 loading texture "duckie.png"
+time=1792316986.3375247 loading mesh "cone.obj"
+time=1792316986.3432517 loading texture "cone.png"
+time=1792316986.3641994 loading texture "floor_1.png"
+time=1792316986.425317 loading texture "curve_left_1.png"
+time=1792316986.4311376 loading texture "straight_1.png"
+time=1792316986.4373164 loading texture "grass_1.png"
+time=1792316986.7136376 loading texture "3way_left_1.png"
+time=1792316986.870765 loading texture "curve_right_1.png"
+time=1792316986.8794465 using user tile start: (1, 1)
+time=1792316986.8799932 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7528cad0a1c0>, 'color': array([1, 1, 1])}
+time=1792316986.8820088 road_tile_size=0.585
+time=1792316986.8821769 Starting at [1.06032031 0.         1.00494298] 0.7603437504781971
+time=1792316986.8823469 Pos: [1.06032031 0.         1.00494298] angle 0.7603437504781971
+time=1792316987.0231647 using DuckietownEnv
+time=1792316987.1753745 Pos: [1.06032031 0.         1.00494298] angle 0.7603437504781971
+0.585
+1.1217739924089285 1.0682148518925552
+0.585
+1.0131433803967995 0.8521692746974383
+0.585
+1.060320312211147 1.0049429792474194
+0.0: Check ended
