@@ -1,0 +1,234 @@
+0.0: Runs: 5; successful: 0; failed: 5; scores: [0.0, 0.0, 0.0, 0.0, 0.0]
+time=1792443920.2870827 gym-duckietown 2019.0.0
+
+time=1792443922.725953 Registering gym environment id: Duckietown-4way-v0
+time=1792443922.7262177 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792443922.7263143 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792443922.7265708 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792443922.7266352 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792443922.726688 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792443922.7267427 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792443922.7267945 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792443922.7268436 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792443922.7268944 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792443922.7269442 Registering gym environment id: Duckietown-small_loop-v0
+time=1792443922.7270539 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792443922.7271 Registering gym environment id: Duckietown-straight_road-v0
+time=1792443922.7271533 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792443922.7272089 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792443922.7272573 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792443922.727315 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792443922.7273784 Registering gym environment id: Duckietown-udem1-v0
+time=1792443922.7274296 Registering gym environment id: Duckietown-zigzag_dists-v0
+=== Run 1/5 ===
+time=1792443937.8995905 Falling back to non-multisampled frame buffer
+time=1792443937.9031506 Falling back to non-multisampled frame buffer
+time=1792443937.907392 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1792443937.929556 loading mesh "duckiebot.obj"
+time=1792443937.9299574 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792443938.369595 loading mesh "house.obj"
+time=1792443938.44029 loading texture "house.png"
+time=1792443941.8948307 loading mesh "truck.obj"
+time=1792443941.9124205 loading texture "truck.png"
+time=1792443942.5660532 loading mesh "bus.obj"
+time=1792443942.5890052 loading texture "bus.png"
+time=1792443943.169211 loading mesh "barrier.obj"
+time=1792443943.1871142 loading texture "barrier.png"
+time=1792443943.3253362 loading mesh "duckie.obj"
+time=1792443943.3676198 loading texture "duckie.png"
+time=1792443943.8718944 loading mesh "cone.obj"
+time=1792443944.3013794 loading texture "cone.png"
+time=1792443944.4979749 loading texture "floor_1.png"
+time=1792443944.825914 loading texture "curve_left_1.png"
+time=1792443944.8359756 loading texture "straight_1.png"
+time=1792443944.8442569 loading texture "grass_1.png"
+time=1792443945.3765454 loading texture "3way_left_1.png"
+time=1792443945.8510554 loading texture "curve_right_1.png"
+time=1792443945.8683383 using user tile start: (1, 1)
+time=1792443945.8692715 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc3868581c0>, 'color': array([1, 1, 1])}
+time=1792443945.87172 [0.54334854 0.         1.06275487] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fc386858040>, 'color': array([1, 1, 1])}
+time=1792443945.8724155 Invalid pose. Collision free: True On drivable area: False
+time=1792443945.872505 safety_factor: 1.3
+time=1792443945.8727689 pos: [0.65607671 0.         1.0940815 ]
+time=1792443945.8729906 l_pos: [0.62997119 0.         1.18802165]
+time=1792443945.8733294 r_pos: [0.68218224 0.         1.00014135]
+time=1792443945.8735502 f_pos: [0.54334854 0.         1.06275487]
+time=1792443945.8802407 road_tile_size=0.585
+time=1792443945.88061 Starting at [0.92283841 0.         1.15078496] 5.428766191508261
+time=1792443945.880862 Pos: [0.92283841 0.         1.15078496] angle 5.428766191508261
+time=1792443946.2191565 using DuckietownEnv
+Exception ignored in: <function VertexDomain.__del__ at 0x7fc3a4125ca0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyglet/graphics/vertexdomain.py", line 232, in __del__
+    for attribute in self.attributes:
+AttributeError: 'VertexDomain' object has no attribute 'attributes'
+0.585
+1.0418793828486421 1.1235574758265396
+0.585
+0.6329529860149353 1.0876555218046213
+0.585
+1.0804712984533136 1.0336720862901911
+0.585
+0.8269550871379083 0.861120325230213
+0.585
+0.9507822768774817 0.8065176656555507
+0.585
+0.838390474939573 0.9852271359137199
+0.585
+0.9228384111469702 1.1507849565375672
+total reward =  0
+Run 1: score=0.0; failed; Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+=== Run 2/5 ===
+time=1792443951.4718018 Falling back to non-multisampled frame buffer
+time=1792443951.4728663 Falling back to non-multisampled frame buffer
+time=1792443951.473741 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1792443951.517816 using user tile start: (1, 1)
+time=1792443951.5189235 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc3868581c0>, 'color': array([1, 1, 1])}
+time=1792443951.5214796 road_tile_size=0.585
+time=1792443951.52193 Starting at [0.87092007 0.         0.77242337] 3.872683088246158
+time=1792443951.5222385 Pos: [0.87092007 0.         0.77242337] angle 3.872683088246158
+time=1792443951.6415875 using DuckietownEnv
+Exception ignored in: <function VertexDomain.__del__ at 0x7fc3a4125ca0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyglet/graphics/vertexdomain.py", line 232, in __del__
+    for attribute in self.attributes:
+AttributeError: 'VertexDomain' object has no attribute 'attributes'
+0.585
+0.8709200722070172 0.7724233708657955
+total reward =  0
+Run 2: score=0.0; failed; Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+=== Run 3/5 ===
+time=1792443952.0614321 Falling back to non-multisampled frame buffer
+time=1792443952.0625656 Falling back to non-multisampled frame buffer
+time=1792443952.063433 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1792443952.1032622 using user tile start: (1, 1)
+time=1792443952.1040876 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc3868581c0>, 'color': array([1, 1, 1])}
+time=1792443952.1059918 road_tile_size=0.585
+time=1792443952.106542 Starting at [0.99604467 0.         1.09904401] 1.3710755591813621
+time=1792443952.106772 Pos: [0.99604467 0.         1.09904401] angle 1.3710755591813621
+time=1792443952.1887105 using DuckietownEnv
+Exception ignored in: <function VertexDomain.__del__ at 0x7fc3a4125ca0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyglet/graphics/vertexdomain.py", line 232, in __del__
+    for attribute in self.attributes:
+AttributeError: 'VertexDomain' object has no attribute 'attributes'
+0.585
+0.9960446746452599 1.0990440137733632
+total reward =  0
+Run 3: score=0.0; failed; Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+=== Run 4/5 ===
+time=1792443952.5211885 Falling back to non-multisampled frame buffer
+time=1792443952.5216517 Falling back to non-multisampled frame buffer
+time=1792443952.5224185 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1792443952.5509796 using user tile start: (1, 1)
+time=1792443952.551999 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc3868581c0>, 'color': array([1, 1, 1])}
+time=1792443952.5525117 [0.50100108 0.         0.95711406] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fc386858040>, 'color': array([1, 1, 1])}
+time=1792443952.5529037 Invalid pose. Collision free: True On drivable area: False
+time=1792443952.5529563 safety_factor: 1.3
+time=1792443952.5531 pos: [0.59264389 0.         0.92382976]
+time=1792443952.5532308 l_pos: [0.68428671 0.         0.89054546]
+time=1792443952.553352 r_pos: [0.50100108 0.         0.95711406]
+time=1792443952.553471 f_pos: [0.63258505 0.         1.03380114]
+time=1792443952.5538669 [0.58272635 0.         0.82068264] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fc386858040>, 'color': array([1, 1, 1])}
+time=1792443952.5542512 Invalid pose. Collision free: True On drivable area: False
+time=1792443952.5543149 safety_factor: 1.3
+time=1792443952.554446 pos: [0.67824951 0.         0.80114866]
+time=1792443952.5545702 l_pos: [0.58272635 0.         0.82068264]
+time=1792443952.554691 r_pos: [0.77377266 0.         0.78161467]
+time=1792443952.5548081 f_pos: [0.65480872 0.         0.68652087]
+time=1792443952.5552135 [0.54981861 0.         0.71223821] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fc386858040>, 'color': array([1, 1, 1])}
+time=1792443952.5555694 Invalid pose. Collision free: True On drivable area: False
+time=1792443952.5556195 safety_factor: 1.3
+time=1792443952.5557463 pos: [0.6048371  0.         0.79273179]
+time=1792443952.5558717 l_pos: [0.54981861 0.         0.71223821]
+time=1792443952.5559914 r_pos: [0.65985558 0.         0.87322537]
+time=1792443952.556148 f_pos: [0.70142939 0.         0.72670961]
+time=1792443952.556556 [0.49235053 0.         0.81569995] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7fc386858040>, 'color': array([1, 1, 1])}
+time=1792443952.556915 Invalid pose. Collision free: True On drivable area: False
+time=1792443952.5569642 safety_factor: 1.3
+time=1792443952.5570972 pos: [0.58957327 0.         0.82304769]
+time=1792443952.55723 l_pos: [0.49235053 0.         0.81569995]
+time=1792443952.5573506 r_pos: [0.68679601 0.         0.83039542]
+time=1792443952.5574696 f_pos: [0.59839055 0.         0.7063804 ]
+time=1792443952.5583317 road_tile_size=0.585
+time=1792443952.5584965 Starting at [0.93494021 0.         0.95009184] 3.0027160506686674
+time=1792443952.558628 Pos: [0.93494021 0.         0.95009184] angle 3.0027160506686674
+time=1792443952.6215155 using DuckietownEnv
+Exception ignored in: <function VertexDomain.__del__ at 0x7fc3a4125ca0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyglet/graphics/vertexdomain.py", line 232, in __del__
+    for attribute in self.attributes:
+AttributeError: 'VertexDomain' object has no attribute 'attributes'
+0.585
+0.6008369522856484 0.9463879919185484
+0.585
+0.6734411414421447 0.7776352646389747
+0.585
+0.6246508999890477 0.7791887764644516
+0.585
+0.5913819451054654 0.7991159357298492
+0.585
+0.9349402144720392 0.9500918394554178
+total reward =  0
+Run 4: score=0.0; failed; Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+=== Run 5/5 ===
+time=1792443952.9468148 Falling back to non-multisampled frame buffer
+time=1792443952.9474924 Falling back to non-multisampled frame buffer
+time=1792443952.9484482 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1792443952.9860134 using user tile start: (1, 1)
+time=1792443952.9866922 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7fc3868581c0>, 'color': array([1, 1, 1])}
+time=1792443952.9882114 road_tile_size=0.585
+time=1792443952.9885125 Starting at [0.74723118 0.         0.93409111] 4.832828939562334
+time=1792443952.9887211 Pos: [0.74723118 0.         0.93409111] angle 4.832828939562334
+time=1792443953.0913484 using DuckietownEnv
+Exception ignored in: <function VertexDomain.__del__ at 0x7fc3a4125ca0>
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyglet/graphics/vertexdomain.py", line 232, in __del__
+    for attribute in self.attributes:
+AttributeError: 'VertexDomain' object has no attribute 'attributes'
+0.585
+0.7472311789867085 0.9340911134243289
+total reward =  0
+Run 5: score=0.0; failed; Incorrect solution execution: ctypes objects containing pointers cannot be pickled
+Runs: 5; successful: 0; failed: 5; scores: [0.0, 0.0, 0.0, 0.0, 0.0]
+0.0: Runs: 5; successful: 0; failed: 5; scores: [0.0, 0.0, 0.0, 0.0, 0.0]
