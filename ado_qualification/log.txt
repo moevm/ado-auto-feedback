@@ -1,0 +1,69 @@
+0.0: Check ended
+time=1792415242.6487944 gym-duckietown 2019.0.0
+
+time=1792415242.7552478 Registering gym environment id: Duckietown-4way-v0
+time=1792415242.7553558 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792415242.755434 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792415242.7554855 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792415242.7555344 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792415242.755578 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792415242.755616 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792415242.7556605 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792415242.7557034 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792415242.7557402 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792415242.7557757 Registering gym environment id: Duckietown-small_loop-v0
+time=1792415242.7558098 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792415242.7558446 Registering gym environment id: Duckietown-straight_road-v0
+time=1792415242.7558792 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792415242.7559164 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792415242.7559514 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792415242.7559865 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792415242.7560217 Registering gym environment id: Duckietown-udem1-v0
+time=1792415242.756121 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792415247.6760669 Falling back to non-multisampled frame buffer
+time=1792415247.6778998 Falling back to non-multisampled frame buffer
+time=1792415247.680574 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792415247.6899338 loading mesh "duckiebot.obj"
+time=1792415247.69008 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792415247.998394 loading mesh "house.obj"
+time=1792415248.0402253 loading texture "house.png"
+time=1792415249.4447727 loading mesh "truck.obj"
+time=1792415249.4518888 loading texture "truck.png"
+time=1792415249.7809625 loading mesh "bus.obj"
+time=1792415249.787154 loading texture "bus.png"
+time=1792415250.134041 loading mesh "barrier.obj"
+time=1792415250.1488476 loading texture "barrier.png"
+time=1792415250.2256 loading mesh "duckie.obj"
+time=1792415250.2584646 loading texture "duckie.png"
+time=1792415250.6143646 loading mesh "cone.obj"
+time=1792415250.6259298 loading texture "cone.png"
+time=1792415250.6544497 loading texture "floor_1.png"
+time=1792415250.7401166 loading texture "curve_left_1.png"
+time=1792415250.748623 loading texture "straight_1.png"
+time=1792415250.756796 loading texture "grass_1.png"
+time=1792415251.1058722 loading texture "3way_left_1.png"
+time=1792415251.2963612 loading texture "curve_right_1.png"
+time=1792415251.3087578 using user tile start: (1, 1)
+time=1792415251.3095372 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x799bd01c61c0>, 'color': array([1, 1, 1])}
+time=1792415251.3108866 road_tile_size=0.585
+time=1792415251.31116 Starting at [0.94829255 0.         1.15093352] 3.971585678262162
+time=1792415251.3113563 Pos: [0.94829255 0.         1.15093352] angle 3.971585678262162
+time=1792415251.500817 using DuckietownEnv
+0.585
+0.9482925463061104 1.1509335188382168
+TS 0.585 TARGET 2.6325 0.0
+YAML OK ado_map_1 56
+CAND 2,2 False
+BLOCKED [(1, 6), (2, 0), (2, 4), (3, 1), (4, 3), (6, 5), (7, 0)]
+START_TILE (1, 1) True
+GOAL_TILE (4, 1)
+NO PATH
+0.0: Check ended
