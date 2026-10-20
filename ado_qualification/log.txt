@@ -1,0 +1,64 @@
+False: Incorrect solution execution: name 'orange_ahead' is not defined
+time=1792522052.7602785 gym-duckietown 2019.0.0
+
+time=1792522052.8454628 Registering gym environment id: Duckietown-4way-v0
+time=1792522052.8455567 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792522052.8455868 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792522052.8456116 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792522052.8456337 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792522052.8456547 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792522052.8456814 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792522052.8457584 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792522052.8458178 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792522052.8458898 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792522052.8459277 Registering gym environment id: Duckietown-small_loop-v0
+time=1792522052.8459697 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792522052.8460176 Registering gym environment id: Duckietown-straight_road-v0
+time=1792522052.8460727 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792522052.8461196 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792522052.8461654 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792522052.846212 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792522052.8462586 Registering gym environment id: Duckietown-udem1-v0
+time=1792522052.8463032 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792522056.008592 Falling back to non-multisampled frame buffer
+time=1792522056.010691 Falling back to non-multisampled frame buffer
+time=1792522056.01355 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792522056.0225277 loading mesh "duckiebot.obj"
+time=1792522056.0226564 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792522056.2231433 loading mesh "house.obj"
+time=1792522056.2469888 loading texture "house.png"
+time=1792522057.2988293 loading mesh "truck.obj"
+time=1792522057.3052413 loading texture "truck.png"
+time=1792522057.5587833 loading mesh "bus.obj"
+time=1792522057.5651057 loading texture "bus.png"
+time=1792522057.8149211 loading mesh "barrier.obj"
+time=1792522057.8229442 loading texture "barrier.png"
+time=1792522057.8838582 loading mesh "duckie.obj"
+time=1792522057.9042113 loading texture "duckie.png"
+time=1792522058.1596787 loading mesh "cone.obj"
+time=1792522058.1655092 loading texture "cone.png"
+time=1792522058.1867383 loading texture "floor_1.png"
+time=1792522058.2479978 loading texture "curve_left_1.png"
+time=1792522058.2538025 loading texture "straight_1.png"
+time=1792522058.2598608 loading texture "grass_1.png"
+time=1792522058.5171986 loading texture "3way_left_1.png"
+time=1792522058.667189 loading texture "curve_right_1.png"
+time=1792522058.6765351 using user tile start: (1, 1)
+time=1792522058.6770544 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7262ad4891c0>, 'color': array([1, 1, 1])}
+time=1792522058.6779675 road_tile_size=0.585
+time=1792522058.678161 Starting at [1.13572414 0.         0.9305104 ] 0.026224559789182596
+time=1792522058.678358 Pos: [1.13572414 0.         0.9305104 ] angle 0.026224559789182596
+time=1792522058.8204744 using DuckietownEnv
+time=1792522058.983474 Pos: [1.13572414 0.         0.9305104 ] angle 0.026224559789182596
+0.585
+1.1357241396553164 0.930510398336286
+total reward =  -0.9025549977866193
+False: Incorrect solution execution: name 'orange_ahead' is not defined
