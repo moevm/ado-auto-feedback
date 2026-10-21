@@ -1,0 +1,43 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1792586265.1092482 gym-duckietown 2019.0.0
+
+time=1792586265.1916 Registering gym environment id: Duckietown-4way-v0
+time=1792586265.19169 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792586265.1917205 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792586265.191745 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792586265.1917672 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792586265.1917906 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792586265.1918325 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792586265.1918898 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792586265.1919181 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792586265.1919506 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792586265.1919904 Registering gym environment id: Duckietown-small_loop-v0
+time=1792586265.1920648 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792586265.192113 Registering gym environment id: Duckietown-straight_road-v0
+time=1792586265.1921575 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792586265.1922033 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792586265.19225 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792586265.192286 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792586265.192321 Registering gym environment id: Duckietown-udem1-v0
+time=1792586265.1923542 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/checker.py", line 5, in <module>
+    verdict = SameWeightSolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 98, in __init__
+    super().__init__(checkers)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 34, in __init__
+    solution_file_as_module = importlib.import_module(self.args.solution_file_as_module)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/solutions/solution.py", line 4, in <module>
+    print("Позиция:", env.cur_pos)
+NameError: name 'env' is not defined
