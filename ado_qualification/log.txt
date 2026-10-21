@@ -1,0 +1,64 @@
+False: Incorrect solution execution: 'DuckietownEnv' object has no attribute 'safety_factor'
+time=1792602332.4597578 gym-duckietown 2019.0.0
+
+time=1792602332.543267 Registering gym environment id: Duckietown-4way-v0
+time=1792602332.5433428 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792602332.5433726 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792602332.5433974 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792602332.5434198 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792602332.5434413 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792602332.5434964 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792602332.5435467 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792602332.5436108 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792602332.5436537 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792602332.5437062 Registering gym environment id: Duckietown-small_loop-v0
+time=1792602332.5437438 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792602332.5437944 Registering gym environment id: Duckietown-straight_road-v0
+time=1792602332.5438342 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792602332.54387 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792602332.5439055 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792602332.5439408 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792602332.5439775 Registering gym environment id: Duckietown-udem1-v0
+time=1792602332.5440116 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792602333.8429782 Falling back to non-multisampled frame buffer
+time=1792602333.844973 Falling back to non-multisampled frame buffer
+time=1792602333.8482604 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792602333.8600895 loading mesh "duckiebot.obj"
+time=1792602333.860251 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792602334.0637517 loading mesh "house.obj"
+time=1792602334.0871058 loading texture "house.png"
+time=1792602335.126256 loading mesh "truck.obj"
+time=1792602335.13241 loading texture "truck.png"
+time=1792602335.3766737 loading mesh "bus.obj"
+time=1792602335.3826509 loading texture "bus.png"
+time=1792602335.629983 loading mesh "barrier.obj"
+time=1792602335.6379278 loading texture "barrier.png"
+time=1792602335.7018893 loading mesh "duckie.obj"
+time=1792602335.7223341 loading texture "duckie.png"
+time=1792602335.9867618 loading mesh "cone.obj"
+time=1792602335.9924366 loading texture "cone.png"
+time=1792602336.0163326 loading texture "floor_1.png"
+time=1792602336.0862062 loading texture "curve_left_1.png"
+time=1792602336.0920913 loading texture "straight_1.png"
+time=1792602336.0984688 loading texture "grass_1.png"
+time=1792602336.349426 loading texture "3way_left_1.png"
+time=1792602336.512388 loading texture "curve_right_1.png"
+time=1792602336.5213299 using user tile start: (1, 1)
+time=1792602336.521872 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x70cd9328c1c0>, 'color': array([1, 1, 1])}
+time=1792602336.522742 road_tile_size=0.585
+time=1792602336.5229788 Starting at [1.01053295 0.         0.8854183 ] 3.717392780126357
+time=1792602336.523206 Pos: [1.01053295 0.         0.8854183 ] angle 3.717392780126357
+time=1792602336.6671784 using DuckietownEnv
+time=1792602336.8210764 Pos: [1.01053295 0.         0.8854183 ] angle 3.717392780126357
+0.585
+1.0105329481499612 0.8854183048618716
+total reward =  -1.0577842009394407
+False: Incorrect solution execution: 'DuckietownEnv' object has no attribute 'safety_factor'
