@@ -1,0 +1,42 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1792597750.7729423 gym-duckietown 2019.0.0
+
+time=1792597750.8802142 Registering gym environment id: Duckietown-4way-v0
+time=1792597750.8803236 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792597750.8803785 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792597750.880429 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792597750.880477 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792597750.880524 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792597750.8805664 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792597750.8805914 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792597750.8806322 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792597750.880668 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792597750.8807085 Registering gym environment id: Duckietown-small_loop-v0
+time=1792597750.880743 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792597750.8807817 Registering gym environment id: Duckietown-straight_road-v0
+time=1792597750.8808165 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792597750.8808577 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792597750.8808932 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792597750.8809335 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792597750.8809729 Registering gym environment id: Duckietown-udem1-v0
+time=1792597750.8810122 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 44, in __get_solution_class
+    return getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ado_qualification.solutions.solution' has no attribute 'AdoQualificationTaskSolution'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_qualification/checker.py", line 5, in <module>
+    verdict = SameWeightSolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 98, in __init__
+    super().__init__(checkers)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 36, in __init__
+    self.solution_class = self.__get_solution_class(solution_file_as_module, solution_class_name)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 46, in __get_solution_class
+    return getattr(solution_file_as_module, self.DEFAULT_SOLUTION_CLASS)
+AttributeError: module 'gym_duckietown.tasks.ado_qualification.solutions.solution' has no attribute 'Solution'
