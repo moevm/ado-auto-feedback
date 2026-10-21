@@ -1,0 +1,152 @@
+0.0: Check ended
+time=1792612555.3248692 gym-duckietown 2019.0.0
+
+time=1792612555.408348 Registering gym environment id: Duckietown-4way-v0
+time=1792612555.408438 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792612555.4084685 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792612555.4084933 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792612555.4085171 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792612555.4085681 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792612555.4086068 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792612555.4086485 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792612555.4087143 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792612555.4087608 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792612555.4088075 Registering gym environment id: Duckietown-small_loop-v0
+time=1792612555.4088528 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792612555.4088964 Registering gym environment id: Duckietown-straight_road-v0
+time=1792612555.4089417 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792612555.4089873 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792612555.4090395 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792612555.409089 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792612555.409134 Registering gym environment id: Duckietown-udem1-v0
+time=1792612555.4091792 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792612559.3983219 Falling back to non-multisampled frame buffer
+time=1792612559.4007273 Falling back to non-multisampled frame buffer
+time=1792612559.4045317 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792612559.413834 loading mesh "duckiebot.obj"
+time=1792612559.4140098 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792612559.6198945 loading mesh "house.obj"
+time=1792612559.6436434 loading texture "house.png"
+time=1792612560.7015798 loading mesh "truck.obj"
+time=1792612560.707573 loading texture "truck.png"
+time=1792612560.9588232 loading mesh "bus.obj"
+time=1792612560.9647717 loading texture "bus.png"
+time=1792612561.2422228 loading mesh "barrier.obj"
+time=1792612561.2499995 loading texture "barrier.png"
+time=1792612561.3178685 loading mesh "duckie.obj"
+time=1792612561.3417807 loading texture "duckie.png"
+time=1792612561.5889733 loading mesh "cone.obj"
+time=1792612561.59467 loading texture "cone.png"
+time=1792612561.6157503 loading texture "floor_1.png"
+time=1792612561.6764631 loading texture "curve_left_1.png"
+time=1792612561.6822639 loading texture "straight_1.png"
+time=1792612561.6884737 loading texture "grass_1.png"
+time=1792612561.9377744 loading texture "3way_left_1.png"
+time=1792612562.1084816 loading texture "curve_right_1.png"
+time=1792612562.1170228 using user tile start: (1, 1)
+time=1792612562.117568 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x73c6a61431c0>, 'color': array([1, 1, 1])}
+time=1792612562.1181238 [0.56653203 0.         0.84283208] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x73c6a6143040>, 'color': array([1, 1, 1])}
+time=1792612562.118506 Invalid pose. Collision free: True On drivable area: False
+time=1792612562.1185508 safety_factor: 1.3
+time=1792612562.1186988 pos: [0.61724779 0.         0.92610369]
+time=1792612562.118941 l_pos: [0.56653203 0.         0.84283208]
+time=1792612562.1191165 r_pos: [0.66796355 0.         1.00937531]
+time=1792612562.1192756 f_pos: [0.71717373 0.         0.86524478]
+time=1792612562.119763 [0.53909127 0.         1.00136239] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x73c6a6143040>, 'color': array([1, 1, 1])}
+time=1792612562.1201234 Invalid pose. Collision free: True On drivable area: False
+time=1792612562.1201677 safety_factor: 1.3
+time=1792612562.120274 pos: [0.62023049 0.         0.9473006 ]
+time=1792612562.1204607 l_pos: [0.53909127 0.         1.00136239]
+time=1792612562.1206827 r_pos: [0.70136971 0.         0.89323882]
+time=1792612562.1208885 f_pos: [0.55535635 0.         0.84993353]
+time=1792612562.1216424 road_tile_size=0.585
+time=1792612562.1218445 Starting at [1.00529285 0.         0.94998132] 2.914027482520678
+time=1792612562.122025 Pos: [1.00529285 0.         0.94998132] angle 2.914027482520678
+time=1792612567.6477258 using DuckietownEnv
+0.585
+0.6377454177755459 0.9136198129701211
+0.585
+0.6069229761806534 0.9273278690015149
+0.585
+1.0052928486038417 0.9499813213618717
+Node A: world=(0.877, 0.877), tile=(1, 1), kind=curve_left, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node B: world=(0.877, 2.047), tile=(1, 3), kind=3way_left, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node C: world=(2.047, 2.047), tile=(3, 3), kind=curve_right, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node D: world=(0.877, 3.217), tile=(1, 5), kind=curve_left, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node E: world=(2.047, 3.217), tile=(3, 5), kind=3way_left, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node F: world=(3.217, 3.217), tile=(5, 5), kind=curve_left, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node G: world=(3.217, 2.632), tile=(5, 4), kind=curve_right, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node H: world=(3.802, 3.217), tile=(6, 5), kind=floor, drivable=False
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+Node J: world=(3.802, 0.877), tile=(6, 1), kind=curve_left, drivable=True
+A - B: sampled
+B - C: sampled
+C - E: sampled
+E - F: sampled
+F - G: sampled
+G - H: [(6, 5)]
+H - J: [(6, 5)]
+0.0: Check ended
