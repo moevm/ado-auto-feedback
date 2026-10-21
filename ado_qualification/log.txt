@@ -1,0 +1,63 @@
+False: Incorrect solution execution: name 'ts' is not defined
+time=1792612265.3888793 gym-duckietown 2019.0.0
+
+time=1792612265.473315 Registering gym environment id: Duckietown-4way-v0
+time=1792612265.4734077 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792612265.4734461 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792612265.473503 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792612265.473556 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792612265.4736192 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792612265.4736881 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792612265.4737148 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792612265.4737654 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792612265.473813 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792612265.47386 Registering gym environment id: Duckietown-small_loop-v0
+time=1792612265.4739072 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792612265.4739504 Registering gym environment id: Duckietown-straight_road-v0
+time=1792612265.4739952 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792612265.474048 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792612265.4740963 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792612265.4741397 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792612265.474182 Registering gym environment id: Duckietown-udem1-v0
+time=1792612265.4742255 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792612269.7386763 Falling back to non-multisampled frame buffer
+time=1792612269.7406669 Falling back to non-multisampled frame buffer
+time=1792612269.7439363 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792612269.7528567 loading mesh "duckiebot.obj"
+time=1792612269.7529802 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792612269.9526012 loading mesh "house.obj"
+time=1792612269.9768653 loading texture "house.png"
+time=1792612271.018223 loading mesh "truck.obj"
+time=1792612271.0244637 loading texture "truck.png"
+time=1792612271.275244 loading mesh "bus.obj"
+time=1792612271.2817435 loading texture "bus.png"
+time=1792612271.5297136 loading mesh "barrier.obj"
+time=1792612271.5377777 loading texture "barrier.png"
+time=1792612271.5984998 loading mesh "duckie.obj"
+time=1792612271.6192715 loading texture "duckie.png"
+time=1792612271.8661945 loading mesh "cone.obj"
+time=1792612271.8719382 loading texture "cone.png"
+time=1792612271.892569 loading texture "floor_1.png"
+time=1792612271.9533408 loading texture "curve_left_1.png"
+time=1792612271.9592493 loading texture "straight_1.png"
+time=1792612271.9653895 loading texture "grass_1.png"
+time=1792612272.214853 loading texture "3way_left_1.png"
+time=1792612272.3675616 loading texture "curve_right_1.png"
+time=1792612272.3760715 using user tile start: (1, 1)
+time=1792612272.3765776 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x72ba2f08c1c0>, 'color': array([1, 1, 1])}
+time=1792612272.3774748 road_tile_size=0.585
+time=1792612272.3777385 Starting at [0.94792986 0.         1.0205162 ] 4.21936786019955
+time=1792612272.3779747 Pos: [0.94792986 0.         1.0205162 ] angle 4.21936786019955
+time=1792612272.5169878 using DuckietownEnv
+0.585
+0.9479298553609198 1.0205162022260124
+total reward =  0
+False: Incorrect solution execution: name 'ts' is not defined
