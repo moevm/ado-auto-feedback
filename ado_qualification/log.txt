@@ -1,0 +1,64 @@
+False: Incorrect solution execution: name 'g_l' is not defined
+time=1792571179.070272 gym-duckietown 2019.0.0
+
+time=1792571179.1593325 Registering gym environment id: Duckietown-4way-v0
+time=1792571179.1594255 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792571179.159456 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792571179.1594813 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792571179.1595044 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792571179.1595647 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792571179.1596172 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792571179.1596687 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792571179.1597493 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792571179.1597884 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792571179.1598353 Registering gym environment id: Duckietown-small_loop-v0
+time=1792571179.1598706 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792571179.1599073 Registering gym environment id: Duckietown-straight_road-v0
+time=1792571179.1599429 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792571179.1599808 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792571179.1600165 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792571179.1601114 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792571179.1601582 Registering gym environment id: Duckietown-udem1-v0
+time=1792571179.1601982 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792571187.8086472 Falling back to non-multisampled frame buffer
+time=1792571187.8105657 Falling back to non-multisampled frame buffer
+time=1792571187.8133166 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792571187.8224761 loading mesh "duckiebot.obj"
+time=1792571187.8226104 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792571188.0383837 loading mesh "house.obj"
+time=1792571188.0623753 loading texture "house.png"
+time=1792571189.1119928 loading mesh "truck.obj"
+time=1792571189.1181521 loading texture "truck.png"
+time=1792571189.3674355 loading mesh "bus.obj"
+time=1792571189.3737912 loading texture "bus.png"
+time=1792571189.6227894 loading mesh "barrier.obj"
+time=1792571189.6305656 loading texture "barrier.png"
+time=1792571189.6909578 loading mesh "duckie.obj"
+time=1792571189.711953 loading texture "duckie.png"
+time=1792571189.9555762 loading mesh "cone.obj"
+time=1792571189.9612918 loading texture "cone.png"
+time=1792571189.9827178 loading texture "floor_1.png"
+time=1792571190.0735378 loading texture "curve_left_1.png"
+time=1792571190.0793433 loading texture "straight_1.png"
+time=1792571190.0856128 loading texture "grass_1.png"
+time=1792571190.3300776 loading texture "3way_left_1.png"
+time=1792571190.4786851 loading texture "curve_right_1.png"
+time=1792571190.4873831 using user tile start: (1, 1)
+time=1792571190.488017 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7e1a143481c0>, 'color': array([1, 1, 1])}
+time=1792571190.4888656 road_tile_size=0.585
+time=1792571190.4890113 Starting at [1.13065756 0.         0.80545726] 1.0149303849781701
+time=1792571190.4892414 Pos: [1.13065756 0.         0.80545726] angle 1.0149303849781701
+time=1792571190.630729 using DuckietownEnv
+time=1792571190.7869217 Pos: [1.13065756 0.         0.80545726] angle 1.0149303849781701
+0.585
+1.1306575613839291 0.8054572606020696
+total reward =  -2.409012244615079
+False: Incorrect solution execution: name 'g_l' is not defined
