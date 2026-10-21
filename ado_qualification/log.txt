@@ -1,0 +1,4055 @@
+0.71: Accepted
+time=1792613102.9538848 gym-duckietown 2019.0.0
+
+time=1792613103.0379412 Registering gym environment id: Duckietown-4way-v0
+time=1792613103.0380392 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1792613103.0380967 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1792613103.0381346 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1792613103.0381906 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1792613103.038269 Registering gym environment id: Duckietown-loop_empty-v0
+time=1792613103.0383277 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1792613103.038391 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1792613103.0384302 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1792613103.0384645 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1792613103.0385113 Registering gym environment id: Duckietown-small_loop-v0
+time=1792613103.0385473 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1792613103.0385802 Registering gym environment id: Duckietown-straight_road-v0
+time=1792613103.038614 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1792613103.0386496 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1792613103.0386832 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1792613103.0387163 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1792613103.0387495 Registering gym environment id: Duckietown-udem1-v0
+time=1792613103.038783 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1792613104.5551727 Falling back to non-multisampled frame buffer
+time=1792613104.5571005 Falling back to non-multisampled frame buffer
+time=1792613104.560362 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_1.yaml"
+time=1792613104.5704553 loading mesh "duckiebot.obj"
+time=1792613104.5706081 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1792613104.7680192 loading mesh "house.obj"
+time=1792613104.7920215 loading texture "house.png"
+time=1792613105.8180606 loading mesh "truck.obj"
+time=1792613105.8244612 loading texture "truck.png"
+time=1792613106.0735707 loading mesh "bus.obj"
+time=1792613106.079808 loading texture "bus.png"
+time=1792613106.337639 loading mesh "barrier.obj"
+time=1792613106.3456008 loading texture "barrier.png"
+time=1792613106.4067097 loading mesh "duckie.obj"
+time=1792613106.4275353 loading texture "duckie.png"
+time=1792613106.6798353 loading mesh "cone.obj"
+time=1792613106.6854765 loading texture "cone.png"
+time=1792613106.7064314 loading texture "floor_1.png"
+time=1792613106.7671125 loading texture "curve_left_1.png"
+time=1792613106.7729592 loading texture "straight_1.png"
+time=1792613106.779329 loading texture "grass_1.png"
+time=1792613107.0293107 loading texture "3way_left_1.png"
+time=1792613107.175308 loading texture "curve_right_1.png"
+time=1792613107.1840546 using user tile start: (1, 1)
+time=1792613107.184627 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x79819f7cd1c0>, 'color': array([1, 1, 1])}
+time=1792613107.1855068 road_tile_size=0.585
+time=1792613107.1856666 Starting at [0.87652692 0.         0.7385229 ] 4.524516784352015
+time=1792613107.1858282 Pos: [0.87652692 0.         0.7385229 ] angle 4.524516784352015
+time=1792613107.3251545 using DuckietownEnv
+time=1792613107.4806287 Pos: [0.87652692 0.         0.7385229 ] angle 4.524516784352015
+time=1792613108.6532156 Pos: [0.8741584  0.         0.75229626] angle 4.559665275180051
+time=1792613108.7067149 Pos: [0.87223236 0.         0.76613866] angle 4.588606095958372
+time=1792613108.7628005 Pos: [0.87067218 0.         0.78002721] angle 4.612439095924838
+time=1792613108.8152559 Pos: [0.86941416 0.         0.79394649] angle 4.632068592900051
+time=1792613108.866141 Pos: [0.86840546 0.         0.80788613] angle 4.6482382899714
+time=1792613108.9226105 Pos: [0.86760242 0.         0.82183918] angle 4.6615599107984185
+time=1792613108.9736948 Pos: [0.86696895 0.         0.83580099] angle 4.672536700200102
+time=1792613109.0271153 Pos: [0.86647528 0.         0.84976846] angle 4.681582720705497
+time=1792613109.0775378 Pos: [0.86609688 0.         0.86373954] angle 4.689038703204244
+time=1792613109.1299272 Pos: [0.8658135  0.         0.87771289] angle 4.695185070862089
+time=1792613109.1802132 Pos: [0.86560847 0.         0.89168761] angle 4.700252642880049
+time=1792613109.2307496 Pos: [0.86546806 0.         0.90566313] angle 4.70443143308759
+time=1792613109.2808704 Pos: [0.86538092 0.         0.9196391 ] angle 4.7078778836362805
+time=1792613109.3325047 Pos: [0.86533774 0.         0.93361527] angle 4.710720812970959
+time=1792613109.3833382 Pos: [0.86533082 0.         0.9475915 ] angle 4.713066307240951
+time=1792613109.4350784 Pos: [0.86535381 0.         0.96156772] angle 4.715001743324889
+time=1792613109.4862125 Pos: [0.86540149 0.         0.97554388] angle 4.716599098026261
+time=1792613109.5387492 Pos: [0.86546955 0.         0.98951995] angle 4.717917670412549
+time=1792613109.588201 Pos: [0.86555442 0.         1.00349593] angle 4.7190063216274725
+time=1792613109.637695 Pos: [0.86565319 0.         1.01747182] angle 4.719905317913201
+time=1792613109.687189 Pos: [0.86576343 0.         1.03144763] angle 4.720647847309268
+time=1792613109.7448254 Pos: [0.86588314 0.         1.04542336] angle 4.721261267951297
+time=1792613109.7987497 Pos: [0.86601068 0.         1.05939902] angle 4.721768135587292
+time=1792613109.852728 Pos: [0.86614469 0.         1.07337461] angle 4.722187049461432
+time=1792613109.9027562 Pos: [0.86628405 0.         1.08735016] angle 4.722533348756778
+time=1792613109.9527962 Pos: [0.86642783 0.         1.10132566] angle 4.722819686069269
+time=1792613110.0068157 Pos: [0.86657526 0.         1.11530112] angle 4.723056499684662
+time=1792613110.0616143 Pos: [0.86672572 0.         1.12927655] angle 4.723252402565882
+time=1792613110.1158075 Pos: [0.86687868 0.         1.14325196] angle 4.723414502781466
+time=1792613110.1674228 Pos: [0.86703371 0.         1.15722734] angle 4.723548667493873
+time=1792613110.2178113 Pos: [0.86719045 0.         1.1712027 ] angle 4.723659740478621
+time=1792613110.2694583 Pos: [0.86734862 0.         1.18517804] angle 4.723751721379082
+time=1792613110.3213706 Pos: [0.86750795 0.         1.19915338] angle 4.723827913449094
+time=1792613110.3726509 Pos: [0.86766826 0.         1.2131287 ] angle 4.723891045340814
+time=1792613110.4249713 Pos: [0.86782938 0.         1.22710401] angle 4.723943371512262
+time=1792613110.479578 Pos: [0.86799117 0.         1.24107931] angle 4.723986755020561
+time=1792613110.534678 Pos: [0.86815351 0.         1.25505461] angle 4.724022735801462
+time=1792613110.5891547 Pos: [0.86831631 0.         1.2690299 ] angle 4.724052586988402
+time=1792613110.6406932 Pos: [0.86847949 0.         1.28300519] angle 4.724077361373605
+time=1792613110.6911457 Pos: [0.86864299 0.         1.29698047] angle 4.724097929743275
+time=1792613110.7435653 Pos: [0.86880676 0.         1.31095575] angle 4.724115012513284
+time=1792613110.794644 Pos: [0.86897074 0.         1.32493103] angle 4.724129205840729
+time=1792613110.845 Pos: [0.8691349  0.         1.33890631] angle 4.724141003179898
+time=1792613110.8949683 Pos: [0.86929921 0.         1.35288158] angle 4.724150813080602
+time=1792613110.9452555 Pos: [0.86946365 0.         1.36685686] angle 4.724158973886556
+time=1792613110.9952152 Pos: [0.8696282  0.         1.38083213] angle 4.7241657658761795
+time=1792613111.048547 Pos: [0.86979283 0.         1.3948074 ] angle 4.72417142129282
+time=1792613111.0987947 Pos: [0.86995753 0.         1.40878267] angle 4.724176132632713
+time=1792613111.1509123 Pos: [0.8701223  0.         1.42275794] angle 4.724180059495214
+time=1792613111.2002475 Pos: [0.87028711 0.         1.43673321] angle 4.724183334245208
+time=1792613111.2489262 Pos: [0.87045197 0.         1.45070847] angle 4.724186066695551
+time=1792613111.2976074 Pos: [0.87061686 0.         1.46468374] angle 4.7241883479788696
+time=1792613111.350482 Pos: [0.87078178 0.         1.47865901] angle 4.724190253751119
+time=1792613111.406139 Pos: [0.87094672 0.         1.49263428] angle 4.724191846841224
+time=1792613111.4574504 Pos: [0.87111169 0.         1.50660954] angle 4.7241931794451055
+time=1792613111.5075448 Pos: [0.87127667 0.         1.52058481] angle 4.724194294941571
+time=1792613111.5586104 Pos: [0.87144167 0.         1.53456008] angle 4.72419522939515
+time=1792613111.608456 Pos: [0.87160667 0.         1.54853534] angle 4.724196012800401
+time=1792613111.658071 Pos: [0.87177169 0.         1.56251061] angle 4.724196670114758
+time=1792613111.7083588 Pos: [0.87193672 0.         1.57648588] angle 4.724197222114788
+time=1792613111.7575386 Pos: [0.87210175 0.         1.59046114] angle 4.724197686101527
+time=1792613111.8066335 Pos: [0.87226679 0.         1.60443641] angle 4.724198076489067
+time=1792613111.8555758 Pos: [0.87243184 0.         1.61841167] angle 4.72419840529479
+time=1792613111.904843 Pos: [0.87259689 0.         1.63238694] angle 4.724198682536794
+time=1792613111.9558244 Pos: [0.87276194 0.         1.6463622 ] angle 4.724198916580007
+time=1792613112.005856 Pos: [0.872927   0.         1.66033747] angle 4.724199114401364
+time=1792613112.0547016 Pos: [0.87309206 0.         1.67431274] angle 4.724199281834602
+time=1792613112.105192 Pos: [0.87325712 0.         1.688288  ] angle 4.724199423752301
+time=1792613112.158816 Pos: [0.87342218 0.         1.70226327] angle 4.724199544234404
+time=1792613112.214161 Pos: [0.87358724 0.         1.71623853] angle 4.724199646683554
+time=1792613112.2873063 Pos: [0.87375231 0.         1.7302138 ] angle 4.724199733965306
+time=1792613112.3365371 Pos: [0.87391738 0.         1.74418906] angle 4.724199808465482
+time=1792613112.3862212 Pos: [0.87408244 0.         1.75816433] angle 4.724199872189564
+time=1792613112.440684 Pos: [0.87424751 0.         1.7721396 ] angle 4.724199926827248
+time=1792613112.490042 Pos: [0.87441258 0.         1.78611486] angle 4.724199973803349
+time=1792613112.5440047 Pos: [0.87457765 0.         1.80009013] angle 4.724200014317104
+time=1792613112.5953412 Pos: [0.87474272 0.         1.81406539] angle 4.724200049371325
+time=1792613112.6449823 Pos: [0.87490779 0.         1.82804066] angle 4.724200079769008
+time=1792613112.69418 Pos: [0.87507286 0.         1.84201592] angle 4.7242001062213905
+time=1792613112.7453833 Pos: [0.87523793 0.         1.85599119] angle 4.724200129380814
+time=1792613112.7974768 Pos: [0.87540143 0.         1.86064664] angle 4.77078759735193
+time=1792613112.8475125 Pos: [0.87578156 0.         1.86528943] angle 4.817375065323046
+time=1792613112.897788 Pos: [0.87637749 0.         1.86990948] angle 4.863962533294162
+time=1792613112.951092 Pos: [0.87718793 0.         1.87449677] angle 4.910550001265277
+time=1792613113.0027254 Pos: [0.87821113 0.         1.87904133] angle 4.957137469236393
+time=1792613113.0797818 Pos: [0.87944486 0.         1.88353332] angle 5.003724937207509
+time=1792613113.1428576 Pos: [0.88088645 0.         1.88796297] angle 5.050312405178625
+time=1792613113.1944668 Pos: [0.88253276 0.         1.89232068] angle 5.096899873149741
+time=1792613113.2449133 Pos: [0.88438023 0.         1.89659699] angle 5.143487341120856
+time=1792613113.2957745 Pos: [0.88642484 0.         1.90078263] angle 5.190074809091972
+time=1792613113.3479934 Pos: [0.88866217 0.         1.9048685 ] angle 5.236662277063088
+time=1792613113.3985946 Pos: [0.89108734 0.         1.90884575] angle 5.283249745034204
+time=1792613113.4727879 Pos: [0.89369511 0.         1.91270575] angle 5.3298372130053195
+time=1792613113.5224702 Pos: [0.89647981 0.         1.9164401 ] angle 5.376424680976435
+time=1792613113.5731285 Pos: [0.89943541 0.         1.92004072] angle 5.423012148947551
+0.585
+0.87652691557595 0.738522903528672
+Robot: x=0.877, z=0.739
+angle=4.525
+Robot: x=0.877, z=0.739
+angle=4.525
+Target node: B
+node_dist=1.309
+angle_error=0.189
+Robot: x=0.874, z=0.752
+angle=4.560
+Target node: B
+node_dist=1.295
+angle_error=0.155
+Robot: x=0.872, z=0.766
+angle=4.589
+Target node: B
+node_dist=1.281
+angle_error=0.128
+Robot: x=0.871, z=0.780
+angle=4.612
+Target node: B
+node_dist=1.267
+angle_error=0.105
+Robot: x=0.869, z=0.794
+angle=4.632
+Target node: B
+node_dist=1.254
+angle_error=0.087
+Robot: x=0.868, z=0.808
+angle=4.648
+Target node: B
+node_dist=1.240
+angle_error=0.071
+Robot: x=0.868, z=0.822
+angle=4.662
+Target node: B
+node_dist=1.226
+angle_error=0.059
+Robot: x=0.867, z=0.836
+angle=4.673
+Target node: B
+node_dist=1.212
+angle_error=0.049
+Robot: x=0.866, z=0.850
+angle=4.682
+Target node: B
+node_dist=1.198
+angle_error=0.040
+Robot: x=0.866, z=0.864
+angle=4.689
+Target node: B
+node_dist=1.184
+angle_error=0.033
+Robot: x=0.866, z=0.878
+angle=4.695
+Target node: B
+node_dist=1.170
+angle_error=0.027
+Robot: x=0.866, z=0.892
+angle=4.700
+Target node: B
+node_dist=1.156
+angle_error=0.022
+Robot: x=0.865, z=0.906
+angle=4.704
+Target node: B
+node_dist=1.142
+angle_error=0.018
+Robot: x=0.865, z=0.920
+angle=4.708
+Target node: B
+node_dist=1.128
+angle_error=0.015
+Robot: x=0.865, z=0.934
+angle=4.711
+Target node: B
+node_dist=1.114
+angle_error=0.013
+Robot: x=0.865, z=0.948
+angle=4.713
+Target node: B
+node_dist=1.100
+angle_error=0.010
+Robot: x=0.865, z=0.962
+angle=4.715
+Target node: B
+node_dist=1.086
+angle_error=0.009
+Robot: x=0.865, z=0.976
+angle=4.717
+Target node: B
+node_dist=1.072
+angle_error=0.007
+Robot: x=0.865, z=0.990
+angle=4.718
+Target node: B
+node_dist=1.058
+angle_error=0.006
+Robot: x=0.866, z=1.003
+angle=4.719
+Target node: B
+node_dist=1.044
+angle_error=0.005
+Robot: x=0.866, z=1.017
+angle=4.720
+Target node: B
+node_dist=1.030
+angle_error=0.004
+Robot: x=0.866, z=1.031
+angle=4.721
+Target node: B
+node_dist=1.016
+angle_error=0.003
+Robot: x=0.866, z=1.045
+angle=4.721
+Target node: B
+node_dist=1.002
+angle_error=0.003
+Robot: x=0.866, z=1.059
+angle=4.722
+Target node: B
+node_dist=0.988
+angle_error=0.002
+Robot: x=0.866, z=1.073
+angle=4.722
+Target node: B
+node_dist=0.974
+angle_error=0.002
+Robot: x=0.866, z=1.087
+angle=4.723
+Target node: B
+node_dist=0.960
+angle_error=0.002
+Robot: x=0.866, z=1.101
+angle=4.723
+Target node: B
+node_dist=0.946
+angle_error=0.001
+Robot: x=0.867, z=1.115
+angle=4.723
+Target node: B
+node_dist=0.932
+angle_error=0.001
+Robot: x=0.867, z=1.129
+angle=4.723
+Target node: B
+node_dist=0.918
+angle_error=0.001
+Robot: x=0.867, z=1.143
+angle=4.723
+Target node: B
+node_dist=0.904
+angle_error=0.001
+Robot: x=0.867, z=1.157
+angle=4.724
+Target node: B
+node_dist=0.890
+angle_error=0.001
+Robot: x=0.867, z=1.171
+angle=4.724
+Target node: B
+node_dist=0.876
+angle_error=0.000
+Robot: x=0.867, z=1.185
+angle=4.724
+Target node: B
+node_dist=0.862
+angle_error=0.000
+Robot: x=0.868, z=1.199
+angle=4.724
+Target node: B
+node_dist=0.848
+angle_error=0.000
+Robot: x=0.868, z=1.213
+angle=4.724
+Target node: B
+node_dist=0.834
+angle_error=0.000
+Robot: x=0.868, z=1.227
+angle=4.724
+Target node: B
+node_dist=0.820
+angle_error=0.000
+Robot: x=0.868, z=1.241
+angle=4.724
+Target node: B
+node_dist=0.806
+angle_error=0.000
+Robot: x=0.868, z=1.255
+angle=4.724
+Target node: B
+node_dist=0.793
+angle_error=0.000
+Robot: x=0.868, z=1.269
+angle=4.724
+Target node: B
+node_dist=0.779
+angle_error=0.000
+Robot: x=0.868, z=1.283
+angle=4.724
+Target node: B
+node_dist=0.765
+angle_error=0.000
+Robot: x=0.869, z=1.297
+angle=4.724
+Target node: B
+node_dist=0.751
+angle_error=0.000
+Robot: x=0.869, z=1.311
+angle=4.724
+Target node: B
+node_dist=0.737
+angle_error=0.000
+Robot: x=0.869, z=1.325
+angle=4.724
+Target node: B
+node_dist=0.723
+angle_error=0.000
+Robot: x=0.869, z=1.339
+angle=4.724
+Target node: B
+node_dist=0.709
+angle_error=0.000
+Robot: x=0.869, z=1.353
+angle=4.724
+Target node: B
+node_dist=0.695
+angle_error=0.000
+Robot: x=0.869, z=1.367
+angle=4.724
+Target node: B
+node_dist=0.681
+angle_error=0.000
+Robot: x=0.870, z=1.381
+angle=4.724
+Target node: B
+node_dist=0.667
+angle_error=0.000
+Robot: x=0.870, z=1.395
+angle=4.724
+Target node: B
+node_dist=0.653
+angle_error=0.000
+Robot: x=0.870, z=1.409
+angle=4.724
+Target node: B
+node_dist=0.639
+angle_error=0.000
+Robot: x=0.870, z=1.423
+angle=4.724
+Target node: B
+node_dist=0.625
+angle_error=0.000
+Robot: x=0.870, z=1.437
+angle=4.724
+Target node: B
+node_dist=0.611
+angle_error=0.000
+Robot: x=0.870, z=1.451
+angle=4.724
+Target node: B
+node_dist=0.597
+angle_error=0.000
+Robot: x=0.871, z=1.465
+angle=4.724
+Target node: B
+node_dist=0.583
+angle_error=0.000
+Robot: x=0.871, z=1.479
+angle=4.724
+Target node: B
+node_dist=0.569
+angle_error=0.000
+Robot: x=0.871, z=1.493
+angle=4.724
+Target node: B
+node_dist=0.555
+angle_error=0.000
+Robot: x=0.871, z=1.507
+angle=4.724
+Target node: B
+node_dist=0.541
+angle_error=0.000
+Robot: x=0.871, z=1.521
+angle=4.724
+Target node: B
+node_dist=0.527
+angle_error=0.000
+Robot: x=0.871, z=1.535
+angle=4.724
+Target node: B
+node_dist=0.513
+angle_error=0.000
+Robot: x=0.872, z=1.549
+angle=4.724
+Target node: B
+node_dist=0.499
+angle_error=0.000
+Robot: x=0.872, z=1.563
+angle=4.724
+Target node: B
+node_dist=0.485
+angle_error=0.000
+Robot: x=0.872, z=1.576
+angle=4.724
+Target node: B
+node_dist=0.471
+angle_error=0.000
+Robot: x=0.872, z=1.590
+angle=4.724
+Target node: B
+node_dist=0.457
+angle_error=0.000
+Robot: x=0.872, z=1.604
+angle=4.724
+Target node: B
+node_dist=0.443
+angle_error=0.000
+Robot: x=0.872, z=1.618
+angle=4.724
+Target node: B
+node_dist=0.429
+angle_error=0.000
+Robot: x=0.873, z=1.632
+angle=4.724
+Target node: B
+node_dist=0.415
+angle_error=0.000
+Robot: x=0.873, z=1.646
+angle=4.724
+Target node: B
+node_dist=0.401
+angle_error=0.000
+Robot: x=0.873, z=1.660
+angle=4.724
+Target node: B
+node_dist=0.387
+angle_error=0.000
+Robot: x=0.873, z=1.674
+angle=4.724
+Target node: B
+node_dist=0.373
+angle_error=0.000
+Robot: x=0.873, z=1.688
+angle=4.724
+Target node: B
+node_dist=0.359
+angle_error=0.000
+Robot: x=0.873, z=1.702
+angle=4.724
+Target node: B
+node_dist=0.345
+angle_error=0.000
+Robot: x=0.874, z=1.716
+angle=4.724
+Target node: B
+node_dist=0.331
+angle_error=0.000
+Robot: x=0.874, z=1.730
+angle=4.724
+Target node: B
+node_dist=0.317
+angle_error=0.000
+Robot: x=0.874, z=1.744
+angle=4.724
+Target node: B
+node_dist=0.303
+angle_error=0.000
+Robot: x=0.874, z=1.758
+angle=4.724
+Target node: B
+node_dist=0.289
+angle_error=0.000
+Robot: x=0.874, z=1.772
+angle=4.724
+Target node: B
+node_dist=0.275
+angle_error=0.000
+Robot: x=0.874, z=1.786
+angle=4.724
+Target node: B
+node_dist=0.261
+angle_error=0.000
+Robot: x=0.875, z=1.800
+angle=4.724
+Target node: B
+node_dist=0.247
+angle_error=0.000
+Robot: x=0.875, z=1.814
+angle=4.724
+Target node: B
+node_dist=0.233
+angle_error=0.000
+Robot: x=0.875, z=1.828
+angle=4.724
+Target node: B
+node_dist=0.219
+angle_error=0.000
+Robot: x=0.875, z=1.842
+angle=4.724
+Target node: B
+node_dist=0.205
+angle_error=0.000
+Robot: x=0.875, z=1.856
+angle=4.724
+Robot: x=0.875, z=1.856
+angle=4.724
+Target node: C
+node_dist=1.188
+angle_error=1.397
+Robot: x=0.875, z=1.861
+angle=4.771
+Target node: C
+node_dist=1.187
+angle_error=1.354
+Robot: x=0.876, z=1.865
+angle=4.817
+Target node: C
+node_dist=1.186
+angle_error=1.312
+Robot: x=0.876, z=1.870
+angle=4.864
+Target node: C
+node_dist=1.185
+angle_error=1.269
+Robot: x=0.877, z=1.874
+angle=4.911
+Target node: C
+node_dist=1.183
+angle_error=1.226
+Robot: x=0.878, z=1.879
+angle=4.957
+Target node: C
+node_dist=1.181
+angle_error=1.183
+Robot: x=0.879, z=1.884
+angle=5.004
+Target node: C
+node_dist=1.180
+angle_error=1.140
+Robot: x=0.881, z=1.888
+angle=5.050
+Target node: C
+node_dist=1.177
+angle_error=1.097
+Robot: x=0.883, z=1.892
+angle=5.097
+Target node: C
+node_dist=1.175
+angle_error=1.054
+Robot: x=0.884, z=1.897
+angle=5.143
+Target node: C
+node_dist=1.173
+angle_error=1.011
+Robot: x=0.886, z=1.901
+angle=5.190
+Target node: C
+node_dist=1.170
+angle_error=0.967
+Robot: x=0.889, z=1.905
+angle=5.237
+Target node: C
+node_dist=1.168
+angle_error=0.924
+Robot: x=0.891, z=1.909
+angle=5.283
+Target node: C
+node_dist=1.165
+angle_error=0.881
+Robot: x=0.894, z=1.913
+angle=5.330
+Target node: C
+node_dist=1.162
+angle_error=0.837
+Robot: x=0.896, z=1.916
+angle=5.376
+Target node: C
+node_dist=1.158
+angle_error=0.793
+time=1792613113.6246996 Pos: [0.90255548 0.         1.92349979] angle 5.469599616918667
+time=1792613113.677763 Pos: [0.90583325 0.         1.92680981] angle 5.516187084889783
+time=1792613113.7294967 Pos: [0.90926162 0.         1.92996358] angle 5.5627745528608985
+time=1792613113.7812204 Pos: [0.91283314 0.         1.93295427] angle 5.609362020832014
+time=1792613113.8337016 Pos: [0.91654006 0.         1.93577539] angle 5.65594948880313
+time=1792613113.885243 Pos: [0.92037435 0.         1.93842082] angle 5.702536956774246
+time=1792613113.9388278 Pos: [0.93223431 0.         1.94581278] angle 5.749124424745362
+time=1792613113.9917545 Pos: [0.94442566 0.         1.9526444 ] angle 5.7957118927164775
+time=1792613114.0466924 Pos: [0.95692193 0.         1.95890085] angle 5.842299360687593
+time=1792613114.1000962 Pos: [0.96969601 0.         1.96456855] angle 5.888886828658709
+time=1792613114.1535888 Pos: [0.98272018 0.         1.96963521] angle 5.935474296629825
+time=1792613114.2081673 Pos: [0.99596617 0.         1.97408983] angle 5.982061764600941
+time=1792613114.2615101 Pos: [1.00939877 0.         1.97794604] angle 6.025187626817026
+time=1792613114.313794 Pos: [1.02297307 0.         1.98127066] angle 6.060798441378863
+time=1792613114.3667557 Pos: [1.03664849 0.         1.98415233] angle 6.0902105748739315
+time=1792613114.4228654 Pos: [1.05039652 0.         1.98666579] angle 6.114508538624905
+time=1792613114.4854853 Pos: [1.06419703 0.         1.98887362] angle 6.1345861285868155
+time=1792613114.5419052 Pos: [1.07803578 0.         1.99082807] angle 6.15118017286259
+time=1792613114.600735 Pos: [1.09190261 0.         1.99257257] angle 6.164898249034108
+time=1792613114.654647 Pos: [1.10579024 0.         1.99414317] angle 6.176241469029467
+time=1792613114.7077036 Pos: [1.11969343 0.         1.99556979] angle 6.185623221562824
+time=1792613114.7630825 Pos: [1.13360835 0.         1.99687719] angle 6.19338459697104
+time=1792613114.8172534 Pos: [1.14753221 0.         1.99808587] angle 6.199807086577076
+time=1792613114.8708086 Pos: [1.16146292 0.         1.99921281] angle 6.205123041385518
+time=1792613114.926484 Pos: [1.17539895 0.         2.00027205] angle 6.2095242876732
+time=1792613114.9802997 Pos: [1.18933914 0.         2.00127522] angle 6.2131692258656095
+time=1792613115.0356667 Pos: [1.20328259 0.         2.00223193] angle 6.2161886808795455
+time=1792613115.0893457 Pos: [1.21722863 0.         2.00315015] angle 6.218690724417594
+time=1792613115.1426466 Pos: [1.23117674 0.         2.00403645] angle 6.2207646505702945
+time=1792613115.197344 Pos: [1.2451265 0.        2.0048963] angle 6.222484253949429
+time=1792613115.2511568 Pos: [1.2590776 0.        2.0057342] angle 6.223910533171428
+time=1792613115.3090026 Pos: [1.27302978 0.         2.0065539 ] angle 6.225093920801412
+time=1792613115.3637197 Pos: [1.28698284 0.         2.00735849] angle 6.226076123013869
+time=1792613115.4199665 Pos: [1.30093662 0.         2.00815054] angle 6.226891637536658
+time=1792613115.4752421 Pos: [1.31489099 0.         2.00893217] angle 6.227569006356925
+time=1792613115.5291548 Pos: [1.32884584 0.         2.00970515] angle 6.2281318497178555
+time=1792613115.5824156 Pos: [1.34280108 0.         2.01047093] angle 6.228599719744194
+time=1792613115.6401494 Pos: [1.35675665 0.         2.01123074] angle 6.2289888052901485
+time=1792613115.6938915 Pos: [1.3707125  0.         2.01198558] angle 6.229312514049345
+time=1792613115.749124 Pos: [1.38466856 0.         2.01273627] angle 6.22958195339207
+time=1792613115.8024135 Pos: [1.39862481 0.         2.01348352] angle 6.229806327626867
+time=1792613115.8579924 Pos: [1.41258121 0.         2.0142279 ] angle 6.229993266279136
+time=1792613115.9128706 Pos: [1.42653775 0.         2.01496988] angle 6.230149095421373
+time=1792613115.9667306 Pos: [1.44049438 0.         2.01570988] angle 6.230279061981654
+time=1792613116.0210192 Pos: [1.45445111 0.         2.01644821] angle 6.230387519219496
+time=1792613116.0739439 Pos: [1.4684079  0.         2.01718515] angle 6.230478080125971
+time=1792613116.1276348 Pos: [1.48236476 0.         2.01792093] angle 6.230553744324156
+time=1792613116.1856894 Pos: [1.49632167 0.         2.01865574] angle 6.23061700307226
+time=1792613116.2421348 Pos: [1.51027863 0.         2.01938974] angle 6.230669926168844
+time=1792613116.295298 Pos: [1.52423562 0.         2.02012306] angle 6.23071423389714
+time=1792613116.3474665 Pos: [1.53819264 0.         2.02085581] angle 6.230751356599169
+time=1792613116.3997943 Pos: [1.55214968 0.         2.02158809] angle 6.230782484019404
+time=1792613116.456358 Pos: [1.56610674 0.         2.02231996] angle 6.230808606185833
+time=1792613116.5099976 Pos: [1.58006383 0.         2.0230515 ] angle 6.230830547289089
+time=1792613116.5658686 Pos: [1.59402092 0.         2.02378276] angle 6.230848993766753
+time=1792613116.6201606 Pos: [1.60797803 0.         2.02451379] angle 6.230864517591182
+time=1792613116.675515 Pos: [1.62193515 0.         2.02524461] angle 6.230877595585178
+time=1792613116.7305875 Pos: [1.63589228 0.         2.02597526] angle 6.230888625448758
+time=1792613116.7856598 Pos: [1.64984942 0.         2.02670578] angle 6.230897939060906
+time=1792613116.8392644 Pos: [1.66380656 0.         2.02743617] angle 6.230905813523059
+time=1792613116.893993 Pos: [1.67776371 0.         2.02816646] angle 6.230912480331416
+time=1792613116.9463274 Pos: [1.69172086 0.         2.02889667] angle 6.230918132997253
+time=1792613116.9991508 Pos: [1.70567801 0.         2.0296268 ] angle 6.230922933381103
+time=1792613117.0528567 Pos: [1.71963517 0.         2.03035687] angle 6.230927016958905
+time=1792613117.1050153 Pos: [1.73359234 0.         2.03108689] angle 6.23093049720271
+time=1792613117.1582375 Pos: [1.7475495  0.         2.03181686] angle 6.230933469226451
+time=1792613117.2116876 Pos: [1.76150667 0.         2.0325468 ] angle 6.230936012821714
+time=1792613117.2700841 Pos: [1.77546383 0.         2.0332767 ] angle 6.230938194985791
+time=1792613117.321887 Pos: [1.789421   0.         2.03400657] angle 6.23094007203143
+time=1792613117.3740819 Pos: [1.80337817 0.         2.03473642] angle 6.230941691343488
+time=1792613117.4259675 Pos: [1.81733535 0.         2.03546625] angle 6.2309430928516045
+time=1792613117.4775681 Pos: [1.83129252 0.         2.03619605] angle 6.230944310257416
+time=1792613117.5297208 Pos: [1.84524969 0.         2.03692585] angle 6.230945372065435
+time=1792613117.5817254 Pos: [1.85920687 0.         2.03765563] angle 6.230946302452474
+time=1792613117.634572 Pos: [1.86385191 0.         2.03800715] angle 6.184358834481358
+time=1792613117.6881058 Pos: [1.86847554 0.         2.03857461] angle 6.1377713665102425
+time=1792613117.741624 Pos: [1.87306773 0.         2.03935678] angle 6.091183898539127
+time=1792613117.7947407 Pos: [1.87761851 0.         2.04035197] angle 6.044596430568011
+time=1792613117.8542807 Pos: [1.88211801 0.         2.04155801] angle 5.998008962596895
+time=1792613117.9081507 Pos: [1.88655646 0.         2.04297228] angle 5.951421494625779
+time=1792613117.96068 Pos: [1.89092423 0.         2.04459172] angle 5.9048340266546635
+time=1792613118.0168414 Pos: [1.89521184 0.         2.04641281] angle 5.858246558683548
+time=1792613118.0719566 Pos: [1.89940999 0.         2.04843161] angle 5.811659090712432
+time=1792613118.1236548 Pos: [1.90350957 0.         2.05064372] angle 5.765071622741316
+time=1792613118.1744845 Pos: [1.90750168 0.         2.05304436] angle 5.7184841547702
+time=1792613118.2268984 Pos: [1.91137766 0.         2.0556283 ] angle 5.6718966867990845
+time=1792613118.2798996 Pos: [1.9151291  0.         2.05838995] angle 5.625309218827969
+time=1792613118.3361623 Pos: [1.91874786 0.         2.06132331] angle 5.578721750856853
+time=1792613118.39019 Pos: [1.92222608 0.         2.06442201] angle 5.532134282885737
+time=1792613118.4431717 Pos: [1.92555622 0.         2.06767933] angle 5.485546814914621
+time=1792613118.4948678 Pos: [1.92873106 0.         2.07108821] angle 5.438959346943506
+time=1792613118.5477977 Pos: [1.93174369 0.         2.07464124] angle 5.39237187897239
+time=1792613118.600234 Pos: [1.93458759 0.         2.07833072] angle 5.345784411001274
+time=1792613118.6536863 Pos: [1.93725658 0.         2.08214863] angle 5.299196943030158
+time=1792613118.7049708 Pos: [1.94472146 0.         2.09396284] angle 5.252609475059042
+Robot: x=0.899, z=1.920
+angle=5.423
+Target node: C
+node_dist=1.155
+angle_error=0.750
+Robot: x=0.903, z=1.923
+angle=5.470
+Target node: C
+node_dist=1.152
+angle_error=0.706
+Robot: x=0.906, z=1.927
+angle=5.516
+Target node: C
+node_dist=1.148
+angle_error=0.662
+Robot: x=0.909, z=1.930
+angle=5.563
+Target node: C
+node_dist=1.144
+angle_error=0.618
+Robot: x=0.913, z=1.933
+angle=5.609
+Target node: C
+node_dist=1.140
+angle_error=0.573
+Robot: x=0.917, z=1.936
+angle=5.656
+Target node: C
+node_dist=1.136
+angle_error=0.529
+Robot: x=0.920, z=1.938
+angle=5.703
+Target node: C
+node_dist=1.132
+angle_error=0.484
+Robot: x=0.932, z=1.946
+angle=5.749
+Target node: C
+node_dist=1.120
+angle_error=0.443
+Robot: x=0.944, z=1.953
+angle=5.796
+Target node: C
+node_dist=1.107
+angle_error=0.402
+Robot: x=0.957, z=1.959
+angle=5.842
+Target node: C
+node_dist=1.094
+angle_error=0.360
+Robot: x=0.970, z=1.965
+angle=5.889
+Target node: C
+node_dist=1.081
+angle_error=0.318
+Robot: x=0.983, z=1.970
+angle=5.935
+Target node: C
+node_dist=1.068
+angle_error=0.275
+Robot: x=0.996, z=1.974
+angle=5.982
+Target node: C
+node_dist=1.054
+angle_error=0.231
+Robot: x=1.009, z=1.978
+angle=6.025
+Target node: C
+node_dist=1.040
+angle_error=0.191
+Robot: x=1.023, z=1.981
+angle=6.061
+Target node: C
+node_dist=1.027
+angle_error=0.158
+Robot: x=1.037, z=1.984
+angle=6.090
+Target node: C
+node_dist=1.013
+angle_error=0.130
+Robot: x=1.050, z=1.987
+angle=6.115
+Target node: C
+node_dist=0.999
+angle_error=0.108
+Robot: x=1.064, z=1.989
+angle=6.135
+Target node: C
+node_dist=0.985
+angle_error=0.089
+Robot: x=1.078, z=1.991
+angle=6.151
+Target node: C
+node_dist=0.971
+angle_error=0.074
+Robot: x=1.092, z=1.993
+angle=6.165
+Target node: C
+node_dist=0.957
+angle_error=0.061
+Robot: x=1.106, z=1.994
+angle=6.176
+Target node: C
+node_dist=0.943
+angle_error=0.050
+Robot: x=1.120, z=1.996
+angle=6.186
+Target node: C
+node_dist=0.929
+angle_error=0.042
+Robot: x=1.134, z=1.997
+angle=6.193
+Target node: C
+node_dist=0.915
+angle_error=0.034
+Robot: x=1.148, z=1.998
+angle=6.200
+Target node: C
+node_dist=0.901
+angle_error=0.029
+Robot: x=1.161, z=1.999
+angle=6.205
+Target node: C
+node_dist=0.887
+angle_error=0.024
+Robot: x=1.175, z=2.000
+angle=6.210
+Target node: C
+node_dist=0.873
+angle_error=0.020
+Robot: x=1.189, z=2.001
+angle=6.213
+Target node: C
+node_dist=0.859
+angle_error=0.016
+Robot: x=1.203, z=2.002
+angle=6.216
+Target node: C
+node_dist=0.845
+angle_error=0.013
+Robot: x=1.217, z=2.003
+angle=6.219
+Target node: C
+node_dist=0.831
+angle_error=0.011
+Robot: x=1.231, z=2.004
+angle=6.221
+Target node: C
+node_dist=0.817
+angle_error=0.009
+Robot: x=1.245, z=2.005
+angle=6.222
+Target node: C
+node_dist=0.804
+angle_error=0.008
+Robot: x=1.259, z=2.006
+angle=6.224
+Target node: C
+node_dist=0.790
+angle_error=0.006
+Robot: x=1.273, z=2.007
+angle=6.225
+Target node: C
+node_dist=0.776
+angle_error=0.005
+Robot: x=1.287, z=2.007
+angle=6.226
+Target node: C
+node_dist=0.762
+angle_error=0.004
+Robot: x=1.301, z=2.008
+angle=6.227
+Target node: C
+node_dist=0.748
+angle_error=0.004
+Robot: x=1.315, z=2.009
+angle=6.228
+Target node: C
+node_dist=0.734
+angle_error=0.003
+Robot: x=1.329, z=2.010
+angle=6.228
+Target node: C
+node_dist=0.720
+angle_error=0.003
+Robot: x=1.343, z=2.010
+angle=6.229
+Target node: C
+node_dist=0.706
+angle_error=0.002
+Robot: x=1.357, z=2.011
+angle=6.229
+Target node: C
+node_dist=0.692
+angle_error=0.002
+Robot: x=1.371, z=2.012
+angle=6.229
+Target node: C
+node_dist=0.678
+angle_error=0.001
+Robot: x=1.385, z=2.013
+angle=6.230
+Target node: C
+node_dist=0.664
+angle_error=0.001
+Robot: x=1.399, z=2.013
+angle=6.230
+Target node: C
+node_dist=0.650
+angle_error=0.001
+Robot: x=1.413, z=2.014
+angle=6.230
+Target node: C
+node_dist=0.636
+angle_error=0.001
+Robot: x=1.427, z=2.015
+angle=6.230
+Target node: C
+node_dist=0.622
+angle_error=0.001
+Robot: x=1.440, z=2.016
+angle=6.230
+Target node: C
+node_dist=0.608
+angle_error=0.001
+Robot: x=1.454, z=2.016
+angle=6.230
+Target node: C
+node_dist=0.594
+angle_error=0.000
+Robot: x=1.468, z=2.017
+angle=6.230
+Target node: C
+node_dist=0.580
+angle_error=0.000
+Robot: x=1.482, z=2.018
+angle=6.231
+Target node: C
+node_dist=0.566
+angle_error=0.000
+Robot: x=1.496, z=2.019
+angle=6.231
+Target node: C
+node_dist=0.552
+angle_error=0.000
+Robot: x=1.510, z=2.019
+angle=6.231
+Target node: C
+node_dist=0.538
+angle_error=0.000
+Robot: x=1.524, z=2.020
+angle=6.231
+Target node: C
+node_dist=0.524
+angle_error=0.000
+Robot: x=1.538, z=2.021
+angle=6.231
+Target node: C
+node_dist=0.510
+angle_error=0.000
+Robot: x=1.552, z=2.022
+angle=6.231
+Target node: C
+node_dist=0.496
+angle_error=0.000
+Robot: x=1.566, z=2.022
+angle=6.231
+Target node: C
+node_dist=0.482
+angle_error=0.000
+Robot: x=1.580, z=2.023
+angle=6.231
+Target node: C
+node_dist=0.468
+angle_error=0.000
+Robot: x=1.594, z=2.024
+angle=6.231
+Target node: C
+node_dist=0.454
+angle_error=0.000
+Robot: x=1.608, z=2.025
+angle=6.231
+Target node: C
+node_dist=0.440
+angle_error=0.000
+Robot: x=1.622, z=2.025
+angle=6.231
+Target node: C
+node_dist=0.426
+angle_error=0.000
+Robot: x=1.636, z=2.026
+angle=6.231
+Target node: C
+node_dist=0.412
+angle_error=0.000
+Robot: x=1.650, z=2.027
+angle=6.231
+Target node: C
+node_dist=0.398
+angle_error=0.000
+Robot: x=1.664, z=2.027
+angle=6.231
+Target node: C
+node_dist=0.384
+angle_error=0.000
+Robot: x=1.678, z=2.028
+angle=6.231
+Target node: C
+node_dist=0.370
+angle_error=0.000
+Robot: x=1.692, z=2.029
+angle=6.231
+Target node: C
+node_dist=0.356
+angle_error=0.000
+Robot: x=1.706, z=2.030
+angle=6.231
+Target node: C
+node_dist=0.342
+angle_error=0.000
+Robot: x=1.720, z=2.030
+angle=6.231
+Target node: C
+node_dist=0.328
+angle_error=0.000
+Robot: x=1.734, z=2.031
+angle=6.231
+Target node: C
+node_dist=0.314
+angle_error=0.000
+Robot: x=1.748, z=2.032
+angle=6.231
+Target node: C
+node_dist=0.300
+angle_error=0.000
+Robot: x=1.762, z=2.033
+angle=6.231
+Target node: C
+node_dist=0.286
+angle_error=0.000
+Robot: x=1.775, z=2.033
+angle=6.231
+Target node: C
+node_dist=0.272
+angle_error=0.000
+Robot: x=1.789, z=2.034
+angle=6.231
+Target node: C
+node_dist=0.258
+angle_error=0.000
+Robot: x=1.803, z=2.035
+angle=6.231
+Target node: C
+node_dist=0.244
+angle_error=0.000
+Robot: x=1.817, z=2.035
+angle=6.231
+Target node: C
+node_dist=0.230
+angle_error=0.000
+Robot: x=1.831, z=2.036
+angle=6.231
+Target node: C
+node_dist=0.217
+angle_error=0.000
+Robot: x=1.845, z=2.037
+angle=6.231
+Target node: C
+node_dist=0.203
+angle_error=0.000
+Robot: x=1.859, z=2.038
+angle=6.231
+Robot: x=1.859, z=2.038
+angle=6.231
+Target node: E
+node_dist=1.195
+angle_error=-1.360
+Robot: x=1.864, z=2.038
+angle=6.184
+Target node: E
+node_dist=1.194
+angle_error=-1.318
+Robot: x=1.868, z=2.039
+angle=6.138
+Target node: E
+node_dist=1.192
+angle_error=-1.275
+Robot: x=1.873, z=2.039
+angle=6.091
+Target node: E
+node_dist=1.191
+angle_error=-1.232
+Robot: x=1.878, z=2.040
+angle=6.045
+Target node: E
+node_dist=1.189
+angle_error=-1.189
+Robot: x=1.882, z=2.042
+angle=5.998
+Target node: E
+node_dist=1.188
+angle_error=-1.146
+Robot: x=1.887, z=2.043
+angle=5.951
+Target node: E
+node_dist=1.186
+angle_error=-1.103
+Robot: x=1.891, z=2.045
+angle=5.905
+Target node: E
+node_dist=1.183
+angle_error=-1.060
+Robot: x=1.895, z=2.046
+angle=5.858
+Target node: E
+node_dist=1.181
+angle_error=-1.017
+Robot: x=1.899, z=2.048
+angle=5.812
+Target node: E
+node_dist=1.178
+angle_error=-0.973
+Robot: x=1.904, z=2.051
+angle=5.765
+Target node: E
+node_dist=1.176
+angle_error=-0.930
+Robot: x=1.908, z=2.053
+angle=5.718
+Target node: E
+node_dist=1.173
+angle_error=-0.886
+Robot: x=1.911, z=2.056
+angle=5.672
+Target node: E
+node_dist=1.170
+angle_error=-0.843
+Robot: x=1.915, z=2.058
+angle=5.625
+Target node: E
+node_dist=1.167
+angle_error=-0.799
+Robot: x=1.919, z=2.061
+angle=5.579
+Target node: E
+node_dist=1.163
+angle_error=-0.755
+Robot: x=1.922, z=2.064
+angle=5.532
+Target node: E
+node_dist=1.160
+angle_error=-0.712
+Robot: x=1.926, z=2.068
+angle=5.486
+Target node: E
+node_dist=1.156
+angle_error=-0.667
+Robot: x=1.929, z=2.071
+angle=5.439
+Target node: E
+node_dist=1.153
+angle_error=-0.623
+Robot: x=1.932, z=2.075
+angle=5.392
+Target node: E
+node_dist=1.149
+angle_error=-0.579
+Robot: x=1.935, z=2.078
+angle=5.346
+Target node: E
+node_dist=1.145
+angle_error=-0.535
+Robot: x=1.937, z=2.082
+angle=5.299
+Target node: E
+node_dist=1.141
+angle_error=-0.490
+Robot: x=1.945, z=2.094
+angle=5.253
+Target node: E
+time=1792613118.7616584 Pos: [1.95162804 0.         2.10611188] angle 5.206022007087927
+time=1792613118.8128207 Pos: [1.95796134 0.         2.11856938] angle 5.159434539116811
+time=1792613118.864167 Pos: [1.96370762 0.         2.1313083 ] angle 5.112847071145695
+time=1792613118.9156666 Pos: [1.9688544  0.         2.14430102] angle 5.066259603174579
+time=1792613118.9705431 Pos: [1.97339052 0.         2.15751932] angle 5.0196721352034634
+time=1792613119.026538 Pos: [1.97732182 0.         2.17093008] angle 4.975417605646616
+time=1792613119.0776134 Pos: [1.98070839 0.         2.18448901] angle 4.938879344809809
+time=1792613119.131035 Pos: [1.98364095 0.         2.19815358] angle 4.908705008374655
+time=1792613119.1841457 Pos: [1.98619601 0.         2.21189392] angle 4.883780576228718
+time=1792613119.2472007 Pos: [1.98843776 0.         2.22568895] angle 4.863188035730918
+time=1792613119.3007867 Pos: [1.99041971 0.         2.23952378] angle 4.846170676968482
+time=1792613119.3512893 Pos: [1.99218643 0.         2.25338779] angle 4.832104594543929
+time=1792613119.4039352 Pos: [1.99377489 0.         2.26727339] angle 4.820475264367392
+time=1792613119.4560118 Pos: [1.99521575 0.         2.28117511] angle 4.810858278638785
+time=1792613119.50726 Pos: [1.99653442 0.         2.29508896] angle 4.8029034927622964
+time=1792613119.5587988 Pos: [1.99775194 0.         2.30901205] angle 4.796321974779792
+time=1792613119.6094584 Pos: [1.99888569 0.         2.32294221] angle 4.790875258505582
+time=1792613119.6593227 Pos: [1.9999501  0.         2.33687785] angle 4.786366491396227
+time=1792613119.7109473 Pos: [2.00095706 0.         2.35081776] angle 4.782633141459398
+time=1792613119.7648635 Pos: [2.00191645 0.         2.36476102] angle 4.779540987413692
+time=1792613119.8173537 Pos: [2.00283641 0.         2.37870695] angle 4.7769791653858835
+time=1792613119.8676937 Pos: [2.00372371 0.         2.39265499] angle 4.7748560856863635
+time=1792613119.9189732 Pos: [2.00458392 0.         2.40660474] angle 4.773096066254767
+time=1792613119.971842 Pos: [2.00542167 0.         2.42055584] angle 4.771636556523859
+time=1792613120.0249119 Pos: [2.0062408  0.         2.43450806] angle 4.770425847773899
+time=1792613120.075951 Pos: [2.00704447 0.         2.44846117] angle 4.769421184408885
+time=1792613120.1266396 Pos: [2.00783532 0.         2.46241502] angle 4.768587205689213
+time=1792613120.1768172 Pos: [2.00861551 0.         2.47636947] angle 4.767894659882973
+time=1792613120.2272387 Pos: [2.00938686 0.         2.49032441] angle 4.767319343026405
+time=1792613120.277249 Pos: [2.01015086 0.         2.50427975] angle 4.766841222903796
+time=1792613120.326869 Pos: [2.01090875 0.         2.51823542] angle 4.766443715789189
+time=1792613120.3763838 Pos: [2.01166155 0.         2.53219138] angle 4.76611308920045
+time=1792613120.4286172 Pos: [2.01241013 0.         2.54614755] angle 4.7658379686173244
+time=1792613120.4838994 Pos: [2.0131552  0.         2.56010392] angle 4.765608929987216
+time=1792613120.5373955 Pos: [2.01389733 0.         2.57406044] angle 4.7654181630323835
+time=1792613120.5906115 Pos: [2.01463702 0.         2.5880171 ] angle 4.765259193000318
+time=1792613120.6425853 Pos: [2.01537468 0.         2.60197386] angle 4.765126650664845
+time=1792613120.6919525 Pos: [2.01611064 0.         2.61593071] angle 4.765016082170246
+time=1792613120.7418892 Pos: [2.01684519 0.         2.62988763] angle 4.76492379178193
+time=1792613120.7952912 Pos: [2.01757855 0.         2.64384462] angle 4.764846711819911
+time=1792613120.8472583 Pos: [2.01831092 0.         2.65780166] angle 4.764782295051388
+time=1792613120.8960257 Pos: [2.01904248 0.         2.67175874] angle 4.764728425643212
+time=1792613120.9482856 Pos: [2.01977334 0.         2.68571586] angle 4.764683345455219
+time=1792613121.000628 Pos: [2.02050362 0.         2.699673  ] angle 4.764645593016304
+time=1792613121.0515358 Pos: [2.02123342 0.         2.71363018] angle 4.764613952987943
+time=1792613121.1006246 Pos: [2.02196281 0.         2.72758737] angle 4.764587414301834
+time=1792613121.1497815 Pos: [2.02269186 0.         2.74154458] angle 4.764565135473388
+time=1792613121.1990733 Pos: [2.02342062 0.         2.75550181] angle 4.764546415853033
+time=1792613121.24789 Pos: [2.02414915 0.         2.76945905] angle 4.764530671791908
+time=1792613121.2964382 Pos: [2.02487747 0.         2.7834163 ] angle 4.764517416876396
+time=1792613121.3453326 Pos: [2.02560562 0.         2.79737356] angle 4.764506245531417
+time=1792613121.3943865 Pos: [2.02633363 0.         2.81133083] angle 4.764496819414433
+time=1792613121.4439456 Pos: [2.02706152 0.         2.8252881 ] angle 4.7644888561213845
+time=1792613121.493522 Pos: [2.0277893  0.         2.83924538] angle 4.76448211980834
+time=1792613121.542052 Pos: [2.028517   0.         2.85320266] angle 4.764476413401596
+time=1792613121.5923257 Pos: [2.02924462 0.         2.86715995] angle 4.764471572124648
+time=1792613121.641928 Pos: [2.02997218 0.         2.88111724] angle 4.76446745811678
+time=1792613121.6927452 Pos: [2.03069969 0.         2.89507453] angle 4.764463955959176
+time=1792613121.74294 Pos: [2.03142715 0.         2.90903183] angle 4.764460968950702
+time=1792613121.7915933 Pos: [2.03215458 0.         2.92298913] angle 4.764458416010107
+time=1792613121.8408253 Pos: [2.03288197 0.         2.93694643] angle 4.764456229094904
+time=1792613121.8900576 Pos: [2.03360933 0.         2.95090373] angle 4.764454351051239
+time=1792613121.9419646 Pos: [2.03433667 0.         2.96486103] angle 4.764452733819067
+time=1792613121.9940982 Pos: [2.03506399 0.         2.97881833] angle 4.764451336937553
+time=1792613122.04461 Pos: [2.03579128 0.         2.99277563] angle 4.764450126290209
+time=1792613122.0967305 Pos: [2.03651857 0.         3.00673294] angle 4.764449073062283
+time=1792613122.149523 Pos: [2.03724584 0.         3.02069025] angle 4.764448152855873
+time=1792613122.1977878 Pos: [2.03759652 0.         3.02533535] angle 4.811035620826988
+time=1792613122.2469394 Pos: [2.03816315 0.         3.02995909] angle 4.857623088798104
+time=1792613122.2954905 Pos: [2.0389445  0.         3.03455142] angle 4.90421055676922
+time=1792613122.3446484 Pos: [2.03993887 0.         3.03910238] angle 4.950798024740336
+time=1792613122.3953116 Pos: [2.0411441  0.         3.04360209] angle 4.997385492711452
+time=1792613122.446708 Pos: [2.04255757 0.         3.04804079] angle 5.043972960682567
+time=1792613122.4964933 Pos: [2.04417623 0.         3.05240885] angle 5.090560428653683
+time=1792613122.5500698 Pos: [2.04599655 0.         3.05669679] angle 5.137147896624799
+time=1792613122.6005688 Pos: [2.04801459 0.         3.06089531] angle 5.183735364595915
+time=1792613122.649597 Pos: [2.05022596 0.         3.06499528] angle 5.230322832567031
+time=1792613122.6989696 Pos: [2.05262588 0.         3.06898783] angle 5.276910300538146
+time=1792613122.7487082 Pos: [2.05520913 0.         3.07286427] angle 5.323497768509262
+time=1792613122.7978258 Pos: [2.0579701  0.         3.07661621] angle 5.370085236480378
+time=1792613122.847421 Pos: [2.06090281 0.         3.08023549] angle 5.416672704451494
+time=1792613122.897663 Pos: [2.06400088 0.         3.08371427] angle 5.4632601724226095
+time=1792613122.9490101 Pos: [2.06725761 0.         3.087045  ] angle 5.509847640393725
+time=1792613122.9987469 Pos: [2.07066591 0.         3.09022044] angle 5.556435108364841
+time=1792613123.0494876 Pos: [2.0742184  0.         3.09323372] angle 5.603022576335957
+time=1792613123.099885 Pos: [2.07790737 0.         3.09607828] angle 5.649610044307073
+time=1792613123.1492648 Pos: [2.08172481 0.         3.09874796] angle 5.6961975122781885
+time=1792613123.1986907 Pos: [2.09353767 0.         3.10621496] angle 5.742784980249304
+time=1792613123.2487683 Pos: [2.10568547 0.         3.11312373] angle 5.78937244822042
+time=1792613123.2991722 Pos: [2.11814182 0.         3.11945927] angle 5.835959916191536
+time=1792613123.3485868 Pos: [2.13087972 0.         3.12520784] angle 5.882547384162652
+time=1792613123.3989744 Pos: [2.14387151 0.         3.13035696] angle 5.9291348521337675
+time=1792613123.448502 Pos: [2.15708899 0.         3.13489546] angle 5.975722320104883
+time=1792613123.4984899 Pos: [2.17049627 0.         3.13883888] angle 6.018530868477111
+time=1792613123.5484273 Pos: [2.18404769 0.         3.1422556 ] angle 6.053875023674465
+node_dist=1.128
+angle_error=-0.449
+Robot: x=1.952, z=2.106
+angle=5.206
+Target node: E
+node_dist=1.116
+angle_error=-0.408
+Robot: x=1.958, z=2.119
+angle=5.159
+Target node: E
+node_dist=1.103
+angle_error=-0.366
+Robot: x=1.964, z=2.131
+angle=5.113
+Target node: E
+node_dist=1.089
+angle_error=-0.323
+Robot: x=1.969, z=2.144
+angle=5.066
+Target node: E
+node_dist=1.076
+angle_error=-0.281
+Robot: x=1.973, z=2.158
+angle=5.020
+Target node: E
+node_dist=1.063
+angle_error=-0.237
+Robot: x=1.977, z=2.171
+angle=4.975
+Target node: E
+node_dist=1.049
+angle_error=-0.196
+Robot: x=1.981, z=2.184
+angle=4.939
+Target node: E
+node_dist=1.035
+angle_error=-0.162
+Robot: x=1.984, z=2.198
+angle=4.909
+Target node: E
+node_dist=1.021
+angle_error=-0.134
+Robot: x=1.986, z=2.212
+angle=4.884
+Target node: E
+node_dist=1.007
+angle_error=-0.111
+Robot: x=1.988, z=2.226
+angle=4.863
+Target node: E
+node_dist=0.994
+angle_error=-0.091
+Robot: x=1.990, z=2.240
+angle=4.846
+Target node: E
+node_dist=0.980
+angle_error=-0.075
+Robot: x=1.992, z=2.253
+angle=4.832
+Target node: E
+node_dist=0.966
+angle_error=-0.062
+Robot: x=1.994, z=2.267
+angle=4.820
+Target node: E
+node_dist=0.952
+angle_error=-0.052
+Robot: x=1.995, z=2.281
+angle=4.811
+Target node: E
+node_dist=0.938
+angle_error=-0.043
+Robot: x=1.997, z=2.295
+angle=4.803
+Target node: E
+node_dist=0.924
+angle_error=-0.035
+Robot: x=1.998, z=2.309
+angle=4.796
+Target node: E
+node_dist=0.910
+angle_error=-0.029
+Robot: x=1.999, z=2.323
+angle=4.791
+Target node: E
+node_dist=0.896
+angle_error=-0.024
+Robot: x=2.000, z=2.337
+angle=4.786
+Target node: E
+node_dist=0.882
+angle_error=-0.020
+Robot: x=2.001, z=2.351
+angle=4.783
+Target node: E
+node_dist=0.868
+angle_error=-0.017
+Robot: x=2.002, z=2.365
+angle=4.780
+Target node: E
+node_dist=0.854
+angle_error=-0.014
+Robot: x=2.003, z=2.379
+angle=4.777
+Target node: E
+node_dist=0.840
+angle_error=-0.011
+Robot: x=2.004, z=2.393
+angle=4.775
+Target node: E
+node_dist=0.826
+angle_error=-0.009
+Robot: x=2.005, z=2.407
+angle=4.773
+Target node: E
+node_dist=0.812
+angle_error=-0.008
+Robot: x=2.005, z=2.421
+angle=4.772
+Target node: E
+node_dist=0.798
+angle_error=-0.006
+Robot: x=2.006, z=2.435
+angle=4.770
+Target node: E
+node_dist=0.784
+angle_error=-0.005
+Robot: x=2.007, z=2.448
+angle=4.769
+Target node: E
+node_dist=0.770
+angle_error=-0.004
+Robot: x=2.008, z=2.462
+angle=4.769
+Target node: E
+node_dist=0.756
+angle_error=-0.004
+Robot: x=2.009, z=2.476
+angle=4.768
+Target node: E
+node_dist=0.742
+angle_error=-0.003
+Robot: x=2.009, z=2.490
+angle=4.767
+Target node: E
+node_dist=0.728
+angle_error=-0.003
+Robot: x=2.010, z=2.504
+angle=4.767
+Target node: E
+node_dist=0.714
+angle_error=-0.002
+Robot: x=2.011, z=2.518
+angle=4.766
+Target node: E
+node_dist=0.700
+angle_error=-0.002
+Robot: x=2.012, z=2.532
+angle=4.766
+Target node: E
+node_dist=0.686
+angle_error=-0.001
+Robot: x=2.012, z=2.546
+angle=4.766
+Target node: E
+node_dist=0.672
+angle_error=-0.001
+Robot: x=2.013, z=2.560
+angle=4.766
+Target node: E
+node_dist=0.658
+angle_error=-0.001
+Robot: x=2.014, z=2.574
+angle=4.765
+Target node: E
+node_dist=0.644
+angle_error=-0.001
+Robot: x=2.015, z=2.588
+angle=4.765
+Target node: E
+node_dist=0.630
+angle_error=-0.001
+Robot: x=2.015, z=2.602
+angle=4.765
+Target node: E
+node_dist=0.616
+angle_error=-0.001
+Robot: x=2.016, z=2.616
+angle=4.765
+Target node: E
+node_dist=0.602
+angle_error=-0.000
+Robot: x=2.017, z=2.630
+angle=4.765
+Target node: E
+node_dist=0.588
+angle_error=-0.000
+Robot: x=2.018, z=2.644
+angle=4.765
+Target node: E
+node_dist=0.574
+angle_error=-0.000
+Robot: x=2.018, z=2.658
+angle=4.765
+Target node: E
+node_dist=0.560
+angle_error=-0.000
+Robot: x=2.019, z=2.672
+angle=4.765
+Target node: E
+node_dist=0.546
+angle_error=-0.000
+Robot: x=2.020, z=2.686
+angle=4.765
+Target node: E
+node_dist=0.533
+angle_error=-0.000
+Robot: x=2.021, z=2.700
+angle=4.765
+Target node: E
+node_dist=0.519
+angle_error=-0.000
+Robot: x=2.021, z=2.714
+angle=4.765
+Target node: E
+node_dist=0.505
+angle_error=-0.000
+Robot: x=2.022, z=2.728
+angle=4.765
+Target node: E
+node_dist=0.491
+angle_error=-0.000
+Robot: x=2.023, z=2.742
+angle=4.765
+Target node: E
+node_dist=0.477
+angle_error=-0.000
+Robot: x=2.023, z=2.756
+angle=4.765
+Target node: E
+node_dist=0.463
+angle_error=-0.000
+Robot: x=2.024, z=2.769
+angle=4.765
+Target node: E
+node_dist=0.449
+angle_error=-0.000
+Robot: x=2.025, z=2.783
+angle=4.765
+Target node: E
+node_dist=0.435
+angle_error=-0.000
+Robot: x=2.026, z=2.797
+angle=4.765
+Target node: E
+node_dist=0.421
+angle_error=-0.000
+Robot: x=2.026, z=2.811
+angle=4.764
+Target node: E
+node_dist=0.407
+angle_error=-0.000
+Robot: x=2.027, z=2.825
+angle=4.764
+Target node: E
+node_dist=0.393
+angle_error=-0.000
+Robot: x=2.028, z=2.839
+angle=4.764
+Target node: E
+node_dist=0.379
+angle_error=-0.000
+Robot: x=2.029, z=2.853
+angle=4.764
+Target node: E
+node_dist=0.365
+angle_error=-0.000
+Robot: x=2.029, z=2.867
+angle=4.764
+Target node: E
+node_dist=0.351
+angle_error=-0.000
+Robot: x=2.030, z=2.881
+angle=4.764
+Target node: E
+node_dist=0.337
+angle_error=-0.000
+Robot: x=2.031, z=2.895
+angle=4.764
+Target node: E
+node_dist=0.323
+angle_error=-0.000
+Robot: x=2.031, z=2.909
+angle=4.764
+Target node: E
+node_dist=0.309
+angle_error=-0.000
+Robot: x=2.032, z=2.923
+angle=4.764
+Target node: E
+node_dist=0.295
+angle_error=-0.000
+Robot: x=2.033, z=2.937
+angle=4.764
+Target node: E
+node_dist=0.281
+angle_error=-0.000
+Robot: x=2.034, z=2.951
+angle=4.764
+Target node: E
+node_dist=0.267
+angle_error=-0.000
+Robot: x=2.034, z=2.965
+angle=4.764
+Target node: E
+node_dist=0.253
+angle_error=-0.000
+Robot: x=2.035, z=2.979
+angle=4.764
+Target node: E
+node_dist=0.239
+angle_error=-0.000
+Robot: x=2.036, z=2.993
+angle=4.764
+Target node: E
+node_dist=0.225
+angle_error=-0.000
+Robot: x=2.037, z=3.007
+angle=4.764
+Target node: E
+node_dist=0.211
+angle_error=-0.000
+Robot: x=2.037, z=3.021
+angle=4.764
+Robot: x=2.037, z=3.021
+angle=4.764
+Target node: F
+node_dist=1.197
+angle_error=1.354
+Robot: x=2.038, z=3.025
+angle=4.811
+Target node: F
+node_dist=1.195
+angle_error=1.311
+Robot: x=2.038, z=3.030
+angle=4.858
+Target node: F
+node_dist=1.194
+angle_error=1.268
+Robot: x=2.039, z=3.035
+angle=4.904
+Target node: F
+node_dist=1.193
+angle_error=1.225
+Robot: x=2.040, z=3.039
+angle=4.951
+Target node: F
+node_dist=1.191
+angle_error=1.182
+Robot: x=2.041, z=3.044
+angle=4.997
+Target node: F
+node_dist=1.189
+angle_error=1.139
+Robot: x=2.043, z=3.048
+angle=5.044
+Target node: F
+node_dist=1.187
+angle_error=1.096
+Robot: x=2.044, z=3.052
+angle=5.091
+Target node: F
+node_dist=1.185
+angle_error=1.053
+Robot: x=2.046, z=3.057
+angle=5.137
+Target node: F
+node_dist=1.182
+angle_error=1.010
+Robot: x=2.048, z=3.061
+angle=5.184
+Target node: F
+node_dist=1.180
+angle_error=0.966
+Robot: x=2.050, z=3.065
+angle=5.230
+Target node: F
+node_dist=1.177
+angle_error=0.923
+Robot: x=2.053, z=3.069
+angle=5.277
+Target node: F
+node_dist=1.174
+angle_error=0.879
+Robot: x=2.055, z=3.073
+angle=5.323
+Target node: F
+node_dist=1.171
+angle_error=0.836
+Robot: x=2.058, z=3.077
+angle=5.370
+Target node: F
+node_dist=1.168
+angle_error=0.792
+Robot: x=2.061, z=3.080
+angle=5.417
+Target node: F
+node_dist=1.165
+angle_error=0.748
+Robot: x=2.064, z=3.084
+angle=5.463
+Target node: F
+node_dist=1.161
+angle_error=0.704
+Robot: x=2.067, z=3.087
+angle=5.510
+Target node: F
+node_dist=1.158
+angle_error=0.660
+Robot: x=2.071, z=3.090
+angle=5.556
+Target node: F
+node_dist=1.154
+angle_error=0.616
+Robot: x=2.074, z=3.093
+angle=5.603
+Target node: F
+node_dist=1.150
+angle_error=0.572
+Robot: x=2.078, z=3.096
+angle=5.650
+Target node: F
+node_dist=1.146
+angle_error=0.527
+Robot: x=2.082, z=3.099
+angle=5.696
+Target node: F
+node_dist=1.142
+angle_error=0.483
+Robot: x=2.094, z=3.106
+angle=5.743
+Target node: F
+node_dist=1.129
+angle_error=0.442
+Robot: x=2.106, z=3.113
+angle=5.789
+Target node: F
+node_dist=1.117
+angle_error=0.400
+Robot: x=2.118, z=3.119
+angle=5.836
+Target node: F
+node_dist=1.104
+angle_error=0.358
+Robot: x=2.131, z=3.125
+angle=5.883
+Target node: F
+node_dist=1.091
+angle_error=0.316
+Robot: x=2.144, z=3.130
+angle=5.929
+Target node: F
+node_dist=1.077
+angle_error=0.273
+Robot: x=2.157, z=3.135
+angle=5.976
+Target node: F
+node_dist=1.064
+angle_error=0.230
+Robot: x=2.170, z=3.139
+angle=6.019
+Target node: F
+node_dist=1.050
+angle_error=0.190
+Robot: x=2.184, z=3.142
+angle=6.054
+Target node: F
+time=1792613123.600846 Pos: [2.1977025  0.         3.14523341] angle 6.08306295750325
+time=1792613123.6527634 Pos: [2.21143197 0.         3.14784636] angle 6.107172334788736
+time=1792613123.704116 Pos: [2.22521574 0.         3.15015647] angle 6.127091224993803
+time=1792613123.7553976 Pos: [2.23903931 0.         3.15221551] angle 6.14355166237896
+time=1792613123.804567 Pos: [2.25289233 0.         3.15406652] angle 6.157157208695718
+time=1792613123.8564794 Pos: [2.26676731 0.         3.15574524] angle 6.1684056099024565
+time=1792613123.9057612 Pos: [2.28065883 0.         3.15728131] angle 6.17770743209322
+time=1792613123.9584792 Pos: [2.29456292 0.         3.15869928] angle 6.185401397623537
+time=1792613124.0126753 Pos: [2.30847665 0.         3.16001948] angle 6.1917670104755524
+time=1792613124.0624828 Pos: [2.32239782 0.         3.16125872] angle 6.197034953158072
+time=1792613124.1119394 Pos: [2.33632481 0.         3.16243092] angle 6.201395650648161
+time=1792613124.1639514 Pos: [2.35025636 0.         3.16354761] angle 6.205006326070338
+time=1792613124.2131624 Pos: [2.36419152 0.         3.16461831] angle 6.207996814891555
+time=1792613124.262715 Pos: [2.37812956 0.         3.16565091] angle 6.210474356953635
+time=1792613124.311999 Pos: [2.3920699  0.         3.16665193] angle 6.212527546730987
+time=1792613124.361497 Pos: [2.4060121  0.         3.16762677] angle 6.214229590230589
+time=1792613124.4135907 Pos: [2.4199558  0.         3.16857991] angle 6.215640990680678
+time=1792613124.4667888 Pos: [2.43390072 0.         3.16951504] angle 6.2168117635572795
+time=1792613124.5168462 Pos: [2.44784664 0.         3.17043524] angle 6.217783263735667
+time=1792613124.566579 Pos: [2.46179337 0.         3.17134304] angle 6.218589692941607
+time=1792613124.6160681 Pos: [2.47574076 0.         3.17224055] angle 6.21925934365337
+time=1792613124.66638 Pos: [2.4896887 0.        3.1731295] angle 6.219815625709457
+time=1792613124.7157993 Pos: [2.50363709 0.         3.17401136] angle 6.220277913730753
+time=1792613124.7647953 Pos: [2.51758585 0.         3.1748873 ] angle 6.220662246758925
+time=1792613124.814429 Pos: [2.53153493 0.         3.17575834] angle 6.220981905990174
+time=1792613124.865095 Pos: [2.54548425 0.         3.1766253 ] angle 6.221247891935115
+time=1792613124.9140036 Pos: [2.55943379 0.         3.17748885] angle 6.221469318589319
+time=1792613124.9639242 Pos: [2.5733835  0.         3.17834957] angle 6.221653739112819
+time=1792613125.0156736 Pos: [2.58733336 0.         3.17920794] angle 6.221807414974175
+time=1792613125.0653615 Pos: [2.60128333 0.         3.18006434] angle 6.221935538419533
+time=1792613125.1145391 Pos: [2.61523341 0.         3.1809191 ] angle 6.222042416400221
+time=1792613125.1635478 Pos: [2.62918357 0.         3.18177249] angle 6.222131622669238
+time=1792613125.2122955 Pos: [2.6431338  0.         3.18262475] angle 6.222206123583647
+time=1792613125.2615619 Pos: [2.65708409 0.         3.18347604] angle 6.2222683821824765
+time=1792613125.3112395 Pos: [2.67103443 0.         3.18432654] angle 6.222320444311982
+time=1792613125.3615603 Pos: [2.68498481 0.         3.18517638] angle 6.222364009912293
+time=1792613125.412322 Pos: [2.69893523 0.         3.18602565] angle 6.222400492036697
+time=1792613125.461439 Pos: [2.71288567 0.         3.18687446] angle 6.222431065727006
+time=1792613125.5107763 Pos: [2.72683613 0.         3.18772287] angle 6.222456708499261
+time=1792613125.5615087 Pos: [2.74078662 0.         3.18857096] angle 6.222478233888854
+time=1792613125.6105494 Pos: [2.75473712 0.         3.18941877] angle 6.222496319252681
+time=1792613125.6596582 Pos: [2.76868764 0.         3.19026634] angle 6.222511528818158
+time=1792613125.7085276 Pos: [2.78263817 0.         3.19111373] angle 6.222524332797175
+time=1792613125.757805 Pos: [2.7965887  0.         3.19196094] angle 6.222535123241964
+time=1792613125.8080726 Pos: [2.81053925 0.         3.19280802] angle 6.222544227201932
+time=1792613125.8614128 Pos: [2.8244898  0.         3.19365498] angle 6.222551917644839
+time=1792613125.915523 Pos: [2.83844036 0.         3.19450185] angle 6.222558422525043
+time=1792613125.967389 Pos: [2.85239093 0.         3.19534862] angle 6.2225639323156905
+time=1792613126.0189762 Pos: [2.8663415  0.         3.19619533] angle 6.222568606267709
+time=1792613126.0675294 Pos: [2.88029207 0.         3.19704198] angle 6.222572577611807
+time=1792613126.1166294 Pos: [2.89424265 0.         3.19788857] angle 6.222575957886012
+time=1792613126.166017 Pos: [2.90819323 0.         3.19873513] angle 6.2225788405340925
+time=1792613126.2144172 Pos: [2.92214381 0.         3.19958164] angle 6.222581303902313
+time=1792613126.263117 Pos: [2.93609439 0.         3.20042812] angle 6.222583413733483
+time=1792613126.31216 Pos: [2.95004497 0.         3.20127458] angle 6.222585225246876
+time=1792613126.3643718 Pos: [2.96399556 0.         3.20212101] angle 6.222586784870406
+time=1792613126.413952 Pos: [2.97794615 0.         3.20296742] angle 6.222588131689322
+time=1792613126.462308 Pos: [2.99189674 0.         3.20381382] angle 6.222589298652543
+time=1792613126.5118454 Pos: [3.00584732 0.         3.2046602 ] angle 6.222590313589719
+time=1792613126.5620732 Pos: [3.01979791 0.         3.20550656] angle 6.222591200057173
+time=1792613126.6142647 Pos: [3.024453   0.         3.20568028] angle 6.269178668028289
+time=1792613126.665788 Pos: [3.02911112 0.         3.20563702] angle 6.315766135999405
+time=1792613126.714932 Pos: [3.03376218 0.         3.20537687] angle 6.36235360397052
+time=1792613126.7670128 Pos: [3.03839607 0.         3.20490041] angle 6.408941071941636
+time=1792613126.819526 Pos: [3.04300275 0.         3.20420865] angle 6.455528539912752
+time=1792613126.870377 Pos: [3.04757221 0.         3.20330311] angle 6.502116007883868
+time=1792613126.9201365 Pos: [3.05209455 0.         3.20218576] angle 6.548703475854984
+time=1792613126.970715 Pos: [3.05655994 0.         3.200859  ] angle 6.595290943826099
+time=1792613127.0225618 Pos: [3.0609587  0.         3.19932573] angle 6.641878411797215
+time=1792613127.0720146 Pos: [3.06528128 0.         3.19758927] angle 6.688465879768331
+time=1792613127.1227438 Pos: [3.0695183  0.         3.19565339] angle 6.735053347739447
+time=1792613127.1718721 Pos: [3.07366057 0.         3.19352229] angle 6.7816408157105625
+time=1792613127.2205338 Pos: [3.0776991  0.         3.19120059] angle 6.828228283681678
+time=1792613127.2684195 Pos: [3.08162513 0.         3.18869334] angle 6.874815751652794
+time=1792613127.315214 Pos: [3.08543013 0.         3.18600596] angle 6.92140321962391
+time=1792613127.3637261 Pos: [3.08910585 0.         3.18314431] angle 6.967990687595026
+time=1792613127.4123664 Pos: [3.09264431 0.         3.18011457] angle 7.0145781555661415
+time=1792613127.4602928 Pos: [3.09603783 0.         3.17692334] angle 7.061165623537257
+time=1792613127.5089142 Pos: [3.09927906 0.         3.17357753] angle 7.107753091508373
+time=1792613127.5667088 Pos: [3.10236095 0.         3.1700844 ] angle 7.154340559479489
+time=1792613127.6171267 Pos: [3.11110857 0.         3.15918582] angle 7.200928027450605
+time=1792613127.6688097 Pos: [3.11933914 0.         3.14789168] angle 7.2475154954217205
+time=1792613127.7188716 Pos: [3.12703481 0.         3.13622648] angle 7.294102963392836
+time=1792613127.772356 Pos: [3.13417887 0.         3.12421556] angle 7.340690431363952
+time=1792613127.8378067 Pos: [3.14075583 0.         3.11188496] angle 7.387277899335068
+time=1792613127.8896065 Pos: [3.1467514  0.         3.09926145] angle 7.433865367306184
+time=1792613127.942893 Pos: [3.15215259 0.         3.08637242] angle 7.480452835277299
+time=1792613127.9950216 Pos: [3.15697153 0.         3.07325437] angle 7.523412811762775
+time=1792613128.0514762 Pos: [3.16126792 0.         3.05995569] angle 7.559582061087476
+time=1792613128.1050923 Pos: [3.16511885 0.         3.04652101] angle 7.5900688950578665
+time=1792613128.156666 Pos: [3.16859073 0.         3.03298326] angle 7.615796968525601
+time=1792613128.2089708 Pos: [3.17174038 0.         3.01936683] angle 7.63753669519785
+time=1792613128.2624483 Pos: [3.17461619 0.         3.00568986] angle 7.65593117271515
+time=1792613128.3152003 Pos: [3.17725923 0.         2.99196595] angle 7.671517621584247
+time=1792613128.3706317 Pos: [3.17970429 0.         2.97820535] angle 7.684745143124135
+time=1792613128.4265912 Pos: [3.18198081 0.         2.96441584] angle 7.695989447483212
+node_dist=1.036
+angle_error=0.157
+Robot: x=2.198, z=3.145
+angle=6.083
+Target node: F
+node_dist=1.022
+angle_error=0.129
+Robot: x=2.211, z=3.148
+angle=6.107
+Target node: F
+node_dist=1.008
+angle_error=0.107
+Robot: x=2.225, z=3.150
+angle=6.127
+Target node: F
+node_dist=0.995
+angle_error=0.088
+Robot: x=2.239, z=3.152
+angle=6.144
+Target node: F
+node_dist=0.981
+angle_error=0.073
+Robot: x=2.253, z=3.154
+angle=6.157
+Target node: F
+node_dist=0.967
+angle_error=0.060
+Robot: x=2.267, z=3.156
+angle=6.168
+Target node: F
+node_dist=0.953
+angle_error=0.050
+Robot: x=2.281, z=3.157
+angle=6.178
+Target node: F
+node_dist=0.939
+angle_error=0.041
+Robot: x=2.295, z=3.159
+angle=6.185
+Target node: F
+node_dist=0.925
+angle_error=0.034
+Robot: x=2.308, z=3.160
+angle=6.192
+Target node: F
+node_dist=0.911
+angle_error=0.028
+Robot: x=2.322, z=3.161
+angle=6.197
+Target node: F
+node_dist=0.897
+angle_error=0.023
+Robot: x=2.336, z=3.162
+angle=6.201
+Target node: F
+node_dist=0.883
+angle_error=0.019
+Robot: x=2.350, z=3.164
+angle=6.205
+Target node: F
+node_dist=0.869
+angle_error=0.016
+Robot: x=2.364, z=3.165
+angle=6.208
+Target node: F
+node_dist=0.855
+angle_error=0.013
+Robot: x=2.378, z=3.166
+angle=6.210
+Target node: F
+node_dist=0.841
+angle_error=0.011
+Robot: x=2.392, z=3.167
+angle=6.213
+Target node: F
+node_dist=0.827
+angle_error=0.009
+Robot: x=2.406, z=3.168
+angle=6.214
+Target node: F
+node_dist=0.813
+angle_error=0.008
+Robot: x=2.420, z=3.169
+angle=6.216
+Target node: F
+node_dist=0.799
+angle_error=0.006
+Robot: x=2.434, z=3.170
+angle=6.217
+Target node: F
+node_dist=0.785
+angle_error=0.005
+Robot: x=2.448, z=3.170
+angle=6.218
+Target node: F
+node_dist=0.771
+angle_error=0.004
+Robot: x=2.462, z=3.171
+angle=6.219
+Target node: F
+node_dist=0.757
+angle_error=0.004
+Robot: x=2.476, z=3.172
+angle=6.219
+Target node: F
+node_dist=0.743
+angle_error=0.003
+Robot: x=2.490, z=3.173
+angle=6.220
+Target node: F
+node_dist=0.729
+angle_error=0.002
+Robot: x=2.504, z=3.174
+angle=6.220
+Target node: F
+node_dist=0.715
+angle_error=0.002
+Robot: x=2.518, z=3.175
+angle=6.221
+Target node: F
+node_dist=0.701
+angle_error=0.002
+Robot: x=2.532, z=3.176
+angle=6.221
+Target node: F
+node_dist=0.687
+angle_error=0.001
+Robot: x=2.545, z=3.177
+angle=6.221
+Target node: F
+node_dist=0.673
+angle_error=0.001
+Robot: x=2.559, z=3.177
+angle=6.221
+Target node: F
+node_dist=0.659
+angle_error=0.001
+Robot: x=2.573, z=3.178
+angle=6.222
+Target node: F
+node_dist=0.645
+angle_error=0.001
+Robot: x=2.587, z=3.179
+angle=6.222
+Target node: F
+node_dist=0.631
+angle_error=0.001
+Robot: x=2.601, z=3.180
+angle=6.222
+Target node: F
+node_dist=0.617
+angle_error=0.001
+Robot: x=2.615, z=3.181
+angle=6.222
+Target node: F
+node_dist=0.603
+angle_error=0.000
+Robot: x=2.629, z=3.182
+angle=6.222
+Target node: F
+node_dist=0.589
+angle_error=0.000
+Robot: x=2.643, z=3.183
+angle=6.222
+Target node: F
+node_dist=0.575
+angle_error=0.000
+Robot: x=2.657, z=3.183
+angle=6.222
+Target node: F
+node_dist=0.561
+angle_error=0.000
+Robot: x=2.671, z=3.184
+angle=6.222
+Target node: F
+node_dist=0.547
+angle_error=0.000
+Robot: x=2.685, z=3.185
+angle=6.222
+Target node: F
+node_dist=0.533
+angle_error=0.000
+Robot: x=2.699, z=3.186
+angle=6.222
+Target node: F
+node_dist=0.520
+angle_error=0.000
+Robot: x=2.713, z=3.187
+angle=6.222
+Target node: F
+node_dist=0.506
+angle_error=0.000
+Robot: x=2.727, z=3.188
+angle=6.222
+Target node: F
+node_dist=0.492
+angle_error=0.000
+Robot: x=2.741, z=3.189
+angle=6.222
+Target node: F
+node_dist=0.478
+angle_error=0.000
+Robot: x=2.755, z=3.189
+angle=6.222
+Target node: F
+node_dist=0.464
+angle_error=0.000
+Robot: x=2.769, z=3.190
+angle=6.223
+Target node: F
+node_dist=0.450
+angle_error=0.000
+Robot: x=2.783, z=3.191
+angle=6.223
+Target node: F
+node_dist=0.436
+angle_error=0.000
+Robot: x=2.797, z=3.192
+angle=6.223
+Target node: F
+node_dist=0.422
+angle_error=0.000
+Robot: x=2.811, z=3.193
+angle=6.223
+Target node: F
+node_dist=0.408
+angle_error=0.000
+Robot: x=2.824, z=3.194
+angle=6.223
+Target node: F
+node_dist=0.394
+angle_error=0.000
+Robot: x=2.838, z=3.195
+angle=6.223
+Target node: F
+node_dist=0.380
+angle_error=0.000
+Robot: x=2.852, z=3.195
+angle=6.223
+Target node: F
+node_dist=0.366
+angle_error=0.000
+Robot: x=2.866, z=3.196
+angle=6.223
+Target node: F
+node_dist=0.352
+angle_error=0.000
+Robot: x=2.880, z=3.197
+angle=6.223
+Target node: F
+node_dist=0.338
+angle_error=0.000
+Robot: x=2.894, z=3.198
+angle=6.223
+Target node: F
+node_dist=0.324
+angle_error=0.000
+Robot: x=2.908, z=3.199
+angle=6.223
+Target node: F
+node_dist=0.310
+angle_error=0.000
+Robot: x=2.922, z=3.200
+angle=6.223
+Target node: F
+node_dist=0.296
+angle_error=0.000
+Robot: x=2.936, z=3.200
+angle=6.223
+Target node: F
+node_dist=0.282
+angle_error=0.000
+Robot: x=2.950, z=3.201
+angle=6.223
+Target node: F
+node_dist=0.268
+angle_error=0.000
+Robot: x=2.964, z=3.202
+angle=6.223
+Target node: F
+node_dist=0.254
+angle_error=0.000
+Robot: x=2.978, z=3.203
+angle=6.223
+Target node: F
+node_dist=0.240
+angle_error=0.000
+Robot: x=2.992, z=3.204
+angle=6.223
+Target node: F
+node_dist=0.226
+angle_error=0.000
+Robot: x=3.006, z=3.205
+angle=6.223
+Target node: F
+node_dist=0.212
+angle_error=0.000
+Robot: x=3.020, z=3.206
+angle=6.223
+Robot: x=3.020, z=3.206
+angle=6.223
+Target node: G
+node_dist=0.606
+angle_error=1.299
+Robot: x=3.024, z=3.206
+angle=6.269
+Target node: G
+node_dist=0.605
+angle_error=1.260
+Robot: x=3.029, z=3.206
+angle=6.316
+Target node: G
+node_dist=0.603
+angle_error=1.221
+Robot: x=3.034, z=3.205
+angle=6.362
+Target node: G
+node_dist=0.602
+angle_error=1.181
+Robot: x=3.038, z=3.205
+angle=6.409
+Target node: G
+node_dist=0.600
+angle_error=1.142
+Robot: x=3.043, z=3.204
+angle=6.456
+Target node: G
+node_dist=0.598
+angle_error=1.102
+Robot: x=3.048, z=3.203
+angle=6.502
+Target node: G
+node_dist=0.596
+angle_error=1.063
+Robot: x=3.052, z=3.202
+angle=6.549
+Target node: G
+node_dist=0.593
+angle_error=1.023
+Robot: x=3.057, z=3.201
+angle=6.595
+Target node: G
+node_dist=0.591
+angle_error=0.983
+Robot: x=3.061, z=3.199
+angle=6.642
+Target node: G
+node_dist=0.588
+angle_error=0.943
+Robot: x=3.065, z=3.198
+angle=6.688
+Target node: G
+node_dist=0.585
+angle_error=0.902
+Robot: x=3.070, z=3.196
+angle=6.735
+Target node: G
+node_dist=0.582
+angle_error=0.862
+Robot: x=3.074, z=3.194
+angle=6.782
+Target node: G
+node_dist=0.579
+angle_error=0.821
+Robot: x=3.078, z=3.191
+angle=6.828
+Target node: G
+node_dist=0.576
+angle_error=0.781
+Robot: x=3.082, z=3.189
+angle=6.875
+Target node: G
+node_dist=0.573
+angle_error=0.740
+Robot: x=3.085, z=3.186
+angle=6.921
+Target node: G
+node_dist=0.569
+angle_error=0.698
+Robot: x=3.089, z=3.183
+angle=6.968
+Target node: G
+node_dist=0.565
+angle_error=0.657
+Robot: x=3.093, z=3.180
+angle=7.015
+Target node: G
+node_dist=0.562
+angle_error=0.615
+Robot: x=3.096, z=3.177
+angle=7.061
+Target node: G
+node_dist=0.558
+angle_error=0.573
+Robot: x=3.099, z=3.174
+angle=7.108
+Target node: G
+node_dist=0.554
+angle_error=0.531
+Robot: x=3.102, z=3.170
+angle=7.154
+Target node: G
+node_dist=0.550
+angle_error=0.489
+Robot: x=3.111, z=3.159
+angle=7.201
+Target node: G
+node_dist=0.537
+angle_error=0.454
+Robot: x=3.119, z=3.148
+angle=7.248
+Target node: G
+node_dist=0.525
+angle_error=0.418
+Robot: x=3.127, z=3.136
+angle=7.294
+Target node: G
+node_dist=0.512
+angle_error=0.382
+Robot: x=3.134, z=3.124
+angle=7.341
+Target node: G
+node_dist=0.499
+angle_error=0.345
+Robot: x=3.141, z=3.112
+angle=7.387
+Target node: G
+node_dist=0.485
+angle_error=0.308
+Robot: x=3.147, z=3.099
+angle=7.434
+Target node: G
+node_dist=0.472
+angle_error=0.270
+Robot: x=3.152, z=3.086
+angle=7.480
+Target node: G
+node_dist=0.459
+angle_error=0.231
+Robot: x=3.157, z=3.073
+angle=7.523
+Target node: G
+node_dist=0.445
+angle_error=0.194
+Robot: x=3.161, z=3.060
+angle=7.560
+Target node: G
+node_dist=0.431
+angle_error=0.164
+Robot: x=3.165, z=3.047
+angle=7.590
+Target node: G
+node_dist=0.417
+angle_error=0.138
+Robot: x=3.169, z=3.033
+angle=7.616
+Target node: G
+node_dist=0.403
+angle_error=0.117
+Robot: x=3.172, z=3.019
+angle=7.638
+Target node: G
+node_dist=0.390
+angle_error=0.099
+Robot: x=3.175, z=3.006
+angle=7.656
+Target node: G
+node_dist=0.376
+angle_error=0.084
+Robot: x=3.177, z=2.992
+angle=7.672
+Target node: G
+node_dist=0.362
+angle_error=0.071
+Robot: x=3.180, z=2.978
+angle=7.685
+Target node: G
+node_dist=0.348
+angle_error=0.060
+Robot: x=3.182, z=2.964
+angle=7.696
+time=1792613128.4841266 Pos: [3.18411365 0.         2.95060335] angle 7.705565081716969
+time=1792613128.5406826 Pos: [3.18612386 0.         2.93677247] angle 7.713735591547735
+time=1792613128.5941572 Pos: [3.1880292  0.         2.92292674] angle 7.72072197294993
+time=1792613128.6497474 Pos: [3.18984467 0.         2.90906894] angle 7.726709706946784
+time=1792613128.7033744 Pos: [3.19158299 0.         2.89520124] angle 7.731854619898022
+time=1792613128.7581036 Pos: [3.19325487 0.         2.88132536] angle 7.736287769792953
+time=1792613128.811857 Pos: [3.1948694 0.        2.8674427] angle 7.7401195248739825
+time=1792613128.8665714 Pos: [3.19643425 0.         2.85355435] angle 7.743442972941154
+time=1792613128.9249804 Pos: [3.19795592 0.         2.8396612 ] angle 7.746336776887265
+time=1792613128.9786222 Pos: [3.1994399  0.         2.82576397] angle 7.748867573615395
+time=1792613129.0341232 Pos: [3.20003642 0.         2.82114399] angle 7.702280105644279
+time=1792613129.086977 Pos: [3.20084745 0.         2.81655681] angle 7.655692637673163
+time=1792613129.13848 Pos: [3.20187123 0.         2.81201238] angle 7.6091051697020475
+time=1792613129.1929483 Pos: [3.20310554 0.         2.80752055] angle 7.562517701730932
+time=1792613129.24742 Pos: [3.20454769 0.         2.80309109] angle 7.515930233759816
+time=1792613129.3003423 Pos: [3.20619456 0.         2.79873358] angle 7.4693427657887
+time=1792613129.3511455 Pos: [3.20804258 0.         2.79445751] angle 7.422755297817584
+time=1792613129.4030173 Pos: [3.21008773 0.         2.79027213] angle 7.376167829846469
+time=1792613129.4525034 Pos: [3.21232557 0.         2.78618654] angle 7.329580361875353
+time=1792613129.5017352 Pos: [3.21475126 0.         2.78220961] angle 7.282992893904237
+time=1792613129.5575938 Pos: [3.21735952 0.         2.77834995] angle 7.236405425933121
+time=1792613129.6111221 Pos: [3.2201447  0.         2.77461595] angle 7.189817957962005
+time=1792613129.6621869 Pos: [3.22310076 0.         2.7710157 ] angle 7.14323048999089
+time=1792613129.7163801 Pos: [3.22622127 0.         2.76755703] angle 7.096643022019774
+time=1792613129.7693703 Pos: [3.22949947 0.         2.76424744] angle 7.050055554048658
+time=1792613129.8206654 Pos: [3.23292824 0.         2.7610941 ] angle 7.003468086077542
+time=1792613129.8718505 Pos: [3.24364395 0.         2.7521234 ] angle 6.956880618106426
+time=1792613129.9245656 Pos: [3.2547658  0.         2.74366147] angle 6.910293150135311
+time=1792613129.9745874 Pos: [3.26626967 0.         2.73572667] angle 6.863705682164195
+time=1792613130.0419717 Pos: [3.27813058 0.         2.72833622] angle 6.817118214193079
+time=1792613130.0965562 Pos: [3.2903228  0.         2.72150616] angle 6.770530746221963
+time=1792613130.1454496 Pos: [3.30281987 0.         2.71525131] angle 6.7239432782508475
+time=1792613130.1951957 Pos: [3.31559468 0.         2.70958524] angle 6.677355810279732
+time=1792613130.244341 Pos: [3.32861354 0.         2.70450462] angle 6.633161641187376
+time=1792613130.2950983 Pos: [3.34182847 0.         2.69995725] angle 6.596043571185312
+time=1792613130.3460739 Pos: [3.35519122 0.         2.69586381] angle 6.564837569215965
+time=1792613130.3950682 Pos: [3.36866623 0.         2.69215595] angle 6.53857474666156
+time=1792613130.4443066 Pos: [3.38222711 0.         2.68877513] angle 6.516447996111897
+time=1792613130.494435 Pos: [3.39585419 0.         2.68567155] angle 6.497784486892996
+time=1792613130.5471637 Pos: [3.40953273 0.         2.68280297] angle 6.482022940996257
+time=1792613130.5978234 Pos: [3.42325159 0.         2.68013362] angle 6.468694827989671
+time=1792613130.6465347 Pos: [3.43700229 0.         2.67763331] angle 6.457408783199244
+time=1792613130.6945202 Pos: [3.45077833 0.         2.67527653] angle 6.447837683409892
+time=1792613130.742926 Pos: [3.46457471 0.         2.67304176] angle 6.439707917650612
+time=1792613130.7935157 Pos: [3.47838752 0.         2.67091085] angle 6.432790473621815
+time=1792613130.8414874 Pos: [3.49221371 0.         2.66886849] angle 6.426893527517321
+time=1792613130.8896477 Pos: [3.50605086 0.         2.66690174] angle 6.4218562797156205
+time=1792613130.938227 Pos: [3.51989706 0.         2.6649997 ] angle 6.417543823569187
+time=1792613130.9875593 Pos: [3.53375077 0.         2.66315315] angle 6.413842871230949
+time=1792613131.045977 Pos: [3.54761076 0.         2.66135431] angle 6.410658190624671
+time=1792613131.098507 Pos: [3.56147602 0.         2.65959659] angle 6.407909632474317
+time=1792613131.150091 Pos: [3.57534575 0.         2.65787443] angle 6.405529646692948
+time=1792613131.2002134 Pos: [3.58921928 0.         2.65618313] angle 6.403461204131355
+time=1792613131.2503233 Pos: [3.60309606 0.         2.6545187 ] angle 6.401656053265735
+time=1792613131.2981327 Pos: [3.61697563 0.         2.65287778] angle 6.4000732522652894
+time=1792613131.3475206 Pos: [3.62158826 0.         2.6522269 ] angle 6.446660720236405
+time=1792613131.3969014 Pos: [3.62616558 0.         2.65136192] angle 6.493248188207521
+time=1792613131.4454107 Pos: [3.63069764 0.         2.65028471] angle 6.539835656178637
+time=1792613131.493787 Pos: [3.63517462 0.         2.6489976 ] angle 6.586423124149753
+time=1792613131.5470777 Pos: [3.6395868 0.        2.6475034] angle 6.633010592120868
+time=1792613131.603068 Pos: [3.64392461 0.         2.64580534] angle 6.679598060091984
+time=1792613131.6540415 Pos: [3.64817864 0.         2.64390711] angle 6.7261855280631
+time=1792613131.703486 Pos: [3.65233964 0.         2.64181282] angle 6.772772996034216
+time=1792613131.755161 Pos: [3.6563986  0.         2.63952703] angle 6.819360464005332
+time=1792613131.8049095 Pos: [3.6603467  0.         2.63705469] angle 6.865947931976447
+time=1792613131.855689 Pos: [3.66417538 0.         2.63440116] angle 6.912535399947563
+time=1792613131.9035728 Pos: [3.66787634 0.         2.63157221] angle 6.959122867918679
+time=1792613131.954557 Pos: [3.67144153 0.         2.62857398] angle 7.005710335889795
+time=1792613132.0058858 Pos: [3.67486322 0.         2.62541296] angle 7.0522978038609105
+time=1792613132.0569582 Pos: [3.67813399 0.         2.62209602] angle 7.098885271832026
+time=1792613132.1228392 Pos: [3.68124673 0.         2.61863036] angle 7.145472739803142
+time=1792613132.1776135 Pos: [3.68419471 0.         2.6150235 ] angle 7.192060207774258
+time=1792613132.2263465 Pos: [3.68697151 0.         2.61128327] angle 7.238647675745374
+time=1792613132.2753196 Pos: [3.68957111 0.         2.60741777] angle 7.2852351437164895
+time=1792613132.3244772 Pos: [3.69198787 0.         2.6034354 ] angle 7.331822611687605
+time=1792613132.3752475 Pos: [3.69867391 0.         2.59116361] angle 7.378410079658721
+time=1792613132.427781 Pos: [3.70478119 0.         2.57859376] angle 7.424997547629837
+time=1792613132.47816 Pos: [3.71029646 0.         2.56575313] angle 7.471585015600953
+time=1792613132.5290475 Pos: [3.71520775 0.         2.55266959] angle 7.5181724835720685
+time=1792613132.580627 Pos: [3.7195044  0.         2.53937151] angle 7.564759951543184
+time=1792613132.6339855 Pos: [3.72319053 0.         2.52589133] angle 7.609357593645782
+time=1792613132.6842227 Pos: [3.7263264  0.         2.51227223] angle 7.645984262815606
+time=1792613132.7349389 Pos: [3.72900639 0.         2.49855588] angle 7.676067691988963
+time=1792613132.7848275 Pos: [3.73130966 0.         2.4847711 ] angle 7.7007791927273015
+time=1792613132.8351233 Pos: [3.73330214 0.         2.47093785] angle 7.721079904388589
+time=1792613132.8848162 Pos: [3.73503854 0.         2.45707006] angle 7.7377586333052095
+time=1792613132.936707 Pos: [3.73656407 0.         2.44317744] angle 7.751462838269281
+time=1792613132.9905953 Pos: [3.73791608 0.         2.42926682] angle 7.762724019349735
+time=1792613133.044535 Pos: [3.73912533 0.         2.41534304] angle 7.771978530084438
+time=1792613133.0956533 Pos: [3.74021716 0.         2.40140955] angle 7.779584643499565
+time=1792613133.1493573 Pos: [3.74121241 0.         2.38746881] angle 7.78583654960073
+time=1792613133.1988678 Pos: [3.74212825 0.         2.37352262] angle 7.790975838169155
+time=1792613133.2511036 Pos: [3.74297879 0.         2.3595723 ] angle 7.795200920007367
+time=1792613133.2994487 Pos: [3.74377561 0.         2.3456188 ] angle 7.798674757683089
+time=1792613133.35039 Pos: [3.74452827 0.         2.33166284] angle 7.801531209763569
+Target node: G
+node_dist=0.334
+angle_error=0.051
+Robot: x=3.184, z=2.951
+angle=7.706
+Target node: G
+node_dist=0.320
+angle_error=0.044
+Robot: x=3.186, z=2.937
+angle=7.714
+Target node: G
+node_dist=0.306
+angle_error=0.037
+Robot: x=3.188, z=2.923
+angle=7.721
+Target node: G
+node_dist=0.292
+angle_error=0.032
+Robot: x=3.190, z=2.909
+angle=7.727
+Target node: G
+node_dist=0.278
+angle_error=0.028
+Robot: x=3.192, z=2.895
+angle=7.732
+Target node: G
+node_dist=0.264
+angle_error=0.024
+Robot: x=3.193, z=2.881
+angle=7.736
+Target node: G
+node_dist=0.250
+angle_error=0.021
+Robot: x=3.195, z=2.867
+angle=7.740
+Target node: G
+node_dist=0.236
+angle_error=0.018
+Robot: x=3.196, z=2.854
+angle=7.743
+Target node: G
+node_dist=0.222
+angle_error=0.016
+Robot: x=3.198, z=2.840
+angle=7.746
+Target node: G
+node_dist=0.208
+angle_error=0.014
+Robot: x=3.199, z=2.826
+angle=7.749
+Robot: x=3.199, z=2.826
+angle=7.749
+Target node: H
+node_dist=0.633
+angle_error=-1.156
+Robot: x=3.200, z=2.821
+angle=7.702
+Target node: H
+node_dist=0.631
+angle_error=-1.116
+Robot: x=3.201, z=2.817
+angle=7.656
+Target node: H
+node_dist=0.629
+angle_error=-1.076
+Robot: x=3.202, z=2.812
+angle=7.609
+Target node: H
+node_dist=0.627
+angle_error=-1.035
+Robot: x=3.203, z=2.808
+angle=7.563
+Target node: H
+node_dist=0.624
+angle_error=-0.995
+Robot: x=3.205, z=2.803
+angle=7.516
+Target node: H
+node_dist=0.622
+angle_error=-0.955
+Robot: x=3.206, z=2.799
+angle=7.469
+Target node: H
+node_dist=0.619
+angle_error=-0.914
+Robot: x=3.208, z=2.794
+angle=7.423
+Target node: H
+node_dist=0.616
+angle_error=-0.874
+Robot: x=3.210, z=2.790
+angle=7.376
+Target node: H
+node_dist=0.613
+angle_error=-0.833
+Robot: x=3.212, z=2.786
+angle=7.330
+Target node: H
+node_dist=0.610
+angle_error=-0.792
+Robot: x=3.215, z=2.782
+angle=7.283
+Target node: H
+node_dist=0.607
+angle_error=-0.750
+Robot: x=3.217, z=2.778
+angle=7.236
+Target node: H
+node_dist=0.603
+angle_error=-0.709
+Robot: x=3.220, z=2.775
+angle=7.190
+Target node: H
+node_dist=0.599
+angle_error=-0.667
+Robot: x=3.223, z=2.771
+angle=7.143
+Target node: H
+node_dist=0.596
+angle_error=-0.625
+Robot: x=3.226, z=2.768
+angle=7.097
+Target node: H
+node_dist=0.592
+angle_error=-0.583
+Robot: x=3.229, z=2.764
+angle=7.050
+Target node: H
+node_dist=0.588
+angle_error=-0.541
+Robot: x=3.233, z=2.761
+angle=7.003
+Target node: H
+node_dist=0.584
+angle_error=-0.498
+Robot: x=3.244, z=2.752
+angle=6.957
+Target node: H
+node_dist=0.572
+angle_error=-0.463
+Robot: x=3.255, z=2.744
+angle=6.910
+Target node: H
+node_dist=0.559
+angle_error=-0.427
+Robot: x=3.266, z=2.736
+angle=6.864
+Target node: H
+node_dist=0.546
+angle_error=-0.390
+Robot: x=3.278, z=2.728
+angle=6.817
+Target node: H
+node_dist=0.533
+angle_error=-0.353
+Robot: x=3.290, z=2.722
+angle=6.771
+Target node: H
+node_dist=0.520
+angle_error=-0.315
+Robot: x=3.303, z=2.715
+angle=6.724
+Target node: H
+node_dist=0.506
+angle_error=-0.277
+Robot: x=3.316, z=2.710
+angle=6.677
+Target node: H
+node_dist=0.493
+angle_error=-0.237
+Robot: x=3.329, z=2.705
+angle=6.633
+Target node: H
+node_dist=0.479
+angle_error=-0.199
+Robot: x=3.342, z=2.700
+angle=6.596
+Target node: H
+node_dist=0.466
+angle_error=-0.167
+Robot: x=3.355, z=2.696
+angle=6.565
+Target node: H
+node_dist=0.452
+angle_error=-0.141
+Robot: x=3.369, z=2.692
+angle=6.539
+Target node: H
+node_dist=0.438
+angle_error=-0.119
+Robot: x=3.382, z=2.689
+angle=6.516
+Target node: H
+node_dist=0.424
+angle_error=-0.100
+Robot: x=3.396, z=2.686
+angle=6.498
+Target node: H
+node_dist=0.410
+angle_error=-0.085
+Robot: x=3.410, z=2.683
+angle=6.482
+Target node: H
+node_dist=0.396
+angle_error=-0.072
+Robot: x=3.423, z=2.680
+angle=6.469
+Target node: H
+node_dist=0.382
+angle_error=-0.061
+Robot: x=3.437, z=2.678
+angle=6.457
+Target node: H
+node_dist=0.368
+angle_error=-0.051
+Robot: x=3.451, z=2.675
+angle=6.448
+Target node: H
+node_dist=0.354
+angle_error=-0.044
+Robot: x=3.465, z=2.673
+angle=6.440
+Target node: H
+node_dist=0.340
+angle_error=-0.037
+Robot: x=3.478, z=2.671
+angle=6.433
+Target node: H
+node_dist=0.326
+angle_error=-0.032
+Robot: x=3.492, z=2.669
+angle=6.427
+Target node: H
+node_dist=0.312
+angle_error=-0.027
+Robot: x=3.506, z=2.667
+angle=6.422
+Target node: H
+node_dist=0.298
+angle_error=-0.023
+Robot: x=3.520, z=2.665
+angle=6.418
+Target node: H
+node_dist=0.284
+angle_error=-0.020
+Robot: x=3.534, z=2.663
+angle=6.414
+Target node: H
+node_dist=0.270
+angle_error=-0.017
+Robot: x=3.548, z=2.661
+angle=6.411
+Target node: H
+node_dist=0.257
+angle_error=-0.015
+Robot: x=3.561, z=2.660
+angle=6.408
+Target node: H
+node_dist=0.243
+angle_error=-0.013
+Robot: x=3.575, z=2.658
+angle=6.406
+Target node: H
+node_dist=0.229
+angle_error=-0.011
+Robot: x=3.589, z=2.656
+angle=6.403
+Target node: H
+node_dist=0.215
+angle_error=-0.010
+Robot: x=3.603, z=2.655
+angle=6.402
+Target node: H
+node_dist=0.201
+angle_error=-0.008
+Robot: x=3.617, z=2.653
+angle=6.400
+Robot: x=3.617, z=2.653
+angle=6.400
+Target node: J
+node_dist=1.785
+angle_error=1.350
+Robot: x=3.622, z=2.652
+angle=6.447
+Target node: J
+node_dist=1.784
+angle_error=1.306
+Robot: x=3.626, z=2.651
+angle=6.493
+Target node: J
+node_dist=1.783
+angle_error=1.262
+Robot: x=3.631, z=2.650
+angle=6.540
+Target node: J
+node_dist=1.781
+angle_error=1.218
+Robot: x=3.635, z=2.649
+angle=6.586
+Target node: J
+node_dist=1.779
+angle_error=1.173
+Robot: x=3.640, z=2.648
+angle=6.633
+Target node: J
+node_dist=1.777
+angle_error=1.129
+Robot: x=3.644, z=2.646
+angle=6.680
+Target node: J
+node_dist=1.775
+angle_error=1.085
+Robot: x=3.648, z=2.644
+angle=6.726
+Target node: J
+node_dist=1.773
+angle_error=1.041
+Robot: x=3.652, z=2.642
+angle=6.773
+Target node: J
+node_dist=1.771
+angle_error=0.996
+Robot: x=3.656, z=2.640
+angle=6.819
+Target node: J
+node_dist=1.768
+angle_error=0.952
+Robot: x=3.660, z=2.637
+angle=6.866
+Target node: J
+node_dist=1.765
+angle_error=0.907
+Robot: x=3.664, z=2.634
+angle=6.913
+Target node: J
+node_dist=1.762
+angle_error=0.863
+Robot: x=3.668, z=2.632
+angle=6.959
+Target node: J
+node_dist=1.759
+angle_error=0.818
+Robot: x=3.671, z=2.629
+angle=7.006
+Target node: J
+node_dist=1.756
+angle_error=0.774
+Robot: x=3.675, z=2.625
+angle=7.052
+Target node: J
+node_dist=1.753
+angle_error=0.729
+Robot: x=3.678, z=2.622
+angle=7.099
+Target node: J
+node_dist=1.749
+angle_error=0.684
+Robot: x=3.681, z=2.619
+angle=7.145
+Target node: J
+node_dist=1.745
+angle_error=0.639
+Robot: x=3.684, z=2.615
+angle=7.192
+Target node: J
+node_dist=1.742
+angle_error=0.594
+Robot: x=3.687, z=2.611
+angle=7.239
+Target node: J
+node_dist=1.738
+angle_error=0.549
+Robot: x=3.690, z=2.607
+angle=7.285
+Target node: J
+node_dist=1.734
+angle_error=0.504
+Robot: x=3.692, z=2.603
+angle=7.332
+Target node: J
+node_dist=1.729
+angle_error=0.458
+Robot: x=3.699, z=2.591
+angle=7.378
+Target node: J
+node_dist=1.717
+angle_error=0.415
+Robot: x=3.705, z=2.579
+angle=7.425
+Target node: J
+node_dist=1.704
+angle_error=0.372
+Robot: x=3.710, z=2.566
+angle=7.472
+Target node: J
+node_dist=1.691
+angle_error=0.328
+Robot: x=3.715, z=2.553
+angle=7.518
+Target node: J
+node_dist=1.677
+angle_error=0.284
+Robot: x=3.720, z=2.539
+angle=7.565
+Target node: J
+node_dist=1.664
+angle_error=0.239
+Robot: x=3.723, z=2.526
+angle=7.609
+Target node: J
+node_dist=1.650
+angle_error=0.197
+Robot: x=3.726, z=2.512
+angle=7.646
+Target node: J
+node_dist=1.637
+angle_error=0.161
+Robot: x=3.729, z=2.499
+angle=7.676
+Target node: J
+node_dist=1.623
+angle_error=0.133
+Robot: x=3.731, z=2.485
+angle=7.701
+Target node: J
+node_dist=1.609
+angle_error=0.109
+Robot: x=3.733, z=2.471
+angle=7.721
+Target node: J
+node_dist=1.595
+angle_error=0.090
+Robot: x=3.735, z=2.457
+angle=7.738
+Target node: J
+node_dist=1.581
+angle_error=0.074
+Robot: x=3.737, z=2.443
+angle=7.751
+Target node: J
+node_dist=1.567
+angle_error=0.060
+Robot: x=3.738, z=2.429
+angle=7.763
+Target node: J
+node_dist=1.553
+angle_error=0.050
+Robot: x=3.739, z=2.415
+angle=7.772
+Target node: J
+node_dist=1.539
+angle_error=0.041
+Robot: x=3.740, z=2.401
+angle=7.780
+Target node: J
+node_dist=1.525
+angle_error=0.034
+Robot: x=3.741, z=2.387
+angle=7.786
+Target node: J
+node_dist=1.511
+angle_error=0.028
+Robot: x=3.742, z=2.374
+angle=7.791
+Target node: J
+node_dist=1.497
+angle_error=0.023
+Robot: x=3.743, z=2.360
+angle=7.795
+Target node: J
+node_dist=1.483
+angle_error=0.019
+Robot: x=3.744, z=2.346
+angle=7.799
+Target node: J
+node_dist=1.469
+angle_error=0.015
+Robot: x=3.745, z=2.332
+angle=7.802
+time=1792613133.4014144 Pos: [3.7452446  0.         2.31770498] angle 7.803880237692243
+time=1792613133.4501278 Pos: [3.74593105 0.         2.3037456 ] angle 7.805812179570783
+time=1792613133.4993758 Pos: [3.74659293 0.         2.28978505] angle 7.807401258343956
+time=1792613133.5544226 Pos: [3.74723458 0.         2.27582354] angle 7.808708461759182
+time=1792613133.6115973 Pos: [3.74785961 0.         2.26186129] angle 7.809783906780266
+time=1792613133.662721 Pos: [3.74847095 0.         2.24789842] angle 7.8106687808908575
+time=1792613133.7127457 Pos: [3.74907103 0.         2.23393507] angle 7.811396936123513
+time=1792613133.764392 Pos: [3.74966184 0.         2.21997133] angle 7.811996198036747
+time=1792613133.8147497 Pos: [3.75024502 0.         2.20600726] angle 7.8124894406967975
+time=1792613133.866441 Pos: [3.75082192 0.         2.19204293] angle 7.812895469561938
+time=1792613133.9156265 Pos: [3.75139366 0.         2.17807839] angle 7.813229746653691
+time=1792613133.9684632 Pos: [3.75196113 0.         2.16411367] angle 7.813504986235233
+time=1792613134.0194323 Pos: [3.75252511 0.         2.15014882] angle 7.813731644159848
+time=1792613134.0723946 Pos: [3.7530862  0.         2.13618384] angle 7.813918319902506
+time=1792613134.1209042 Pos: [3.75364491 0.         2.12221877] angle 7.814072086882483
+time=1792613134.170463 Pos: [3.75420166 0.         2.10825363] angle 7.814198763890466
+time=1792613134.219939 Pos: [3.7547568  0.         2.09428842] angle 7.814303138140242
+time=1792613134.270122 Pos: [3.75531061 0.         2.08032315] angle 7.814389148582777
+time=1792613134.3250704 Pos: [3.75586333 0.         2.06635785] angle 7.814460036575525
+time=1792613134.3751557 Pos: [3.75641514 0.         2.0523925 ] angle 7.814518469731639
+time=1792613134.4261186 Pos: [3.7569662  0.         2.03842713] angle 7.814566643732556
+time=1792613134.47919 Pos: [3.75751666 0.         2.02446174] angle 7.814606366032867
+time=1792613134.5278754 Pos: [3.7580666  0.         2.01049632] angle 7.814639124684534
+time=1792613134.5777135 Pos: [3.75861613 0.         1.99653089] angle 7.814666144931364
+time=1792613134.6267571 Pos: [3.75916532 0.         1.98256544] angle 7.814688435751566
+time=1792613134.675759 Pos: [3.75971422 0.         1.96859998] angle 7.814706828137532
+time=1792613134.7250772 Pos: [3.76026289 0.         1.95463452] angle 7.814722006583049
+time=1792613134.7767086 Pos: [3.76081136 0.         1.94066904] angle 7.814734534985822
+time=1792613134.829159 Pos: [3.76135968 0.         1.92670356] angle 7.814744877958354
+time=1792613134.8799121 Pos: [3.76190786 0.         1.91273807] angle 7.814753418362772
+time=1792613134.9309704 Pos: [3.76245593 0.         1.89877258] angle 7.814760471740374
+time=1792613134.980385 Pos: [3.76300391 0.         1.88480709] angle 7.814766298187231
+time=1792613135.0335488 Pos: [3.76355182 0.         1.87084159] angle 7.814771112128942
+time=1792613135.0914896 Pos: [3.76409967 0.         1.8568761 ] angle 7.814775090366944
+time=1792613135.140301 Pos: [3.76464747 0.         1.8429106 ] angle 7.814778378703222
+time=1792613135.1898317 Pos: [3.76519522 0.         1.82894509] angle 7.81478109739497
+time=1792613135.238386 Pos: [3.76574294 0.         1.81497959] angle 7.814783345646275
+time=1792613135.286862 Pos: [3.76629063 0.         1.80101408] angle 7.814785205307492
+time=1792613135.3347023 Pos: [3.7668383  0.         1.78704858] angle 7.814786743922821
+time=1792613135.3832762 Pos: [3.76738595 0.         1.77308307] angle 7.814788017240477
+time=1792613135.4332082 Pos: [3.76793358 0.         1.75911756] angle 7.814789071281368
+time=1792613135.4817147 Pos: [3.7684812  0.         1.74515206] angle 7.814789944042771
+time=1792613135.5353768 Pos: [3.76902881 0.         1.73118655] angle 7.814790666904086
+time=1792613135.590082 Pos: [3.7695764  0.         1.71722104] angle 7.8147912657843435
+time=1792613135.6401327 Pos: [3.770124   0.         1.70325553] angle 7.8147917620958935
+time=1792613135.6958256 Pos: [3.77067158 0.         1.68929002] angle 7.814792173532205
+time=1792613135.7483637 Pos: [3.77121916 0.         1.67532451] angle 7.814792514716081
+time=1792613135.798113 Pos: [3.77176673 0.         1.661359  ] angle 7.8147927977376
+time=1792613135.8504906 Pos: [3.7723143  0.         1.64739349] angle 7.814793032590497
+time=1792613135.89884 Pos: [3.77286187 0.         1.63342798] angle 7.814793227541599
+time=1792613135.9490645 Pos: [3.77340944 0.         1.61946247] angle 7.814793389430346
+time=1792613135.9979234 Pos: [3.773957   0.         1.60549696] angle 7.814793523912254
+time=1792613136.0490804 Pos: [3.77450456 0.         1.59153145] angle 7.814793635675292
+time=1792613136.097884 Pos: [3.77505212 0.         1.57756594] angle 7.814793728596585
+time=1792613136.1465416 Pos: [3.77559968 0.         1.56360043] angle 7.814793805886888
+time=1792613136.1948364 Pos: [3.77614724 0.         1.54963492] angle 7.814793870195639
+time=1792613136.242838 Pos: [3.77669479 0.         1.53566941] angle 7.814793923726679
+time=1792613136.2910402 Pos: [3.77724235 0.         1.5217039 ] angle 7.814793968308876
+time=1792613136.3392277 Pos: [3.77778991 0.         1.50773839] angle 7.81479400546071
+time=1792613136.3874085 Pos: [3.77833746 0.         1.49377288] angle 7.814794036450828
+time=1792613136.437841 Pos: [3.77888502 0.         1.47980737] angle 7.814794062321151
+time=1792613136.4893653 Pos: [3.77943257 0.         1.46584186] angle 7.814794083912085
+time=1792613136.5385737 Pos: [3.77998013 0.         1.45187635] angle 7.814794101972992
+time=1792613136.5871463 Pos: [3.78052768 0.         1.43791084] angle 7.8147941170724575
+time=1792613136.636111 Pos: [3.78107523 0.         1.42394533] angle 7.8147941297049535
+time=1792613136.6844854 Pos: [3.78162279 0.         1.40997982] angle 7.81479414014968
+time=1792613136.7337205 Pos: [3.78217034 0.         1.39601431] angle 7.814794148945089
+time=1792613136.7844849 Pos: [3.78271789 0.         1.3820488 ] angle 7.81479415633088
+time=1792613136.8365111 Pos: [3.78326545 0.         1.36808329] angle 7.814794162582329
+time=1792613136.887359 Pos: [3.783813   0.         1.35411778] angle 7.814794167747987
+time=1792613136.9382324 Pos: [3.78436056 0.         1.34015227] angle 7.814794172125724
+time=1792613136.9885244 Pos: [3.78490811 0.         1.32618676] angle 7.814794175872916
+time=1792613137.0416956 Pos: [3.78545566 0.         1.31222125] angle 7.814794179118124
+time=1792613137.0897262 Pos: [3.78600322 0.         1.29825574] angle 7.8147941819677476
+time=1792613137.1377144 Pos: [3.78655077 0.         1.28429022] angle 7.81479418450939
+time=1792613137.1856465 Pos: [3.78709832 0.         1.27032471] angle 7.8147941868157575
+time=1792613137.2343004 Pos: [3.78764588 0.         1.2563592 ] angle 7.814794188947642
+time=1792613137.2839406 Pos: [3.78819343 0.         1.24239369] angle 7.814794190956381
+time=1792613137.335627 Pos: [3.78874098 0.         1.22842818] angle 7.814794192885906
+time=1792613137.385954 Pos: [3.78928853 0.         1.21446267] angle 7.814794194774468
+time=1792613137.4336777 Pos: [3.78983609 0.         1.20049716] angle 7.81479419614185
+time=1792613137.4822176 Pos: [3.79038364 0.         1.18653165] angle 7.814794197607034
+time=1792613137.5303013 Pos: [3.79093119 0.         1.17256614] angle 7.814794198622925
+time=1792613137.5824811 Pos: [3.79147875 0.         1.15860063] angle 7.814794199255126
+time=1792613137.6322224 Pos: [3.7920263  0.         1.14463512] angle 7.8147942020231485
+time=1792613137.6829104 Pos: [3.79257385 0.         1.13066961] angle 7.814794204169893
+time=1792613137.7324495 Pos: [3.79312141 0.         1.1167041 ] angle 7.814794205799498
+time=1792613137.7835798 Pos: [3.79366896 0.         1.10273859] angle 7.814794206994662
+time=1792613137.8350976 Pos: [3.79421651 0.         1.08877308] angle 7.814794207820127
+time=1792613137.8858829 Pos: [3.79476407 0.         1.07480757] angle 7.814794209965749
+time=1792613137.9395006 Pos: [3.7948381  0.         1.07014983] angle 7.861381677936865
+time=1792613137.9900367 Pos: [3.79469514 0.         1.0654937 ] angle 7.90796914590798
+time=1792613138.0416493 Pos: [3.7943355  0.         1.06084928] angle 7.954556613879096
+time=1792613138.0903447 Pos: [3.79375995 0.         1.05622664] angle 8.001144081850212
+time=1792613138.1382408 Pos: [3.79296975 0.         1.05163583] angle 8.047731549821327
+time=1792613138.187207 Pos: [3.79196661 0.         1.0470868 ] angle 8.094319017792442
+time=1792613138.236574 Pos: [3.79075271 0.         1.04258942] angle 8.140906485763557
+time=1792613138.2861757 Pos: [3.78933068 0.         1.03815345] angle 8.187493953734672
+time=1792613138.3337562 Pos: [3.7877036  0.         1.03378852] angle 8.234081421705786
+time=1792613138.3816128 Pos: [3.78587501 0.         1.02950409] angle 8.280668889676901
+time=1792613138.4292161 Pos: [3.78384888 0.         1.02530948] angle 8.327256357648016
+Target node: J
+node_dist=1.455
+angle_error=0.013
+Robot: x=3.745, z=2.318
+angle=7.804
+Target node: J
+node_dist=1.441
+angle_error=0.010
+Robot: x=3.746, z=2.304
+angle=7.806
+Target node: J
+node_dist=1.427
+angle_error=0.009
+Robot: x=3.747, z=2.290
+angle=7.807
+Target node: J
+node_dist=1.413
+angle_error=0.007
+Robot: x=3.747, z=2.276
+angle=7.809
+Target node: J
+node_dist=1.399
+angle_error=0.006
+Robot: x=3.748, z=2.262
+angle=7.810
+Target node: J
+node_dist=1.385
+angle_error=0.005
+Robot: x=3.748, z=2.248
+angle=7.811
+Target node: J
+node_dist=1.371
+angle_error=0.004
+Robot: x=3.749, z=2.234
+angle=7.811
+Target node: J
+node_dist=1.357
+angle_error=0.003
+Robot: x=3.750, z=2.220
+angle=7.812
+Target node: J
+node_dist=1.344
+angle_error=0.003
+Robot: x=3.750, z=2.206
+angle=7.812
+Target node: J
+node_dist=1.330
+angle_error=0.002
+Robot: x=3.751, z=2.192
+angle=7.813
+Target node: J
+node_dist=1.316
+angle_error=0.002
+Robot: x=3.751, z=2.178
+angle=7.813
+Target node: J
+node_dist=1.302
+angle_error=0.001
+Robot: x=3.752, z=2.164
+angle=7.814
+Target node: J
+node_dist=1.288
+angle_error=0.001
+Robot: x=3.753, z=2.150
+angle=7.814
+Target node: J
+node_dist=1.274
+angle_error=0.001
+Robot: x=3.753, z=2.136
+angle=7.814
+Target node: J
+node_dist=1.260
+angle_error=0.001
+Robot: x=3.754, z=2.122
+angle=7.814
+Target node: J
+node_dist=1.246
+angle_error=0.001
+Robot: x=3.754, z=2.108
+angle=7.814
+Target node: J
+node_dist=1.232
+angle_error=0.001
+Robot: x=3.755, z=2.094
+angle=7.814
+Target node: J
+node_dist=1.218
+angle_error=0.000
+Robot: x=3.755, z=2.080
+angle=7.814
+Target node: J
+node_dist=1.204
+angle_error=0.000
+Robot: x=3.756, z=2.066
+angle=7.814
+Target node: J
+node_dist=1.190
+angle_error=0.000
+Robot: x=3.756, z=2.052
+angle=7.815
+Target node: J
+node_dist=1.176
+angle_error=0.000
+Robot: x=3.757, z=2.038
+angle=7.815
+Target node: J
+node_dist=1.162
+angle_error=0.000
+Robot: x=3.758, z=2.024
+angle=7.815
+Target node: J
+node_dist=1.148
+angle_error=0.000
+Robot: x=3.758, z=2.010
+angle=7.815
+Target node: J
+node_dist=1.134
+angle_error=0.000
+Robot: x=3.759, z=1.997
+angle=7.815
+Target node: J
+node_dist=1.120
+angle_error=0.000
+Robot: x=3.759, z=1.983
+angle=7.815
+Target node: J
+node_dist=1.106
+angle_error=0.000
+Robot: x=3.760, z=1.969
+angle=7.815
+Target node: J
+node_dist=1.092
+angle_error=0.000
+Robot: x=3.760, z=1.955
+angle=7.815
+Target node: J
+node_dist=1.078
+angle_error=0.000
+Robot: x=3.761, z=1.941
+angle=7.815
+Target node: J
+node_dist=1.064
+angle_error=0.000
+Robot: x=3.761, z=1.927
+angle=7.815
+Target node: J
+node_dist=1.050
+angle_error=0.000
+Robot: x=3.762, z=1.913
+angle=7.815
+Target node: J
+node_dist=1.036
+angle_error=0.000
+Robot: x=3.762, z=1.899
+angle=7.815
+Target node: J
+node_dist=1.022
+angle_error=0.000
+Robot: x=3.763, z=1.885
+angle=7.815
+Target node: J
+node_dist=1.008
+angle_error=0.000
+Robot: x=3.764, z=1.871
+angle=7.815
+Target node: J
+node_dist=0.994
+angle_error=0.000
+Robot: x=3.764, z=1.857
+angle=7.815
+Target node: J
+node_dist=0.980
+angle_error=0.000
+Robot: x=3.765, z=1.843
+angle=7.815
+Target node: J
+node_dist=0.966
+angle_error=0.000
+Robot: x=3.765, z=1.829
+angle=7.815
+Target node: J
+node_dist=0.952
+angle_error=0.000
+Robot: x=3.766, z=1.815
+angle=7.815
+Target node: J
+node_dist=0.938
+angle_error=0.000
+Robot: x=3.766, z=1.801
+angle=7.815
+Target node: J
+node_dist=0.924
+angle_error=0.000
+Robot: x=3.767, z=1.787
+angle=7.815
+Target node: J
+node_dist=0.910
+angle_error=0.000
+Robot: x=3.767, z=1.773
+angle=7.815
+Target node: J
+node_dist=0.896
+angle_error=0.000
+Robot: x=3.768, z=1.759
+angle=7.815
+Target node: J
+node_dist=0.882
+angle_error=0.000
+Robot: x=3.768, z=1.745
+angle=7.815
+Target node: J
+node_dist=0.868
+angle_error=0.000
+Robot: x=3.769, z=1.731
+angle=7.815
+Target node: J
+node_dist=0.854
+angle_error=0.000
+Robot: x=3.770, z=1.717
+angle=7.815
+Target node: J
+node_dist=0.840
+angle_error=0.000
+Robot: x=3.770, z=1.703
+angle=7.815
+Target node: J
+node_dist=0.826
+angle_error=0.000
+Robot: x=3.771, z=1.689
+angle=7.815
+Target node: J
+node_dist=0.812
+angle_error=0.000
+Robot: x=3.771, z=1.675
+angle=7.815
+Target node: J
+node_dist=0.798
+angle_error=0.000
+Robot: x=3.772, z=1.661
+angle=7.815
+Target node: J
+node_dist=0.784
+angle_error=0.000
+Robot: x=3.772, z=1.647
+angle=7.815
+Target node: J
+node_dist=0.770
+angle_error=0.000
+Robot: x=3.773, z=1.633
+angle=7.815
+Target node: J
+node_dist=0.757
+angle_error=0.000
+Robot: x=3.773, z=1.619
+angle=7.815
+Target node: J
+node_dist=0.743
+angle_error=0.000
+Robot: x=3.774, z=1.605
+angle=7.815
+Target node: J
+node_dist=0.729
+angle_error=0.000
+Robot: x=3.775, z=1.592
+angle=7.815
+Target node: J
+node_dist=0.715
+angle_error=0.000
+Robot: x=3.775, z=1.578
+angle=7.815
+Target node: J
+node_dist=0.701
+angle_error=0.000
+Robot: x=3.776, z=1.564
+angle=7.815
+Target node: J
+node_dist=0.687
+angle_error=0.000
+Robot: x=3.776, z=1.550
+angle=7.815
+Target node: J
+node_dist=0.673
+angle_error=0.000
+Robot: x=3.777, z=1.536
+angle=7.815
+Target node: J
+node_dist=0.659
+angle_error=0.000
+Robot: x=3.777, z=1.522
+angle=7.815
+Target node: J
+node_dist=0.645
+angle_error=0.000
+Robot: x=3.778, z=1.508
+angle=7.815
+Target node: J
+node_dist=0.631
+angle_error=0.000
+Robot: x=3.778, z=1.494
+angle=7.815
+Target node: J
+node_dist=0.617
+angle_error=0.000
+Robot: x=3.779, z=1.480
+angle=7.815
+Target node: J
+node_dist=0.603
+angle_error=0.000
+Robot: x=3.779, z=1.466
+angle=7.815
+Target node: J
+node_dist=0.589
+angle_error=0.000
+Robot: x=3.780, z=1.452
+angle=7.815
+Target node: J
+node_dist=0.575
+angle_error=0.000
+Robot: x=3.781, z=1.438
+angle=7.815
+Target node: J
+node_dist=0.561
+angle_error=0.000
+Robot: x=3.781, z=1.424
+angle=7.815
+Target node: J
+node_dist=0.547
+angle_error=0.000
+Robot: x=3.782, z=1.410
+angle=7.815
+Target node: J
+node_dist=0.533
+angle_error=0.000
+Robot: x=3.782, z=1.396
+angle=7.815
+Target node: J
+node_dist=0.519
+angle_error=0.000
+Robot: x=3.783, z=1.382
+angle=7.815
+Target node: J
+node_dist=0.505
+angle_error=0.000
+Robot: x=3.783, z=1.368
+angle=7.815
+Target node: J
+node_dist=0.491
+angle_error=0.000
+Robot: x=3.784, z=1.354
+angle=7.815
+Target node: J
+node_dist=0.477
+angle_error=0.000
+Robot: x=3.784, z=1.340
+angle=7.815
+Target node: J
+node_dist=0.463
+angle_error=0.000
+Robot: x=3.785, z=1.326
+angle=7.815
+Target node: J
+node_dist=0.449
+angle_error=0.000
+Robot: x=3.785, z=1.312
+angle=7.815
+Target node: J
+node_dist=0.435
+angle_error=0.000
+Robot: x=3.786, z=1.298
+angle=7.815
+Target node: J
+node_dist=0.421
+angle_error=0.000
+Robot: x=3.787, z=1.284
+angle=7.815
+Target node: J
+node_dist=0.407
+angle_error=0.000
+Robot: x=3.787, z=1.270
+angle=7.815
+Target node: J
+node_dist=0.393
+angle_error=0.000
+Robot: x=3.788, z=1.256
+angle=7.815
+Target node: J
+node_dist=0.379
+angle_error=0.000
+Robot: x=3.788, z=1.242
+angle=7.815
+Target node: J
+node_dist=0.365
+angle_error=0.000
+Robot: x=3.789, z=1.228
+angle=7.815
+Target node: J
+node_dist=0.351
+angle_error=0.000
+Robot: x=3.789, z=1.214
+angle=7.815
+Target node: J
+node_dist=0.337
+angle_error=0.000
+Robot: x=3.790, z=1.200
+angle=7.815
+Target node: J
+node_dist=0.323
+angle_error=0.000
+Robot: x=3.790, z=1.187
+angle=7.815
+Target node: J
+node_dist=0.309
+angle_error=0.000
+Robot: x=3.791, z=1.173
+angle=7.815
+Target node: J
+node_dist=0.295
+angle_error=0.000
+Robot: x=3.791, z=1.159
+angle=7.815
+Target node: J
+node_dist=0.281
+angle_error=0.000
+Robot: x=3.792, z=1.145
+angle=7.815
+Target node: J
+node_dist=0.267
+angle_error=0.000
+Robot: x=3.793, z=1.131
+angle=7.815
+Target node: J
+node_dist=0.253
+angle_error=0.000
+Robot: x=3.793, z=1.117
+angle=7.815
+Target node: J
+node_dist=0.239
+angle_error=0.000
+Robot: x=3.794, z=1.103
+angle=7.815
+Target node: J
+node_dist=0.225
+angle_error=0.000
+Robot: x=3.794, z=1.089
+angle=7.815
+Target node: J
+node_dist=0.211
+angle_error=0.000
+Robot: x=3.795, z=1.075
+angle=7.815
+Target node: J
+node_dist=0.197
+angle_error=1.642
+Target node: J
+node_dist=0.197
+angle_error=1.599
+Target node: J
+node_dist=0.197
+angle_error=1.556
+Target node: J
+node_dist=0.197
+angle_error=1.514
+Target node: J
+node_dist=0.197
+angle_error=1.471
+Target node: J
+node_dist=0.197
+angle_error=1.429
+Target node: J
+node_dist=0.197
+angle_error=1.386
+Target node: J
+node_dist=0.197
+angle_error=1.343
+Target node: J
+node_dist=0.197
+angle_error=1.301
+Target node: J
+node_dist=0.197
+angle_error=1.258
+Target node: J
+node_dist=0.197
+angle_error=1.215
+time=1792613138.477743 Pos: [3.7816296  0.         1.02121377] angle 8.373843825619131
+time=1792613138.525678 Pos: [3.77922199 0.         1.01722587] angle 8.420431293590246
+time=1792613138.5730538 Pos: [3.77663128 0.         1.01335441] angle 8.467018761561361
+time=1792613138.6228018 Pos: [3.77386307 0.         1.0096078 ] angle 8.513606229532476
+time=1792613138.6716213 Pos: [3.77092339 0.         1.00599418] angle 8.56019369750359
+time=1792613138.7198625 Pos: [3.76781861 0.         1.00252138] angle 8.606781165474706
+time=1792613138.7680178 Pos: [3.76455547 0.         0.99919694] angle 8.65336863344582
+time=1792613138.8167336 Pos: [3.76114105 0.         0.99602807] angle 8.699956101416936
+time=1792613138.8700533 Pos: [3.75758275 0.         0.99302166] angle 8.74654356938805
+time=1792613138.9199817 Pos: [3.75388831 0.         0.99018422] angle 8.793131037359165
+time=1792613138.9695506 Pos: [3.75006573 0.         0.9875219 ] angle 8.83971850533028
+time=1792613139.0244036 Pos: [3.74612332 0.         0.9850405 ] angle 8.886305973301395
+time=1792613139.0753214 Pos: [3.74206962 0.         0.98274539] angle 8.93289344127251
+time=1792613139.1244903 Pos: [3.73791344 0.         0.98064155] angle 8.979480909243625
+time=1792613139.1737802 Pos: [3.73366379 0.         0.97873356] angle 9.02606837721474
+time=1792613139.224372 Pos: [3.72932989 0.         0.97702554] angle 9.072655845185855
+time=1792613139.275916 Pos: [3.71610367 0.         0.97251254] angle 9.11924331315697
+time=1792613139.328002 Pos: [3.70268163 0.         0.96862038] angle 9.165830781128085
+time=1792613139.380089 Pos: [3.6890929  0.         0.96535753] angle 9.2124182490992
+time=1792613139.435798 Pos: [3.67536695 0.         0.96273105] angle 9.259005717070314
+time=1792613139.4905872 Pos: [3.66153358 0.         0.96074665] angle 9.30559318504143
+time=1792613139.5473878 Pos: [3.64762281 0.         0.95940862] angle 9.352180653012544
+time=1792613139.60308 Pos: [3.63366645 0.         0.95868216] angle 9.39336397469901
+time=1792613139.6566036 Pos: [3.61969233 0.         0.95848143] angle 9.427466001253867
+time=1792613139.709937 Pos: [3.60571851 0.         0.95871562] angle 9.45560483190842
+time=1792613139.7633903 Pos: [3.59175519 0.         0.95930905] angle 9.478898565893978
+time=1792613139.8165033 Pos: [3.57780753 0.         0.96019897] angle 9.498092602698078
+time=1792613139.8707147 Pos: [3.56387752 0.         0.96133306] angle 9.513932341808257
+time=1792613139.929427 Pos: [3.54996543 0.         0.96266951] angle 9.527163182712053
+time=1792613139.9839003 Pos: [3.53607037 0.         0.96417308] angle 9.537971475281353
+time=1792613140.0431938 Pos: [3.52219081 0.         0.96581381] angle 9.546916269131806
+time=1792613140.1004155 Pos: [3.50832517 0.         0.96756829] angle 9.554370264007185
+time=1792613140.1564054 Pos: [3.49447176 0.         0.96941704] angle 9.560519809779372
+time=1792613140.210616 Pos: [3.48062908 0.         0.97134449] angle 9.565737606192137
+time=1792613140.2641318 Pos: [3.46679571 0.         0.97333771] angle 9.57002365324548
+time=1792613140.3204086 Pos: [3.45297025 0.         0.97538505] angle 9.573564300811285
+time=1792613140.3761423 Pos: [3.43915153 0.         0.97747746] angle 9.576545898761436
+time=1792613140.4386964 Pos: [3.42533852 0.         0.9796072 ] angle 9.578968447095935
+time=1792613140.4937785 Pos: [3.4115303  0.         0.98176783] angle 9.581018295686665
+time=1792613140.5487366 Pos: [3.39772613 0.         0.98395419] angle 9.582695444533625
+time=1792613140.606413 Pos: [3.38392523 0.         0.98616112] angle 9.583999893636816
+time=1792613140.665802 Pos: [3.37012702 0.         0.98838477] angle 9.585117992868124
+time=1792613140.7231166 Pos: [3.35633109 0.         0.99062255] angle 9.586049742227546
+time=1792613140.7785382 Pos: [3.34253705 0.         0.99287191] angle 9.586795141715085
+time=1792613140.8325567 Pos: [3.32874468 0.         0.99513155] angle 9.587540541202623
+time=1792613140.886228 Pos: [3.31495379 0.         0.99740018] angle 9.588099590818276
+time=1792613140.9396515 Pos: [3.30943786 0.         0.99831021] angle 9.588472290562045
+time=1792613140.9951606 Pos: [3.30392227 0.         0.99922228] angle 9.588844990305814
+time=1792613141.0497744 Pos: [3.29840702 0.         1.00013642] angle 9.589217690049583
+time=1792613141.103798 Pos: [3.29289202 0.         1.00105209] angle 9.589404039921467
+time=1792613141.1573794 Pos: [3.2873772 0.        1.0019688] angle 9.58959038979335
+time=1792613141.2106032 Pos: [3.28186254 0.         1.00288653] angle 9.589776739665234
+time=1792613141.2669504 Pos: [3.27634806 0.         1.00380529] angle 9.589963089537118
+time=1792613141.3232665 Pos: [3.27083375 0.         1.00472508] angle 9.590149439409002
+time=1792613141.3770452 Pos: [3.26531952 0.         1.00564538] angle 9.590149439409002
+time=1792613141.4312062 Pos: [3.25980529 0.         1.00656568] angle 9.590149439409002
+time=1792613141.4874854 Pos: [3.25429107 0.         1.00748598] angle 9.590149439409002
+time=1792613141.5476515 Pos: [3.24877684 0.         1.00840628] angle 9.590149439409002
+time=1792613141.6056898 Pos: [3.24326261 0.         1.00932658] angle 9.590149439409002
+time=1792613141.6596541 Pos: [3.23774839 0.         1.01024688] angle 9.590149439409002
+time=1792613141.7128723 Pos: [3.23223416 0.         1.01116718] angle 9.590149439409002
+time=1792613141.7662427 Pos: [3.22671993 0.         1.01208748] angle 9.590149439409002
+time=1792613141.8191612 Pos: [3.22120571 0.         1.01300778] angle 9.590149439409002
+time=1792613141.8746262 Pos: [3.21569148 0.         1.01392808] angle 9.590149439409002
+time=1792613141.9299567 Pos: [3.21017725 0.         1.01484838] angle 9.590149439409002
+time=1792613141.9881632 Pos: [3.20466303 0.         1.01576868] angle 9.590149439409002
+time=1792613142.0479243 Pos: [3.1991488  0.         1.01668898] angle 9.590149439409002
+time=1792613142.1028385 Pos: [3.19363457 0.         1.01760928] angle 9.590149439409002
+time=1792613142.157771 Pos: [3.18812035 0.         1.01852958] angle 9.590149439409002
+time=1792613142.212872 Pos: [3.18260612 0.         1.01944988] angle 9.590149439409002
+time=1792613142.2665496 Pos: [3.17709189 0.         1.02037018] angle 9.590149439409002
+time=1792613142.3209631 Pos: [3.17157767 0.         1.02129048] angle 9.590149439409002
+time=1792613142.376222 Pos: [3.16606344 0.         1.02221079] angle 9.590149439409002
+time=1792613142.4305377 Pos: [3.16054922 0.         1.02313109] angle 9.590149439409002
+time=1792613142.485878 Pos: [3.15503499 0.         1.02405139] angle 9.590149439409002
+time=1792613142.5399704 Pos: [3.14952076 0.         1.02497169] angle 9.590149439409002
+time=1792613142.5944476 Pos: [3.14400654 0.         1.02589199] angle 9.590149439409002
+time=1792613142.6514661 Pos: [3.13849231 0.         1.02681229] angle 9.590149439409002
+time=1792613142.7085052 Pos: [3.13297808 0.         1.02773259] angle 9.590149439409002
+time=1792613142.762674 Pos: [3.12746386 0.         1.02865289] angle 9.590149439409002
+time=1792613142.8173332 Pos: [3.12194963 0.         1.02957319] angle 9.590149439409002
+time=1792613142.8842988 Pos: [3.1164354  0.         1.03049349] angle 9.590149439409002
+time=1792613142.9425538 Pos: [3.11092118 0.         1.03141379] angle 9.590149439409002
+time=1792613142.997182 Pos: [3.10540695 0.         1.03233409] angle 9.590149439409002
+time=1792613143.0530016 Pos: [3.09989272 0.         1.03325439] angle 9.590149439409002
+time=1792613143.1071103 Pos: [3.0943785  0.         1.03417469] angle 9.590149439409002
+time=1792613143.1658802 Pos: [3.08886436 0.         1.03509551] angle 9.590335789280886
+time=1792613143.2225475 Pos: [3.0833503  0.         1.03601683] angle 9.590335789280886
+time=1792613143.2764018 Pos: [3.07783625 0.         1.03693816] angle 9.590335789280886
+time=1792613143.3290913 Pos: [3.07232219 0.         1.03785949] angle 9.590335789280886
+time=1792613143.3827844 Pos: [3.06680814 0.         1.03878082] angle 9.590335789280886
+time=1792613143.4360015 Pos: [3.06129408 0.         1.03970215] angle 9.590335789280886
+time=1792613143.4895828 Pos: [3.05578003 0.         1.04062347] angle 9.590335789280886
+time=1792613143.5435321 Pos: [3.05026597 0.         1.0415448 ] angle 9.590335789280886
+time=1792613143.5996146 Pos: [3.04475192 0.         1.04246613] angle 9.590335789280886
+time=1792613143.654482 Pos: [3.03923786 0.         1.04338746] angle 9.590335789280886
+time=1792613143.7081313 Pos: [3.03372381 0.         1.04430879] angle 9.590335789280886
+time=1792613143.7619815 Pos: [3.02820975 0.         1.04523011] angle 9.590335789280886
+time=1792613143.8162072 Pos: [3.0226957  0.         1.04615144] angle 9.590335789280886
+time=1792613143.8709586 Pos: [3.01718164 0.         1.04707277] angle 9.590335789280886
+time=1792613143.9263659 Pos: [3.01166759 0.         1.0479941 ] angle 9.590335789280886
+time=1792613143.9814467 Pos: [3.00615353 0.         1.04891543] angle 9.590335789280886
+time=1792613144.042368 Pos: [3.00063948 0.         1.04983676] angle 9.590335789280886
+time=1792613144.096966 Pos: [2.99512542 0.         1.05075808] angle 9.590335789280886
+time=1792613144.1504922 Pos: [2.98961137 0.         1.05167941] angle 9.590335789280886
+time=1792613144.2054873 Pos: [2.98409731 0.         1.05260074] angle 9.590335789280886
+time=1792613144.2596784 Pos: [2.97858326 0.         1.05352207] angle 9.590335789280886
+time=1792613144.3160117 Pos: [2.9730692 0.        1.0544434] angle 9.590335789280886
+time=1792613144.3726165 Pos: [2.96755515 0.         1.05536472] angle 9.590335789280886
+time=1792613144.4298203 Pos: [2.96204109 0.         1.05628605] angle 9.590335789280886
+time=1792613144.4925246 Pos: [2.95652704 0.         1.05720738] angle 9.590335789280886
+time=1792613144.5503592 Pos: [2.95101298 0.         1.05812871] angle 9.590335789280886
+time=1792613144.607743 Pos: [2.94549893 0.         1.05905004] angle 9.590335789280886
+time=1792613144.6634865 Pos: [2.93998487 0.         1.05997136] angle 9.590335789280886
+time=1792613144.7203903 Pos: [2.93447082 0.         1.06089269] angle 9.590335789280886
+time=1792613144.7755797 Pos: [2.92895676 0.         1.06181402] angle 9.590335789280886
+time=1792613144.8301706 Pos: [2.92344271 0.         1.06273535] angle 9.590335789280886
+time=1792613144.8855417 Pos: [2.91792874 0.         1.06365719] angle 9.59052213915277
+time=1792613144.9403408 Pos: [2.91241486 0.         1.06457955] angle 9.59052213915277
+time=1792613144.9977841 Pos: [2.90690097 0.         1.0655019 ] angle 9.59052213915277
+time=1792613145.0552852 Pos: [2.90138709 0.         1.06642426] angle 9.59052213915277
+time=1792613145.1144724 Pos: [2.89587321 0.         1.06734661] angle 9.59052213915277
+time=1792613145.1691701 Pos: [2.89035932 0.         1.06826897] angle 9.59052213915277
+time=1792613145.2249606 Pos: [2.88484544 0.         1.06919132] angle 9.59052213915277
+time=1792613145.2885945 Pos: [2.87933156 0.         1.07011368] angle 9.59052213915277
+time=1792613145.350775 Pos: [2.87381767 0.         1.07103603] angle 9.59052213915277
+time=1792613145.4076304 Pos: [2.86830379 0.         1.07195839] angle 9.59052213915277
+time=1792613145.4643052 Pos: [2.86278991 0.         1.07288075] angle 9.59052213915277
+time=1792613145.522927 Pos: [2.85727602 0.         1.0738031 ] angle 9.59052213915277
+time=1792613145.58694 Pos: [2.85176214 0.         1.07472546] angle 9.59052213915277
+time=1792613145.6428783 Pos: [2.84624826 0.         1.07564781] angle 9.59052213915277
+time=1792613145.6988099 Pos: [2.84073437 0.         1.07657017] angle 9.59052213915277
+time=1792613145.756907 Pos: [2.83522049 0.         1.07749252] angle 9.59052213915277
+time=1792613145.8129792 Pos: [2.82970661 0.         1.07841488] angle 9.59052213915277
+Target node: J
+node_dist=0.197
+angle_error=1.172
+Target node: J
+node_dist=0.197
+angle_error=1.129
+Target node: J
+node_dist=0.197
+angle_error=1.086
+Target node: J
+node_dist=0.197
+angle_error=1.043
+Target node: J
+node_dist=0.197
+angle_error=1.000
+Target node: J
+node_dist=0.197
+angle_error=0.957
+Target node: J
+node_dist=0.197
+angle_error=0.914
+Target node: J
+node_dist=0.197
+angle_error=0.870
+Target node: J
+node_dist=0.197
+angle_error=0.827
+Target node: J
+node_dist=0.197
+angle_error=0.783
+Target node: J
+node_dist=0.197
+angle_error=0.739
+Target node: J
+node_dist=0.197
+angle_error=0.696
+Target node: J
+node_dist=0.197
+angle_error=0.652
+Target node: J
+node_dist=0.197
+angle_error=0.607
+Target node: J
+node_dist=0.197
+angle_error=0.563
+Target node: J
+node_dist=0.197
+angle_error=0.519
+Target node: J
+node_dist=0.197
+angle_error=0.474
+Target node: J
+node_dist=0.197
+angle_error=0.433
+Target node: J
+node_dist=0.197
+angle_error=0.392
+Target node: J
+node_dist=0.197
+angle_error=0.350
+Target node: J
+node_dist=0.197
+angle_error=0.307
+Target node: J
+node_dist=0.197
+angle_error=0.265
+Target node: J
+node_dist=0.197
+angle_error=0.221
+Target node: J
+node_dist=0.197
+angle_error=0.183
+Target node: J
+node_dist=0.197
+angle_error=0.151
+Target node: J
+node_dist=0.197
+angle_error=0.125
+Target node: J
+node_dist=0.197
+angle_error=0.103
+Target node: J
+node_dist=0.197
+angle_error=0.085
+Target node: J
+node_dist=0.197
+angle_error=0.071
+Target node: J
+node_dist=0.197
+angle_error=0.058
+Target node: J
+node_dist=0.197
+angle_error=0.048
+Target node: J
+node_dist=0.197
+angle_error=0.040
+Target node: J
+node_dist=0.197
+angle_error=0.033
+Target node: J
+node_dist=0.197
+angle_error=0.028
+Target node: J
+node_dist=0.197
+angle_error=0.023
+Target node: J
+node_dist=0.197
+angle_error=0.019
+Target node: J
+node_dist=0.197
+angle_error=0.016
+Target node: J
+node_dist=0.197
+angle_error=0.013
+Target node: J
+node_dist=0.197
+angle_error=0.011
+Target node: J
+node_dist=0.197
+angle_error=0.009
+Target node: J
+node_dist=0.197
+angle_error=0.007
+Target node: J
+node_dist=0.197
+angle_error=0.006
+Target node: J
+node_dist=0.197
+angle_error=0.005
+Target node: J
+node_dist=0.197
+angle_error=0.004
+Target node: J
+node_dist=0.197
+angle_error=0.004
+Target node: J
+node_dist=0.197
+angle_error=0.003
+Target node: J
+node_dist=0.197
+angle_error=0.002
+Target node: J
+node_dist=0.197
+angle_error=0.002
+Target node: J
+node_dist=0.197
+angle_error=0.002
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.001
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+Target node: J
+node_dist=0.197
+angle_error=0.000
+0.71: Accepted
