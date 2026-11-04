@@ -1,0 +1,538 @@
+0.0: Runs: 5; successful: 0; failed: 5; scores: [0.0, 0.0, 0.0, 0.0, 0.0]
+time=1793820630.9134192 gym-duckietown 2019.0.0
+
+time=1793820631.5417402 Registering gym environment id: Duckietown-4way-v0
+time=1793820631.5419858 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1793820631.5420933 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1793820631.542251 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1793820631.5424142 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1793820631.5425541 Registering gym environment id: Duckietown-loop_empty-v0
+time=1793820631.5426857 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1793820631.5428324 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1793820631.5429678 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1793820631.5431 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1793820631.5432258 Registering gym environment id: Duckietown-small_loop-v0
+time=1793820631.543353 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1793820631.5435517 Registering gym environment id: Duckietown-straight_road-v0
+time=1793820631.54375 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1793820631.5439057 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1793820631.5440285 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1793820631.5441866 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1793820631.5443196 Registering gym environment id: Duckietown-udem1-v0
+time=1793820631.544462 Registering gym environment id: Duckietown-zigzag_dists-v0
+=== Run 1/5 ===
+time=1793820634.4837658 Falling back to non-multisampled frame buffer
+time=1793820634.4856546 Falling back to non-multisampled frame buffer
+time=1793820634.4888334 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1793820634.5011117 loading mesh "duckiebot.obj"
+time=1793820634.501292 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1793820634.7244344 loading mesh "house.obj"
+time=1793820634.7584147 loading texture "house.png"
+time=1793820635.9263718 loading mesh "truck.obj"
+time=1793820635.9325795 loading texture "truck.png"
+time=1793820636.187158 loading mesh "bus.obj"
+time=1793820636.1934428 loading texture "bus.png"
+time=1793820636.435479 loading mesh "barrier.obj"
+time=1793820636.4442823 loading texture "barrier.png"
+time=1793820636.505807 loading mesh "duckie.obj"
+time=1793820636.5268903 loading texture "duckie.png"
+time=1793820636.7709427 loading mesh "cone.obj"
+time=1793820636.7767253 loading texture "cone.png"
+time=1793820636.7994254 loading texture "floor_1.png"
+time=1793820636.8611572 loading texture "curve_left_1.png"
+time=1793820636.8670313 loading texture "straight_1.png"
+time=1793820636.8731647 loading texture "grass_1.png"
+time=1793820637.1233902 loading texture "3way_left_1.png"
+time=1793820637.2723355 loading texture "curve_right_1.png"
+time=1793820637.2808888 using user tile start: (1, 1)
+time=1793820637.281414 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe220>, 'color': array([1, 1, 1])}
+time=1793820637.28203 [0.58242024 0.         1.01100281] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe040>, 'color': array([1, 1, 1])}
+time=1793820637.2824206 Invalid pose. Collision free: True On drivable area: False
+time=1793820637.2824538 safety_factor: 1.3
+time=1793820637.2826047 pos: [0.67110084 0.         1.05152443]
+time=1793820637.2827609 l_pos: [0.58242024 0.         1.01100281]
+time=1793820637.2828867 r_pos: [0.75978144 0.         1.09204605]
+time=1793820637.283017 f_pos: [0.71972678 0.         0.94510771]
+time=1793820637.284554 road_tile_size=0.585
+time=1793820637.2847025 Starting at [1.1352716  0.         0.86821117] 5.960837033186623
+time=1793820637.2848237 Pos: [1.1352716  0.         0.86821117] angle 5.960837033186623
+time=1793820637.432159 using DuckietownEnv
+0.585
+1.0201149842179495 0.6608523258543646
+0.585
+0.6810753918613084 1.029695359937735
+0.585
+0.8439267653068931 0.8768849773632603
+0.585
+1.1352715978812826 0.868211171275862
+999
+Run 1: score=0.0; failed; Check ended
+=== Run 2/5 ===
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 348, in solve
+    self._free = self._build_free(env)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 144, in _build_free
+    for t in env.grid:
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 43, in __getattr__
+    return self.__wrapped.__getattribute__(item)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 605, in grid
+    return copy.deepcopy(self._grid)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 205, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+ValueError: ctypes objects containing pointers cannot be pickled
+time=1793820637.6249444 Falling back to non-multisampled frame buffer
+time=1793820637.625982 Falling back to non-multisampled frame buffer
+time=1793820637.6265383 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1793820637.6488633 using user tile start: (1, 1)
+time=1793820637.6493814 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe220>, 'color': array([1, 1, 1])}
+time=1793820637.6498804 [0.57777387 0.         0.89037242] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe040>, 'color': array([1, 1, 1])}
+time=1793820637.650213 Invalid pose. Collision free: True On drivable area: False
+time=1793820637.6502452 safety_factor: 1.3
+time=1793820637.6503837 pos: [0.67473062 0.         0.88009442]
+time=1793820637.6505435 l_pos: [0.77168738 0.         0.86981643]
+time=1793820637.6506972 r_pos: [0.57777387 0.         0.89037242]
+time=1793820637.6508539 f_pos: [0.68706422 0.         0.99644253]
+time=1793820637.6525478 road_tile_size=0.585
+time=1793820637.652711 Starting at [0.86649355 0.         0.86884272] 3.240514003471104
+time=1793820637.6528432 Pos: [0.86649355 0.         0.86884272] angle 3.240514003471104
+time=1793820637.7065477 using DuckietownEnv
+0.585
+0.6772605910084994 0.9039607007560155
+0.585
+1.044058777055311 0.9422976084472328
+0.585
+0.9340743098542678 0.5893463591887703
+0.585
+0.8664935513153768 0.8688427199863455
+999
+Run 2: score=0.0; failed; Check ended
+=== Run 3/5 ===
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 348, in solve
+    self._free = self._build_free(env)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 144, in _build_free
+    for t in env.grid:
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 43, in __getattr__
+    return self.__wrapped.__getattribute__(item)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 605, in grid
+    return copy.deepcopy(self._grid)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 205, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+ValueError: ctypes objects containing pointers cannot be pickled
+time=1793820637.8013468 Falling back to non-multisampled frame buffer
+time=1793820637.8018847 Falling back to non-multisampled frame buffer
+time=1793820637.802507 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1793820637.8237832 using user tile start: (1, 1)
+time=1793820637.8242602 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe220>, 'color': array([1, 1, 1])}
+time=1793820637.8251922 road_tile_size=0.585
+time=1793820637.825361 Starting at [0.908475   0.         1.08243672] 0.6636686426718439
+time=1793820637.825556 Pos: [0.908475   0.         1.08243672] angle 0.6636686426718439
+time=1793820637.8672578 using DuckietownEnv
+0.585
+0.9084749984754604 1.0824367239116928
+999
+Run 3: score=0.0; failed; Check ended
+=== Run 4/5 ===
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 348, in solve
+    self._free = self._build_free(env)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 144, in _build_free
+    for t in env.grid:
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 43, in __getattr__
+    return self.__wrapped.__getattribute__(item)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 605, in grid
+    return copy.deepcopy(self._grid)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 205, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+ValueError: ctypes objects containing pointers cannot be pickled
+time=1793820637.9692905 Falling back to non-multisampled frame buffer
+time=1793820637.969716 Falling back to non-multisampled frame buffer
+time=1793820637.9702373 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1793820637.992172 using user tile start: (1, 1)
+time=1793820637.9925718 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe220>, 'color': array([1, 1, 1])}
+time=1793820637.993042 [0.50643356 0.         0.98952317] corresponds to tile at (0, 1) which is not drivable: {'coords': (0, 1), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe040>, 'color': array([1, 1, 1])}
+time=1793820637.9935043 Invalid pose. Collision free: True On drivable area: False
+time=1793820637.9935415 safety_factor: 1.3
+time=1793820637.993749 pos: [0.60155592 0.         0.96812255]
+time=1793820637.9939678 l_pos: [0.50643356 0.         0.98952317]
+time=1793820637.9941206 r_pos: [0.69667828 0.         0.94672194]
+time=1793820637.9942322 f_pos: [0.57587519 0.         0.85397572]
+time=1793820637.9950209 road_tile_size=0.585
+time=1793820637.9951568 Starting at [0.93624774 0.         1.0402868 ] 4.805689018923712
+time=1793820637.9953477 Pos: [0.93624774 0.         1.0402868 ] angle 4.805689018923712
+time=1793820638.037529 using DuckietownEnv
+0.585
+0.5962880765752488 0.944707819006872
+0.585
+0.9362477356526492 1.0402867967279512
+999
+Run 4: score=0.0; failed; Check ended
+=== Run 5/5 ===
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 348, in solve
+    self._free = self._build_free(env)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 144, in _build_free
+    for t in env.grid:
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 43, in __getattr__
+    return self.__wrapped.__getattribute__(item)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 605, in grid
+    return copy.deepcopy(self._grid)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 205, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+ValueError: ctypes objects containing pointers cannot be pickled
+time=1793820638.1375597 Falling back to non-multisampled frame buffer
+time=1793820638.13801 Falling back to non-multisampled frame buffer
+time=1793820638.138496 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_2.yaml"
+time=1793820638.1845136 using user tile start: (1, 1)
+time=1793820638.1851306 tile: {'coords': (1, 1), 'kind': 'curve_left', 'angle': 3, 'drivable': True, 'curves': array([[[1.17  , 0.    , 0.7605],
+        [0.8775, 0.    , 0.7605],
+        [0.7605, 0.    , 0.8775],
+        [0.7605, 0.    , 1.17  ]],
+
+       [[0.9945, 0.    , 1.17  ],
+        [0.9945, 0.    , 1.053 ],
+        [1.053 , 0.    , 0.9945],
+        [1.17  , 0.    , 0.9945]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe220>, 'color': array([1, 1, 1])}
+time=1793820638.185807 [0.70420207 0.         0.5491985 ] corresponds to tile at (1, 0) which is not drivable: {'coords': (1, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x71e7701fe040>, 'color': array([1, 1, 1])}
+time=1793820638.1861837 Invalid pose. Collision free: True On drivable area: False
+time=1793820638.1862147 safety_factor: 1.3
+time=1793820638.1864114 pos: [0.67635704 0.         0.64263781]
+time=1793820638.1866436 l_pos: [0.70420207 0.         0.5491985 ]
+time=1793820638.1868184 r_pos: [0.64851201 0.         0.73607712]
+time=1793820638.1869705 f_pos: [0.78848421 0.         0.67605185]
+time=1793820638.1880977 road_tile_size=0.585
+time=1793820638.1883125 Starting at [0.88906826 0.         0.88681776] 1.2877176996403468
+time=1793820638.1885161 Pos: [0.88906826 0.         0.88681776] angle 1.2877176996403468
+time=1793820638.2300253 using DuckietownEnv
+0.585
+0.6993574862574103 0.6494919724922679
+0.585
+0.8890682644408796 0.8868177567907555
+999
+Run 5: score=0.0; failed; Check ended
+Runs: 5; successful: 0; failed: 5; scores: [0.0, 0.0, 0.0, 0.0, 0.0]
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 348, in solve
+    self._free = self._build_free(env)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_main/solutions/solution.py", line 144, in _build_free
+    for t in env.grid:
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/tracking_duckietown_env_with_rec.py", line 43, in __getattr__
+    return self.__wrapped.__getattribute__(item)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/simulator.py", line 605, in grid
+    return copy.deepcopy(self._grid)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 205, in _deepcopy_list
+    append(deepcopy(a, memo))
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 172, in deepcopy
+    y = _reconstruct(x, memo, *rv)
+  File "/usr/lib/python3.8/copy.py", line 270, in _reconstruct
+    state = deepcopy(state, memo)
+  File "/usr/lib/python3.8/copy.py", line 146, in deepcopy
+    y = copier(x, memo)
+  File "/usr/lib/python3.8/copy.py", line 230, in _deepcopy_dict
+    y[deepcopy(key, memo)] = deepcopy(value, memo)
+  File "/usr/lib/python3.8/copy.py", line 161, in deepcopy
+    rv = reductor(4)
+ValueError: ctypes objects containing pointers cannot be pickled
+0.0: Runs: 5; successful: 0; failed: 5; scores: [0.0, 0.0, 0.0, 0.0, 0.0]
