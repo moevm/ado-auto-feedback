@@ -1,0 +1,40 @@
+False: Incorrect solution execution: calculate_yellow_pixels() takes 1 positional argument but 2 were given
+time=1794293162.9013557 gym-duckietown 2019.0.0
+
+time=1794293162.985941 Registering gym environment id: Duckietown-4way-v0
+time=1794293162.9860308 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794293162.9860623 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794293162.986089 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794293162.986136 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794293162.986196 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794293162.9862373 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794293162.9862936 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794293162.986349 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794293162.986421 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794293162.9864671 Registering gym environment id: Duckietown-small_loop-v0
+time=1794293162.9865131 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794293162.9865584 Registering gym environment id: Duckietown-straight_road-v0
+time=1794293162.9866068 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794293162.986656 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794293162.9867027 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794293162.9867454 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794293162.9867895 Registering gym environment id: Duckietown-udem1-v0
+time=1794293162.9868371 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794293164.173637 Falling back to non-multisampled frame buffer
+time=1794293164.1755676 Falling back to non-multisampled frame buffer
+time=1794293164.1783938 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794293164.1823895 loading mesh "duckiebot.obj"
+time=1794293164.1825614 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794293164.3818703 loading texture "straight_1.png"
+time=1794293164.3962576 road_tile_size=0.585
+time=1794293164.3965678 Starting at [0.2925  0.      0.43875] 0
+time=1794293164.3967576 Pos: [0.2925  0.      0.43875] angle 0
+time=1794293164.5015233 using DuckietownEnv
+time=1794293164.5024014 loading mesh "duckie.obj"
+time=1794293164.5256133 loading texture "duckie.png"
+time=1794293164.9488919 Pos: [0.2925  0.      0.43875] angle 0
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+total reward =  -0.2925
+False: Incorrect solution execution: calculate_yellow_pixels() takes 1 positional argument but 2 were given
