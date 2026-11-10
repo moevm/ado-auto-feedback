@@ -1,0 +1,39 @@
+False: Incorrect solution execution: name 'calculate_yellow_pixels' is not defined
+time=1794292919.3551793 gym-duckietown 2019.0.0
+
+time=1794292921.327274 Registering gym environment id: Duckietown-4way-v0
+time=1794292921.3276978 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794292921.327947 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794292921.3281267 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794292921.3283088 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794292921.3285484 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794292921.3287566 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794292921.3289196 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794292921.3290334 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794292921.3292449 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794292921.3294528 Registering gym environment id: Duckietown-small_loop-v0
+time=1794292921.3296533 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794292921.329888 Registering gym environment id: Duckietown-straight_road-v0
+time=1794292921.3301063 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794292921.3303266 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794292921.330529 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794292921.3307323 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794292921.3311172 Registering gym environment id: Duckietown-udem1-v0
+time=1794292921.3313677 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794292929.398469 Falling back to non-multisampled frame buffer
+time=1794292929.400464 Falling back to non-multisampled frame buffer
+time=1794292929.403291 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794292929.4218442 loading mesh "duckiebot.obj"
+time=1794292929.4606571 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794292929.7119231 loading texture "straight_1.png"
+time=1794292929.85108 road_tile_size=0.585
+time=1794292929.8514485 Starting at [0.2925  0.      0.43875] 0
+time=1794292929.8516486 Pos: [0.2925  0.      0.43875] angle 0
+time=1794292930.0661561 using DuckietownEnv
+time=1794292930.0671804 loading mesh "duckie.obj"
+time=1794292930.129174 loading texture "duckie.png"
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+total reward =  0
+False: Incorrect solution execution: name 'calculate_yellow_pixels' is not defined
