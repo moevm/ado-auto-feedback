@@ -1,0 +1,39 @@
+False: Incorrect solution execution: local variable 'obs' referenced before assignment
+time=1794292982.9381306 gym-duckietown 2019.0.0
+
+time=1794292983.0230224 Registering gym environment id: Duckietown-4way-v0
+time=1794292983.023109 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794292983.0231388 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794292983.0231633 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794292983.023186 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794292983.0232074 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794292983.023229 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794292983.0233085 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794292983.0233512 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794292983.0234072 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794292983.023455 Registering gym environment id: Duckietown-small_loop-v0
+time=1794292983.023494 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794292983.023531 Registering gym environment id: Duckietown-straight_road-v0
+time=1794292983.0235672 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794292983.0236025 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794292983.0236373 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794292983.0236735 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794292983.023708 Registering gym environment id: Duckietown-udem1-v0
+time=1794292983.023742 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794292984.208555 Falling back to non-multisampled frame buffer
+time=1794292984.2108617 Falling back to non-multisampled frame buffer
+time=1794292984.2142649 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794292984.2207305 loading mesh "duckiebot.obj"
+time=1794292984.2209566 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794292984.4264116 loading texture "straight_1.png"
+time=1794292984.4428482 road_tile_size=0.585
+time=1794292984.44316 Starting at [0.2925  0.      0.43875] 0
+time=1794292984.443336 Pos: [0.2925  0.      0.43875] angle 0
+time=1794292984.553814 using DuckietownEnv
+time=1794292984.5545497 loading mesh "duckie.obj"
+time=1794292984.5782793 loading texture "duckie.png"
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+total reward =  0
+False: Incorrect solution execution: local variable 'obs' referenced before assignment
