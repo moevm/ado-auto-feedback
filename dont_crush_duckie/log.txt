@@ -1,0 +1,39 @@
+False: Incorrect solution execution: name 'np' is not defined
+time=1794293088.0664814 gym-duckietown 2019.0.0
+
+time=1794293088.1488295 Registering gym environment id: Duckietown-4way-v0
+time=1794293088.1489139 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794293088.1489437 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794293088.149004 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794293088.149047 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794293088.149075 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794293088.1491024 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794293088.1491523 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794293088.1491904 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794293088.149258 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794293088.1493094 Registering gym environment id: Duckietown-small_loop-v0
+time=1794293088.149344 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794293088.1493816 Registering gym environment id: Duckietown-straight_road-v0
+time=1794293088.149416 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794293088.1494508 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794293088.1494846 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794293088.1495183 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794293088.1495523 Registering gym environment id: Duckietown-udem1-v0
+time=1794293088.1495852 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794293089.3309271 Falling back to non-multisampled frame buffer
+time=1794293089.3329382 Falling back to non-multisampled frame buffer
+time=1794293089.335765 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794293089.340009 loading mesh "duckiebot.obj"
+time=1794293089.3401258 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794293089.5465004 loading texture "straight_1.png"
+time=1794293089.5629294 road_tile_size=0.585
+time=1794293089.5632818 Starting at [0.2925  0.      0.43875] 0
+time=1794293089.5635197 Pos: [0.2925  0.      0.43875] angle 0
+time=1794293089.6697981 using DuckietownEnv
+time=1794293089.6705415 loading mesh "duckie.obj"
+time=1794293089.695043 loading texture "duckie.png"
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+total reward =  0
+False: Incorrect solution execution: name 'np' is not defined
