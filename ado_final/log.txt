@@ -1,0 +1,136 @@
+0.0: Runs: 3; successful: 0; failed: 3; scores: [0.0, 0.0, 0.0]
+time=1794378009.1087258 gym-duckietown 2019.0.0
+
+time=1794378009.1805596 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794378009.1806219 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794378009.1806488 Registering gym environment id: Duckietown-small_loop-v0
+time=1794378009.1806724 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794378009.1806931 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794378009.1807127 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794378009.1807327 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794378009.1807518 Registering gym environment id: Duckietown-udem1-v0
+time=1794378009.1807983 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794378009.1808176 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794378009.1808767 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794378009.180898 Registering gym environment id: Duckietown-straight_road-v0
+time=1794378009.1809177 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794378009.1809638 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794378009.1810005 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794378009.1810465 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794378009.1810813 Registering gym environment id: Duckietown-4way-v0
+time=1794378009.181135 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794378009.181154 Registering gym environment id: Duckietown-small_loop_cw-v0
+=== Run 1/3 ===
+time=1794378010.1552055 Falling back to non-multisampled frame buffer
+time=1794378010.1565154 Falling back to non-multisampled frame buffer
+time=1794378010.1582782 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_3.yaml"
+time=1794378010.1708639 loading mesh "duckiebot.obj"
+time=1794378010.1709619 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794378010.3321035 loading mesh "house.obj"
+time=1794378010.3521688 loading texture "house.png"
+time=1794378011.226842 loading mesh "truck.obj"
+time=1794378011.2321582 loading texture "truck.png"
+time=1794378011.437692 loading mesh "bus.obj"
+time=1794378011.442978 loading texture "bus.png"
+time=1794378011.6489687 loading mesh "barrier.obj"
+time=1794378011.655766 loading texture "barrier.png"
+time=1794378011.7065303 loading mesh "duckie.obj"
+time=1794378011.7236655 loading texture "duckie.png"
+time=1794378011.9376912 loading mesh "cone.obj"
+time=1794378011.9424934 loading texture "cone.png"
+time=1794378011.963636 loading texture "floor_1.png"
+time=1794378012.01431 loading texture "curve_left_1.png"
+time=1794378012.0194745 loading texture "straight_1.png"
+time=1794378012.0248325 loading texture "grass_1.png"
+time=1794378012.2298074 loading texture "3way_left_1.png"
+time=1794378012.353866 loading texture "curve_right_1.png"
+time=1794378012.3611147 using user tile start: (4, 1)
+time=1794378012.3615983 tile: {'coords': (4, 1), 'kind': 'straight', 'angle': 3, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.7605 ],
+        [2.77875, 0.     , 0.7605 ],
+        [2.48625, 0.     , 0.7605 ],
+        [2.34   , 0.     , 0.7605 ]],
+
+       [[2.34   , 0.     , 0.9945 ],
+        [2.48625, 0.     , 0.9945 ],
+        [2.77875, 0.     , 0.9945 ],
+        [2.925  , 0.     , 0.9945 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7ca22af36220>, 'color': array([1, 1, 1])}
+time=1794378012.3636653 road_tile_size=0.585
+time=1794378012.3638568 Starting at [2.35789665 0.         1.06485607] 0.14978057614343962
+time=1794378012.3640194 Pos: [2.35789665 0.         1.06485607] angle 0.14978057614343962
+time=1794378012.4809742 using DuckietownEnv
+0.585
+2.548262351292633 0.9075350127088149
+0.585
+2.9088888253224323 1.077121189685852
+0.585
+2.357896645440966 1.0648560718015236
+total reward =  0
+Run 1: score=0.0; failed; Incorrect solution execution: No collision-free route to the delivery area
+=== Run 2/3 ===
+time=1794378012.70374 Falling back to non-multisampled frame buffer
+time=1794378012.7044067 Falling back to non-multisampled frame buffer
+time=1794378012.704821 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_3.yaml"
+time=1794378012.7275314 using user tile start: (4, 1)
+time=1794378012.7278736 tile: {'coords': (4, 1), 'kind': 'straight', 'angle': 3, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.7605 ],
+        [2.77875, 0.     , 0.7605 ],
+        [2.48625, 0.     , 0.7605 ],
+        [2.34   , 0.     , 0.7605 ]],
+
+       [[2.34   , 0.     , 0.9945 ],
+        [2.48625, 0.     , 0.9945 ],
+        [2.77875, 0.     , 0.9945 ],
+        [2.925  , 0.     , 0.9945 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7ca22af36220>, 'color': array([1, 1, 1])}
+time=1794378012.7287056 road_tile_size=0.585
+time=1794378012.7288206 Starting at [2.79228538 0.         0.89241101] 2.8812338476864725
+time=1794378012.7289176 Pos: [2.79228538 0.         0.89241101] angle 2.8812338476864725
+time=1794378012.7768853 using DuckietownEnv
+0.585
+2.7922853790323665 0.892411014034187
+total reward =  0
+Run 2: score=0.0; failed; Incorrect solution execution: No collision-free route to the delivery area
+=== Run 3/3 ===
+time=1794378012.9396424 Falling back to non-multisampled frame buffer
+time=1794378012.940277 Falling back to non-multisampled frame buffer
+time=1794378012.9407578 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_3.yaml"
+time=1794378012.9629583 using user tile start: (4, 1)
+time=1794378012.9633453 tile: {'coords': (4, 1), 'kind': 'straight', 'angle': 3, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.7605 ],
+        [2.77875, 0.     , 0.7605 ],
+        [2.48625, 0.     , 0.7605 ],
+        [2.34   , 0.     , 0.7605 ]],
+
+       [[2.34   , 0.     , 0.9945 ],
+        [2.48625, 0.     , 0.9945 ],
+        [2.77875, 0.     , 0.9945 ],
+        [2.925  , 0.     , 0.9945 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7ca22af36220>, 'color': array([1, 1, 1])}
+time=1794378012.9638727 [2.32119398 0.         1.17917108] corresponds to tile at (3, 2) which is not drivable: {'coords': (3, 2), 'kind': 'grass', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7ca22aec2040>, 'color': array([1, 1, 1])}
+time=1794378012.964337 Invalid pose. Collision free: True On drivable area: False
+time=1794378012.964379 safety_factor: 1.3
+time=1794378012.9645877 pos: [2.35303065 0.         1.06658589]
+time=1794378012.964739 l_pos: [2.44685165 0.         1.09311644]
+time=1794378012.9648724 r_pos: [2.25920965 0.         1.04005533]
+time=1794378012.9650252 f_pos: [2.32119398 0.         1.17917108]
+time=1794378012.9655972 [2.54619306 0.         1.26487011] corresponds to tile at (4, 2) which is not drivable: {'coords': (4, 2), 'kind': 'grass', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x7ca22aec2040>, 'color': array([1, 1, 1])}
+time=1794378012.9659834 Invalid pose. Collision free: True On drivable area: False
+time=1794378012.9660106 safety_factor: 1.3
+time=1794378012.966145 pos: [2.53900165 0.         1.16763568]
+time=1794378012.966326 l_pos: [2.53181023 0.         1.07040126]
+time=1794378012.9664323 r_pos: [2.54619306 0.         1.26487011]
+time=1794378012.9665895 f_pos: [2.65568296 0.         1.15900599]
+time=1794378012.9676504 road_tile_size=0.585
+time=1794378012.967817 Starting at [2.72653282 0.         1.04104146] 5.895934977501981
+time=1794378012.9680278 Pos: [2.72653282 0.         1.04104146] angle 5.895934977501981
+time=1794378013.00324 using DuckietownEnv
+0.585
+2.3465000501057065 1.0896802865657094
+0.585
+2.8987740620751263 0.6697284745190158
+0.585
+2.5629362745292266 1.1658654906248622
+0.585
+2.717309005951989 1.1137262411091682
+0.585
+2.726532820591607 1.0410414649519943
+total reward =  0
+Run 3: score=0.0; failed; Incorrect solution execution: No collision-free route to the delivery area
+Runs: 3; successful: 0; failed: 3; scores: [0.0, 0.0, 0.0]
+0.0: Runs: 3; successful: 0; failed: 3; scores: [0.0, 0.0, 0.0]
