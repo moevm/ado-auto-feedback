@@ -1,0 +1,42 @@
+False: Incorrect solution execution: 'tuple' object is not callable
+time=1794431530.4758198 gym-duckietown 2019.0.0
+
+time=1794431530.5588198 Registering gym environment id: Duckietown-4way-v0
+time=1794431530.5589252 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794431530.5589633 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794431530.5590165 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794431530.5590777 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794431530.5591114 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794431530.5591567 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794431530.5591974 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794431530.5592413 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794431530.559306 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794431530.559347 Registering gym environment id: Duckietown-small_loop-v0
+time=1794431530.5593932 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794431530.5594378 Registering gym environment id: Duckietown-straight_road-v0
+time=1794431530.559483 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794431530.559533 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794431530.5595763 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794431530.5596232 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794431530.5596719 Registering gym environment id: Duckietown-udem1-v0
+time=1794431530.5597115 Registering gym environment id: Duckietown-zigzag_dists-v0
+/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/dont_crush_duckie/solutions/solution.py:11: SyntaxWarning: 'tuple' object is not callable; perhaps you missed a comma?
+  mask = cv2.inRange(img,(128,128,0)(255,255,128))
+time=1794431532.2243752 Falling back to non-multisampled frame buffer
+time=1794431532.2263668 Falling back to non-multisampled frame buffer
+time=1794431532.2292862 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794431532.2335145 loading mesh "duckiebot.obj"
+time=1794431532.2336829 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794431532.483387 loading texture "straight_1.png"
+time=1794431532.517053 road_tile_size=0.585
+time=1794431532.5173535 Starting at [0.2925  0.      0.43875] 0
+time=1794431532.5175788 Pos: [0.2925  0.      0.43875] angle 0
+time=1794431532.6262326 using DuckietownEnv
+time=1794431532.6271849 loading mesh "duckie.obj"
+time=1794431532.6797342 loading texture "duckie.png"
+time=1794431533.1761518 Pos: [0.3325  0.      0.43875] angle 0
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+total reward =  0.9074999999999995
+False: Incorrect solution execution: 'tuple' object is not callable
