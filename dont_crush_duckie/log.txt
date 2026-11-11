@@ -1,0 +1,200 @@
+True: Accepted
+time=1794431646.735205 gym-duckietown 2019.0.0
+
+time=1794431647.2790024 Registering gym environment id: Duckietown-4way-v0
+time=1794431647.27934 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794431647.2794917 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794431647.2796664 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794431647.280039 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794431647.2803717 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794431647.2806208 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794431647.2808986 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794431647.2811427 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794431647.281381 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794431647.2816412 Registering gym environment id: Duckietown-small_loop-v0
+time=1794431647.2819877 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794431647.2822227 Registering gym environment id: Duckietown-straight_road-v0
+time=1794431647.2824566 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794431647.2827106 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794431647.2829547 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794431647.2831311 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794431647.2833037 Registering gym environment id: Duckietown-udem1-v0
+time=1794431647.2834723 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794431650.2028515 Falling back to non-multisampled frame buffer
+time=1794431650.2109914 Falling back to non-multisampled frame buffer
+time=1794431650.2194407 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794431650.2552717 loading mesh "duckiebot.obj"
+time=1794431650.255679 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794431650.5085056 loading texture "straight_1.png"
+time=1794431650.6441894 road_tile_size=0.585
+time=1794431650.6445725 Starting at [0.2925  0.      0.43875] 0
+time=1794431650.6448517 Pos: [0.2925  0.      0.43875] angle 0
+time=1794431650.7531972 using DuckietownEnv
+time=1794431650.7540884 loading mesh "duckie.obj"
+time=1794431650.801238 loading texture "duckie.png"
+time=1794431651.4002817 Pos: [0.3325  0.      0.43875] angle 0
+time=1794431651.5647147 Pos: [0.3725  0.      0.43875] angle 0
+time=1794431651.5946624 Pos: [0.4125  0.      0.43875] angle 0
+time=1794431651.6237864 Pos: [0.4525  0.      0.43875] angle 0
+time=1794431651.6523683 Pos: [0.4925  0.      0.43875] angle 0
+time=1794431651.6818686 Pos: [0.5325  0.      0.43875] angle 0
+time=1794431651.709583 Pos: [0.5725  0.      0.43875] angle 0
+time=1794431651.7369535 Pos: [0.6125  0.      0.43875] angle 0
+time=1794431651.7652795 Pos: [0.6525  0.      0.43875] angle 0
+time=1794431651.7931118 Pos: [0.6925  0.      0.43875] angle 0
+time=1794431651.8207755 Pos: [0.7325  0.      0.43875] angle 0
+time=1794431651.849111 Pos: [0.7725  0.      0.43875] angle 0
+time=1794431651.8764284 Pos: [0.8125  0.      0.43875] angle 0
+time=1794431651.9057438 Pos: [0.8525  0.      0.43875] angle 0
+time=1794431651.9357297 Pos: [0.8925  0.      0.43875] angle 0
+time=1794431651.9649582 Pos: [0.9325  0.      0.43875] angle 0
+time=1794431651.9925106 Pos: [0.9725  0.      0.43875] angle 0
+time=1794431652.0253544 Pos: [1.0125  0.      0.43875] angle 0
+time=1794431652.0543048 Pos: [1.0525  0.      0.43875] angle 0
+time=1794431652.0818112 Pos: [1.0925  0.      0.43875] angle 0
+time=1794431652.1113298 Pos: [1.1325  0.      0.43875] angle 0
+time=1794431652.1385474 Pos: [1.1725  0.      0.43875] angle 0
+time=1794431652.168994 Pos: [1.2125  0.      0.43875] angle 0
+time=1794431652.1964574 Pos: [1.2525  0.      0.43875] angle 0
+time=1794431652.223567 Pos: [1.2925  0.      0.43875] angle 0
+time=1794431652.2525997 Pos: [1.3325  0.      0.43875] angle 0
+time=1794431652.280743 Pos: [1.3725  0.      0.43875] angle 0
+time=1794431652.3081229 Pos: [1.4125  0.      0.43875] angle 0
+time=1794431652.3356457 Pos: [1.4525  0.      0.43875] angle 0
+time=1794431652.3634567 Pos: [1.4925  0.      0.43875] angle 0
+time=1794431652.391269 Pos: [1.5325  0.      0.43875] angle 0
+time=1794431652.4187813 Pos: [1.5725  0.      0.43875] angle 0
+time=1794431652.4463482 Pos: [1.6125  0.      0.43875] angle 0
+time=1794431652.4745696 Pos: [1.6525  0.      0.43875] angle 0
+time=1794431652.5037098 Pos: [1.6925  0.      0.43875] angle 0
+time=1794431652.531093 Pos: [1.7325  0.      0.43875] angle 0
+time=1794431652.5588923 Pos: [1.7725  0.      0.43875] angle 0
+time=1794431652.591382 Pos: [1.8125  0.      0.43875] angle 0
+time=1794431652.6194363 Pos: [1.8525  0.      0.43875] angle 0
+time=1794431652.6466496 Pos: [1.8925  0.      0.43875] angle 0
+time=1794431652.674201 Pos: [1.9325  0.      0.43875] angle 0
+time=1794431652.7015436 Pos: [1.9725  0.      0.43875] angle 0
+time=1794431652.729228 Pos: [2.0125  0.      0.43875] angle 0
+time=1794431652.7597232 Pos: [2.0525  0.      0.43875] angle 0
+time=1794431652.7876594 Pos: [2.0925  0.      0.43875] angle 0
+time=1794431652.8152895 Pos: [2.1325  0.      0.43875] angle 0
+time=1794431652.8426187 Pos: [2.1725  0.      0.43875] angle 0
+time=1794431652.8703036 Pos: [2.2125  0.      0.43875] angle 0
+time=1794431652.8982403 Pos: [2.2525  0.      0.43875] angle 0
+time=1794431652.9265733 Pos: [2.2925  0.      0.43875] angle 0
+time=1794431652.955013 Pos: [2.3325  0.      0.43875] angle 0
+time=1794431652.9830945 Pos: [2.3725  0.      0.43875] angle 0
+time=1794431653.0109 Pos: [2.4125  0.      0.43875] angle 0
+time=1794431653.0387204 Pos: [2.4525  0.      0.43875] angle 0
+time=1794431653.0663881 Pos: [2.4925  0.      0.43875] angle 0
+time=1794431653.0942836 Pos: [2.5325  0.      0.43875] angle 0
+time=1794431653.1216471 Pos: [2.5725  0.      0.43875] angle 0
+time=1794431653.1492786 Pos: [2.6125  0.      0.43875] angle 0
+time=1794431653.1779497 Pos: [2.6525  0.      0.43875] angle 0
+time=1794431653.206078 Pos: [2.6925  0.      0.43875] angle 0
+time=1794431653.23446 Pos: [2.7325  0.      0.43875] angle 0
+time=1794431653.2629235 Pos: [2.7725  0.      0.43875] angle 0
+time=1794431653.2910724 Pos: [2.8125  0.      0.43875] angle 0
+time=1794431653.3193882 Pos: [2.8525  0.      0.43875] angle 0
+time=1794431653.3466392 Pos: [2.8925  0.      0.43875] angle 0
+time=1794431653.3749194 Pos: [2.9325  0.      0.43875] angle 0
+time=1794431653.4024951 Pos: [2.9725  0.      0.43875] angle 0
+time=1794431653.430713 Pos: [3.0125  0.      0.43875] angle 0
+time=1794431653.4603806 Pos: [3.0525  0.      0.43875] angle 0
+time=1794431653.489282 Pos: [3.0925  0.      0.43875] angle 0
+time=1794431653.5167456 Pos: [3.1325  0.      0.43875] angle 0
+time=1794431653.5446324 Pos: [3.1725  0.      0.43875] angle 0
+time=1794431653.5739198 Pos: [3.2125  0.      0.43875] angle 0
+time=1794431653.6036499 Pos: [3.2525  0.      0.43875] angle 0
+time=1794431653.6315746 Pos: [3.2925  0.      0.43875] angle 0
+time=1794431653.6599011 Pos: [3.3325  0.      0.43875] angle 0
+time=1794431653.68786 Pos: [3.3725  0.      0.43875] angle 0
+time=1794431653.7157679 Pos: [3.4125  0.      0.43875] angle 0
+time=1794431653.7435827 Pos: [3.4525  0.      0.43875] angle 0
+time=1794431653.7724445 Pos: [3.4925  0.      0.43875] angle 0
+time=1794431653.8004632 Pos: [3.5325  0.      0.43875] angle 0
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+5092
+4989
+5036
+5081
+4968
+5102
+4917
+5043
+5036
+4822
+4972
+4841
+4601
+4696
+4557
+4593
+4818
+4724
+4800
+4812
+4853
+4982
+4880
+4988
+4986
+4896
+4973
+4779
+4755
+4755
+4813
+4995
+4993
+4949
+5173
+4973
+5159
+5284
+5130
+5310
+5113
+5131
+5021
+5011
+5073
+5158
+5207
+5426
+5337
+5452
+5543
+5502
+5669
+5591
+5840
+5638
+5533
+5650
+5615
+5746
+6029
+5968
+6133
+6325
+6348
+6615
+6698
+7012
+7199
+7313
+7577
+7626
+8031
+8541
+9083
+9877
+10919
+12188
+14012
+16477
+20408
+True: Accepted
