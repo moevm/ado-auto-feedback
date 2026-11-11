@@ -1,0 +1,145 @@
+0.0: Runs: 3; successful: 0; failed: 3; scores: [0.0, 0.0, 0.0]
+time=1794382081.8316102 gym-duckietown 2019.0.0
+
+time=1794382081.9090939 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794382081.9091594 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794382081.9091866 Registering gym environment id: Duckietown-small_loop-v0
+time=1794382081.9092093 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794382081.9092307 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794382081.9092543 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794382081.9092746 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794382081.9093223 Registering gym environment id: Duckietown-udem1-v0
+time=1794382081.909361 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794382081.9093847 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794382081.909405 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794382081.9094272 Registering gym environment id: Duckietown-straight_road-v0
+time=1794382081.9094512 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794382081.9094992 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794382081.9095764 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794382081.9096189 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794382081.909679 Registering gym environment id: Duckietown-4way-v0
+time=1794382081.9097052 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794382081.9097638 Registering gym environment id: Duckietown-small_loop_cw-v0
+=== Run 1/3 ===
+time=1794382082.9559567 Falling back to non-multisampled frame buffer
+time=1794382082.9572926 Falling back to non-multisampled frame buffer
+time=1794382082.9594655 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_3.yaml"
+time=1794382082.974293 loading mesh "duckiebot.obj"
+time=1794382082.9744053 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794382083.1485338 loading mesh "house.obj"
+time=1794382083.1698895 loading texture "house.png"
+time=1794382084.0366995 loading mesh "truck.obj"
+time=1794382084.0421557 loading texture "truck.png"
+time=1794382084.255913 loading mesh "bus.obj"
+time=1794382084.2616725 loading texture "bus.png"
+time=1794382084.4731736 loading mesh "barrier.obj"
+time=1794382084.4801137 loading texture "barrier.png"
+time=1794382084.532723 loading mesh "duckie.obj"
+time=1794382084.5504029 loading texture "duckie.png"
+time=1794382084.7590883 loading mesh "cone.obj"
+time=1794382084.7644305 loading texture "cone.png"
+time=1794382084.7858276 loading texture "floor_1.png"
+time=1794382084.8370411 loading texture "curve_left_1.png"
+time=1794382084.8422227 loading texture "straight_1.png"
+time=1794382084.8476453 loading texture "grass_1.png"
+time=1794382085.0601935 loading texture "3way_left_1.png"
+time=1794382085.1872056 loading texture "curve_right_1.png"
+time=1794382085.1946306 using user tile start: (4, 1)
+time=1794382085.1951544 tile: {'coords': (4, 1), 'kind': 'straight', 'angle': 3, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.7605 ],
+        [2.77875, 0.     , 0.7605 ],
+        [2.48625, 0.     , 0.7605 ],
+        [2.34   , 0.     , 0.7605 ]],
+
+       [[2.34   , 0.     , 0.9945 ],
+        [2.48625, 0.     , 0.9945 ],
+        [2.77875, 0.     , 0.9945 ],
+        [2.925  , 0.     , 0.9945 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x75de5166f220>, 'color': array([1, 1, 1])}
+time=1794382085.195873 [2.63622347 0.         0.54169326] corresponds to tile at (4, 0) which is not drivable: {'coords': (4, 0), 'kind': 'floor', 'angle': 0, 'drivable': False, 'texture': <gym_duckietown.graphics.Texture object at 0x75de5166f040>, 'color': array([1, 1, 1])}
+time=1794382085.1963964 Invalid pose. Collision free: True On drivable area: False
+time=1794382085.19644 safety_factor: 1.3
+time=1794382085.1966436 pos: [2.6037145  0.         0.63361397]
+time=1794382085.196843 l_pos: [2.57120553 0.         0.72553468]
+time=1794382085.1970532 r_pos: [2.63622347 0.         0.54169326]
+time=1794382085.1972501 f_pos: [2.49340965 0.         0.59460321]
+time=1794382085.198151 road_tile_size=0.585
+time=1794382085.1983106 Starting at [2.54127648 0.         1.04296149] 2.2121767962233547
+time=1794382085.198438 Pos: [2.54127648 0.         1.04296149] angle 2.2121767962233547
+time=1794382085.3185084 using DuckietownEnv
+0.585
+2.792366057331625 0.7682449599980065
+0.585
+2.581087864443824 0.625611761563798
+0.585
+2.5412764791776494 1.0429614918956007
+999
+Run 1: score=0.0; failed; Check ended
+=== Run 2/3 ===
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_final/solutions/solution.py", line 352, in solve
+    path = self.search_path(start, self.goal)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_final/solutions/solution.py", line 211, in search_path
+    raise RuntimeError('cant find route')
+RuntimeError: cant find route
+time=1794382086.1569123 Falling back to non-multisampled frame buffer
+time=1794382086.1576848 Falling back to non-multisampled frame buffer
+time=1794382086.158127 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_3.yaml"
+time=1794382086.1804848 using user tile start: (4, 1)
+time=1794382086.180882 tile: {'coords': (4, 1), 'kind': 'straight', 'angle': 3, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.7605 ],
+        [2.77875, 0.     , 0.7605 ],
+        [2.48625, 0.     , 0.7605 ],
+        [2.34   , 0.     , 0.7605 ]],
+
+       [[2.34   , 0.     , 0.9945 ],
+        [2.48625, 0.     , 0.9945 ],
+        [2.77875, 0.     , 0.9945 ],
+        [2.925  , 0.     , 0.9945 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x75de5166f220>, 'color': array([1, 1, 1])}
+time=1794382086.1819825 road_tile_size=0.585
+time=1794382086.1821935 Starting at [2.4554135  0.         0.94445536] 5.589671985798074
+time=1794382086.1823332 Pos: [2.4554135  0.         0.94445536] angle 5.589671985798074
+time=1794382086.231799 using DuckietownEnv
+0.585
+2.8453813042541003 0.6745150845030745
+0.585
+2.45541350358789 0.9444553633792921
+999
+Run 2: score=0.0; failed; Check ended
+=== Run 3/3 ===
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_final/solutions/solution.py", line 352, in solve
+    path = self.search_path(start, self.goal)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_final/solutions/solution.py", line 211, in search_path
+    raise RuntimeError('cant find route')
+RuntimeError: cant find route
+time=1794382086.9796426 Falling back to non-multisampled frame buffer
+time=1794382086.9800622 Falling back to non-multisampled frame buffer
+time=1794382086.9804616 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/ado_map_3.yaml"
+time=1794382087.0032785 using user tile start: (4, 1)
+time=1794382087.0036852 tile: {'coords': (4, 1), 'kind': 'straight', 'angle': 3, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.7605 ],
+        [2.77875, 0.     , 0.7605 ],
+        [2.48625, 0.     , 0.7605 ],
+        [2.34   , 0.     , 0.7605 ]],
+
+       [[2.34   , 0.     , 0.9945 ],
+        [2.48625, 0.     , 0.9945 ],
+        [2.77875, 0.     , 0.9945 ],
+        [2.925  , 0.     , 0.9945 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x75de5166f220>, 'color': array([1, 1, 1])}
+time=1794382087.0054443 road_tile_size=0.585
+time=1794382087.0056286 Starting at [2.69793166 0.         0.73717863] 0.3260033152848711
+time=1794382087.0058048 Pos: [2.69793166 0.         0.73717863] angle 0.3260033152848711
+time=1794382087.0414052 using DuckietownEnv
+0.585
+2.483063992547481 0.870180992464081
+0.585
+2.9117860502230326 0.9576172332227577
+0.585
+2.697931663620738 0.737178629110302
+999
+Run 3: score=0.0; failed; Check ended
+Runs: 3; successful: 0; failed: 3; scores: [0.0, 0.0, 0.0]
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_final/solutions/solution.py", line 352, in solve
+    path = self.search_path(start, self.goal)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ado_final/solutions/solution.py", line 211, in search_path
+    raise RuntimeError('cant find route')
+RuntimeError: cant find route
+0.0: Runs: 3; successful: 0; failed: 3; scores: [0.0, 0.0, 0.0]
