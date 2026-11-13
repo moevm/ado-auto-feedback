@@ -1,0 +1,52 @@
+False: Incorrect solution execution: __init__() missing 3 required positional arguments: 'obj', 'domain_rand', and 'safety_radius_mult'
+time=1794593739.4069426 gym-duckietown 2019.0.0
+
+time=1794593741.353783 Registering gym environment id: Duckietown-4way-v0
+time=1794593741.3541808 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794593741.354332 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794593741.3545396 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794593741.3547773 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794593741.3550293 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794593741.3552985 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794593741.3554745 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794593741.3555908 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794593741.3557026 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794593741.3558786 Registering gym environment id: Duckietown-small_loop-v0
+time=1794593741.356074 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794593741.356264 Registering gym environment id: Duckietown-straight_road-v0
+time=1794593741.3564754 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794593741.3567188 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794593741.3569767 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794593741.3572183 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794593741.357456 Registering gym environment id: Duckietown-udem1-v0
+time=1794593741.357675 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794593750.233189 Falling back to non-multisampled frame buffer
+time=1794593750.2353141 Falling back to non-multisampled frame buffer
+time=1794593750.2383254 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1794593750.2879708 loading mesh "duckiebot.obj"
+time=1794593750.2884643 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794593750.6573956 loading mesh "trafficlight.obj"
+time=1794593750.7001574 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1794593750.7576745 loading texture "trafficlight_card.jpg"
+time=1794593752.359065 loading texture "trafficlight_cover.jpg"
+time=1794593753.3707266 loading texture "trafficlight_card0.jpg"
+time=1794593754.4771924 loading texture "trafficlight_card1.jpg"
+time=1794593755.533976 loading texture "trafficlight_card0.jpg"
+time=1794593756.555065 loading texture "trafficlight_card1.jpg"
+time=1794593757.5820208 loading texture "trafficlight_card0.jpg"
+time=1794593758.5855782 loading texture "trafficlight_card1.jpg"
+time=1794593759.6040015 loading texture "trafficlight_card0.jpg"
+time=1794593760.6230419 loading texture "trafficlight_card1.jpg"
+time=1794593761.6406598 loading texture "trafficlight_card0.jpg"
+time=1794593762.6470513 loading texture "trafficlight_card1.jpg"
+time=1794593763.661193 loading texture "trafficlight_card0.jpg"
+time=1794593764.670462 loading texture "trafficlight_card1.jpg"
+time=1794593765.675288 loading texture "straight_1.png"
+time=1794593765.6939032 road_tile_size=0.585
+time=1794593765.6942732 Starting at [0.2925 0.     0.2925] 0
+time=1794593765.6944988 Pos: [0.2925 0.     0.2925] angle 0
+time=1794593765.9833043 using DuckietownEnv
+0.585
+0.2925 0.2925
+total reward =  0
+False: Incorrect solution execution: __init__() missing 3 required positional arguments: 'obj', 'domain_rand', and 'safety_radius_mult'
