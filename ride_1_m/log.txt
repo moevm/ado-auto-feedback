@@ -1,0 +1,60 @@
+True: Accepted
+time=1794671679.4052508 gym-duckietown 2019.0.0
+
+time=1794671679.487981 Registering gym environment id: Duckietown-4way-v0
+time=1794671679.4880757 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794671679.4881167 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794671679.488146 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794671679.48817 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794671679.488222 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794671679.4882822 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794671679.4883447 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794671679.4883885 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794671679.4884288 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794671679.4884682 Registering gym environment id: Duckietown-small_loop-v0
+time=1794671679.4885106 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794671679.4885535 Registering gym environment id: Duckietown-straight_road-v0
+time=1794671679.4885967 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794671679.4886396 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794671679.4886813 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794671679.4887228 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794671679.4887645 Registering gym environment id: Duckietown-udem1-v0
+time=1794671679.4888136 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794671680.6545472 Falling back to non-multisampled frame buffer
+time=1794671680.656481 Falling back to non-multisampled frame buffer
+time=1794671680.6593792 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794671680.6633775 loading mesh "duckiebot.obj"
+time=1794671680.6635015 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794671680.8733966 loading texture "straight_1.png"
+time=1794671680.8875513 road_tile_size=0.585
+time=1794671680.8878462 Starting at [0.2925 0.     0.2925] 0
+time=1794671680.8880682 Pos: [0.2925 0.     0.2925] angle 0
+time=1794671680.9932954 using DuckietownEnv
+time=1794671681.1305873 Pos: [0.3325 0.     0.2925] angle 0
+time=1794671681.311881 Pos: [0.3725 0.     0.2925] angle 0
+time=1794671681.3626027 Pos: [0.4125 0.     0.2925] angle 0
+time=1794671681.4026344 Pos: [0.4525 0.     0.2925] angle 0
+time=1794671681.4407828 Pos: [0.4925 0.     0.2925] angle 0
+time=1794671681.478423 Pos: [0.5325 0.     0.2925] angle 0
+time=1794671681.5177014 Pos: [0.5725 0.     0.2925] angle 0
+time=1794671681.5557296 Pos: [0.6125 0.     0.2925] angle 0
+time=1794671681.5960166 Pos: [0.6525 0.     0.2925] angle 0
+time=1794671681.6337988 Pos: [0.6925 0.     0.2925] angle 0
+time=1794671681.6705456 Pos: [0.7325 0.     0.2925] angle 0
+time=1794671681.707402 Pos: [0.7725 0.     0.2925] angle 0
+time=1794671681.743753 Pos: [0.8125 0.     0.2925] angle 0
+time=1794671681.7834406 Pos: [0.8525 0.     0.2925] angle 0
+time=1794671681.8199613 Pos: [0.8925 0.     0.2925] angle 0
+time=1794671681.8573565 Pos: [0.9325 0.     0.2925] angle 0
+time=1794671681.8939984 Pos: [0.9725 0.     0.2925] angle 0
+time=1794671681.9308243 Pos: [1.0125 0.     0.2925] angle 0
+time=1794671681.9684877 Pos: [1.0525 0.     0.2925] angle 0
+time=1794671682.006402 Pos: [1.0925 0.     0.2925] angle 0
+time=1794671682.0443304 Pos: [1.1325 0.     0.2925] angle 0
+time=1794671682.081221 Pos: [1.1725 0.     0.2925] angle 0
+time=1794671682.1188438 Pos: [1.2125 0.     0.2925] angle 0
+time=1794671682.1552925 Pos: [1.2525 0.     0.2925] angle 0
+time=1794671682.1930408 Pos: [1.2925 0.     0.2925] angle 0
+0.585
+0.2925 0.2925
+True: Accepted
