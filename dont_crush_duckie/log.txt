@@ -1,0 +1,141 @@
+True: Accepted
+time=1794683150.6002967 gym-duckietown 2019.0.0
+
+time=1794683150.6830564 Registering gym environment id: Duckietown-4way-v0
+time=1794683150.683157 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794683150.6832159 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794683150.6832411 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794683150.6833088 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794683150.683349 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794683150.6833963 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794683150.6834471 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794683150.6834989 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794683150.6835375 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794683150.6835735 Registering gym environment id: Duckietown-small_loop-v0
+time=1794683150.6836123 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794683150.683653 Registering gym environment id: Duckietown-straight_road-v0
+time=1794683150.683704 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794683150.6837566 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794683150.683806 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794683150.6838574 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794683150.6839097 Registering gym environment id: Duckietown-udem1-v0
+time=1794683150.6839573 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794683151.8655288 Falling back to non-multisampled frame buffer
+time=1794683151.867556 Falling back to non-multisampled frame buffer
+time=1794683151.87028 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794683151.874329 loading mesh "duckiebot.obj"
+time=1794683151.8744438 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794683152.0779576 loading texture "straight_1.png"
+time=1794683152.0923276 road_tile_size=0.585
+time=1794683152.092674 Starting at [0.2925  0.      0.43875] 0
+time=1794683152.0928526 Pos: [0.2925  0.      0.43875] angle 0
+time=1794683152.19704 using DuckietownEnv
+time=1794683152.1977656 loading mesh "duckie.obj"
+time=1794683152.2210858 loading texture "duckie.png"
+time=1794683152.6554334 Pos: [0.2925  0.      0.43875] angle 0
+time=1794683152.8219137 Pos: [0.31579373 0.         0.43875   ] angle 0
+time=1794683152.865702 Pos: [0.33908747 0.         0.43875   ] angle 0
+time=1794683152.9164248 Pos: [0.3623812 0.        0.43875  ] angle 0
+time=1794683152.9559894 Pos: [0.38567494 0.         0.43875   ] angle 0
+time=1794683152.9937782 Pos: [0.40896867 0.         0.43875   ] angle 0
+time=1794683153.0328174 Pos: [0.4322624 0.        0.43875  ] angle 0
+time=1794683153.0701363 Pos: [0.45555614 0.         0.43875   ] angle 0
+time=1794683153.1098583 Pos: [0.47884987 0.         0.43875   ] angle 0
+time=1794683153.1482892 Pos: [0.50214361 0.         0.43875   ] angle 0
+time=1794683153.187009 Pos: [0.52543734 0.         0.43875   ] angle 0
+time=1794683153.223929 Pos: [0.54873107 0.         0.43875   ] angle 0
+time=1794683153.2612743 Pos: [0.57202481 0.         0.43875   ] angle 0
+time=1794683153.2999618 Pos: [0.59531854 0.         0.43875   ] angle 0
+time=1794683153.3379266 Pos: [0.61861228 0.         0.43875   ] angle 0
+time=1794683153.3753345 Pos: [0.64190601 0.         0.43875   ] angle 0
+time=1794683153.4118755 Pos: [0.66519974 0.         0.43875   ] angle 0
+time=1794683153.448698 Pos: [0.68849348 0.         0.43875   ] angle 0
+time=1794683153.4859087 Pos: [0.71178721 0.         0.43875   ] angle 0
+time=1794683153.5240464 Pos: [0.73508095 0.         0.43875   ] angle 0
+time=1794683153.5611784 Pos: [0.75837468 0.         0.43875   ] angle 0
+time=1794683153.59814 Pos: [0.78166841 0.         0.43875   ] angle 0
+time=1794683153.6360254 Pos: [0.80496215 0.         0.43875   ] angle 0
+time=1794683153.6730037 Pos: [0.82825588 0.         0.43875   ] angle 0
+time=1794683153.7104044 Pos: [0.85154962 0.         0.43875   ] angle 0
+time=1794683153.7484987 Pos: [0.87484335 0.         0.43875   ] angle 0
+time=1794683153.7863576 Pos: [0.89813708 0.         0.43875   ] angle 0
+time=1794683153.8233228 Pos: [0.92143082 0.         0.43875   ] angle 0
+time=1794683153.861571 Pos: [0.94472455 0.         0.43875   ] angle 0
+time=1794683153.8987758 Pos: [0.96801829 0.         0.43875   ] angle 0
+time=1794683153.9361618 Pos: [0.99131202 0.         0.43875   ] angle 0
+time=1794683153.9729202 Pos: [1.01460575 0.         0.43875   ] angle 0
+time=1794683154.0117395 Pos: [1.03789949 0.         0.43875   ] angle 0
+time=1794683154.0486424 Pos: [1.06119322 0.         0.43875   ] angle 0
+time=1794683154.0854712 Pos: [1.08448696 0.         0.43875   ] angle 0
+time=1794683154.122516 Pos: [1.10778069 0.         0.43875   ] angle 0
+time=1794683154.1605902 Pos: [1.13107442 0.         0.43875   ] angle 0
+time=1794683154.1995323 Pos: [1.15436816 0.         0.43875   ] angle 0
+time=1794683154.2382932 Pos: [1.17766189 0.         0.43875   ] angle 0
+time=1794683154.2762911 Pos: [1.20095563 0.         0.43875   ] angle 0
+time=1794683154.3144157 Pos: [1.22424936 0.         0.43875   ] angle 0
+time=1794683154.3529406 Pos: [1.24754309 0.         0.43875   ] angle 0
+time=1794683154.3908508 Pos: [1.27083683 0.         0.43875   ] angle 0
+time=1794683154.4305975 Pos: [1.29413056 0.         0.43875   ] angle 0
+time=1794683154.4688427 Pos: [1.3174243 0.        0.43875  ] angle 0
+time=1794683154.5066867 Pos: [1.34071803 0.         0.43875   ] angle 0
+time=1794683154.544304 Pos: [1.36401176 0.         0.43875   ] angle 0
+time=1794683154.581427 Pos: [1.3873055 0.        0.43875  ] angle 0
+time=1794683154.6185372 Pos: [1.41059923 0.         0.43875   ] angle 0
+time=1794683154.6568851 Pos: [1.43389297 0.         0.43875   ] angle 0
+time=1794683154.695949 Pos: [1.4571867 0.        0.43875  ] angle 0
+time=1794683154.7346919 Pos: [1.4571867 0.        0.43875  ] angle 0
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+20561
+20865
+21089
+21174
+21403
+21446
+21638
+21780
+21730
+21803
+21879
+21831
+21845
+21954
+21845
+21876
+21828
+21641
+21702
+21723
+21504
+21422
+21404
+21283
+21403
+21347
+21719
+22053
+22248
+22544
+22684
+22729
+23154
+23217
+23398
+23807
+23812
+23959
+24259
+24440
+24587
+25043
+25176
+25730
+26270
+26641
+27330
+28034
+28956
+30568
+32371
+True: Accepted
