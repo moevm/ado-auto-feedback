@@ -1,0 +1,46 @@
+False: Incorrect solution execution: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+time=1794656145.3747582 gym-duckietown 2019.0.0
+
+time=1794656146.4408329 Registering gym environment id: Duckietown-4way-v0
+time=1794656146.4409678 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794656146.4410331 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794656146.4410715 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794656146.4411542 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794656146.441222 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794656146.4413211 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794656146.4413667 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794656146.4414392 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794656146.4414916 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794656146.4415536 Registering gym environment id: Duckietown-small_loop-v0
+time=1794656146.441599 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794656146.4416592 Registering gym environment id: Duckietown-straight_road-v0
+time=1794656146.4417124 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794656146.4417646 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794656146.441827 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794656146.441903 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794656146.4419637 Registering gym environment id: Duckietown-udem1-v0
+time=1794656146.4420278 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794656159.2667594 Falling back to non-multisampled frame buffer
+time=1794656159.2691739 Falling back to non-multisampled frame buffer
+time=1794656159.2733922 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1794656159.3068843 loading mesh "duckiebot.obj"
+time=1794656159.307087 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794656159.5857499 loading texture "straight_1.png"
+time=1794656159.6904042 using user tile start: [7, 0]
+time=1794656159.6909637 tile: {'coords': (7, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[4.095  , 0.     , 0.4095 ],
+        [4.24125, 0.     , 0.4095 ],
+        [4.53375, 0.     , 0.4095 ],
+        [4.68   , 0.     , 0.4095 ]],
+
+       [[4.68   , 0.     , 0.1755 ],
+        [4.53375, 0.     , 0.1755 ],
+        [4.24125, 0.     , 0.1755 ],
+        [4.095  , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x706c08828a30>, 'color': array([1, 1, 1])}
+time=1794656159.6921935 road_tile_size=0.585
+time=1794656159.6924238 Starting at [4.6454554  0.         0.40251384] 2.5225862615064476
+time=1794656159.6926017 Pos: [4.6454554  0.         0.40251384] angle 2.5225862615064476
+time=1794656159.8177183 using DuckietownEnv
+0.585
+4.645455395846549 0.4025138366778537
+total reward =  0
+False: Incorrect solution execution: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
