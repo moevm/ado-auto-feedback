@@ -1,0 +1,40 @@
+False: Non-zero return code, probably a syntax error occurred\ntime=1794683612.8532772 gym-duckietown 2019.0.0
+
+time=1794683612.9365025 Registering gym environment id: Duckietown-4way-v0
+time=1794683612.9365938 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794683612.9366243 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794683612.9366648 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794683612.9366891 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794683612.9367292 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794683612.936809 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794683612.936851 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794683612.9369013 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794683612.9369423 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794683612.936969 Registering gym environment id: Duckietown-small_loop-v0
+time=1794683612.9369907 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794683612.937012 Registering gym environment id: Duckietown-straight_road-v0
+time=1794683612.9370332 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794683612.9370553 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794683612.9370766 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794683612.9370964 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794683612.9371166 Registering gym environment id: Duckietown-udem1-v0
+time=1794683612.9371362 Registering gym environment id: Duckietown-zigzag_dists-v0
+Traceback (most recent call last):
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 44, in __get_solution_class
+    return getattr(solution_file_as_module, solution_class_name)
+AttributeError: module 'gym_duckietown.tasks.ride_3_m_duckiebot.solutions.solution' has no attribute 'Ride3MDuckiebotTaskSolution'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/ride_3_m_duckiebot/checker.py", line 5, in <module>
+    verdict = SolutionEvaluator(
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 36, in __init__
+    self.solution_class = self.__get_solution_class(solution_file_as_module, solution_class_name)
+  File "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/tasks/solution_evaluator.py", line 46, in __get_solution_class
+    return getattr(solution_file_as_module, self.DEFAULT_SOLUTION_CLASS)
+AttributeError: module 'gym_duckietown.tasks.ride_3_m_duckiebot.solutions.solution' has no attribute 'Solution'
