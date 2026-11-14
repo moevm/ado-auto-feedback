@@ -1,0 +1,64 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1794655147.0788395 gym-duckietown 2019.0.0
+
+time=1794655147.5370185 Registering gym environment id: Duckietown-4way-v0
+time=1794655147.5372353 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794655147.5373378 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794655147.5374644 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794655147.5376115 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794655147.5377526 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794655147.537884 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794655147.537963 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794655147.53808 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794655147.5381513 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794655147.5382185 Registering gym environment id: Duckietown-small_loop-v0
+time=1794655147.5382805 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794655147.5383415 Registering gym environment id: Duckietown-straight_road-v0
+time=1794655147.5384037 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794655147.538467 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794655147.5385287 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794655147.5385902 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794655147.538677 Registering gym environment id: Duckietown-udem1-v0
+time=1794655147.5387824 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794655152.2840314 Falling back to non-multisampled frame buffer
+time=1794655152.2871587 Falling back to non-multisampled frame buffer
+time=1794655152.2910788 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1794655152.296113 loading mesh "duckiebot.obj"
+time=1794655152.296262 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794655152.5163233 loading texture "straight_1.png"
+time=1794655152.5693772 using user tile start: [29, 0]
+time=1794655152.5699744 tile: {'coords': (29, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[16.965  ,  0.     ,  0.4095 ],
+        [17.11125,  0.     ,  0.4095 ],
+        [17.40375,  0.     ,  0.4095 ],
+        [17.55   ,  0.     ,  0.4095 ]],
+
+       [[17.55   ,  0.     ,  0.1755 ],
+        [17.40375,  0.     ,  0.1755 ],
+        [17.11125,  0.     ,  0.1755 ],
+        [16.965  ,  0.     ,  0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x702b515e8a30>, 'color': array([1, 1, 1])}
+time=1794655152.570829 road_tile_size=0.585
+time=1794655152.571021 Starting at [17.17173261  0.          0.17711444] 0.4532847759503572
+time=1794655152.5711844 Pos: [17.17173261  0.          0.17711444] angle 0.4532847759503572
+time=1794655152.6777155 using DuckietownEnv
+time=1794655153.1162434 Pos: [17.19250751  0.          0.16658091] angle 0.4852284209061306
+time=1794655153.3107355 Pos: [17.21292421  0.          0.15536911] angle 0.5191509695612926
+time=1794655153.3633845 Pos: [17.23293625  0.          0.14345032] angle 0.5551762136436704
+time=1794655153.406234 Pos: [17.25249177  0.          0.13079673] angle 0.5934350486501224
+time=1794655153.444272 Pos: [17.27153294  0.          0.11738191] angle 0.6340657648430278
+time=1794655153.4816427 Pos: [17.28999547  0.          0.1031816 ] angle 0.6772143252876867
+time=1794655153.5178359 Pos: [17.30780808  0.          0.08817446] angle 0.7230346245090153
+time=1794655153.5553682 Pos: [17.32489199  0.          0.07234313] angle 0.7716887201103377
+time=1794655153.5931373 Pos: [17.34116051  0.          0.05567542] angle 0.8233470283221744
+time=1794655153.6293864 No tile found at [ 1.73986627e+01  0.00000000e+00 -1.26268142e-02] (29, -1)
+time=1794655153.6296527 Invalid pose. Collision free: True On drivable area: False
+time=1794655153.6297054 safety_factor: 1.0
+time=1794655153.6298745 pos: [17.3411935   0.          0.05663569]
+time=1794655153.6300316 l_pos: [1.72834747e+01 0.00000000e+00 8.74471828e-03]
+time=1794655153.6301885 r_pos: [17.39891226  0.          0.10452667]
+time=1794655153.6303165 f_pos: [ 1.73986627e+01  0.00000000e+00 -1.26268142e-02]
+time=1794655153.630345 Stopping the simulator because we are at an invalid pose.
+time=1794655153.630483 Pos: [17.35651861  0.          0.03816569] angle 0.8781884729476243
+0.585
+17.171732605023156 0.17711443697468168
+total reward =  -21.52029957296966
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
