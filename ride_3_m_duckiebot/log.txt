@@ -1,0 +1,39 @@
+False: Incorrect solution execution: local variable 'stopped' referenced before assignment
+time=1794687956.6387334 gym-duckietown 2019.0.0
+
+time=1794687956.725614 Registering gym environment id: Duckietown-4way-v0
+time=1794687956.7256942 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794687956.7257242 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794687956.725769 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794687956.725819 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794687956.7258594 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794687956.725902 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794687956.7259495 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794687956.725998 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794687956.726039 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794687956.7260869 Registering gym environment id: Duckietown-small_loop-v0
+time=1794687956.7261343 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794687956.7261834 Registering gym environment id: Duckietown-straight_road-v0
+time=1794687956.7262306 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794687956.7262816 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794687956.7263181 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794687956.726353 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794687956.7263877 Registering gym environment id: Duckietown-udem1-v0
+time=1794687956.7264206 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794687957.9251804 Falling back to non-multisampled frame buffer
+time=1794687957.9273121 Falling back to non-multisampled frame buffer
+time=1794687957.9301715 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_with_side_floor.yaml"
+time=1794687957.9368165 loading mesh "duckiebot.obj"
+time=1794687957.9369912 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794687958.2186406 loading texture "floor_1.png"
+time=1794687958.3130786 loading texture "straight_1.png"
+time=1794687958.3255925 road_tile_size=0.585
+time=1794687958.3258948 Starting at [0.2925 0.     0.8775] 0
+time=1794687958.3260376 Pos: [0.2925 0.     0.8775] angle 0
+time=1794687958.4579725 using DuckietownEnv
+time=1794687958.6316016 Pos: [0.2925 0.     0.8775] angle 0
+0.585
+0.2925 0.8775
+68896
+total reward =  -2.9266496865122296
+False: Incorrect solution execution: local variable 'stopped' referenced before assignment
