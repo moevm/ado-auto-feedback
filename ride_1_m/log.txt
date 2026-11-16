@@ -1,0 +1,36 @@
+False: Incorrect solution execution: name 'true' is not defined
+time=1794816712.0290277 gym-duckietown 2019.0.0
+
+time=1794816712.1110618 Registering gym environment id: Duckietown-4way-v0
+time=1794816712.1111517 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794816712.1111817 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794816712.1112072 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794816712.1112301 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794816712.1113024 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794816712.1113553 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794816712.1113942 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794816712.1114256 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794816712.1114607 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794816712.111482 Registering gym environment id: Duckietown-small_loop-v0
+time=1794816712.1115026 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794816712.111523 Registering gym environment id: Duckietown-straight_road-v0
+time=1794816712.1115427 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794816712.1115632 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794816712.1115835 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794816712.1116035 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794816712.1116235 Registering gym environment id: Duckietown-udem1-v0
+time=1794816712.111643 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794816713.292557 Falling back to non-multisampled frame buffer
+time=1794816713.294533 Falling back to non-multisampled frame buffer
+time=1794816713.2979236 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794816713.3023725 loading mesh "duckiebot.obj"
+time=1794816713.3025513 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794816713.5082471 loading texture "straight_1.png"
+time=1794816713.5225143 road_tile_size=0.585
+time=1794816713.5227702 Starting at [0.2925 0.     0.2925] 0
+time=1794816713.5230362 Pos: [0.2925 0.     0.2925] angle 0
+time=1794816713.628605 using DuckietownEnv
+0.585
+0.2925 0.2925
+total reward =  0
+False: Incorrect solution execution: name 'true' is not defined
