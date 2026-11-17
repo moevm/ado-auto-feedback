@@ -1,0 +1,36 @@
+False: Incorrect solution execution: name 'linear_velocity' is not defined
+time=1794920643.277993 gym-duckietown 2019.0.0
+
+time=1794920646.4455802 Registering gym environment id: Duckietown-4way-v0
+time=1794920646.4459662 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794920646.4461484 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794920646.4463532 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794920646.446557 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794920646.4467552 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794920646.446987 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794920646.4471953 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794920646.447409 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794920646.4476244 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794920646.4478614 Registering gym environment id: Duckietown-small_loop-v0
+time=1794920646.4480681 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794920646.4482696 Registering gym environment id: Duckietown-straight_road-v0
+time=1794920646.4484744 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794920646.4486926 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794920646.449091 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794920646.4493196 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794920646.4495513 Registering gym environment id: Duckietown-udem1-v0
+time=1794920646.4497695 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794920654.9132876 Falling back to non-multisampled frame buffer
+time=1794920654.9162428 Falling back to non-multisampled frame buffer
+time=1794920654.9217782 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794920654.9752858 loading mesh "duckiebot.obj"
+time=1794920654.9759736 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794920655.2077177 loading texture "straight_1.png"
+time=1794920655.2855968 road_tile_size=0.585
+time=1794920655.2859616 Starting at [0.2925 0.     0.2925] 0
+time=1794920655.286224 Pos: [0.2925 0.     0.2925] angle 0
+time=1794920655.6196263 using DuckietownEnv
+0.585
+0.2925 0.2925
+total reward =  0
+False: Incorrect solution execution: name 'linear_velocity' is not defined
