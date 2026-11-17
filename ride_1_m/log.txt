@@ -1,0 +1,37 @@
+False: Incorrect solution execution: name 'target_distance' is not defined
+time=1794922717.8185644 gym-duckietown 2019.0.0
+
+time=1794922717.9006612 Registering gym environment id: Duckietown-4way-v0
+time=1794922717.9007523 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1794922717.9007833 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1794922717.9008312 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1794922717.9008749 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1794922717.9009004 Registering gym environment id: Duckietown-loop_empty-v0
+time=1794922717.900939 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1794922717.901001 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1794922717.901072 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1794922717.9011126 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1794922717.901155 Registering gym environment id: Duckietown-small_loop-v0
+time=1794922717.9012017 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1794922717.901249 Registering gym environment id: Duckietown-straight_road-v0
+time=1794922717.9012947 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1794922717.9013424 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1794922717.901392 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1794922717.9014406 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1794922717.9014902 Registering gym environment id: Duckietown-udem1-v0
+time=1794922717.9015353 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1794922719.079647 Falling back to non-multisampled frame buffer
+time=1794922719.081919 Falling back to non-multisampled frame buffer
+time=1794922719.0846896 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1794922719.08863 loading mesh "duckiebot.obj"
+time=1794922719.088825 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1794922719.285937 loading texture "straight_1.png"
+time=1794922719.3003788 road_tile_size=0.585
+time=1794922719.3006694 Starting at [0.2925 0.     0.2925] 0
+time=1794922719.3008325 Pos: [0.2925 0.     0.2925] angle 0
+time=1794922719.406586 using DuckietownEnv
+time=1794922719.53886 Pos: [0.29715875 0.         0.2925    ] angle 0
+0.585
+0.2925 0.2925
+total reward =  -1.030237596086652
+False: Incorrect solution execution: name 'target_distance' is not defined
