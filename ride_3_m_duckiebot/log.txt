@@ -1,0 +1,38 @@
+False: Incorrect solution execution: name 'angular_velocity' is not defined
+time=1795095016.871924 gym-duckietown 2019.0.0
+
+time=1795095016.9548898 Registering gym environment id: Duckietown-4way-v0
+time=1795095016.9549675 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795095016.9550002 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795095016.9550564 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795095016.9551325 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795095016.9551604 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795095016.9552066 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795095016.9552336 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795095016.9552693 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795095016.9553044 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795095016.9553266 Registering gym environment id: Duckietown-small_loop-v0
+time=1795095016.9553483 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795095016.9553697 Registering gym environment id: Duckietown-straight_road-v0
+time=1795095016.955391 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795095016.9554257 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795095016.9554462 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795095016.9554667 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795095016.9554873 Registering gym environment id: Duckietown-udem1-v0
+time=1795095016.9555073 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795095018.17753 Falling back to non-multisampled frame buffer
+time=1795095018.179517 Falling back to non-multisampled frame buffer
+time=1795095018.1828992 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_with_side_floor.yaml"
+time=1795095018.2181988 loading mesh "duckiebot.obj"
+time=1795095018.2183237 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795095018.4184287 loading texture "floor_1.png"
+time=1795095018.5108252 loading texture "straight_1.png"
+time=1795095018.522848 road_tile_size=0.585
+time=1795095018.5231156 Starting at [0.2925 0.     0.8775] 0
+time=1795095018.523276 Pos: [0.2925 0.     0.8775] angle 0
+time=1795095018.6446912 using DuckietownEnv
+time=1795095018.8144732 Pos: [0.2925 0.     0.8775] angle 0
+0.585
+0.2925 0.8775
+total reward =  -2.9266496865122296
+False: Incorrect solution execution: name 'angular_velocity' is not defined
