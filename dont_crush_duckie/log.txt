@@ -1,0 +1,39 @@
+False: Incorrect solution execution: 'DontCrushDuckieTaskSolution' object has no attribute 'start_pos'
+time=1795162994.6963027 gym-duckietown 2019.0.0
+
+time=1795162994.7787848 Registering gym environment id: Duckietown-4way-v0
+time=1795162994.778987 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795162994.7790358 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795162994.779108 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795162994.7791452 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795162994.7791953 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795162994.7792432 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795162994.7792912 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795162994.7793448 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795162994.7793837 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795162994.7794218 Registering gym environment id: Duckietown-small_loop-v0
+time=1795162994.779458 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795162994.779498 Registering gym environment id: Duckietown-straight_road-v0
+time=1795162994.779535 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795162994.7795758 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795162994.7796004 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795162994.7796247 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795162994.7796466 Registering gym environment id: Duckietown-udem1-v0
+time=1795162994.7796688 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795162996.0587492 Falling back to non-multisampled frame buffer
+time=1795162996.0607214 Falling back to non-multisampled frame buffer
+time=1795162996.0634146 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1795162996.0804791 loading mesh "duckiebot.obj"
+time=1795162996.0806122 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795162996.2796762 loading texture "straight_1.png"
+time=1795162996.2942922 road_tile_size=0.585
+time=1795162996.2945666 Starting at [0.2925  0.      0.43875] 0
+time=1795162996.294863 Pos: [0.2925  0.      0.43875] angle 0
+time=1795162996.398519 using DuckietownEnv
+time=1795162996.3995109 loading mesh "duckie.obj"
+time=1795162996.448123 loading texture "duckie.png"
+0.585
+0.2925 0.43875
+env.road_tile_size = 0.585
+total reward =  0
+False: Incorrect solution execution: 'DontCrushDuckieTaskSolution' object has no attribute 'start_pos'
