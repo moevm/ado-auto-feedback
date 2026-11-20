@@ -1,0 +1,205 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1795176585.6088972 gym-duckietown 2019.0.0
+
+time=1795176585.6916835 Registering gym environment id: Duckietown-4way-v0
+time=1795176585.6917734 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795176585.6918342 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795176585.691874 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795176585.6919322 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795176585.69197 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795176585.6919932 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795176585.6920593 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795176585.6921108 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795176585.6921892 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795176585.6922646 Registering gym environment id: Duckietown-small_loop-v0
+time=1795176585.6923113 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795176585.692361 Registering gym environment id: Duckietown-straight_road-v0
+time=1795176585.6924055 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795176585.6924534 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795176585.6925023 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795176585.6925514 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795176585.6925979 Registering gym environment id: Duckietown-udem1-v0
+time=1795176585.6926444 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795176586.8862286 Falling back to non-multisampled frame buffer
+time=1795176586.8885348 Falling back to non-multisampled frame buffer
+time=1795176586.8912501 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_with_side_floor.yaml"
+time=1795176586.8983157 loading mesh "duckiebot.obj"
+time=1795176586.898442 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795176587.1054983 loading texture "floor_1.png"
+time=1795176587.1744528 loading texture "straight_1.png"
+time=1795176587.1862876 road_tile_size=0.585
+time=1795176587.186526 Starting at [0.2925 0.     0.8775] 0
+time=1795176587.1867278 Pos: [0.2925 0.     0.8775] angle 0
+time=1795176587.3054624 using DuckietownEnv
+time=1795176587.4718997 Pos: [0.30647624 0.         0.8775    ] angle 0
+time=1795176587.661597 Pos: [0.32045248 0.         0.8775    ] angle 0
+time=1795176587.7395487 Pos: [0.33442872 0.         0.8775    ] angle 0
+time=1795176587.8017318 Pos: [0.34840496 0.         0.8775    ] angle 0
+time=1795176587.8661509 Pos: [0.3623812 0.        0.8775   ] angle 0
+time=1795176587.9305642 Pos: [0.37635744 0.         0.8775    ] angle 0
+time=1795176587.9968536 Pos: [0.39033368 0.         0.8775    ] angle 0
+time=1795176588.0608737 Pos: [0.40430992 0.         0.8775    ] angle 0
+time=1795176588.120787 Pos: [0.41828616 0.         0.8775    ] angle 0
+time=1795176588.1804814 Pos: [0.4322624 0.        0.8775   ] angle 0
+time=1795176588.2405248 Pos: [0.44623864 0.         0.8775    ] angle 0
+time=1795176588.2990859 Pos: [0.46021488 0.         0.8775    ] angle 0
+time=1795176588.359249 Pos: [0.47419113 0.         0.8775    ] angle 0
+time=1795176588.4217882 Pos: [0.48816737 0.         0.8775    ] angle 0
+time=1795176588.4817767 Pos: [0.50214361 0.         0.8775    ] angle 0
+time=1795176588.5461693 Pos: [0.51611985 0.         0.8775    ] angle 0
+time=1795176588.6082246 Pos: [0.53009609 0.         0.8775    ] angle 0
+time=1795176588.6692352 Pos: [0.54407233 0.         0.8775    ] angle 0
+time=1795176588.731746 Pos: [0.55804857 0.         0.8775    ] angle 0
+time=1795176588.7934139 Pos: [0.57202481 0.         0.8775    ] angle 0
+time=1795176588.8586779 Pos: [0.58600105 0.         0.8775    ] angle 0
+time=1795176588.9232845 Pos: [0.59997729 0.         0.8775    ] angle 0
+time=1795176588.9827113 Pos: [0.61395353 0.         0.8775    ] angle 0
+time=1795176589.0449536 Pos: [0.62792977 0.         0.8775    ] angle 0
+time=1795176589.1063557 Pos: [0.64190601 0.         0.8775    ] angle 0
+time=1795176589.1657338 Pos: [0.65588225 0.         0.8775    ] angle 0
+time=1795176589.237548 Pos: [0.66985849 0.         0.8775    ] angle 0
+time=1795176589.3202658 Pos: [0.68383473 0.         0.8775    ] angle 0
+time=1795176589.3912172 Pos: [0.69781097 0.         0.8775    ] angle 0
+time=1795176589.4554236 Pos: [0.71178721 0.         0.8775    ] angle 0
+time=1795176589.5205157 Pos: [0.72576345 0.         0.8775    ] angle 0
+time=1795176589.5860832 Pos: [0.73973969 0.         0.8775    ] angle 0
+time=1795176589.6570144 Pos: [0.75371593 0.         0.8775    ] angle 0
+time=1795176589.7261162 Pos: [0.76769217 0.         0.8775    ] angle 0
+time=1795176589.791965 Pos: [0.78166841 0.         0.8775    ] angle 0
+time=1795176589.8581867 Pos: [0.79564465 0.         0.8775    ] angle 0
+time=1795176589.9220123 Pos: [0.80962089 0.         0.8775    ] angle 0
+time=1795176589.9880662 Pos: [0.82359713 0.         0.8775    ] angle 0
+time=1795176590.054479 Pos: [0.83757338 0.         0.8775    ] angle 0
+time=1795176590.1176665 Pos: [0.85154962 0.         0.8775    ] angle 0
+time=1795176590.1845596 Pos: [0.86552586 0.         0.8775    ] angle 0
+time=1795176590.249541 Pos: [0.8795021 0.        0.8775   ] angle 0
+time=1795176590.3132012 Pos: [0.89347834 0.         0.8775    ] angle 0
+time=1795176590.3791218 Pos: [0.90745458 0.         0.8775    ] angle 0
+time=1795176590.44282 Pos: [0.92143082 0.         0.8775    ] angle 0
+time=1795176590.5076015 Pos: [0.93540706 0.         0.8775    ] angle 0
+time=1795176590.5718005 Pos: [0.9493833 0.        0.8775   ] angle 0
+time=1795176590.6377003 Pos: [0.96335954 0.         0.8775    ] angle 0
+time=1795176590.7014537 Pos: [0.97733578 0.         0.8775    ] angle 0
+time=1795176590.7666476 Pos: [0.99131202 0.         0.8775    ] angle 0
+time=1795176590.833247 Pos: [1.00528826 0.         0.8775    ] angle 0
+time=1795176590.9022381 Pos: [1.0192645 0.        0.8775   ] angle 0
+time=1795176590.9666684 Pos: [1.03324074 0.         0.8775    ] angle 0
+time=1795176591.0364234 Pos: [1.04721698 0.         0.8775    ] angle 0
+time=1795176591.1032314 Pos: [1.06119322 0.         0.8775    ] angle 0
+time=1795176591.1670341 Pos: [1.07516946 0.         0.8775    ] angle 0
+time=1795176591.2316835 Pos: [1.0891457 0.        0.8775   ] angle 0
+time=1795176591.2956257 Pos: [1.10312194 0.         0.8775    ] angle 0
+time=1795176591.3599913 Pos: [1.11709818 0.         0.8775    ] angle 0
+time=1795176591.4236279 Pos: [1.13107442 0.         0.8775    ] angle 0
+time=1795176591.485749 Pos: [1.14505066 0.         0.8775    ] angle 0
+time=1795176591.547768 Pos: [1.1590269 0.        0.8775   ] angle 0
+time=1795176591.6074355 Pos: [1.17300314 0.         0.8775    ] angle 0
+time=1795176591.6713715 Pos: [1.18697939 0.         0.8775    ] angle 0
+time=1795176591.7343335 Pos: [1.20095563 0.         0.8775    ] angle 0
+time=1795176591.7958846 Pos: [1.21493187 0.         0.8775    ] angle 0
+time=1795176591.8570845 Pos: [1.22890811 0.         0.8775    ] angle 0
+time=1795176591.9178138 Pos: [1.24288435 0.         0.8775    ] angle 0
+time=1795176591.9798594 Pos: [1.25686059 0.         0.8775    ] angle 0
+time=1795176592.0433192 Pos: [1.27083683 0.         0.8775    ] angle 0
+time=1795176592.1021123 Pos: [1.28481307 0.         0.8775    ] angle 0
+time=1795176592.1606927 Pos: [1.29878931 0.         0.8775    ] angle 0
+time=1795176592.2189023 Pos: [1.31276555 0.         0.8775    ] angle 0
+time=1795176592.2781227 Pos: [1.32674179 0.         0.8775    ] angle 0
+time=1795176592.3378122 Pos: [1.34071803 0.         0.8775    ] angle 0
+time=1795176592.3992848 Pos: [1.35469427 0.         0.8775    ] angle 0
+time=1795176592.4603646 Pos: [1.36867051 0.         0.8775    ] angle 0
+time=1795176592.518764 Pos: [1.38264675 0.         0.8775    ] angle 0
+time=1795176592.5774474 Pos: [1.39662299 0.         0.8775    ] angle 0
+time=1795176592.6359828 Pos: [1.41059923 0.         0.8775    ] angle 0
+time=1795176592.693589 Invalid pose. Collision free: False On drivable area: True
+time=1795176592.693665 safety_factor: 1.0
+time=1795176592.6939507 pos: [1.40057547 0.         0.8775    ]
+time=1795176592.6941636 l_pos: [1.40057547 0.         0.8025    ]
+time=1795176592.694347 r_pos: [1.40057547 0.         0.9525    ]
+time=1795176592.6945028 f_pos: [1.49057547 0.         0.8775    ]
+time=1795176592.6945395 Stopping the simulator because we are at an invalid pose.
+time=1795176592.6947072 Pos: [1.42457547 0.         0.8775    ] angle 0
+0.585
+0.2925 0.8775
+Красных пикселей: 87213
+Красных пикселей: 81145
+Красных пикселей: 75508
+Красных пикселей: 70435
+Красных пикселей: 65861
+Красных пикселей: 61737
+Красных пикселей: 58022
+Красных пикселей: 54617
+Красных пикселей: 51598
+Красных пикселей: 48724
+Красных пикселей: 46161
+Красных пикселей: 43849
+Красных пикселей: 41718
+Красных пикселей: 39668
+Красных пикселей: 37847
+Красных пикселей: 36147
+Красных пикселей: 34601
+Красных пикселей: 33156
+Красных пикселей: 31813
+Красных пикселей: 30618
+Красных пикселей: 29508
+Красных пикселей: 28600
+Красных пикселей: 27669
+Красных пикселей: 30156
+Красных пикселей: 29102
+Красных пикселей: 28124
+Красных пикселей: 30501
+Красных пикселей: 29152
+Красных пикселей: 27866
+Красных пикселей: 29443
+Красных пикселей: 28041
+Красных пикселей: 29309
+Красных пикселей: 27933
+Красных пикселей: 26761
+Красных пикселей: 27538
+Красных пикселей: 26484
+Красных пикселей: 25551
+Красных пикселей: 26588
+Красных пикселей: 25653
+Красных пикселей: 26271
+Красных пикселей: 25645
+Красных пикселей: 25135
+Красных пикселей: 25586
+Красных пикселей: 25245
+Красных пикселей: 25106
+Красных пикселей: 25758
+Красных пикселей: 25606
+Красных пикселей: 25648
+Красных пикселей: 26368
+Красных пикселей: 26459
+Красных пикселей: 26920
+Красных пикселей: 27460
+Красных пикселей: 28120
+Красных пикселей: 27851
+Красных пикселей: 27462
+Красных пикселей: 29173
+Красных пикселей: 28826
+Красных пикселей: 28395
+Красных пикселей: 30280
+Красных пикселей: 29848
+Красных пикселей: 29308
+Красных пикселей: 28497
+Красных пикселей: 30823
+Красных пикселей: 29715
+Красных пикселей: 28523
+Красных пикселей: 27427
+Красных пикселей: 29696
+Красных пикселей: 28513
+Красных пикселей: 27390
+Красных пикселей: 26336
+Красных пикселей: 28454
+Красных пикселей: 27344
+Красных пикселей: 26312
+Красных пикселей: 28429
+Красных пикселей: 27337
+Красных пикселей: 26326
+Красных пикселей: 25434
+Красных пикселей: 27455
+Красных пикселей: 26496
+Красных пикселей: 25660
+total reward =  -73.65851716782434
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
