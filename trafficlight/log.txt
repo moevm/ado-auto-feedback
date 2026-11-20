@@ -1,0 +1,52 @@
+False: Incorrect solution execution: 'DuckietownEnv' object has no attribute 'robot_pose'
+time=1795155554.2746067 gym-duckietown 2019.0.0
+
+time=1795155554.3574824 Registering gym environment id: Duckietown-4way-v0
+time=1795155554.3575733 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795155554.357605 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795155554.357631 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795155554.357674 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795155554.357723 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795155554.3578002 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795155554.3578491 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795155554.3578935 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795155554.3579335 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795155554.3579712 Registering gym environment id: Duckietown-small_loop-v0
+time=1795155554.3580065 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795155554.3580441 Registering gym environment id: Duckietown-straight_road-v0
+time=1795155554.3580797 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795155554.3581166 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795155554.3581526 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795155554.3582003 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795155554.3582354 Registering gym environment id: Duckietown-udem1-v0
+time=1795155554.3582692 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795155555.5264027 Falling back to non-multisampled frame buffer
+time=1795155555.5283554 Falling back to non-multisampled frame buffer
+time=1795155555.5310752 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1795155555.5369697 loading mesh "duckiebot.obj"
+time=1795155555.537084 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795155555.7505379 loading mesh "trafficlight.obj"
+time=1795155555.7506788 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1795155555.771533 loading texture "trafficlight_card.jpg"
+time=1795155556.7951217 loading texture "trafficlight_cover.jpg"
+time=1795155557.8070035 loading texture "trafficlight_card0.jpg"
+time=1795155558.815146 loading texture "trafficlight_card1.jpg"
+time=1795155559.8738334 loading texture "trafficlight_card0.jpg"
+time=1795155560.9003541 loading texture "trafficlight_card1.jpg"
+time=1795155561.9125924 loading texture "trafficlight_card0.jpg"
+time=1795155562.9381588 loading texture "trafficlight_card1.jpg"
+time=1795155563.9583936 loading texture "trafficlight_card0.jpg"
+time=1795155564.965663 loading texture "trafficlight_card1.jpg"
+time=1795155565.9737687 loading texture "trafficlight_card0.jpg"
+time=1795155566.963352 loading texture "trafficlight_card1.jpg"
+time=1795155568.006107 loading texture "trafficlight_card0.jpg"
+time=1795155569.0318449 loading texture "trafficlight_card1.jpg"
+time=1795155570.0528207 loading texture "straight_1.png"
+time=1795155570.0605335 road_tile_size=0.585
+time=1795155570.060789 Starting at [0.2925 0.     0.2925] 0
+time=1795155570.0610113 Pos: [0.2925 0.     0.2925] angle 0
+time=1795155570.2188656 using DuckietownEnv
+0.585
+0.2925 0.2925
+total reward =  0
+False: Incorrect solution execution: 'DuckietownEnv' object has no attribute 'robot_pose'
