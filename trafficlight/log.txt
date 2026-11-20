@@ -1,0 +1,1909 @@
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
+time=1795164486.2483418 gym-duckietown 2019.0.0
+
+time=1795164486.3419485 Registering gym environment id: Duckietown-4way-v0
+time=1795164486.3420331 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795164486.3420649 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795164486.3421388 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795164486.3422167 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795164486.3422828 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795164486.3423502 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795164486.342404 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795164486.3424394 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795164486.3424742 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795164486.3424988 Registering gym environment id: Duckietown-small_loop-v0
+time=1795164486.3425217 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795164486.3425426 Registering gym environment id: Duckietown-straight_road-v0
+time=1795164486.3425643 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795164486.3425863 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795164486.3426073 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795164486.342628 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795164486.342649 Registering gym environment id: Duckietown-udem1-v0
+time=1795164486.3426695 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795164487.7116833 Falling back to non-multisampled frame buffer
+time=1795164487.713627 Falling back to non-multisampled frame buffer
+time=1795164487.7163494 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1795164487.7221954 loading mesh "duckiebot.obj"
+time=1795164487.722311 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795164487.9238472 loading mesh "trafficlight.obj"
+time=1795164487.923995 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1795164487.9462118 loading texture "trafficlight_card.jpg"
+time=1795164489.0322442 loading texture "trafficlight_cover.jpg"
+time=1795164490.0913992 loading texture "trafficlight_card0.jpg"
+time=1795164491.1592853 loading texture "trafficlight_card1.jpg"
+time=1795164492.2309177 loading texture "trafficlight_card0.jpg"
+time=1795164493.3271043 loading texture "trafficlight_card1.jpg"
+time=1795164494.395657 loading texture "trafficlight_card0.jpg"
+time=1795164495.4828568 loading texture "trafficlight_card1.jpg"
+time=1795164496.5755904 loading texture "trafficlight_card0.jpg"
+time=1795164497.6454272 loading texture "trafficlight_card1.jpg"
+time=1795164498.7661316 loading texture "trafficlight_card0.jpg"
+time=1795164499.8919756 loading texture "trafficlight_card1.jpg"
+time=1795164500.984556 loading texture "trafficlight_card0.jpg"
+time=1795164502.134115 loading texture "trafficlight_card1.jpg"
+time=1795164503.2135167 loading texture "straight_1.png"
+time=1795164503.2216187 road_tile_size=0.585
+time=1795164503.2219496 Starting at [0.2925 0.     0.2925] 0
+time=1795164503.2221818 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.3829305 using DuckietownEnv
+time=1795164503.5242643 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.677751 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.7131393 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.7487867 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.781566 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.8143852 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.8508503 Pos: [0.2925 0.     0.2925] angle 0
+time=1795164503.8834 Pos: [0.32045248 0.         0.2925    ] angle 0
+time=1795164503.9185214 Pos: [0.34840496 0.         0.2925    ] angle 0
+time=1795164503.9607222 Pos: [0.37635744 0.         0.2925    ] angle 0
+time=1795164503.9975708 Pos: [0.40430992 0.         0.2925    ] angle 0
+time=1795164504.032338 Pos: [0.4322624 0.        0.2925   ] angle 0
+time=1795164504.0649292 Pos: [0.46021488 0.         0.2925    ] angle 0
+time=1795164504.1019735 Pos: [0.48816737 0.         0.2925    ] angle 0
+time=1795164504.136856 Pos: [0.51611985 0.         0.2925    ] angle 0
+time=1795164504.1712847 Pos: [0.54407233 0.         0.2925    ] angle 0
+time=1795164504.204114 Pos: [0.57202481 0.         0.2925    ] angle 0
+time=1795164504.2391453 Pos: [0.59997729 0.         0.2925    ] angle 0
+time=1795164504.2715895 Pos: [0.62792977 0.         0.2925    ] angle 0
+time=1795164504.305363 Pos: [0.65588225 0.         0.2925    ] angle 0
+time=1795164504.3388124 Pos: [0.68383473 0.         0.2925    ] angle 0
+time=1795164504.372775 Pos: [0.71178721 0.         0.2925    ] angle 0
+time=1795164504.408138 Pos: [0.73973969 0.         0.2925    ] angle 0
+time=1795164504.442826 Pos: [0.76769217 0.         0.2925    ] angle 0
+time=1795164504.4772532 Pos: [0.79564465 0.         0.2925    ] angle 0
+time=1795164504.5109487 Pos: [0.82359713 0.         0.2925    ] angle 0
+time=1795164504.5452557 Pos: [0.85154962 0.         0.2925    ] angle 0
+time=1795164504.5790763 Pos: [0.8795021 0.        0.2925   ] angle 0
+time=1795164504.6133606 Pos: [0.90745458 0.         0.2925    ] angle 0
+time=1795164504.6471744 Pos: [0.93540706 0.         0.2925    ] angle 0
+time=1795164504.681516 Pos: [0.96335954 0.         0.2925    ] angle 0
+time=1795164504.7145169 Pos: [0.97267703 0.         0.2925    ] angle 0
+time=1795164504.7494495 Pos: [0.98199453 0.         0.2925    ] angle 0
+time=1795164504.7826512 Pos: [1.00994701 0.         0.2925    ] angle 0
+time=1795164504.8169186 Pos: [1.03789949 0.         0.2925    ] angle 0
+time=1795164504.851133 Pos: [1.06585197 0.         0.2925    ] angle 0
+time=1795164504.8842134 Pos: [1.07516946 0.         0.2925    ] angle 0
+time=1795164504.920296 Pos: [1.08448696 0.         0.2925    ] angle 0
+time=1795164504.9521534 Pos: [1.09380445 0.         0.2925    ] angle 0
+time=1795164504.9848754 Pos: [1.10312194 0.         0.2925    ] angle 0
+time=1795164505.022651 Pos: [1.11243944 0.         0.2925    ] angle 0
+time=1795164505.0547862 Pos: [1.12175693 0.         0.2925    ] angle 0
+time=1795164505.087229 Pos: [1.13107442 0.         0.2925    ] angle 0
+time=1795164505.1193547 Pos: [1.1590269 0.        0.2925   ] angle 0
+time=1795164505.1533368 Pos: [1.1683444 0.        0.2925   ] angle 0
+time=1795164505.1863413 Pos: [1.19629688 0.         0.2925    ] angle 0
+time=1795164505.219018 Pos: [1.22424936 0.         0.2925    ] angle 0
+time=1795164505.2510471 Pos: [1.25220184 0.         0.2925    ] angle 0
+time=1795164505.2832901 Pos: [1.28015432 0.         0.2925    ] angle 0
+time=1795164505.316091 Pos: [1.3081068 0.        0.2925   ] angle 0
+time=1795164505.3484664 Pos: [1.33605928 0.         0.2925    ] angle 0
+time=1795164505.380697 Pos: [1.36401176 0.         0.2925    ] angle 0
+time=1795164505.4137743 Pos: [1.39196424 0.         0.2925    ] angle 0
+time=1795164505.446288 Pos: [1.41991672 0.         0.2925    ] angle 0
+time=1795164505.4795306 Pos: [1.44786921 0.         0.2925    ] angle 0
+time=1795164505.518206 Pos: [1.47582169 0.         0.2925    ] angle 0
+time=1795164505.5543833 Pos: [1.50377417 0.         0.2925    ] angle 0
+time=1795164505.5875916 Pos: [1.53172665 0.         0.2925    ] angle 0
+time=1795164505.6215417 Pos: [1.55967913 0.         0.2925    ] angle 0
+time=1795164505.6547272 Pos: [1.58763161 0.         0.2925    ] angle 0
+time=1795164505.6879585 Pos: [1.61558409 0.         0.2925    ] angle 0
+time=1795164505.7217228 Pos: [1.64353657 0.         0.2925    ] angle 0
+time=1795164505.7541852 Pos: [1.67148905 0.         0.2925    ] angle 0
+time=1795164505.7872272 Pos: [1.69944153 0.         0.2925    ] angle 0
+time=1795164505.82012 Pos: [1.72739401 0.         0.2925    ] angle 0
+time=1795164505.852511 Pos: [1.75534649 0.         0.2925    ] angle 0
+time=1795164505.886487 Pos: [1.78329898 0.         0.2925    ] angle 0
+time=1795164505.9192498 Pos: [1.81125146 0.         0.2925    ] angle 0
+time=1795164505.9525778 Pos: [1.83920394 0.         0.2925    ] angle 0
+time=1795164505.986166 Pos: [1.86715642 0.         0.2925    ] angle 0
+time=1795164506.0210726 Pos: [1.8951089 0.        0.2925   ] angle 0
+time=1795164506.0535119 Pos: [1.92306138 0.         0.2925    ] angle 0
+time=1795164506.086068 Pos: [1.95101386 0.         0.2925    ] angle 0
+time=1795164506.1197891 Pos: [1.97896634 0.         0.2925    ] angle 0
+time=1795164506.153677 Pos: [2.00691882 0.         0.2925    ] angle 0
+time=1795164506.1868315 Pos: [2.0348713 0.        0.2925   ] angle 0
+time=1795164506.2199416 Pos: [2.06282378 0.         0.2925    ] angle 0
+time=1795164506.2525353 Pos: [2.09077626 0.         0.2925    ] angle 0
+time=1795164506.2853503 Pos: [2.11872874 0.         0.2925    ] angle 0
+time=1795164506.3184514 Pos: [2.14668123 0.         0.2925    ] angle 0
+time=1795164506.3510206 Pos: [2.17463371 0.         0.2925    ] angle 0
+time=1795164506.3843727 Pos: [2.20258619 0.         0.2925    ] angle 0
+time=1795164506.4175613 Pos: [2.23053867 0.         0.2925    ] angle 0
+time=1795164506.4504526 Pos: [2.25849115 0.         0.2925    ] angle 0
+time=1795164506.484003 Pos: [2.28644363 0.         0.2925    ] angle 0
+time=1795164506.5179493 Pos: [2.31439611 0.         0.2925    ] angle 0
+time=1795164506.552061 Pos: [2.34234859 0.         0.2925    ] angle 0
+time=1795164506.5842404 Pos: [2.37030107 0.         0.2925    ] angle 0
+time=1795164506.6167035 Pos: [2.39825355 0.         0.2925    ] angle 0
+time=1795164506.6496968 Pos: [2.42620603 0.         0.2925    ] angle 0
+time=1795164506.6817124 Pos: [2.45415851 0.         0.2925    ] angle 0
+time=1795164506.7140248 Pos: [2.48211099 0.         0.2925    ] angle 0
+time=1795164506.748658 Pos: [2.51006348 0.         0.2925    ] angle 0
+time=1795164506.7812672 Pos: [2.53801596 0.         0.2925    ] angle 0
+time=1795164506.814741 Pos: [2.56596844 0.         0.2925    ] angle 0
+time=1795164506.847731 Pos: [2.59392092 0.         0.2925    ] angle 0
+time=1795164506.8810477 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164506.9156601 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164506.9472623 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164506.9794643 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.0176156 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.0559657 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.086883 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.1176178 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.1495295 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.1884136 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.2200532 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.2521982 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.2840817 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.3168888 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.3483117 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.3791082 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.4098592 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.4404685 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.471249 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.502382 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.5335104 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.564283 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.595643 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.6263833 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.657084 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.6896727 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.7213295 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.752045 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.784103 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.8153095 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.8461323 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.8770227 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.9079902 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.9394042 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164507.9769835 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.0098264 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.0414393 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.073535 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.1048226 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.135637 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.1664944 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.2035818 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.2390969 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.275512 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.3139215 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.347652 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.3804266 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.4184148 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.452861 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.4860928 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.5189521 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.553585 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.584283 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.615019 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.6455324 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.678223 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.7110271 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.7443404 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.77728 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.810384 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.8475103 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.8832972 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.917736 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.9511576 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164508.9887857 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.0263476 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.064368 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.1062107 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.1416967 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.1747677 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.2069533 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.2418602 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.27421 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.3123407 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.344538 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.3766797 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.4081392 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.439116 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.4697146 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.5002584 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.5312662 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.562051 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.5929782 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.6242592 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.6551702 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.6884747 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.7200913 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.7514014 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.7833273 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.8143544 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.8452985 Pos: [2.6218734 0.        0.2925   ] angle 0
+time=1795164509.8760555 Pos: [2.64982588 0.         0.2925    ] angle 0
+time=1795164509.9087234 Pos: [2.67777836 0.         0.2925    ] angle 0
+time=1795164509.9416234 Pos: [2.70573084 0.         0.2925    ] angle 0
+time=1795164509.9751964 Pos: [2.73368332 0.         0.2925    ] angle 0
+time=1795164510.0139556 Pos: [2.7616358 0.        0.2925   ] angle 0
+time=1795164510.0538619 Pos: [2.78958828 0.         0.2925    ] angle 0
+time=1795164510.0938816 Pos: [2.79890578 0.         0.2925    ] angle 0
+time=1795164510.1307623 Pos: [2.82685826 0.         0.2925    ] angle 0
+time=1795164510.1633618 Pos: [2.85481074 0.         0.2925    ] angle 0
+time=1795164510.1955333 Pos: [2.86412823 0.         0.2925    ] angle 0
+time=1795164510.2275643 Pos: [2.87344573 0.         0.2925    ] angle 0
+time=1795164510.259837 Pos: [2.88276322 0.         0.2925    ] angle 0
+time=1795164510.2920995 Pos: [2.9107157 0.        0.2925   ] angle 0
+time=1795164510.3242526 Pos: [2.93866818 0.         0.2925    ] angle 0
+time=1795164510.3562832 Pos: [2.96662066 0.         0.2925    ] angle 0
+0.585
+0.2925 0.2925
+Step 0: Pattern=0, Area=2036, Vel=0.00
+Step 1: Pattern=0, Area=2036, Vel=0.00
+Step 2: Pattern=0, Area=2036, Vel=0.00
+Step 3: Pattern=0, Area=2036, Vel=0.00
+Step 4: Pattern=0, Area=2036, Vel=0.00
+Step 5: Pattern=0, Area=2036, Vel=0.00
+Step 6: Pattern=1, Area=2036, Vel=0.60
+Step 7: Pattern=1, Area=2343, Vel=0.60
+Step 8: Pattern=1, Area=2681, Vel=0.60
+Step 9: Pattern=1, Area=2841, Vel=0.60
+Step 10: Pattern=1, Area=2788, Vel=0.60
+Step 11: Pattern=1, Area=2755, Vel=0.60
+Step 12: Pattern=1, Area=2830, Vel=0.60
+Step 13: Pattern=1, Area=2935, Vel=0.60
+Step 14: Pattern=1, Area=3236, Vel=0.60
+Step 15: Pattern=1, Area=3257, Vel=0.60
+Step 16: Pattern=1, Area=3218, Vel=0.60
+Step 17: Pattern=1, Area=3177, Vel=0.60
+Step 18: Pattern=1, Area=2933, Vel=0.60
+Step 19: Pattern=1, Area=2934, Vel=0.60
+Step 20: Pattern=1, Area=2696, Vel=0.60
+Step 21: Pattern=1, Area=2775, Vel=0.60
+Step 22: Pattern=1, Area=2580, Vel=0.60
+Step 23: Pattern=1, Area=2741, Vel=0.60
+Step 24: Pattern=1, Area=2607, Vel=0.60
+Step 25: Pattern=1, Area=2478, Vel=0.60
+Step 26: Pattern=1, Area=2655, Vel=0.60
+Step 27: Pattern=1, Area=2825, Vel=0.60
+Step 28: Pattern=1, Area=3089, Vel=0.60
+Step 29: Pattern=1, Area=3347, Vel=0.60
+Step 30: Pattern=1, Area=3544, Vel=0.20
+Step 31: Pattern=1, Area=3748, Vel=0.20
+Step 32: Pattern=1, Area=3361, Vel=0.60
+Step 33: Pattern=1, Area=3411, Vel=0.60
+Step 34: Pattern=1, Area=3356, Vel=0.60
+Step 35: Pattern=1, Area=3503, Vel=0.20
+Step 36: Pattern=1, Area=3527, Vel=0.20
+Step 37: Pattern=1, Area=3524, Vel=0.20
+Step 38: Pattern=1, Area=3613, Vel=0.20
+Step 39: Pattern=1, Area=3622, Vel=0.20
+Step 40: Pattern=1, Area=3552, Vel=0.20
+Step 41: Pattern=1, Area=3542, Vel=0.20
+Step 42: Pattern=1, Area=3420, Vel=0.60
+Step 43: Pattern=1, Area=3541, Vel=0.20
+Step 44: Pattern=1, Area=3398, Vel=0.60
+Step 45: Pattern=1, Area=3067, Vel=0.60
+Step 46: Pattern=1, Area=2953, Vel=0.60
+Step 47: Pattern=1, Area=2738, Vel=0.60
+Step 48: Pattern=1, Area=2432, Vel=0.60
+Step 49: Pattern=1, Area=2321, Vel=0.60
+Step 50: Pattern=1, Area=2008, Vel=0.60
+Step 51: Pattern=1, Area=1771, Vel=0.60
+Step 52: Pattern=1, Area=1467, Vel=0.60
+Step 53: Pattern=1, Area=1264, Vel=0.60
+Step 54: Pattern=1, Area=1405, Vel=0.60
+Step 55: Pattern=1, Area=1602, Vel=0.60
+Step 56: Pattern=1, Area=1827, Vel=0.60
+Step 57: Pattern=1, Area=2026, Vel=0.60
+Step 58: Pattern=1, Area=2375, Vel=0.60
+Step 59: Pattern=1, Area=2109, Vel=0.60
+Step 60: Pattern=1, Area=2180, Vel=0.60
+Step 61: Pattern=1, Area=2151, Vel=0.60
+Step 62: Pattern=1, Area=2325, Vel=0.60
+Step 63: Pattern=1, Area=2362, Vel=0.60
+Step 64: Pattern=1, Area=2203, Vel=0.60
+Step 65: Pattern=1, Area=2298, Vel=0.60
+Step 66: Pattern=1, Area=2043, Vel=0.60
+Step 67: Pattern=1, Area=2127, Vel=0.60
+Step 68: Pattern=1, Area=1896, Vel=0.60
+Step 69: Pattern=1, Area=1838, Vel=0.60
+Step 70: Pattern=1, Area=1823, Vel=0.60
+Step 71: Pattern=1, Area=1645, Vel=0.60
+Step 72: Pattern=1, Area=1705, Vel=0.60
+Step 73: Pattern=1, Area=1681, Vel=0.60
+Step 74: Pattern=1, Area=1789, Vel=0.60
+Step 75: Pattern=1, Area=1982, Vel=0.60
+Step 76: Pattern=1, Area=2222, Vel=0.60
+Step 77: Pattern=1, Area=2471, Vel=0.60
+Step 78: Pattern=1, Area=2710, Vel=0.60
+Step 79: Pattern=1, Area=2702, Vel=0.60
+Step 80: Pattern=1, Area=2808, Vel=0.60
+Step 81: Pattern=1, Area=2952, Vel=0.60
+Step 82: Pattern=1, Area=2969, Vel=0.60
+Step 83: Pattern=1, Area=3055, Vel=0.60
+Step 84: Pattern=1, Area=3219, Vel=0.60
+Step 85: Pattern=1, Area=3147, Vel=0.60
+Step 86: Pattern=1, Area=3209, Vel=0.60
+Step 87: Pattern=1, Area=2987, Vel=0.60
+Step 88: Pattern=1, Area=2978, Vel=0.60
+Step 89: Pattern=1, Area=2845, Vel=0.60
+Step 90: Pattern=1, Area=2672, Vel=0.60
+Step 91: Pattern=1, Area=2728, Vel=0.60
+Step 92: Pattern=1, Area=2611, Vel=0.60
+Step 93: Pattern=1, Area=2634, Vel=0.60
+Step 94: Pattern=1, Area=2531, Vel=0.60
+Step 95: Pattern=1, Area=2591, Vel=0.60
+Step 96: Pattern=0, Area=2791, Vel=0.00
+Step 97: Pattern=0, Area=2791, Vel=0.00
+Step 98: Pattern=0, Area=2791, Vel=0.00
+Step 99: Pattern=0, Area=2791, Vel=0.00
+Step 100: Pattern=0, Area=2791, Vel=0.00
+Step 101: Pattern=0, Area=2791, Vel=0.00
+Step 102: Pattern=0, Area=2791, Vel=0.00
+Step 103: Pattern=0, Area=2791, Vel=0.00
+Step 104: Pattern=0, Area=2791, Vel=0.00
+Step 105: Pattern=0, Area=2791, Vel=0.00
+Step 106: Pattern=0, Area=2791, Vel=0.00
+Step 107: Pattern=0, Area=2791, Vel=0.00
+Step 108: Pattern=0, Area=2791, Vel=0.00
+Step 109: Pattern=0, Area=2791, Vel=0.00
+Step 110: Pattern=0, Area=2791, Vel=0.00
+Step 111: Pattern=0, Area=2791, Vel=0.00
+Step 112: Pattern=0, Area=2791, Vel=0.00
+Step 113: Pattern=0, Area=2791, Vel=0.00
+Step 114: Pattern=0, Area=2791, Vel=0.00
+Step 115: Pattern=0, Area=2791, Vel=0.00
+Step 116: Pattern=0, Area=2791, Vel=0.00
+Step 117: Pattern=0, Area=2791, Vel=0.00
+Step 118: Pattern=0, Area=2791, Vel=0.00
+Step 119: Pattern=0, Area=2791, Vel=0.00
+Step 120: Pattern=0, Area=2791, Vel=0.00
+Step 121: Pattern=0, Area=2791, Vel=0.00
+Step 122: Pattern=0, Area=2791, Vel=0.00
+Step 123: Pattern=0, Area=2791, Vel=0.00
+Step 124: Pattern=0, Area=2791, Vel=0.00
+Step 125: Pattern=0, Area=2791, Vel=0.00
+Step 126: Pattern=0, Area=2791, Vel=0.00
+Step 127: Pattern=0, Area=2791, Vel=0.00
+Step 128: Pattern=0, Area=2791, Vel=0.00
+Step 129: Pattern=0, Area=2791, Vel=0.00
+Step 130: Pattern=0, Area=2791, Vel=0.00
+Step 131: Pattern=0, Area=2791, Vel=0.00
+Step 132: Pattern=0, Area=2791, Vel=0.00
+Step 133: Pattern=0, Area=2791, Vel=0.00
+Step 134: Pattern=0, Area=2791, Vel=0.00
+Step 135: Pattern=0, Area=2791, Vel=0.00
+Step 136: Pattern=0, Area=2791, Vel=0.00
+Step 137: Pattern=0, Area=2791, Vel=0.00
+Step 138: Pattern=0, Area=2791, Vel=0.00
+Step 139: Pattern=0, Area=2791, Vel=0.00
+Step 140: Pattern=0, Area=2791, Vel=0.00
+Step 141: Pattern=0, Area=2791, Vel=0.00
+Step 142: Pattern=0, Area=2791, Vel=0.00
+Step 143: Pattern=0, Area=2791, Vel=0.00
+Step 144: Pattern=0, Area=2791, Vel=0.00
+Step 145: Pattern=0, Area=2791, Vel=0.00
+Step 146: Pattern=0, Area=2791, Vel=0.00
+Step 147: Pattern=0, Area=2791, Vel=0.00
+Step 148: Pattern=0, Area=2791, Vel=0.00
+Step 149: Pattern=0, Area=2791, Vel=0.00
+Step 150: Pattern=0, Area=2791, Vel=0.00
+Step 151: Pattern=0, Area=2791, Vel=0.00
+Step 152: Pattern=0, Area=2791, Vel=0.00
+Step 153: Pattern=0, Area=2791, Vel=0.00
+Step 154: Pattern=0, Area=2791, Vel=0.00
+Step 155: Pattern=0, Area=2791, Vel=0.00
+Step 156: Pattern=0, Area=2791, Vel=0.00
+Step 157: Pattern=0, Area=2791, Vel=0.00
+Step 158: Pattern=0, Area=2791, Vel=0.00
+Step 159: Pattern=0, Area=2791, Vel=0.00
+Step 160: Pattern=0, Area=2791, Vel=0.00
+Step 161: Pattern=0, Area=2791, Vel=0.00
+Step 162: Pattern=0, Area=2791, Vel=0.00
+Step 163: Pattern=0, Area=2791, Vel=0.00
+Step 164: Pattern=0, Area=2791, Vel=0.00
+Step 165: Pattern=0, Area=2791, Vel=0.00
+Step 166: Pattern=0, Area=2791, Vel=0.00
+Step 167: Pattern=0, Area=2791, Vel=0.00
+Step 168: Pattern=0, Area=2791, Vel=0.00
+Step 169: Pattern=0, Area=2791, Vel=0.00
+Step 170: Pattern=0, Area=2791, Vel=0.00
+Step 171: Pattern=0, Area=2791, Vel=0.00
+Step 172: Pattern=0, Area=2791, Vel=0.00
+Step 173: Pattern=0, Area=2791, Vel=0.00
+Step 174: Pattern=0, Area=2791, Vel=0.00
+Step 175: Pattern=0, Area=2791, Vel=0.00
+Step 176: Pattern=0, Area=2791, Vel=0.00
+Step 177: Pattern=0, Area=2791, Vel=0.00
+Step 178: Pattern=0, Area=2791, Vel=0.00
+Step 179: Pattern=0, Area=2791, Vel=0.00
+Step 180: Pattern=0, Area=2791, Vel=0.00
+Step 181: Pattern=0, Area=2791, Vel=0.00
+Step 182: Pattern=0, Area=2791, Vel=0.00
+Step 183: Pattern=0, Area=2791, Vel=0.00
+Step 184: Pattern=0, Area=2791, Vel=0.00
+Step 185: Pattern=0, Area=2791, Vel=0.00
+Step 186: Pattern=1, Area=2791, Vel=0.60
+Step 187: Pattern=1, Area=2947, Vel=0.60
+Step 188: Pattern=1, Area=3215, Vel=0.60
+Step 189: Pattern=1, Area=3443, Vel=0.60
+Step 190: Pattern=1, Area=3392, Vel=0.60
+Step 191: Pattern=1, Area=3428, Vel=0.60
+Step 192: Pattern=1, Area=3541, Vel=0.20
+Step 193: Pattern=1, Area=3468, Vel=0.60
+Step 194: Pattern=1, Area=3444, Vel=0.60
+Step 195: Pattern=1, Area=3841, Vel=0.20
+Step 196: Pattern=1, Area=3621, Vel=0.20
+Step 197: Pattern=1, Area=3607, Vel=0.20
+Step 198: Pattern=1, Area=3426, Vel=0.60
+Step 199: Pattern=1, Area=3395, Vel=0.60
+Step 200: Pattern=1, Area=3140, Vel=0.60
+Step 201: Pattern=1, Area=2840, Vel=0.60
+time=1795164510.3906467 Pos: [2.99457314 0.         0.2925    ] angle 0
+time=1795164510.4227972 Pos: [3.02252562 0.         0.2925    ] angle 0
+time=1795164510.4554517 Pos: [3.0504781 0.        0.2925   ] angle 0
+time=1795164510.4888387 Pos: [3.07843058 0.         0.2925    ] angle 0
+time=1795164510.5212138 Pos: [3.10638307 0.         0.2925    ] angle 0
+time=1795164510.5568857 Pos: [3.13433555 0.         0.2925    ] angle 0
+time=1795164510.590173 Pos: [3.16228803 0.         0.2925    ] angle 0
+time=1795164510.622306 Pos: [3.19024051 0.         0.2925    ] angle 0
+time=1795164510.654426 Pos: [3.21819299 0.         0.2925    ] angle 0
+time=1795164510.6912966 Pos: [3.24614547 0.         0.2925    ] angle 0
+time=1795164510.7273211 Pos: [3.27409795 0.         0.2925    ] angle 0
+time=1795164510.770711 Pos: [3.30205043 0.         0.2925    ] angle 0
+time=1795164510.8096235 Pos: [3.33000291 0.         0.2925    ] angle 0
+time=1795164510.8447428 Pos: [3.35795539 0.         0.2925    ] angle 0
+time=1795164510.8795388 Pos: [3.38590787 0.         0.2925    ] angle 0
+time=1795164510.9144557 Pos: [3.41386035 0.         0.2925    ] angle 0
+time=1795164510.947446 Pos: [3.44181283 0.         0.2925    ] angle 0
+time=1795164510.9800642 Pos: [3.46976532 0.         0.2925    ] angle 0
+time=1795164511.0132792 Pos: [3.4977178 0.        0.2925   ] angle 0
+time=1795164511.0566187 Pos: [3.52567028 0.         0.2925    ] angle 0
+time=1795164511.0892167 Pos: [3.55362276 0.         0.2925    ] angle 0
+time=1795164511.1286976 Pos: [3.58157524 0.         0.2925    ] angle 0
+time=1795164511.161378 Pos: [3.60952772 0.         0.2925    ] angle 0
+time=1795164511.1939826 Pos: [3.6374802 0.        0.2925   ] angle 0
+time=1795164511.2617736 Pos: [3.66543268 0.         0.2925    ] angle 0
+time=1795164511.296175 Pos: [3.69338516 0.         0.2925    ] angle 0
+time=1795164511.328831 Pos: [3.72133764 0.         0.2925    ] angle 0
+time=1795164511.363874 Pos: [3.74929012 0.         0.2925    ] angle 0
+time=1795164511.3962438 Pos: [3.7772426 0.        0.2925   ] angle 0
+time=1795164511.428435 Pos: [3.80519509 0.         0.2925    ] angle 0
+time=1795164511.4607894 Pos: [3.83314757 0.         0.2925    ] angle 0
+time=1795164511.4928148 Pos: [3.86110005 0.         0.2925    ] angle 0
+time=1795164511.5252225 Pos: [3.88905253 0.         0.2925    ] angle 0
+time=1795164511.558481 Pos: [3.91700501 0.         0.2925    ] angle 0
+time=1795164511.590491 Pos: [3.94495749 0.         0.2925    ] angle 0
+time=1795164511.6226509 Pos: [3.97290997 0.         0.2925    ] angle 0
+time=1795164511.654727 Pos: [4.00086245 0.         0.2925    ] angle 0
+time=1795164511.6872911 Pos: [4.02881493 0.         0.2925    ] angle 0
+time=1795164511.7197359 Pos: [4.05676741 0.         0.2925    ] angle 0
+time=1795164511.7537086 Pos: [4.08471989 0.         0.2925    ] angle 0
+time=1795164511.7858407 Pos: [4.11267237 0.         0.2925    ] angle 0
+time=1795164511.8173387 Pos: [4.14062485 0.         0.2925    ] angle 0
+time=1795164511.8488662 Pos: [4.16857734 0.         0.2925    ] angle 0
+time=1795164511.880436 Pos: [4.19652982 0.         0.2925    ] angle 0
+time=1795164511.9123182 Pos: [4.2244823 0.        0.2925   ] angle 0
+time=1795164511.945378 Pos: [4.25243478 0.         0.2925    ] angle 0
+time=1795164511.98255 Pos: [4.28038726 0.         0.2925    ] angle 0
+time=1795164512.0154061 Pos: [4.30833974 0.         0.2925    ] angle 0
+time=1795164512.0483103 Pos: [4.33629222 0.         0.2925    ] angle 0
+time=1795164512.0967066 Pos: [4.3642447 0.        0.2925   ] angle 0
+time=1795164512.130982 Pos: [4.39219718 0.         0.2925    ] angle 0
+time=1795164512.1682227 Pos: [4.42014966 0.         0.2925    ] angle 0
+time=1795164512.200415 Pos: [4.44810214 0.         0.2925    ] angle 0
+time=1795164512.2322142 Pos: [4.47605462 0.         0.2925    ] angle 0
+time=1795164512.2637513 Pos: [4.48537212 0.         0.2925    ] angle 0
+time=1795164512.2955618 Pos: [4.49468961 0.         0.2925    ] angle 0
+time=1795164512.3266375 Pos: [4.52264209 0.         0.2925    ] angle 0
+time=1795164512.3583624 Pos: [4.55059457 0.         0.2925    ] angle 0
+time=1795164512.3898466 Pos: [4.57854705 0.         0.2925    ] angle 0
+time=1795164512.4209456 Pos: [4.60649953 0.         0.2925    ] angle 0
+time=1795164512.4525402 Pos: [4.61581703 0.         0.2925    ] angle 0
+time=1795164512.4839725 Pos: [4.62513452 0.         0.2925    ] angle 0
+time=1795164512.5150208 Pos: [4.63445201 0.         0.2925    ] angle 0
+time=1795164512.5496593 Pos: [4.64376951 0.         0.2925    ] angle 0
+time=1795164512.5812607 Pos: [4.67172199 0.         0.2925    ] angle 0
+time=1795164512.6138134 Pos: [4.69967447 0.         0.2925    ] angle 0
+time=1795164512.6484282 Pos: [4.72762695 0.         0.2925    ] angle 0
+time=1795164512.6819096 Pos: [4.75557943 0.         0.2925    ] angle 0
+time=1795164512.7165806 Pos: [4.78353191 0.         0.2925    ] angle 0
+time=1795164512.7499232 Pos: [4.81148439 0.         0.2925    ] angle 0
+time=1795164512.7822483 Pos: [4.83943687 0.         0.2925    ] angle 0
+time=1795164512.8170965 Pos: [4.86738935 0.         0.2925    ] angle 0
+time=1795164512.849869 Pos: [4.89534184 0.         0.2925    ] angle 0
+time=1795164512.8824756 Pos: [4.92329432 0.         0.2925    ] angle 0
+time=1795164512.9137685 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164512.9460428 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164512.976264 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.0090432 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.0436702 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.0760283 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.1057682 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.1383944 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.1683712 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.1982439 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.228038 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.257802 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.2871828 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.318841 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.3489628 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.3786576 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.4090722 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.439151 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.4689043 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.5006807 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.5301359 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.560538 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.5908556 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.6205535 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.6503654 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.6819217 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.7123454 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.7422357 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.7718625 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.8020635 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.8350768 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.8648632 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.8957744 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.9274628 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.9582415 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164513.9884853 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.0203836 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.0549371 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.0849018 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.1162968 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.1461868 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.1757514 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.2058702 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.2356045 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.2653098 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.2975667 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.3275502 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.3599715 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.3897576 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.4209623 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.4517229 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.4820385 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.5120249 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.5423527 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.5730624 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.6053376 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.6355262 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.6680045 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.6983154 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.7306688 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.7602725 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.796578 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.8286366 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.861517 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.8936558 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.9250238 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.9573567 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164514.9872704 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.0216846 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.0518758 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.0820277 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.1121962 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.1420379 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.1736112 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.204346 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.2344735 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.2642052 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.2935948 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.3234177 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.3533757 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.3836539 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.413336 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.4432225 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.4725091 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.5019982 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.5346906 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.5680103 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.6003838 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.630416 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.6605542 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.6905015 Pos: [4.9512468 0.        0.2925   ] angle 0
+time=1795164515.720429 Pos: [4.97919928 0.         0.2925    ] angle 0
+time=1795164515.752037 Pos: [5.00715176 0.         0.2925    ] angle 0
+time=1795164515.783769 Pos: [5.03510424 0.         0.2925    ] angle 0
+time=1795164515.8157318 Pos: [5.06305672 0.         0.2925    ] angle 0
+time=1795164515.8473592 Pos: [5.0910092 0.        0.2925   ] angle 0
+time=1795164515.8787525 Pos: [5.11896168 0.         0.2925    ] angle 0
+time=1795164515.9109936 Pos: [5.14691416 0.         0.2925    ] angle 0
+time=1795164515.942682 Pos: [5.17486664 0.         0.2925    ] angle 0
+time=1795164515.9775374 Pos: [5.20281912 0.         0.2925    ] angle 0
+time=1795164516.0131211 Pos: [5.2307716 0.        0.2925   ] angle 0
+time=1795164516.0444293 Pos: [5.25872409 0.         0.2925    ] angle 0
+time=1795164516.0772874 Pos: [5.28667657 0.         0.2925    ] angle 0
+time=1795164516.108519 Pos: [5.31462905 0.         0.2925    ] angle 0
+time=1795164516.1399224 Pos: [5.34258153 0.         0.2925    ] angle 0
+time=1795164516.1714323 Pos: [5.37053401 0.         0.2925    ] angle 0
+time=1795164516.203371 Pos: [5.39848649 0.         0.2925    ] angle 0
+time=1795164516.2350042 Pos: [5.42643897 0.         0.2925    ] angle 0
+time=1795164516.2660549 Pos: [5.45439145 0.         0.2925    ] angle 0
+time=1795164516.2981184 Pos: [5.48234393 0.         0.2925    ] angle 0
+time=1795164516.3298542 Pos: [5.51029641 0.         0.2925    ] angle 0
+time=1795164516.3623395 Pos: [5.53824889 0.         0.2925    ] angle 0
+time=1795164516.3949585 Pos: [5.56620137 0.         0.2925    ] angle 0
+time=1795164516.426577 Pos: [5.59415386 0.         0.2925    ] angle 0
+time=1795164516.4577513 Pos: [5.62210634 0.         0.2925    ] angle 0
+time=1795164516.4893882 Pos: [5.65005882 0.         0.2925    ] angle 0
+time=1795164516.523435 Pos: [5.6780113 0.        0.2925   ] angle 0
+time=1795164516.5557966 Pos: [5.70596378 0.         0.2925    ] angle 0
+time=1795164516.5882585 Pos: [5.73391626 0.         0.2925    ] angle 0
+time=1795164516.619346 Pos: [5.76186874 0.         0.2925    ] angle 0
+time=1795164516.657082 Pos: [5.78982122 0.         0.2925    ] angle 0
+time=1795164516.692682 Pos: [5.8177737 0.        0.2925   ] angle 0
+time=1795164516.7246015 Pos: [5.84572618 0.         0.2925    ] angle 0
+time=1795164516.7565887 Pos: [5.87367866 0.         0.2925    ] angle 0
+time=1795164516.7886536 Pos: [5.90163114 0.         0.2925    ] angle 0
+time=1795164516.82205 Pos: [5.92958362 0.         0.2925    ] angle 0
+Step 202: Pattern=1, Area=2786, Vel=0.60
+Step 203: Pattern=1, Area=2468, Vel=0.60
+Step 204: Pattern=1, Area=2400, Vel=0.60
+Step 205: Pattern=1, Area=2012, Vel=0.60
+Step 206: Pattern=1, Area=1963, Vel=0.60
+Step 207: Pattern=1, Area=1637, Vel=0.60
+Step 208: Pattern=1, Area=1272, Vel=0.60
+Step 209: Pattern=1, Area=1307, Vel=0.60
+Step 210: Pattern=1, Area=1506, Vel=0.60
+Step 211: Pattern=1, Area=1779, Vel=0.60
+Step 212: Pattern=1, Area=1990, Vel=0.60
+Step 213: Pattern=1, Area=2208, Vel=0.60
+Step 214: Pattern=1, Area=2097, Vel=0.60
+Step 215: Pattern=1, Area=2025, Vel=0.60
+Step 216: Pattern=1, Area=2116, Vel=0.60
+Step 217: Pattern=1, Area=2194, Vel=0.60
+Step 218: Pattern=1, Area=2326, Vel=0.60
+Step 219: Pattern=1, Area=2316, Vel=0.60
+Step 220: Pattern=1, Area=2297, Vel=0.60
+Step 221: Pattern=1, Area=2186, Vel=0.60
+Step 222: Pattern=1, Area=1921, Vel=0.60
+Step 223: Pattern=1, Area=1975, Vel=0.60
+Step 224: Pattern=1, Area=1701, Vel=0.60
+Step 225: Pattern=1, Area=1815, Vel=0.60
+Step 226: Pattern=1, Area=1673, Vel=0.60
+Step 227: Pattern=1, Area=1817, Vel=0.60
+Step 228: Pattern=1, Area=1635, Vel=0.60
+Step 229: Pattern=1, Area=1749, Vel=0.60
+Step 230: Pattern=1, Area=1842, Vel=0.60
+Step 231: Pattern=1, Area=2053, Vel=0.60
+Step 232: Pattern=1, Area=2370, Vel=0.60
+Step 233: Pattern=1, Area=2687, Vel=0.60
+Step 234: Pattern=1, Area=2868, Vel=0.60
+Step 235: Pattern=1, Area=2905, Vel=0.60
+Step 236: Pattern=1, Area=2690, Vel=0.60
+Step 237: Pattern=1, Area=2827, Vel=0.60
+Step 238: Pattern=1, Area=3012, Vel=0.60
+Step 239: Pattern=1, Area=3124, Vel=0.60
+Step 240: Pattern=1, Area=3148, Vel=0.60
+Step 241: Pattern=1, Area=3268, Vel=0.60
+Step 242: Pattern=1, Area=3067, Vel=0.60
+Step 243: Pattern=1, Area=2856, Vel=0.60
+Step 244: Pattern=1, Area=2945, Vel=0.60
+Step 245: Pattern=1, Area=2679, Vel=0.60
+Step 246: Pattern=1, Area=2797, Vel=0.60
+Step 247: Pattern=1, Area=2563, Vel=0.60
+Step 248: Pattern=1, Area=2561, Vel=0.60
+Step 249: Pattern=1, Area=2566, Vel=0.60
+Step 250: Pattern=1, Area=2522, Vel=0.60
+Step 251: Pattern=1, Area=2675, Vel=0.60
+Step 252: Pattern=1, Area=2808, Vel=0.60
+Step 253: Pattern=1, Area=3093, Vel=0.60
+Step 254: Pattern=1, Area=3256, Vel=0.60
+Step 255: Pattern=1, Area=3610, Vel=0.20
+Step 256: Pattern=1, Area=3645, Vel=0.20
+Step 257: Pattern=1, Area=3424, Vel=0.60
+Step 258: Pattern=1, Area=3431, Vel=0.60
+Step 259: Pattern=1, Area=3340, Vel=0.60
+Step 260: Pattern=1, Area=3495, Vel=0.60
+Step 261: Pattern=1, Area=3760, Vel=0.20
+Step 262: Pattern=1, Area=3653, Vel=0.20
+Step 263: Pattern=1, Area=3570, Vel=0.20
+Step 264: Pattern=1, Area=3584, Vel=0.20
+Step 265: Pattern=1, Area=3476, Vel=0.60
+Step 266: Pattern=1, Area=3460, Vel=0.60
+Step 267: Pattern=1, Area=3069, Vel=0.60
+Step 268: Pattern=1, Area=2883, Vel=0.60
+Step 269: Pattern=1, Area=2788, Vel=0.60
+Step 270: Pattern=1, Area=2469, Vel=0.60
+Step 271: Pattern=1, Area=2371, Vel=0.60
+Step 272: Pattern=1, Area=2045, Vel=0.60
+Step 273: Pattern=1, Area=1848, Vel=0.60
+Step 274: Pattern=1, Area=1511, Vel=0.60
+Step 275: Pattern=1, Area=1240, Vel=0.60
+Step 276: Pattern=0, Area=1268, Vel=0.00
+Step 277: Pattern=0, Area=1268, Vel=0.00
+Step 278: Pattern=0, Area=1268, Vel=0.00
+Step 279: Pattern=0, Area=1268, Vel=0.00
+Step 280: Pattern=0, Area=1268, Vel=0.00
+Step 281: Pattern=0, Area=1268, Vel=0.00
+Step 282: Pattern=0, Area=1268, Vel=0.00
+Step 283: Pattern=0, Area=1268, Vel=0.00
+Step 284: Pattern=0, Area=1268, Vel=0.00
+Step 285: Pattern=0, Area=1268, Vel=0.00
+Step 286: Pattern=0, Area=1268, Vel=0.00
+Step 287: Pattern=0, Area=1268, Vel=0.00
+Step 288: Pattern=0, Area=1268, Vel=0.00
+Step 289: Pattern=0, Area=1268, Vel=0.00
+Step 290: Pattern=0, Area=1268, Vel=0.00
+Step 291: Pattern=0, Area=1268, Vel=0.00
+Step 292: Pattern=0, Area=1268, Vel=0.00
+Step 293: Pattern=0, Area=1268, Vel=0.00
+Step 294: Pattern=0, Area=1268, Vel=0.00
+Step 295: Pattern=0, Area=1268, Vel=0.00
+Step 296: Pattern=0, Area=1268, Vel=0.00
+Step 297: Pattern=0, Area=1268, Vel=0.00
+Step 298: Pattern=0, Area=1268, Vel=0.00
+Step 299: Pattern=0, Area=1268, Vel=0.00
+Step 300: Pattern=0, Area=1268, Vel=0.00
+Step 301: Pattern=0, Area=1268, Vel=0.00
+Step 302: Pattern=0, Area=1268, Vel=0.00
+Step 303: Pattern=0, Area=1268, Vel=0.00
+Step 304: Pattern=0, Area=1268, Vel=0.00
+Step 305: Pattern=0, Area=1268, Vel=0.00
+Step 306: Pattern=0, Area=1268, Vel=0.00
+Step 307: Pattern=0, Area=1268, Vel=0.00
+Step 308: Pattern=0, Area=1268, Vel=0.00
+Step 309: Pattern=0, Area=1268, Vel=0.00
+Step 310: Pattern=0, Area=1268, Vel=0.00
+Step 311: Pattern=0, Area=1268, Vel=0.00
+Step 312: Pattern=0, Area=1268, Vel=0.00
+Step 313: Pattern=0, Area=1268, Vel=0.00
+Step 314: Pattern=0, Area=1268, Vel=0.00
+Step 315: Pattern=0, Area=1268, Vel=0.00
+Step 316: Pattern=0, Area=1268, Vel=0.00
+Step 317: Pattern=0, Area=1268, Vel=0.00
+Step 318: Pattern=0, Area=1268, Vel=0.00
+Step 319: Pattern=0, Area=1268, Vel=0.00
+Step 320: Pattern=0, Area=1268, Vel=0.00
+Step 321: Pattern=0, Area=1268, Vel=0.00
+Step 322: Pattern=0, Area=1268, Vel=0.00
+Step 323: Pattern=0, Area=1268, Vel=0.00
+Step 324: Pattern=0, Area=1268, Vel=0.00
+Step 325: Pattern=0, Area=1268, Vel=0.00
+Step 326: Pattern=0, Area=1268, Vel=0.00
+Step 327: Pattern=0, Area=1268, Vel=0.00
+Step 328: Pattern=0, Area=1268, Vel=0.00
+Step 329: Pattern=0, Area=1268, Vel=0.00
+Step 330: Pattern=0, Area=1268, Vel=0.00
+Step 331: Pattern=0, Area=1268, Vel=0.00
+Step 332: Pattern=0, Area=1268, Vel=0.00
+Step 333: Pattern=0, Area=1268, Vel=0.00
+Step 334: Pattern=0, Area=1268, Vel=0.00
+Step 335: Pattern=0, Area=1268, Vel=0.00
+Step 336: Pattern=0, Area=1268, Vel=0.00
+Step 337: Pattern=0, Area=1268, Vel=0.00
+Step 338: Pattern=0, Area=1268, Vel=0.00
+Step 339: Pattern=0, Area=1268, Vel=0.00
+Step 340: Pattern=0, Area=1268, Vel=0.00
+Step 341: Pattern=0, Area=1268, Vel=0.00
+Step 342: Pattern=0, Area=1268, Vel=0.00
+Step 343: Pattern=0, Area=1268, Vel=0.00
+Step 344: Pattern=0, Area=1268, Vel=0.00
+Step 345: Pattern=0, Area=1268, Vel=0.00
+Step 346: Pattern=0, Area=1268, Vel=0.00
+Step 347: Pattern=0, Area=1268, Vel=0.00
+Step 348: Pattern=0, Area=1268, Vel=0.00
+Step 349: Pattern=0, Area=1268, Vel=0.00
+Step 350: Pattern=0, Area=1268, Vel=0.00
+Step 351: Pattern=0, Area=1268, Vel=0.00
+Step 352: Pattern=0, Area=1268, Vel=0.00
+Step 353: Pattern=0, Area=1268, Vel=0.00
+Step 354: Pattern=0, Area=1268, Vel=0.00
+Step 355: Pattern=0, Area=1268, Vel=0.00
+Step 356: Pattern=0, Area=1268, Vel=0.00
+Step 357: Pattern=0, Area=1268, Vel=0.00
+Step 358: Pattern=0, Area=1268, Vel=0.00
+Step 359: Pattern=0, Area=1268, Vel=0.00
+Step 360: Pattern=0, Area=1268, Vel=0.00
+Step 361: Pattern=0, Area=1268, Vel=0.00
+Step 362: Pattern=0, Area=1268, Vel=0.00
+Step 363: Pattern=0, Area=1268, Vel=0.00
+Step 364: Pattern=0, Area=1268, Vel=0.00
+Step 365: Pattern=0, Area=1268, Vel=0.00
+Step 366: Pattern=1, Area=1268, Vel=0.60
+Step 367: Pattern=1, Area=1521, Vel=0.60
+Step 368: Pattern=1, Area=1780, Vel=0.60
+Step 369: Pattern=1, Area=1954, Vel=0.60
+Step 370: Pattern=1, Area=2304, Vel=0.60
+Step 371: Pattern=1, Area=2125, Vel=0.60
+Step 372: Pattern=1, Area=1954, Vel=0.60
+Step 373: Pattern=1, Area=2134, Vel=0.60
+Step 374: Pattern=1, Area=2244, Vel=0.60
+Step 375: Pattern=1, Area=2364, Vel=0.60
+Step 376: Pattern=1, Area=2213, Vel=0.60
+Step 377: Pattern=1, Area=2441, Vel=0.60
+Step 378: Pattern=1, Area=2045, Vel=0.60
+Step 379: Pattern=1, Area=2027, Vel=0.60
+Step 380: Pattern=1, Area=1897, Vel=0.60
+Step 381: Pattern=1, Area=1769, Vel=0.60
+Step 382: Pattern=1, Area=1876, Vel=0.60
+Step 383: Pattern=1, Area=1757, Vel=0.60
+Step 384: Pattern=1, Area=1704, Vel=0.60
+Step 385: Pattern=1, Area=1710, Vel=0.60
+Step 386: Pattern=1, Area=1711, Vel=0.60
+Step 387: Pattern=1, Area=1910, Vel=0.60
+Step 388: Pattern=1, Area=2129, Vel=0.60
+Step 389: Pattern=1, Area=2341, Vel=0.60
+Step 390: Pattern=1, Area=2579, Vel=0.60
+Step 391: Pattern=1, Area=2953, Vel=0.60
+Step 392: Pattern=1, Area=2789, Vel=0.60
+Step 393: Pattern=1, Area=2753, Vel=0.60
+Step 394: Pattern=1, Area=2876, Vel=0.60
+Step 395: Pattern=1, Area=2973, Vel=0.60
+Step 396: Pattern=1, Area=3183, Vel=0.60
+Step 397: Pattern=1, Area=3060, Vel=0.60
+Step 398: Pattern=1, Area=3110, Vel=0.60
+Step 399: Pattern=1, Area=3118, Vel=0.60
+Step 400: Pattern=1, Area=2948, Vel=0.60
+time=1795164516.8625927 Pos: [5.95753611 0.         0.2925    ] angle 0
+time=1795164516.8954496 Pos: [5.98548859 0.         0.2925    ] angle 0
+time=1795164516.9277537 Pos: [6.01344107 0.         0.2925    ] angle 0
+time=1795164516.9612408 Pos: [6.04139355 0.         0.2925    ] angle 0
+time=1795164516.9931743 Pos: [6.06934603 0.         0.2925    ] angle 0
+time=1795164517.0262356 Pos: [6.09729851 0.         0.2925    ] angle 0
+time=1795164517.0582287 Pos: [6.12525099 0.         0.2925    ] angle 0
+time=1795164517.0930896 Pos: [6.15320347 0.         0.2925    ] angle 0
+time=1795164517.1255162 Pos: [6.18115595 0.         0.2925    ] angle 0
+time=1795164517.1586764 Pos: [6.20910843 0.         0.2925    ] angle 0
+time=1795164517.1902435 Pos: [6.23706091 0.         0.2925    ] angle 0
+time=1795164517.221289 Pos: [6.24637841 0.         0.2925    ] angle 0
+time=1795164517.2524111 Pos: [6.27433089 0.         0.2925    ] angle 0
+time=1795164517.2833729 Pos: [6.30228337 0.         0.2925    ] angle 0
+time=1795164517.3143513 Pos: [6.33023585 0.         0.2925    ] angle 0
+time=1795164517.3454084 Pos: [6.35818833 0.         0.2925    ] angle 0
+time=1795164517.376659 Pos: [6.36750582 0.         0.2925    ] angle 0
+time=1795164517.408018 Pos: [6.37682332 0.         0.2925    ] angle 0
+time=1795164517.4389987 Pos: [6.38614081 0.         0.2925    ] angle 0
+time=1795164517.4703157 Pos: [6.3954583 0.        0.2925   ] angle 0
+time=1795164517.5008967 Pos: [6.42341078 0.         0.2925    ] angle 0
+time=1795164517.531884 Pos: [6.43272828 0.         0.2925    ] angle 0
+time=1795164517.5635805 Pos: [6.46068076 0.         0.2925    ] angle 0
+time=1795164517.5945716 Pos: [6.48863324 0.         0.2925    ] angle 0
+time=1795164517.6254196 Pos: [6.51658572 0.         0.2925    ] angle 0
+time=1795164517.6563034 Pos: [6.5445382 0.        0.2925   ] angle 0
+time=1795164517.6867285 Pos: [6.57249068 0.         0.2925    ] angle 0
+time=1795164517.7169983 Pos: [6.60044316 0.         0.2925    ] angle 0
+time=1795164517.7483966 Pos: [6.62839564 0.         0.2925    ] angle 0
+time=1795164517.7791524 Pos: [6.65634812 0.         0.2925    ] angle 0
+time=1795164517.8100228 Pos: [6.68430061 0.         0.2925    ] angle 0
+time=1795164517.8416605 Pos: [6.71225309 0.         0.2925    ] angle 0
+time=1795164517.8724055 Pos: [6.74020557 0.         0.2925    ] angle 0
+time=1795164517.9027288 Pos: [6.76815805 0.         0.2925    ] angle 0
+time=1795164517.934674 Pos: [6.79611053 0.         0.2925    ] angle 0
+time=1795164517.9703307 Pos: [6.82406301 0.         0.2925    ] angle 0
+time=1795164518.001861 Pos: [6.85201549 0.         0.2925    ] angle 0
+time=1795164518.0337005 Pos: [6.87996797 0.         0.2925    ] angle 0
+time=1795164518.0650811 Pos: [6.90792045 0.         0.2925    ] angle 0
+time=1795164518.0957284 Pos: [6.93587293 0.         0.2925    ] angle 0
+time=1795164518.1266632 Pos: [6.96382541 0.         0.2925    ] angle 0
+time=1795164518.1597857 Pos: [6.99177789 0.         0.2925    ] angle 0
+time=1795164518.190558 Pos: [7.01973038 0.         0.2925    ] angle 0
+time=1795164518.2225857 Pos: [7.04768286 0.         0.2925    ] angle 0
+time=1795164518.2536483 Pos: [7.07563534 0.         0.2925    ] angle 0
+time=1795164518.2846797 Pos: [7.10358782 0.         0.2925    ] angle 0
+time=1795164518.3155425 Pos: [7.1315403 0.        0.2925   ] angle 0
+time=1795164518.3466616 Pos: [7.15949278 0.         0.2925    ] angle 0
+time=1795164518.3772938 Pos: [7.18744526 0.         0.2925    ] angle 0
+time=1795164518.408173 Pos: [7.21539774 0.         0.2925    ] angle 0
+time=1795164518.4390707 Pos: [7.24335022 0.         0.2925    ] angle 0
+time=1795164518.4699075 Pos: [7.2713027 0.        0.2925   ] angle 0
+time=1795164518.5011256 Pos: [7.29925518 0.         0.2925    ] angle 0
+time=1795164518.5321407 Pos: [7.32720766 0.         0.2925    ] angle 0
+time=1795164518.563598 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.5950797 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.6252122 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.655199 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.684691 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.715257 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.7455 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.775404 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.8065162 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.8373609 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.8684168 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.898154 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.9283438 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.9608464 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164518.9910145 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.022902 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.053371 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.0854201 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.114977 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.1447759 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.174483 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.204024 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.2339048 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.263166 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.2926476 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.3244321 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.3544228 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.3840346 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.415255 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.4446847 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.4738092 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.502975 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.5326307 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.5638285 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.5939255 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.624115 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.6538312 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.6851885 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.7187562 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.7601483 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.7913342 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.8213084 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.8508618 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.8802483 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.9122555 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.9428358 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164519.9733915 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.0052624 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.0371847 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.0689986 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.0985117 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.1278868 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.157824 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.1869729 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.2163215 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.2459438 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.2753959 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.3041792 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.3344126 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.36362 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.393704 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.4262543 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.4562752 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.487378 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.5177734 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.5488234 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.580889 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.6100864 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.642601 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.672166 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.7015862 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.7313483 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.7607708 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.7983284 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.8282905 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.8605297 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.8904586 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.9214785 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.951215 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164520.980625 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.011554 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.041659 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.0724711 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.1016662 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.1336868 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.1649492 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.1948102 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.224084 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.254695 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.284532 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.313622 Pos: [7.35516014 0.         0.2925    ] angle 0
+time=1795164521.3431396 Pos: [7.38311263 0.         0.2925    ] angle 0
+time=1795164521.3742685 Pos: [7.41106511 0.         0.2925    ] angle 0
+time=1795164521.4050312 Pos: [7.43901759 0.         0.2925    ] angle 0
+time=1795164521.4362476 Pos: [7.46697007 0.         0.2925    ] angle 0
+time=1795164521.467154 Pos: [7.49492255 0.         0.2925    ] angle 0
+time=1795164521.4976692 Pos: [7.52287503 0.         0.2925    ] angle 0
+time=1795164521.5296426 Pos: [7.55082751 0.         0.2925    ] angle 0
+time=1795164521.5621629 Pos: [7.57877999 0.         0.2925    ] angle 0
+time=1795164521.5923955 Pos: [7.60673247 0.         0.2925    ] angle 0
+time=1795164521.623401 Pos: [7.63468495 0.         0.2925    ] angle 0
+time=1795164521.6543484 Pos: [7.66263743 0.         0.2925    ] angle 0
+time=1795164521.6859527 Pos: [7.69058991 0.         0.2925    ] angle 0
+time=1795164521.716838 Pos: [7.71854239 0.         0.2925    ] angle 0
+time=1795164521.7508752 Pos: [7.74649488 0.         0.2925    ] angle 0
+time=1795164521.7822018 Pos: [7.77444736 0.         0.2925    ] angle 0
+time=1795164521.812663 Pos: [7.80239984 0.         0.2925    ] angle 0
+time=1795164521.843369 Pos: [7.83035232 0.         0.2925    ] angle 0
+time=1795164521.8757172 Pos: [7.8583048 0.        0.2925   ] angle 0
+time=1795164521.9073637 Pos: [7.88625728 0.         0.2925    ] angle 0
+time=1795164521.9390295 Pos: [7.91420976 0.         0.2925    ] angle 0
+time=1795164521.9725611 Pos: [7.94216224 0.         0.2925    ] angle 0
+time=1795164522.006223 Pos: [7.97011472 0.         0.2925    ] angle 0
+time=1795164522.037857 Pos: [7.9980672 0.        0.2925   ] angle 0
+time=1795164522.068142 Pos: [8.02601968 0.         0.2925    ] angle 0
+time=1795164522.0982962 Pos: [8.05397216 0.         0.2925    ] angle 0
+time=1795164522.1286411 Pos: [8.08192464 0.         0.2925    ] angle 0
+time=1795164522.1593974 Pos: [8.10987713 0.         0.2925    ] angle 0
+time=1795164522.1931949 Pos: [8.11919462 0.         0.2925    ] angle 0
+time=1795164522.2267194 Pos: [8.12851211 0.         0.2925    ] angle 0
+time=1795164522.2575638 Pos: [8.13782961 0.         0.2925    ] angle 0
+time=1795164522.2884424 Pos: [8.1471471 0.        0.2925   ] angle 0
+time=1795164522.318214 Pos: [8.17509958 0.         0.2925    ] angle 0
+time=1795164522.354726 Pos: [8.20305206 0.         0.2925    ] angle 0
+time=1795164522.403817 Pos: [8.23100454 0.         0.2925    ] angle 0
+time=1795164522.442837 Pos: [8.25895702 0.         0.2925    ] angle 0
+time=1795164522.4791777 Pos: [8.2869095 0.        0.2925   ] angle 0
+time=1795164522.5162227 Pos: [8.31486198 0.         0.2925    ] angle 0
+time=1795164522.5465329 Pos: [8.34281447 0.         0.2925    ] angle 0
+time=1795164522.5775135 Pos: [8.37076695 0.         0.2925    ] angle 0
+time=1795164522.6076713 Pos: [8.39871943 0.         0.2925    ] angle 0
+time=1795164522.6381674 Pos: [8.42667191 0.         0.2925    ] angle 0
+time=1795164522.6684444 Pos: [8.45462439 0.         0.2925    ] angle 0
+time=1795164522.7004952 Pos: [8.48257687 0.         0.2925    ] angle 0
+time=1795164522.7311769 Pos: [8.51052935 0.         0.2925    ] angle 0
+time=1795164522.762003 Pos: [8.53848183 0.         0.2925    ] angle 0
+time=1795164522.7936409 Pos: [8.56643431 0.         0.2925    ] angle 0
+time=1795164522.8271837 Pos: [8.59438679 0.         0.2925    ] angle 0
+time=1795164522.8621063 Pos: [8.62233927 0.         0.2925    ] angle 0
+time=1795164522.894061 Pos: [8.65029175 0.         0.2925    ] angle 0
+time=1795164522.9247048 Pos: [8.67824423 0.         0.2925    ] angle 0
+time=1795164522.9564238 Pos: [8.70619672 0.         0.2925    ] angle 0
+time=1795164522.9869778 Pos: [8.7341492 0.        0.2925   ] angle 0
+time=1795164523.018295 Pos: [8.76210168 0.         0.2925    ] angle 0
+time=1795164523.0494108 Pos: [8.79005416 0.         0.2925    ] angle 0
+Step 401: Pattern=1, Area=2878, Vel=0.60
+Step 402: Pattern=1, Area=2679, Vel=0.60
+Step 403: Pattern=1, Area=2709, Vel=0.60
+Step 404: Pattern=1, Area=2616, Vel=0.60
+Step 405: Pattern=1, Area=2610, Vel=0.60
+Step 406: Pattern=1, Area=2504, Vel=0.60
+Step 407: Pattern=1, Area=2543, Vel=0.60
+Step 408: Pattern=1, Area=2725, Vel=0.60
+Step 409: Pattern=1, Area=2881, Vel=0.60
+Step 410: Pattern=1, Area=3081, Vel=0.60
+Step 411: Pattern=1, Area=3279, Vel=0.60
+Step 412: Pattern=1, Area=3666, Vel=0.20
+Step 413: Pattern=1, Area=3307, Vel=0.60
+Step 414: Pattern=1, Area=3309, Vel=0.60
+Step 415: Pattern=1, Area=3316, Vel=0.60
+Step 416: Pattern=1, Area=3471, Vel=0.60
+Step 417: Pattern=1, Area=3667, Vel=0.20
+Step 418: Pattern=1, Area=3635, Vel=0.20
+Step 419: Pattern=1, Area=3553, Vel=0.20
+Step 420: Pattern=1, Area=3537, Vel=0.20
+Step 421: Pattern=1, Area=3435, Vel=0.60
+Step 422: Pattern=1, Area=3525, Vel=0.20
+Step 423: Pattern=1, Area=3376, Vel=0.60
+Step 424: Pattern=1, Area=3009, Vel=0.60
+Step 425: Pattern=1, Area=2957, Vel=0.60
+Step 426: Pattern=1, Area=2638, Vel=0.60
+Step 427: Pattern=1, Area=2392, Vel=0.60
+Step 428: Pattern=1, Area=2313, Vel=0.60
+Step 429: Pattern=1, Area=1993, Vel=0.60
+Step 430: Pattern=1, Area=1665, Vel=0.60
+Step 431: Pattern=1, Area=1460, Vel=0.60
+Step 432: Pattern=1, Area=1195, Vel=0.60
+Step 433: Pattern=1, Area=1363, Vel=0.60
+Step 434: Pattern=1, Area=1556, Vel=0.60
+Step 435: Pattern=1, Area=1759, Vel=0.60
+Step 436: Pattern=1, Area=1967, Vel=0.60
+Step 437: Pattern=1, Area=2441, Vel=0.60
+Step 438: Pattern=1, Area=2151, Vel=0.60
+Step 439: Pattern=1, Area=2081, Vel=0.60
+Step 440: Pattern=1, Area=2148, Vel=0.60
+Step 441: Pattern=1, Area=2267, Vel=0.60
+Step 442: Pattern=1, Area=2321, Vel=0.60
+Step 443: Pattern=1, Area=2119, Vel=0.60
+Step 444: Pattern=1, Area=2220, Vel=0.60
+Step 445: Pattern=1, Area=2018, Vel=0.60
+Step 446: Pattern=1, Area=2052, Vel=0.60
+Step 447: Pattern=1, Area=1787, Vel=0.60
+Step 448: Pattern=1, Area=1731, Vel=0.60
+Step 449: Pattern=1, Area=1804, Vel=0.60
+Step 450: Pattern=1, Area=1655, Vel=0.60
+Step 451: Pattern=1, Area=1599, Vel=0.60
+Step 452: Pattern=1, Area=1683, Vel=0.60
+Step 453: Pattern=1, Area=1670, Vel=0.60
+Step 454: Pattern=1, Area=1827, Vel=0.60
+Step 455: Pattern=1, Area=2125, Vel=0.60
+Step 456: Pattern=0, Area=2397, Vel=0.00
+Step 457: Pattern=0, Area=2397, Vel=0.00
+Step 458: Pattern=0, Area=2397, Vel=0.00
+Step 459: Pattern=0, Area=2397, Vel=0.00
+Step 460: Pattern=0, Area=2397, Vel=0.00
+Step 461: Pattern=0, Area=2397, Vel=0.00
+Step 462: Pattern=0, Area=2397, Vel=0.00
+Step 463: Pattern=0, Area=2397, Vel=0.00
+Step 464: Pattern=0, Area=2397, Vel=0.00
+Step 465: Pattern=0, Area=2397, Vel=0.00
+Step 466: Pattern=0, Area=2397, Vel=0.00
+Step 467: Pattern=0, Area=2397, Vel=0.00
+Step 468: Pattern=0, Area=2397, Vel=0.00
+Step 469: Pattern=0, Area=2397, Vel=0.00
+Step 470: Pattern=0, Area=2397, Vel=0.00
+Step 471: Pattern=0, Area=2397, Vel=0.00
+Step 472: Pattern=0, Area=2397, Vel=0.00
+Step 473: Pattern=0, Area=2397, Vel=0.00
+Step 474: Pattern=0, Area=2397, Vel=0.00
+Step 475: Pattern=0, Area=2397, Vel=0.00
+Step 476: Pattern=0, Area=2397, Vel=0.00
+Step 477: Pattern=0, Area=2397, Vel=0.00
+Step 478: Pattern=0, Area=2397, Vel=0.00
+Step 479: Pattern=0, Area=2397, Vel=0.00
+Step 480: Pattern=0, Area=2397, Vel=0.00
+Step 481: Pattern=0, Area=2397, Vel=0.00
+Step 482: Pattern=0, Area=2397, Vel=0.00
+Step 483: Pattern=0, Area=2397, Vel=0.00
+Step 484: Pattern=0, Area=2397, Vel=0.00
+Step 485: Pattern=0, Area=2397, Vel=0.00
+Step 486: Pattern=0, Area=2397, Vel=0.00
+Step 487: Pattern=0, Area=2397, Vel=0.00
+Step 488: Pattern=0, Area=2397, Vel=0.00
+Step 489: Pattern=0, Area=2397, Vel=0.00
+Step 490: Pattern=0, Area=2397, Vel=0.00
+Step 491: Pattern=0, Area=2397, Vel=0.00
+Step 492: Pattern=0, Area=2397, Vel=0.00
+Step 493: Pattern=0, Area=2397, Vel=0.00
+Step 494: Pattern=0, Area=2397, Vel=0.00
+Step 495: Pattern=0, Area=2397, Vel=0.00
+Step 496: Pattern=0, Area=2397, Vel=0.00
+Step 497: Pattern=0, Area=2397, Vel=0.00
+Step 498: Pattern=0, Area=2397, Vel=0.00
+Step 499: Pattern=0, Area=2397, Vel=0.00
+Step 500: Pattern=0, Area=2397, Vel=0.00
+Step 501: Pattern=0, Area=2397, Vel=0.00
+Step 502: Pattern=0, Area=2397, Vel=0.00
+Step 503: Pattern=0, Area=2397, Vel=0.00
+Step 504: Pattern=0, Area=2397, Vel=0.00
+Step 505: Pattern=0, Area=2397, Vel=0.00
+Step 506: Pattern=0, Area=2397, Vel=0.00
+Step 507: Pattern=0, Area=2397, Vel=0.00
+Step 508: Pattern=0, Area=2397, Vel=0.00
+Step 509: Pattern=0, Area=2397, Vel=0.00
+Step 510: Pattern=0, Area=2397, Vel=0.00
+Step 511: Pattern=0, Area=2397, Vel=0.00
+Step 512: Pattern=0, Area=2397, Vel=0.00
+Step 513: Pattern=0, Area=2397, Vel=0.00
+Step 514: Pattern=0, Area=2397, Vel=0.00
+Step 515: Pattern=0, Area=2397, Vel=0.00
+Step 516: Pattern=0, Area=2397, Vel=0.00
+Step 517: Pattern=0, Area=2397, Vel=0.00
+Step 518: Pattern=0, Area=2397, Vel=0.00
+Step 519: Pattern=0, Area=2397, Vel=0.00
+Step 520: Pattern=0, Area=2397, Vel=0.00
+Step 521: Pattern=0, Area=2397, Vel=0.00
+Step 522: Pattern=0, Area=2397, Vel=0.00
+Step 523: Pattern=0, Area=2397, Vel=0.00
+Step 524: Pattern=0, Area=2397, Vel=0.00
+Step 525: Pattern=0, Area=2397, Vel=0.00
+Step 526: Pattern=0, Area=2397, Vel=0.00
+Step 527: Pattern=0, Area=2397, Vel=0.00
+Step 528: Pattern=0, Area=2397, Vel=0.00
+Step 529: Pattern=0, Area=2397, Vel=0.00
+Step 530: Pattern=0, Area=2397, Vel=0.00
+Step 531: Pattern=0, Area=2397, Vel=0.00
+Step 532: Pattern=0, Area=2397, Vel=0.00
+Step 533: Pattern=0, Area=2397, Vel=0.00
+Step 534: Pattern=0, Area=2397, Vel=0.00
+Step 535: Pattern=0, Area=2397, Vel=0.00
+Step 536: Pattern=0, Area=2397, Vel=0.00
+Step 537: Pattern=0, Area=2397, Vel=0.00
+Step 538: Pattern=0, Area=2397, Vel=0.00
+Step 539: Pattern=0, Area=2397, Vel=0.00
+Step 540: Pattern=0, Area=2397, Vel=0.00
+Step 541: Pattern=0, Area=2397, Vel=0.00
+Step 542: Pattern=0, Area=2397, Vel=0.00
+Step 543: Pattern=0, Area=2397, Vel=0.00
+Step 544: Pattern=0, Area=2397, Vel=0.00
+Step 545: Pattern=0, Area=2397, Vel=0.00
+Step 546: Pattern=1, Area=2397, Vel=0.60
+Step 547: Pattern=1, Area=2601, Vel=0.60
+Step 548: Pattern=1, Area=2717, Vel=0.60
+Step 549: Pattern=1, Area=2819, Vel=0.60
+Step 550: Pattern=1, Area=2855, Vel=0.60
+Step 551: Pattern=1, Area=2882, Vel=0.60
+Step 552: Pattern=1, Area=2973, Vel=0.60
+Step 553: Pattern=1, Area=3162, Vel=0.60
+Step 554: Pattern=1, Area=3026, Vel=0.60
+Step 555: Pattern=1, Area=3144, Vel=0.60
+Step 556: Pattern=1, Area=2964, Vel=0.60
+Step 557: Pattern=1, Area=2952, Vel=0.60
+Step 558: Pattern=1, Area=2823, Vel=0.60
+Step 559: Pattern=1, Area=2617, Vel=0.60
+Step 560: Pattern=1, Area=2667, Vel=0.60
+Step 561: Pattern=1, Area=2546, Vel=0.60
+Step 562: Pattern=1, Area=2490, Vel=0.60
+Step 563: Pattern=1, Area=2429, Vel=0.60
+Step 564: Pattern=1, Area=2503, Vel=0.60
+Step 565: Pattern=1, Area=2665, Vel=0.60
+Step 566: Pattern=1, Area=2912, Vel=0.60
+Step 567: Pattern=1, Area=3122, Vel=0.60
+Step 568: Pattern=1, Area=3333, Vel=0.60
+Step 569: Pattern=1, Area=3269, Vel=0.60
+Step 570: Pattern=1, Area=3361, Vel=0.60
+Step 571: Pattern=1, Area=3365, Vel=0.60
+Step 572: Pattern=1, Area=3412, Vel=0.60
+Step 573: Pattern=1, Area=3544, Vel=0.20
+Step 574: Pattern=1, Area=3742, Vel=0.20
+Step 575: Pattern=1, Area=3636, Vel=0.20
+Step 576: Pattern=1, Area=3523, Vel=0.20
+Step 577: Pattern=1, Area=3460, Vel=0.60
+Step 578: Pattern=1, Area=3348, Vel=0.60
+Step 579: Pattern=1, Area=2996, Vel=0.60
+Step 580: Pattern=1, Area=2772, Vel=0.60
+Step 581: Pattern=1, Area=2739, Vel=0.60
+Step 582: Pattern=1, Area=2292, Vel=0.60
+Step 583: Pattern=1, Area=2303, Vel=0.60
+Step 584: Pattern=1, Area=1884, Vel=0.60
+Step 585: Pattern=1, Area=1854, Vel=0.60
+Step 586: Pattern=1, Area=1528, Vel=0.60
+Step 587: Pattern=1, Area=1163, Vel=0.60
+Step 588: Pattern=1, Area=1128, Vel=0.60
+Step 589: Pattern=1, Area=1346, Vel=0.60
+Step 590: Pattern=1, Area=1593, Vel=0.60
+Step 591: Pattern=1, Area=1872, Vel=0.60
+Step 592: Pattern=1, Area=2099, Vel=0.60
+Step 593: Pattern=1, Area=1982, Vel=0.60
+Step 594: Pattern=1, Area=1883, Vel=0.60
+Step 595: Pattern=1, Area=1955, Vel=0.60
+Step 596: Pattern=1, Area=1978, Vel=0.60
+Step 597: Pattern=1, Area=2248, Vel=0.60
+Step 598: Pattern=1, Area=2202, Vel=0.60
+Step 599: Pattern=1, Area=2119, Vel=0.60
+time=1795164523.0833814 Pos: [8.81800664 0.         0.2925    ] angle 0
+time=1795164523.113933 Pos: [8.84595912 0.         0.2925    ] angle 0
+time=1795164523.1457617 Pos: [8.8739116 0.        0.2925   ] angle 0
+time=1795164523.178282 Pos: [8.90186408 0.         0.2925    ] angle 0
+time=1795164523.2106833 Pos: [8.92981656 0.         0.2925    ] angle 0
+time=1795164523.2436357 Pos: [8.95776904 0.         0.2925    ] angle 0
+time=1795164523.2740824 Pos: [8.98572152 0.         0.2925    ] angle 0
+time=1795164523.3063407 Pos: [9.013674 0.       0.2925  ] angle 0
+time=1795164523.336807 Pos: [9.04162648 0.         0.2925    ] angle 0
+time=1795164523.3700895 Pos: [9.06957897 0.         0.2925    ] angle 0
+time=1795164523.4009511 Pos: [9.09753145 0.         0.2925    ] angle 0
+time=1795164523.4338765 Pos: [9.12548393 0.         0.2925    ] angle 0
+time=1795164523.4656258 Pos: [9.15343641 0.         0.2925    ] angle 0
+time=1795164523.4955246 Pos: [9.18138889 0.         0.2925    ] angle 0
+time=1795164523.528644 Pos: [9.20934137 0.         0.2925    ] angle 0
+time=1795164523.5590467 Pos: [9.23729385 0.         0.2925    ] angle 0
+time=1795164523.588913 Pos: [9.26524633 0.         0.2925    ] angle 0
+time=1795164523.6210608 Pos: [9.29319881 0.         0.2925    ] angle 0
+time=1795164523.6510582 Pos: [9.32115129 0.         0.2925    ] angle 0
+time=1795164523.682349 Pos: [9.34910377 0.         0.2925    ] angle 0
+time=1795164523.7127457 Pos: [9.37705625 0.         0.2925    ] angle 0
+time=1795164523.7441692 Pos: [9.40500874 0.         0.2925    ] angle 0
+time=1795164523.7735405 Pos: [9.43296122 0.         0.2925    ] angle 0
+time=1795164523.8029463 Pos: [9.4609137 0.        0.2925   ] angle 0
+time=1795164523.8337488 Pos: [9.48886618 0.         0.2925    ] angle 0
+time=1795164523.863404 Pos: [9.51681866 0.         0.2925    ] angle 0
+time=1795164523.8928819 Pos: [9.54477114 0.         0.2925    ] angle 0
+time=1795164523.922913 Pos: [9.57272362 0.         0.2925    ] angle 0
+time=1795164523.954034 Pos: [9.6006761 0.        0.2925   ] angle 0
+time=1795164523.985856 Pos: [9.62862858 0.         0.2925    ] angle 0
+time=1795164524.02434 Pos: [9.65658106 0.         0.2925    ] angle 0
+time=1795164524.0702834 Pos: [9.68453354 0.         0.2925    ] angle 0
+time=1795164524.1246197 Pos: [9.71248602 0.         0.2925    ] angle 0
+time=1795164524.1572595 Pos: [9.7404385 0.        0.2925   ] angle 0
+time=1795164524.1894872 Pos: [9.76839099 0.         0.2925    ] angle 0
+time=1795164524.2203872 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.255425 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.2840092 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.3120842 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.3399675 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.367579 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.3961682 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.4239407 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.4517074 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.479594 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.5073924 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.5356758 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.5634828 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.5934005 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.6216216 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.6496677 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.6784394 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.7066207 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.7342536 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.7619834 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.7960591 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.8238757 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.8590722 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.887776 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.9155068 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.945525 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164524.9735334 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.0067542 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.0352507 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.063477 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.0920577 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.119609 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.1472545 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.1752365 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.2033353 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.2311862 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.2589166 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.2880538 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.315949 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.3436716 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.3714585 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.399026 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.4266663 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.4552178 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.4831846 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.5106997 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.5385306 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.5664158 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.5944567 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.6239858 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.6526794 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.6807647 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.709381 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.7374437 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.7653863 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.7932782 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.8211367 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.8492708 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.8782496 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.9062247 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.93473 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.9665477 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164525.9954607 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.0256612 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.0553575 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.083084 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.1119616 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.1397 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.167519 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.1962965 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.2241528 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.2521276 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.2807422 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.3104208 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.3385792 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.3663824 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.3954315 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.422784 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.4509985 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.4788637 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.5062711 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.534231 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.563297 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.5910447 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.618724 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.6486485 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.676504 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.7047842 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.7334905 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.7628548 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.7969377 Pos: [9.79634347 0.         0.2925    ] angle 0
+time=1795164526.8246226 Pos: [9.82429595 0.         0.2925    ] angle 0
+time=1795164526.8569326 Pos: [9.85224843 0.         0.2925    ] angle 0
+time=1795164526.885968 Pos: [9.88020091 0.         0.2925    ] angle 0
+time=1795164526.9154994 Pos: [9.90815339 0.         0.2925    ] angle 0
+time=1795164526.9449534 Pos: [9.93610587 0.         0.2925    ] angle 0
+time=1795164526.9778495 Pos: [9.96405835 0.         0.2925    ] angle 0
+time=1795164527.0164282 Pos: [9.99201083 0.         0.2925    ] angle 0
+time=1795164527.0451984 Pos: [10.01996331  0.          0.2925    ] angle 0
+time=1795164527.0746431 Pos: [10.04791579  0.          0.2925    ] angle 0
+time=1795164527.103821 Pos: [10.07586827  0.          0.2925    ] angle 0
+time=1795164527.132659 Pos: [10.10382075  0.          0.2925    ] angle 0
+time=1795164527.1616821 Pos: [10.13177324  0.          0.2925    ] angle 0
+time=1795164527.1911736 Pos: [10.15972572  0.          0.2925    ] angle 0
+time=1795164527.2204587 Pos: [10.1876782  0.         0.2925   ] angle 0
+time=1795164527.2508867 Pos: [10.21563068  0.          0.2925    ] angle 0
+time=1795164527.280041 Pos: [10.24358316  0.          0.2925    ] angle 0
+time=1795164527.3090212 Pos: [10.27153564  0.          0.2925    ] angle 0
+time=1795164527.3386762 Pos: [10.29948812  0.          0.2925    ] angle 0
+time=1795164527.3686714 Pos: [10.3274406  0.         0.2925   ] angle 0
+time=1795164527.3984158 Pos: [10.35539308  0.          0.2925    ] angle 0
+time=1795164527.4273303 Pos: [10.38334556  0.          0.2925    ] angle 0
+time=1795164527.4564564 Pos: [10.41129804  0.          0.2925    ] angle 0
+time=1795164527.4853516 Pos: [10.43925052  0.          0.2925    ] angle 0
+time=1795164527.5147557 Pos: [10.467203  0.        0.2925  ] angle 0
+time=1795164527.545737 Pos: [10.49515549  0.          0.2925    ] angle 0
+time=1795164527.574655 Pos: [10.52310797  0.          0.2925    ] angle 0
+time=1795164527.604491 Pos: [10.55106045  0.          0.2925    ] angle 0
+time=1795164527.6337554 Pos: [10.57901293  0.          0.2925    ] angle 0
+time=1795164527.6631818 Pos: [10.60696541  0.          0.2925    ] angle 0
+time=1795164527.6922023 Pos: [10.63491789  0.          0.2925    ] angle 0
+time=1795164527.724265 Pos: [10.66287037  0.          0.2925    ] angle 0
+time=1795164527.7542312 Pos: [10.69082285  0.          0.2925    ] angle 0
+time=1795164527.7897732 Pos: [10.71877533  0.          0.2925    ] angle 0
+time=1795164527.827553 Pos: [10.74672781  0.          0.2925    ] angle 0
+time=1795164527.862207 Pos: [10.77468029  0.          0.2925    ] angle 0
+time=1795164527.8937833 Pos: [10.80263277  0.          0.2925    ] angle 0
+time=1795164527.924208 Pos: [10.83058526  0.          0.2925    ] angle 0
+time=1795164527.9589894 Pos: [10.85853774  0.          0.2925    ] angle 0
+time=1795164527.988581 Pos: [10.88649022  0.          0.2925    ] angle 0
+time=1795164528.0240858 Pos: [10.9144427  0.         0.2925   ] angle 0
+time=1795164528.0554478 Pos: [10.94239518  0.          0.2925    ] angle 0
+time=1795164528.0866785 Pos: [10.97034766  0.          0.2925    ] angle 0
+time=1795164528.1213315 Pos: [10.99830014  0.          0.2925    ] angle 0
+time=1795164528.1526725 Pos: [11.02625262  0.          0.2925    ] angle 0
+time=1795164528.1832044 Pos: [11.0542051  0.         0.2925   ] angle 0
+time=1795164528.2128358 Pos: [11.08215758  0.          0.2925    ] angle 0
+time=1795164528.243157 Pos: [11.11011006  0.          0.2925    ] angle 0
+time=1795164528.2727184 Pos: [11.13806254  0.          0.2925    ] angle 0
+time=1795164528.3028173 Pos: [11.16601502  0.          0.2925    ] angle 0
+time=1795164528.3324933 Pos: [11.19396751  0.          0.2925    ] angle 0
+time=1795164528.3630302 Pos: [11.22191999  0.          0.2925    ] angle 0
+time=1795164528.3951678 Pos: [11.24987247  0.          0.2925    ] angle 0
+time=1795164528.4253678 Pos: [11.27782495  0.          0.2925    ] angle 0
+time=1795164528.455341 Pos: [11.30577743  0.          0.2925    ] angle 0
+time=1795164528.5020146 Pos: [11.33372991  0.          0.2925    ] angle 0
+time=1795164528.5397203 Pos: [11.36168239  0.          0.2925    ] angle 0
+time=1795164528.570703 Pos: [11.38963487  0.          0.2925    ] angle 0
+time=1795164528.599478 Pos: [11.41758735  0.          0.2925    ] angle 0
+time=1795164528.628637 Pos: [11.44553983  0.          0.2925    ] angle 0
+time=1795164528.6575284 Pos: [11.47349231  0.          0.2925    ] angle 0
+time=1795164528.6864915 Pos: [11.50144479  0.          0.2925    ] angle 0
+time=1795164528.715757 Pos: [11.52939727  0.          0.2925    ] angle 0
+time=1795164528.7451112 Pos: [11.55734976  0.          0.2925    ] angle 0
+time=1795164528.775101 Pos: [11.58530224  0.          0.2925    ] angle 0
+time=1795164528.809456 Pos: [11.61325472  0.          0.2925    ] angle 0
+time=1795164528.840528 Pos: [11.6412072  0.         0.2925   ] angle 0
+time=1795164528.8729587 Pos: [11.66915968  0.          0.2925    ] angle 0
+time=1795164528.9025445 Pos: [11.69711216  0.          0.2925    ] angle 0
+time=1795164528.9330344 Pos: [11.72506464  0.          0.2925    ] angle 0
+time=1795164528.96239 Pos: [11.75301712  0.          0.2925    ] angle 0
+time=1795164528.9915252 Pos: [11.7809696  0.         0.2925   ] angle 0
+time=1795164529.0223246 Pos: [11.80892208  0.          0.2925    ] angle 0
+time=1795164529.0513222 Pos: [11.83687456  0.          0.2925    ] angle 0
+time=1795164529.080928 Pos: [11.86482704  0.          0.2925    ] angle 0
+Step 600: Pattern=1, Area=2054, Vel=0.60
+Step 601: Pattern=1, Area=1770, Vel=0.60
+Step 602: Pattern=1, Area=1777, Vel=0.60
+Step 603: Pattern=1, Area=1548, Vel=0.60
+Step 604: Pattern=1, Area=1630, Vel=0.60
+Step 605: Pattern=1, Area=1479, Vel=0.60
+Step 606: Pattern=1, Area=1591, Vel=0.60
+Step 607: Pattern=1, Area=1488, Vel=0.60
+Step 608: Pattern=1, Area=1470, Vel=0.60
+Step 609: Pattern=1, Area=1648, Vel=0.60
+Step 610: Pattern=1, Area=1824, Vel=0.60
+Step 611: Pattern=1, Area=2170, Vel=0.60
+Step 612: Pattern=1, Area=2416, Vel=0.60
+Step 613: Pattern=1, Area=2613, Vel=0.60
+Step 614: Pattern=1, Area=2558, Vel=0.60
+Step 615: Pattern=1, Area=2494, Vel=0.60
+Step 616: Pattern=1, Area=2567, Vel=0.60
+Step 617: Pattern=1, Area=2730, Vel=0.60
+Step 618: Pattern=1, Area=2851, Vel=0.60
+Step 619: Pattern=1, Area=2816, Vel=0.60
+Step 620: Pattern=1, Area=2982, Vel=0.60
+Step 621: Pattern=1, Area=2745, Vel=0.60
+Step 622: Pattern=1, Area=2532, Vel=0.60
+Step 623: Pattern=1, Area=2613, Vel=0.60
+Step 624: Pattern=1, Area=2385, Vel=0.60
+Step 625: Pattern=1, Area=2446, Vel=0.60
+Step 626: Pattern=1, Area=2235, Vel=0.60
+Step 627: Pattern=1, Area=2195, Vel=0.60
+Step 628: Pattern=1, Area=2200, Vel=0.60
+Step 629: Pattern=1, Area=2144, Vel=0.60
+Step 630: Pattern=1, Area=2305, Vel=0.60
+Step 631: Pattern=1, Area=2417, Vel=0.60
+Step 632: Pattern=1, Area=2613, Vel=0.60
+Step 633: Pattern=1, Area=2804, Vel=0.60
+Step 634: Pattern=1, Area=3112, Vel=0.60
+Step 635: Pattern=1, Area=3023, Vel=0.60
+Step 636: Pattern=0, Area=2912, Vel=0.00
+Step 637: Pattern=0, Area=2912, Vel=0.00
+Step 638: Pattern=0, Area=2912, Vel=0.00
+Step 639: Pattern=0, Area=2912, Vel=0.00
+Step 640: Pattern=0, Area=2912, Vel=0.00
+Step 641: Pattern=0, Area=2912, Vel=0.00
+Step 642: Pattern=0, Area=2912, Vel=0.00
+Step 643: Pattern=0, Area=2912, Vel=0.00
+Step 644: Pattern=0, Area=2912, Vel=0.00
+Step 645: Pattern=0, Area=2912, Vel=0.00
+Step 646: Pattern=0, Area=2912, Vel=0.00
+Step 647: Pattern=0, Area=2912, Vel=0.00
+Step 648: Pattern=0, Area=2912, Vel=0.00
+Step 649: Pattern=0, Area=2912, Vel=0.00
+Step 650: Pattern=0, Area=2912, Vel=0.00
+Step 651: Pattern=0, Area=2912, Vel=0.00
+Step 652: Pattern=0, Area=2912, Vel=0.00
+Step 653: Pattern=0, Area=2912, Vel=0.00
+Step 654: Pattern=0, Area=2912, Vel=0.00
+Step 655: Pattern=0, Area=2912, Vel=0.00
+Step 656: Pattern=0, Area=2912, Vel=0.00
+Step 657: Pattern=0, Area=2912, Vel=0.00
+Step 658: Pattern=0, Area=2912, Vel=0.00
+Step 659: Pattern=0, Area=2912, Vel=0.00
+Step 660: Pattern=0, Area=2912, Vel=0.00
+Step 661: Pattern=0, Area=2912, Vel=0.00
+Step 662: Pattern=0, Area=2912, Vel=0.00
+Step 663: Pattern=0, Area=2912, Vel=0.00
+Step 664: Pattern=0, Area=2912, Vel=0.00
+Step 665: Pattern=0, Area=2912, Vel=0.00
+Step 666: Pattern=0, Area=2912, Vel=0.00
+Step 667: Pattern=0, Area=2912, Vel=0.00
+Step 668: Pattern=0, Area=2912, Vel=0.00
+Step 669: Pattern=0, Area=2912, Vel=0.00
+Step 670: Pattern=0, Area=2912, Vel=0.00
+Step 671: Pattern=0, Area=2912, Vel=0.00
+Step 672: Pattern=0, Area=2912, Vel=0.00
+Step 673: Pattern=0, Area=2912, Vel=0.00
+Step 674: Pattern=0, Area=2912, Vel=0.00
+Step 675: Pattern=0, Area=2912, Vel=0.00
+Step 676: Pattern=0, Area=2912, Vel=0.00
+Step 677: Pattern=0, Area=2912, Vel=0.00
+Step 678: Pattern=0, Area=2912, Vel=0.00
+Step 679: Pattern=0, Area=2912, Vel=0.00
+Step 680: Pattern=0, Area=2912, Vel=0.00
+Step 681: Pattern=0, Area=2912, Vel=0.00
+Step 682: Pattern=0, Area=2912, Vel=0.00
+Step 683: Pattern=0, Area=2912, Vel=0.00
+Step 684: Pattern=0, Area=2912, Vel=0.00
+Step 685: Pattern=0, Area=2912, Vel=0.00
+Step 686: Pattern=0, Area=2912, Vel=0.00
+Step 687: Pattern=0, Area=2912, Vel=0.00
+Step 688: Pattern=0, Area=2912, Vel=0.00
+Step 689: Pattern=0, Area=2912, Vel=0.00
+Step 690: Pattern=0, Area=2912, Vel=0.00
+Step 691: Pattern=0, Area=2912, Vel=0.00
+Step 692: Pattern=0, Area=2912, Vel=0.00
+Step 693: Pattern=0, Area=2912, Vel=0.00
+Step 694: Pattern=0, Area=2912, Vel=0.00
+Step 695: Pattern=0, Area=2912, Vel=0.00
+Step 696: Pattern=0, Area=2912, Vel=0.00
+Step 697: Pattern=0, Area=2912, Vel=0.00
+Step 698: Pattern=0, Area=2912, Vel=0.00
+Step 699: Pattern=0, Area=2912, Vel=0.00
+Step 700: Pattern=0, Area=2912, Vel=0.00
+Step 701: Pattern=0, Area=2912, Vel=0.00
+Step 702: Pattern=0, Area=2912, Vel=0.00
+Step 703: Pattern=0, Area=2912, Vel=0.00
+Step 704: Pattern=0, Area=2912, Vel=0.00
+Step 705: Pattern=0, Area=2912, Vel=0.00
+Step 706: Pattern=0, Area=2912, Vel=0.00
+Step 707: Pattern=0, Area=2912, Vel=0.00
+Step 708: Pattern=0, Area=2912, Vel=0.00
+Step 709: Pattern=0, Area=2912, Vel=0.00
+Step 710: Pattern=0, Area=2912, Vel=0.00
+Step 711: Pattern=0, Area=2912, Vel=0.00
+Step 712: Pattern=0, Area=2912, Vel=0.00
+Step 713: Pattern=0, Area=2912, Vel=0.00
+Step 714: Pattern=0, Area=2912, Vel=0.00
+Step 715: Pattern=0, Area=2912, Vel=0.00
+Step 716: Pattern=0, Area=2912, Vel=0.00
+Step 717: Pattern=0, Area=2912, Vel=0.00
+Step 718: Pattern=0, Area=2912, Vel=0.00
+Step 719: Pattern=0, Area=2912, Vel=0.00
+Step 720: Pattern=0, Area=2912, Vel=0.00
+Step 721: Pattern=0, Area=2912, Vel=0.00
+Step 722: Pattern=0, Area=2912, Vel=0.00
+Step 723: Pattern=0, Area=2912, Vel=0.00
+Step 724: Pattern=0, Area=2912, Vel=0.00
+Step 725: Pattern=0, Area=2912, Vel=0.00
+Step 726: Pattern=1, Area=2912, Vel=0.60
+Step 727: Pattern=1, Area=2972, Vel=0.60
+Step 728: Pattern=1, Area=2953, Vel=0.60
+Step 729: Pattern=1, Area=3142, Vel=0.60
+Step 730: Pattern=1, Area=2920, Vel=0.60
+Step 731: Pattern=1, Area=2990, Vel=0.60
+Step 732: Pattern=1, Area=2646, Vel=0.60
+Step 733: Pattern=1, Area=2432, Vel=0.60
+Step 734: Pattern=1, Area=2308, Vel=0.60
+Step 735: Pattern=1, Area=1871, Vel=0.60
+Step 736: Pattern=1, Area=1781, Vel=0.60
+Step 737: Pattern=1, Area=1445, Vel=0.60
+Step 738: Pattern=1, Area=1209, Vel=0.60
+Step 739: Pattern=1, Area=947, Vel=0.60
+Step 740: Pattern=1, Area=595, Vel=0.60
+Step 741: Pattern=1, Area=704, Vel=0.60
+Step 742: Pattern=1, Area=849, Vel=0.60
+Step 743: Pattern=1, Area=1159, Vel=0.60
+Step 744: Pattern=1, Area=1165, Vel=0.60
+Step 745: Pattern=1, Area=1656, Vel=0.60
+Step 746: Pattern=1, Area=1415, Vel=0.60
+Step 747: Pattern=1, Area=1294, Vel=0.60
+Step 748: Pattern=1, Area=1374, Vel=0.60
+Step 749: Pattern=1, Area=1478, Vel=0.60
+Step 750: Pattern=1, Area=1534, Vel=0.60
+Step 751: Pattern=1, Area=1381, Vel=0.60
+Step 752: Pattern=1, Area=1525, Vel=0.60
+Step 753: Pattern=1, Area=1131, Vel=0.60
+Step 754: Pattern=1, Area=1037, Vel=0.60
+Step 755: Pattern=1, Area=970, Vel=0.60
+Step 756: Pattern=1, Area=798, Vel=0.60
+Step 757: Pattern=1, Area=840, Vel=0.60
+Step 758: Pattern=1, Area=673, Vel=0.60
+Step 759: Pattern=1, Area=609, Vel=0.60
+Step 760: Pattern=1, Area=567, Vel=0.60
+Step 761: Pattern=1, Area=570, Vel=0.60
+Step 762: Pattern=1, Area=699, Vel=0.60
+Step 763: Pattern=1, Area=912, Vel=0.60
+Step 764: Pattern=1, Area=1148, Vel=0.60
+Step 765: Pattern=1, Area=1191, Vel=0.60
+Step 766: Pattern=1, Area=1676, Vel=0.60
+Step 767: Pattern=1, Area=1426, Vel=0.60
+Step 768: Pattern=1, Area=1319, Vel=0.60
+Step 769: Pattern=1, Area=1377, Vel=0.60
+Step 770: Pattern=1, Area=1372, Vel=0.60
+Step 771: Pattern=1, Area=1559, Vel=0.60
+Step 772: Pattern=1, Area=1389, Vel=0.60
+Step 773: Pattern=1, Area=1327, Vel=0.60
+Step 774: Pattern=1, Area=1162, Vel=0.60
+Step 775: Pattern=1, Area=1085, Vel=0.60
+Step 776: Pattern=1, Area=978, Vel=0.60
+Step 777: Pattern=1, Area=717, Vel=0.60
+Step 778: Pattern=1, Area=770, Vel=0.60
+Step 779: Pattern=1, Area=662, Vel=0.60
+Step 780: Pattern=1, Area=665, Vel=0.60
+Step 781: Pattern=1, Area=522, Vel=0.60
+Step 782: Pattern=1, Area=613, Vel=0.60
+Step 783: Pattern=1, Area=689, Vel=0.60
+Step 784: Pattern=1, Area=910, Vel=0.60
+Step 785: Pattern=1, Area=1078, Vel=0.60
+Step 786: Pattern=1, Area=1269, Vel=0.60
+Step 787: Pattern=1, Area=1623, Vel=0.60
+Step 788: Pattern=1, Area=1484, Vel=0.60
+Step 789: Pattern=1, Area=1287, Vel=0.60
+Step 790: Pattern=1, Area=1339, Vel=0.60
+Step 791: Pattern=1, Area=1354, Vel=0.60
+Step 792: Pattern=1, Area=1528, Vel=0.60
+Step 793: Pattern=1, Area=1315, Vel=0.60
+Step 794: Pattern=1, Area=1365, Vel=0.60
+Step 795: Pattern=1, Area=1156, Vel=0.60
+Step 796: Pattern=1, Area=1071, Vel=0.60
+Step 797: Pattern=1, Area=947, Vel=0.60
+Step 798: Pattern=1, Area=705, Vel=0.60
+Step 799: Pattern=1, Area=786, Vel=0.60
+time=1795164529.1098146 Pos: [11.89277952  0.          0.2925    ] angle 0
+time=1795164529.1383982 Pos: [11.92073201  0.          0.2925    ] angle 0
+time=1795164529.1670613 Pos: [11.94868449  0.          0.2925    ] angle 0
+time=1795164529.1957693 Pos: [11.97663697  0.          0.2925    ] angle 0
+time=1795164529.225597 Pos: [12.00458945  0.          0.2925    ] angle 0
+time=1795164529.2559564 Pos: [12.03254193  0.          0.2925    ] angle 0
+time=1795164529.2844813 Pos: [12.06049441  0.          0.2925    ] angle 0
+time=1795164529.312876 Pos: [12.08844689  0.          0.2925    ] angle 0
+time=1795164529.3417208 Pos: [12.11639937  0.          0.2925    ] angle 0
+time=1795164529.3722122 Pos: [12.14435185  0.          0.2925    ] angle 0
+time=1795164529.4007144 Pos: [12.17230433  0.          0.2925    ] angle 0
+time=1795164529.429235 Pos: [12.20025681  0.          0.2925    ] angle 0
+time=1795164529.459881 Pos: [12.22820929  0.          0.2925    ] angle 0
+time=1795164529.4879644 Pos: [12.25616177  0.          0.2925    ] angle 0
+time=1795164529.5163088 Pos: [12.28411426  0.          0.2925    ] angle 0
+time=1795164529.5453238 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.5743084 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.6046183 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.6315274 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.6588082 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.6858852 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.7133033 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.7405586 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.7679589 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.7946043 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.8219302 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.8490932 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.8777 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.9071243 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.9352415 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.9639316 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164529.9927588 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.0226257 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.049746 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.0765667 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.1034613 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.1302536 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.1575074 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.1845288 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.2113478 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.2419248 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.2697563 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.2965736 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.3236098 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.350796 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.3776257 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.4061224 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.4349103 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.462586 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.490333 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.5173163 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.5447419 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.573968 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.602541 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.6296241 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.6572773 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.68431 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.7109842 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.7376184 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.7662876 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.7933424 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.8206694 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.8593633 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.886363 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.9173536 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.9471292 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164530.9762757 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.0066373 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.0343459 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.0616562 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.0897655 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.1168313 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.146369 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.173624 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.2012496 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.2311375 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.2599618 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.288062 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.3149548 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.3420954 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.3688638 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.3961067 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.4229426 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.4503803 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.4776776 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.5052457 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.5319886 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.55974 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.5882542 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.6188414 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.6458502 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.6759303 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.7049522 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.73573 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.7650094 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.7948084 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.8213065 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.851153 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.8796594 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.9082942 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.9373736 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.9667315 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164531.9939837 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164532.022323 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164532.049292 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164532.0767035 Pos: [12.31206674  0.          0.2925    ] angle 0
+time=1795164532.1040292 Pos: [12.34001922  0.          0.2925    ] angle 0
+time=1795164532.1325026 Pos: [12.3679717  0.         0.2925   ] angle 0
+time=1795164532.1608472 Pos: [12.39592418  0.          0.2925    ] angle 0
+time=1795164532.1897123 Pos: [12.42387666  0.          0.2925    ] angle 0
+time=1795164532.217655 Pos: [12.45182914  0.          0.2925    ] angle 0
+time=1795164532.2457373 Pos: [12.47978162  0.          0.2925    ] angle 0
+time=1795164532.2745037 Pos: [12.5077341  0.         0.2925   ] angle 0
+time=1795164532.3024805 Pos: [12.53568658  0.          0.2925    ] angle 0
+time=1795164532.3308916 Pos: [12.56363906  0.          0.2925    ] angle 0
+time=1795164532.3590746 Pos: [12.59159154  0.          0.2925    ] angle 0
+time=1795164532.3874493 Pos: [12.61954403  0.          0.2925    ] angle 0
+time=1795164532.4165359 Pos: [12.64749651  0.          0.2925    ] angle 0
+time=1795164532.4440722 Pos: [12.67544899  0.          0.2925    ] angle 0
+time=1795164532.4721942 Pos: [12.70340147  0.          0.2925    ] angle 0
+time=1795164532.498855 Pos: [12.73135395  0.          0.2925    ] angle 0
+time=1795164532.5261931 Pos: [12.75930643  0.          0.2925    ] angle 0
+time=1795164532.5538816 Pos: [12.78725891  0.          0.2925    ] angle 0
+time=1795164532.5800974 No tile found at [12.88121139  0.          0.2925    ] (22, 0)
+time=1795164532.5804446 Invalid pose. Collision free: True On drivable area: False
+time=1795164532.580492 safety_factor: 1.0
+time=1795164532.5806541 pos: [12.79121139  0.          0.2925    ]
+time=1795164532.5808504 l_pos: [12.79121139  0.          0.2175    ]
+time=1795164532.5810275 r_pos: [12.79121139  0.          0.3675    ]
+time=1795164532.581221 f_pos: [12.88121139  0.          0.2925    ]
+time=1795164532.5812755 Stopping the simulator because we are at an invalid pose.
+time=1795164532.5814748 Pos: [12.81521139  0.          0.2925    ] angle 0
+Step 800: Pattern=1, Area=672, Vel=0.60
+Step 801: Pattern=1, Area=606, Vel=0.60
+Step 802: Pattern=1, Area=576, Vel=0.60
+Step 803: Pattern=1, Area=503, Vel=0.60
+Step 804: Pattern=1, Area=636, Vel=0.60
+Step 805: Pattern=1, Area=845, Vel=0.60
+Step 806: Pattern=1, Area=1076, Vel=0.60
+Step 807: Pattern=1, Area=1229, Vel=0.60
+Step 808: Pattern=1, Area=1647, Vel=0.60
+Step 809: Pattern=1, Area=1315, Vel=0.60
+Step 810: Pattern=1, Area=1324, Vel=0.60
+Step 811: Pattern=1, Area=1269, Vel=0.60
+Step 812: Pattern=1, Area=1377, Vel=0.60
+Step 813: Pattern=1, Area=1476, Vel=0.60
+Step 814: Pattern=1, Area=1241, Vel=0.60
+Step 815: Pattern=1, Area=1310, Vel=0.60
+Step 816: Pattern=0, Area=1019, Vel=0.00
+Step 817: Pattern=0, Area=1019, Vel=0.00
+Step 818: Pattern=0, Area=1019, Vel=0.00
+Step 819: Pattern=0, Area=1019, Vel=0.00
+Step 820: Pattern=0, Area=1019, Vel=0.00
+Step 821: Pattern=0, Area=1019, Vel=0.00
+Step 822: Pattern=0, Area=1019, Vel=0.00
+Step 823: Pattern=0, Area=1019, Vel=0.00
+Step 824: Pattern=0, Area=1019, Vel=0.00
+Step 825: Pattern=0, Area=1019, Vel=0.00
+Step 826: Pattern=0, Area=1019, Vel=0.00
+Step 827: Pattern=0, Area=1019, Vel=0.00
+Step 828: Pattern=0, Area=1019, Vel=0.00
+Step 829: Pattern=0, Area=1019, Vel=0.00
+Step 830: Pattern=0, Area=1019, Vel=0.00
+Step 831: Pattern=0, Area=1019, Vel=0.00
+Step 832: Pattern=0, Area=1019, Vel=0.00
+Step 833: Pattern=0, Area=1019, Vel=0.00
+Step 834: Pattern=0, Area=1019, Vel=0.00
+Step 835: Pattern=0, Area=1019, Vel=0.00
+Step 836: Pattern=0, Area=1019, Vel=0.00
+Step 837: Pattern=0, Area=1019, Vel=0.00
+Step 838: Pattern=0, Area=1019, Vel=0.00
+Step 839: Pattern=0, Area=1019, Vel=0.00
+Step 840: Pattern=0, Area=1019, Vel=0.00
+Step 841: Pattern=0, Area=1019, Vel=0.00
+Step 842: Pattern=0, Area=1019, Vel=0.00
+Step 843: Pattern=0, Area=1019, Vel=0.00
+Step 844: Pattern=0, Area=1019, Vel=0.00
+Step 845: Pattern=0, Area=1019, Vel=0.00
+Step 846: Pattern=0, Area=1019, Vel=0.00
+Step 847: Pattern=0, Area=1019, Vel=0.00
+Step 848: Pattern=0, Area=1019, Vel=0.00
+Step 849: Pattern=0, Area=1019, Vel=0.00
+Step 850: Pattern=0, Area=1019, Vel=0.00
+Step 851: Pattern=0, Area=1019, Vel=0.00
+Step 852: Pattern=0, Area=1019, Vel=0.00
+Step 853: Pattern=0, Area=1019, Vel=0.00
+Step 854: Pattern=0, Area=1019, Vel=0.00
+Step 855: Pattern=0, Area=1019, Vel=0.00
+Step 856: Pattern=0, Area=1019, Vel=0.00
+Step 857: Pattern=0, Area=1019, Vel=0.00
+Step 858: Pattern=0, Area=1019, Vel=0.00
+Step 859: Pattern=0, Area=1019, Vel=0.00
+Step 860: Pattern=0, Area=1019, Vel=0.00
+Step 861: Pattern=0, Area=1019, Vel=0.00
+Step 862: Pattern=0, Area=1019, Vel=0.00
+Step 863: Pattern=0, Area=1019, Vel=0.00
+Step 864: Pattern=0, Area=1019, Vel=0.00
+Step 865: Pattern=0, Area=1019, Vel=0.00
+Step 866: Pattern=0, Area=1019, Vel=0.00
+Step 867: Pattern=0, Area=1019, Vel=0.00
+Step 868: Pattern=0, Area=1019, Vel=0.00
+Step 869: Pattern=0, Area=1019, Vel=0.00
+Step 870: Pattern=0, Area=1019, Vel=0.00
+Step 871: Pattern=0, Area=1019, Vel=0.00
+Step 872: Pattern=0, Area=1019, Vel=0.00
+Step 873: Pattern=0, Area=1019, Vel=0.00
+Step 874: Pattern=0, Area=1019, Vel=0.00
+Step 875: Pattern=0, Area=1019, Vel=0.00
+Step 876: Pattern=0, Area=1019, Vel=0.00
+Step 877: Pattern=0, Area=1019, Vel=0.00
+Step 878: Pattern=0, Area=1019, Vel=0.00
+Step 879: Pattern=0, Area=1019, Vel=0.00
+Step 880: Pattern=0, Area=1019, Vel=0.00
+Step 881: Pattern=0, Area=1019, Vel=0.00
+Step 882: Pattern=0, Area=1019, Vel=0.00
+Step 883: Pattern=0, Area=1019, Vel=0.00
+Step 884: Pattern=0, Area=1019, Vel=0.00
+Step 885: Pattern=0, Area=1019, Vel=0.00
+Step 886: Pattern=0, Area=1019, Vel=0.00
+Step 887: Pattern=0, Area=1019, Vel=0.00
+Step 888: Pattern=0, Area=1019, Vel=0.00
+Step 889: Pattern=0, Area=1019, Vel=0.00
+Step 890: Pattern=0, Area=1019, Vel=0.00
+Step 891: Pattern=0, Area=1019, Vel=0.00
+Step 892: Pattern=0, Area=1019, Vel=0.00
+Step 893: Pattern=0, Area=1019, Vel=0.00
+Step 894: Pattern=0, Area=1019, Vel=0.00
+Step 895: Pattern=0, Area=1019, Vel=0.00
+Step 896: Pattern=0, Area=1019, Vel=0.00
+Step 897: Pattern=0, Area=1019, Vel=0.00
+Step 898: Pattern=0, Area=1019, Vel=0.00
+Step 899: Pattern=0, Area=1019, Vel=0.00
+Step 900: Pattern=0, Area=1019, Vel=0.00
+Step 901: Pattern=0, Area=1019, Vel=0.00
+Step 902: Pattern=0, Area=1019, Vel=0.00
+Step 903: Pattern=0, Area=1019, Vel=0.00
+Step 904: Pattern=0, Area=1019, Vel=0.00
+Step 905: Pattern=0, Area=1019, Vel=0.00
+Step 906: Pattern=1, Area=1019, Vel=0.60
+Step 907: Pattern=1, Area=978, Vel=0.60
+Step 908: Pattern=1, Area=767, Vel=0.60
+Step 909: Pattern=1, Area=593, Vel=0.60
+Step 910: Pattern=1, Area=577, Vel=0.60
+Step 911: Pattern=1, Area=451, Vel=0.60
+Step 912: Pattern=1, Area=297, Vel=0.60
+Step 913: Pattern=1, Area=200, Vel=0.60
+Step 914: Pattern=1, Area=117, Vel=0.60
+Step 915: Pattern=1, Area=143, Vel=0.60
+Step 916: Pattern=1, Area=195, Vel=0.60
+Step 917: Pattern=1, Area=218, Vel=0.60
+Step 918: Pattern=1, Area=74, Vel=0.60
+Step 919: Pattern=1, Area=0, Vel=0.60
+Step 920: Pattern=1, Area=0, Vel=0.60
+Step 921: Pattern=1, Area=0, Vel=0.60
+Step 922: Pattern=1, Area=0, Vel=0.60
+Step 923: Pattern=1, Area=0, Vel=0.60
+total reward =  -706.2372327043947
+False: Incorrect solution execution: Stopping the simulator because we are at an invalid pose.
