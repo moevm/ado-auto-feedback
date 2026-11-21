@@ -1,0 +1,59 @@
+False: CorrectTrafficlightPassingChecker has failed
+time=1795283673.546269 gym-duckietown 2019.0.0
+
+time=1795283673.6302052 Registering gym environment id: Duckietown-4way-v0
+time=1795283673.6302888 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795283673.630318 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795283673.6303422 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795283673.6303644 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795283673.6303859 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795283673.6304243 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795283673.6304832 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795283673.630535 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795283673.630581 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795283673.6306489 Registering gym environment id: Duckietown-small_loop-v0
+time=1795283673.6306992 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795283673.6307428 Registering gym environment id: Duckietown-straight_road-v0
+time=1795283673.6307786 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795283673.630861 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795283673.6308923 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795283673.6309388 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795283673.6309824 Registering gym environment id: Duckietown-udem1-v0
+time=1795283673.631026 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795283674.8094275 Falling back to non-multisampled frame buffer
+time=1795283674.8119576 Falling back to non-multisampled frame buffer
+time=1795283674.8155637 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_trafficlight.yaml"
+time=1795283674.8219285 loading mesh "duckiebot.obj"
+time=1795283674.8221214 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795283675.0350018 loading mesh "trafficlight.obj"
+time=1795283675.0351338 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/trafficlight.mtl"
+time=1795283675.0561576 loading texture "trafficlight_card.jpg"
+time=1795283676.1157672 loading texture "trafficlight_cover.jpg"
+time=1795283677.1158645 loading texture "trafficlight_card0.jpg"
+time=1795283678.1554103 loading texture "trafficlight_card1.jpg"
+time=1795283679.1624978 loading texture "trafficlight_card0.jpg"
+time=1795283680.1887803 loading texture "trafficlight_card1.jpg"
+time=1795283681.1981723 loading texture "trafficlight_card0.jpg"
+time=1795283682.1967077 loading texture "trafficlight_card1.jpg"
+time=1795283683.2043605 loading texture "trafficlight_card0.jpg"
+time=1795283684.1998782 loading texture "trafficlight_card1.jpg"
+time=1795283685.1988144 loading texture "trafficlight_card0.jpg"
+time=1795283686.2226298 loading texture "trafficlight_card1.jpg"
+time=1795283687.2218726 loading texture "trafficlight_card0.jpg"
+time=1795283688.2377167 loading texture "trafficlight_card1.jpg"
+time=1795283689.2603493 loading texture "straight_1.png"
+time=1795283689.2683327 road_tile_size=0.585
+time=1795283689.268662 Starting at [0.2925 0.     0.2925] 0
+time=1795283689.2688456 Pos: [0.2925 0.     0.2925] angle 0
+time=1795283689.4435074 using DuckietownEnv
+time=1795283689.5746386 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 1.5795
+time=1795283689.57487 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 3.3345
+time=1795283689.5750911 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 5.089499999999999
+time=1795283689.5752027 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 6.8445
+time=1795283689.5753984 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 8.599499999999999
+time=1795283689.5755742 CHECKER pos [0.2925 0.     0.2925] pattern 0 dist 10.354499999999998
+time=1795283689.5756078 Min distance: 1.5795
+0.585
+0.2925 0.2925
+trip_data[-1].position.coordinates[0] = 0.2925
+False: CorrectTrafficlightPassingChecker has failed
