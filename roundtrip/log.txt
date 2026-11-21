@@ -1,0 +1,50 @@
+False: Incorrect solution execution: only size-1 arrays can be converted to Python scalars
+time=1795288454.9121377 gym-duckietown 2019.0.0
+
+time=1795288454.9944286 Registering gym environment id: Duckietown-4way-v0
+time=1795288454.994518 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795288454.9945476 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795288454.9945724 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795288454.9946175 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795288454.9946618 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795288454.9947047 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795288454.9947453 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795288454.9948 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795288454.9948494 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795288454.994898 Registering gym environment id: Duckietown-small_loop-v0
+time=1795288454.994942 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795288454.994991 Registering gym environment id: Duckietown-straight_road-v0
+time=1795288454.995037 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795288454.99508 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795288454.9951246 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795288454.9951725 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795288454.9952133 Registering gym environment id: Duckietown-udem1-v0
+time=1795288454.9952538 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795288456.172058 Falling back to non-multisampled frame buffer
+time=1795288456.1740866 Falling back to non-multisampled frame buffer
+time=1795288456.1769927 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_10_tiles_no_start_tile.yaml"
+time=1795288456.1798658 loading mesh "duckiebot.obj"
+time=1795288456.180012 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795288456.3849137 loading texture "straight_1.png"
+time=1795288456.396478 using user tile start: [5, 0]
+time=1795288456.3970351 tile: {'coords': (5, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[2.925  , 0.     , 0.4095 ],
+        [3.07125, 0.     , 0.4095 ],
+        [3.36375, 0.     , 0.4095 ],
+        [3.51   , 0.     , 0.4095 ]],
+
+       [[3.51   , 0.     , 0.1755 ],
+        [3.36375, 0.     , 0.1755 ],
+        [3.07125, 0.     , 0.1755 ],
+        [2.925  , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x79dc0c5fd070>, 'color': array([1, 1, 1])}
+time=1795288456.3987746 road_tile_size=0.585
+time=1795288456.3989937 Starting at [3.1065927  0.         0.21787557] 5.930763631885741
+time=1795288456.3991783 Pos: [3.1065927  0.         0.21787557] angle 5.930763631885741
+time=1795288456.5021152 using DuckietownEnv
+0.585
+3.1065927037774093 0.21787556676408246
+0.585
+3.1065927037774093 0.21787556676408246
+0.585
+3.1065927037774093 0.21787556676408246
+total reward =  0
+False: Incorrect solution execution: only size-1 arrays can be converted to Python scalars
