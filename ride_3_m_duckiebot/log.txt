@@ -1,0 +1,37 @@
+False: Incorrect solution execution: cur_pos modification is not allowed
+time=1795359678.0019588 gym-duckietown 2019.0.0
+
+time=1795359678.0861502 Registering gym environment id: Duckietown-4way-v0
+time=1795359678.0862455 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795359678.086301 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795359678.0863633 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795359678.0863945 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795359678.0864449 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795359678.0865085 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795359678.0865874 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795359678.0866256 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795359678.0866663 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795359678.0867019 Registering gym environment id: Duckietown-small_loop-v0
+time=1795359678.086736 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795359678.0867698 Registering gym environment id: Duckietown-straight_road-v0
+time=1795359678.08684 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795359678.086885 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795359678.0869303 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795359678.0869782 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795359678.0870214 Registering gym environment id: Duckietown-udem1-v0
+time=1795359678.0870655 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795359679.2556856 Falling back to non-multisampled frame buffer
+time=1795359679.2577102 Falling back to non-multisampled frame buffer
+time=1795359679.261096 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_with_side_floor.yaml"
+time=1795359679.2674181 loading mesh "duckiebot.obj"
+time=1795359679.267551 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795359679.4714375 loading texture "floor_1.png"
+time=1795359679.5421727 loading texture "straight_1.png"
+time=1795359679.55387 road_tile_size=0.585
+time=1795359679.5542102 Starting at [0.2925 0.     0.8775] 0
+time=1795359679.5544279 Pos: [0.2925 0.     0.8775] angle 0
+time=1795359679.677121 using DuckietownEnv
+0.585
+0.2925 0.8775
+total reward =  0
+False: Incorrect solution execution: cur_pos modification is not allowed
