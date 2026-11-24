@@ -1,0 +1,66 @@
+False: VisitCoordinatesChecker has failed
+time=1795538542.6592638 gym-duckietown 2019.0.0
+
+time=1795538542.7472405 Registering gym environment id: Duckietown-4way-v0
+time=1795538542.747333 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795538542.7473726 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795538542.7473989 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795538542.747488 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795538542.7475567 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795538542.7475817 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795538542.7476041 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795538542.7476647 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795538542.7477007 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795538542.7477224 Registering gym environment id: Duckietown-small_loop-v0
+time=1795538542.7477438 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795538542.74778 Registering gym environment id: Duckietown-straight_road-v0
+time=1795538542.7478833 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795538542.747934 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795538542.7479713 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795538542.7480085 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795538542.7480571 Registering gym environment id: Duckietown-udem1-v0
+time=1795538542.748091 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795538544.0793803 Falling back to non-multisampled frame buffer
+time=1795538544.081412 Falling back to non-multisampled frame buffer
+time=1795538544.0842376 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_10_tiles_no_start_tile.yaml"
+time=1795538544.08657 loading mesh "duckiebot.obj"
+time=1795538544.0867155 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795538544.2962036 loading texture "straight_1.png"
+time=1795538544.3077302 using user tile start: [6, 0]
+time=1795538544.308231 tile: {'coords': (6, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[3.51   , 0.     , 0.4095 ],
+        [3.65625, 0.     , 0.4095 ],
+        [3.94875, 0.     , 0.4095 ],
+        [4.095  , 0.     , 0.4095 ]],
+
+       [[4.095  , 0.     , 0.1755 ],
+        [3.94875, 0.     , 0.1755 ],
+        [3.65625, 0.     , 0.1755 ],
+        [3.51   , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x77f5d5e91070>, 'color': array([1, 1, 1])}
+time=1795538544.3090377 road_tile_size=0.585
+time=1795538544.3092096 Starting at [3.68631895 0.         0.23608861] 6.228691488816062
+time=1795538544.3093336 Pos: [3.68631895 0.         0.23608861] angle 6.228691488816062
+time=1795538544.4126215 using DuckietownEnv
+time=1795538544.5493686 Pos: [3.69579354 0.         0.23646749] angle 6.257744362387631
+time=1795538544.7315786 Pos: [3.70534522 0.         0.23663547] angle 6.273456642736787
+time=1795538544.7833698 Pos: [3.71492782 0.         0.23665565] angle 6.288702165320704
+time=1795538544.818646 Pos: [3.72453474 0.         0.23653407] angle 6.302976535425702
+time=1795538544.8561094 Pos: [3.73415908 0.         0.23627867] angle 6.316456292081996
+time=1795538544.890995 Pos: [3.74379515 0.         0.23589612] angle 6.32927234285777
+time=1795538544.925588 Pos: [3.75343813 0.         0.23539205] angle 6.341549181686135
+time=1795538544.962549 Pos: [3.76308386 0.         0.23477106] angle 6.353404352860064
+time=1795538544.9984617 Pos: [3.77272866 0.         0.23403672] angle 6.364949920396359
+time=1795538545.0349271 Pos: [3.7823692  0.         0.23319163] angle 6.376293793340708
+time=1795538545.070198 Pos: [3.79200232 0.         0.23223743] angle 6.387541033708071
+time=1795538545.1032927 Pos: [3.8016249  0.         0.23117482] angle 6.3987951549279005
+time=1795538545.1391299 Pos: [3.81123381 0.         0.23000359] angle 6.4101594232891825
+time=1795538545.1754014 Pos: [3.82082569 0.         0.2287226 ] angle 6.421738171901796
+time=1795538545.2127192 Pos: [3.83039691 0.         0.22732983] angle 6.433638132245887
+time=1795538545.2458365 Pos: [3.8399434  0.         0.22582232] angle 6.44596978116939
+time=1795538545.2787452 Pos: [3.84946051 0.         0.22419625] angle 6.458848689875748
+time=1795538545.3201091 Pos: [3.85894285 0.         0.22244686] angle 6.472396844142524
+time=1795538545.3563046 Pos: [3.8683841  0.         0.22056853] angle 6.486743879259267
+time=1795538545.3929973 Pos: [3.87777681 0.         0.21855475] angle 6.502028135957389
+0.585
+3.6863189531676777 0.23608860963873488
+0: [4.06232213 0.         0.29421633]
+False: VisitCoordinatesChecker has failed
