@@ -1,0 +1,40 @@
+False: Incorrect solution execution: 'DontCrushPedestrianTaskSolution' object has no attribute 'find_pedestrians'
+time=1795586424.9598365 gym-duckietown 2019.0.0
+
+time=1795586425.0440888 Registering gym environment id: Duckietown-4way-v0
+time=1795586425.0441787 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795586425.044209 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795586425.0442343 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795586425.0442932 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795586425.0443404 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795586425.044367 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795586425.044418 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795586425.0444582 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795586425.0444834 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795586425.0445175 Registering gym environment id: Duckietown-small_loop-v0
+time=1795586425.0445673 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795586425.0445874 Registering gym environment id: Duckietown-straight_road-v0
+time=1795586425.0446072 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795586425.0446274 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795586425.0446475 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795586425.0446672 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795586425.0446866 Registering gym environment id: Duckietown-udem1-v0
+time=1795586425.044706 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795586426.2111454 Falling back to non-multisampled frame buffer
+time=1795586426.2131715 Falling back to non-multisampled frame buffer
+time=1795586426.2159014 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_with_side_floor.yaml"
+time=1795586426.2222705 loading mesh "duckiebot.obj"
+time=1795586426.2223916 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795586426.4265788 loading texture "floor_1.png"
+time=1795586426.4964604 loading texture "straight_1.png"
+time=1795586426.5082114 road_tile_size=0.585
+time=1795586426.5084949 Starting at [0.2925 0.     0.8775] 0
+time=1795586426.5086973 Pos: [0.2925 0.     0.8775] angle 0
+time=1795586426.6303494 using DuckietownEnv
+time=1795586426.6311884 loading mesh "duckie.obj"
+time=1795586426.6543295 loading texture "duckie.png"
+time=1795586427.0775588 Pos: [0.31579373 0.         0.8775    ] angle 0
+0.585
+0.2925 0.8775
+total reward =  -0.47118798043326304
+False: Incorrect solution execution: 'DontCrushPedestrianTaskSolution' object has no attribute 'find_pedestrians'
