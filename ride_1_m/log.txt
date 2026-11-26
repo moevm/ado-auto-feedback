@@ -1,0 +1,63 @@
+True: Accepted
+time=1795722399.7798204 gym-duckietown 2019.0.0
+
+time=1795722399.8623483 Registering gym environment id: Duckietown-4way-v0
+time=1795722399.8624396 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795722399.8624785 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795722399.8625274 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795722399.8625894 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795722399.8626204 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795722399.862655 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795722399.8627038 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795722399.8627524 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795722399.8628073 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795722399.8628592 Registering gym environment id: Duckietown-small_loop-v0
+time=1795722399.8629017 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795722399.862944 Registering gym environment id: Duckietown-straight_road-v0
+time=1795722399.862985 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795722399.8630362 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795722399.8630822 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795722399.8631284 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795722399.8631778 Registering gym environment id: Duckietown-udem1-v0
+time=1795722399.8632238 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795722401.163127 Falling back to non-multisampled frame buffer
+time=1795722401.1653118 Falling back to non-multisampled frame buffer
+time=1795722401.168087 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road.yaml"
+time=1795722401.172255 loading mesh "duckiebot.obj"
+time=1795722401.1723835 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795722401.3751967 loading texture "straight_1.png"
+time=1795722401.3894231 road_tile_size=0.585
+time=1795722401.389722 Starting at [0.2925 0.     0.2925] 0
+time=1795722401.3899858 Pos: [0.2925 0.     0.2925] angle 0
+time=1795722401.4942012 using DuckietownEnv
+time=1795722401.6303122 Pos: [0.3325 0.     0.2925] angle 0
+time=1795722401.8128757 Pos: [0.3725 0.     0.2925] angle 0
+time=1795722401.8644314 Pos: [0.4125 0.     0.2925] angle 0
+time=1795722401.9082317 Pos: [0.4525 0.     0.2925] angle 0
+time=1795722401.9486935 Pos: [0.4925 0.     0.2925] angle 0
+time=1795722401.9855914 Pos: [0.5325 0.     0.2925] angle 0
+time=1795722402.0253613 Pos: [0.5725 0.     0.2925] angle 0
+time=1795722402.0621173 Pos: [0.6125 0.     0.2925] angle 0
+time=1795722402.0998616 Pos: [0.6525 0.     0.2925] angle 0
+time=1795722402.1371577 Pos: [0.6925 0.     0.2925] angle 0
+time=1795722402.1771796 Pos: [0.7325 0.     0.2925] angle 0
+time=1795722402.2146752 Pos: [0.7725 0.     0.2925] angle 0
+time=1795722402.2508807 Pos: [0.8125 0.     0.2925] angle 0
+time=1795722402.2904437 Pos: [0.8525 0.     0.2925] angle 0
+time=1795722402.3286283 Pos: [0.8925 0.     0.2925] angle 0
+time=1795722402.3673992 Pos: [0.9325 0.     0.2925] angle 0
+time=1795722402.4035618 Pos: [0.9725 0.     0.2925] angle 0
+time=1795722402.4415467 Pos: [1.0125 0.     0.2925] angle 0
+time=1795722402.478524 Pos: [1.0525 0.     0.2925] angle 0
+time=1795722402.516921 Pos: [1.0925 0.     0.2925] angle 0
+time=1795722402.5534866 Pos: [1.1325 0.     0.2925] angle 0
+time=1795722402.5905485 Pos: [1.1725 0.     0.2925] angle 0
+time=1795722402.6270642 Pos: [1.2125 0.     0.2925] angle 0
+time=1795722402.6658347 Pos: [1.2525 0.     0.2925] angle 0
+time=1795722402.702289 Pos: [1.28511123 0.         0.2925    ] angle 0
+time=1795722402.7405124 Pos: [1.29493334 0.         0.2925    ] angle 0
+0.585
+0.2925 0.2925
+Машинка повернулась к дороге
+Машинка проехала 1 метр
+True: Accepted
