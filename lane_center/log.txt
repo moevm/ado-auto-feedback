@@ -1,0 +1,46 @@
+False: Incorrect solution execution: 'target_coordinates'
+time=1795722219.591336 gym-duckietown 2019.0.0
+
+time=1795722219.673286 Registering gym environment id: Duckietown-4way-v0
+time=1795722219.6733775 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795722219.6734211 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795722219.673471 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795722219.673508 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795722219.6735513 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795722219.6735964 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795722219.673641 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795722219.673689 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795722219.6737359 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795722219.673781 Registering gym environment id: Duckietown-small_loop-v0
+time=1795722219.6738365 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795722219.6738834 Registering gym environment id: Duckietown-straight_road-v0
+time=1795722219.6739297 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795722219.6739767 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795722219.6740217 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795722219.6740687 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795722219.6741173 Registering gym environment id: Duckietown-udem1-v0
+time=1795722219.6741645 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795722220.876719 Falling back to non-multisampled frame buffer
+time=1795722220.87862 Falling back to non-multisampled frame buffer
+time=1795722220.881378 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1795722220.8850906 loading mesh "duckiebot.obj"
+time=1795722220.8852117 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795722221.0918484 loading texture "straight_1.png"
+time=1795722221.1054986 using user tile start: [33, 0]
+time=1795722221.1060894 tile: {'coords': (33, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[19.305  ,  0.     ,  0.4095 ],
+        [19.45125,  0.     ,  0.4095 ],
+        [19.74375,  0.     ,  0.4095 ],
+        [19.89   ,  0.     ,  0.4095 ]],
+
+       [[19.89   ,  0.     ,  0.1755 ],
+        [19.74375,  0.     ,  0.1755 ],
+        [19.45125,  0.     ,  0.1755 ],
+        [19.305  ,  0.     ,  0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7c7331f40370>, 'color': array([1, 1, 1])}
+time=1795722221.1068585 road_tile_size=0.585
+time=1795722221.107019 Starting at [19.534472    0.          0.35739059] 6.2471594387077145
+time=1795722221.1071892 Pos: [19.534472    0.          0.35739059] angle 6.2471594387077145
+time=1795722221.2132032 using DuckietownEnv
+0.585
+19.53447199879809 0.3573905861575574
+total reward =  0
+False: Incorrect solution execution: 'target_coordinates'
