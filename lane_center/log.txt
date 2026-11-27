@@ -1,0 +1,61 @@
+False: Accepted
+time=1795801765.298222 gym-duckietown 2019.0.0
+
+time=1795801765.3823843 Registering gym environment id: Duckietown-4way-v0
+time=1795801765.382464 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795801765.3824937 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795801765.3825443 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795801765.3826165 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795801765.3826597 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795801765.3827045 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795801765.38275 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795801765.38279 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795801765.382838 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795801765.3828766 Registering gym environment id: Duckietown-small_loop-v0
+time=1795801765.3829143 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795801765.382951 Registering gym environment id: Duckietown-straight_road-v0
+time=1795801765.3829906 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795801765.3830314 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795801765.3830707 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795801765.3831067 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795801765.3831468 Registering gym environment id: Duckietown-udem1-v0
+time=1795801765.3831825 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795801766.5635362 Falling back to non-multisampled frame buffer
+time=1795801766.5654852 Falling back to non-multisampled frame buffer
+time=1795801766.568308 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1795801766.57217 loading mesh "duckiebot.obj"
+time=1795801766.5723276 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795801766.77447 loading texture "straight_1.png"
+time=1795801766.7881947 using user tile start: [34, 0]
+time=1795801766.7888918 tile: {'coords': (34, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[19.89   ,  0.     ,  0.4095 ],
+        [20.03625,  0.     ,  0.4095 ],
+        [20.32875,  0.     ,  0.4095 ],
+        [20.475  ,  0.     ,  0.4095 ]],
+
+       [[20.475  ,  0.     ,  0.1755 ],
+        [20.32875,  0.     ,  0.1755 ],
+        [20.03625,  0.     ,  0.1755 ],
+        [19.89   ,  0.     ,  0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x75519f7fc370>, 'color': array([1, 1, 1])}
+time=1795801766.7897162 road_tile_size=0.585
+time=1795801766.7898874 Starting at [20.46056908  0.          0.32711358] 3.1763131129930087
+time=1795801766.790036 Pos: [20.46056908  0.          0.32711358] angle 3.1763131129930087
+time=1795801766.8976068 using DuckietownEnv
+time=1795801767.0350246 Pos: [20.46056908  0.          0.32711358] angle 3.17116432870189
+time=1795801767.223166 Pos: [20.46056908  0.          0.32711358] angle 3.1667790705890573
+time=1795801767.2771487 Pos: [20.46056908  0.          0.32711358] angle 3.1630441134362903
+time=1795801767.3184304 Pos: [20.46056908  0.          0.32711358] angle 3.159863022477886
+time=1795801767.3589478 Pos: [20.46056908  0.          0.32711358] angle 3.1571536635022017
+time=1795801767.3983648 Pos: [20.46056908  0.          0.32711358] angle 3.1548460821865136
+time=1795801767.4379504 Pos: [20.46056908  0.          0.32711358] angle 3.1528806979106383
+time=1795801767.4775913 Pos: [20.46056908  0.          0.32711358] angle 3.151206765414479
+0.585
+20.46056907836621 0.3271135767290359
+441.3076923076923 1.3439974787410107
+438.3076923076923 1.3439974787410107
+0.0 0.0
+470.7476739520199 1.2705318793358964
+426.86538461538464 1.3623311084149088
+476.92884975209483 1.2520691543908586
+458.957602668899 1.2881034840906747
+0.0 0.0
+False: Accepted
