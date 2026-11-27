@@ -1,0 +1,49 @@
+False: Incorrect solution execution: cannot unpack non-iterable numpy.int32 object
+time=1795805346.9595556 gym-duckietown 2019.0.0
+
+time=1795805348.2312806 Registering gym environment id: Duckietown-4way-v0
+time=1795805348.2316396 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795805348.2318325 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795805348.2320848 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795805348.2323265 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795805348.2325778 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795805348.232945 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795805348.2332804 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795805348.2335324 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795805348.2337677 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795805348.2340448 Registering gym environment id: Duckietown-small_loop-v0
+time=1795805348.2342894 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795805348.2345276 Registering gym environment id: Duckietown-straight_road-v0
+time=1795805348.2347476 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795805348.235018 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795805348.235238 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795805348.235481 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795805348.2357328 Registering gym environment id: Duckietown-udem1-v0
+time=1795805348.2359915 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795805353.8835924 Falling back to non-multisampled frame buffer
+time=1795805353.8928347 Falling back to non-multisampled frame buffer
+time=1795805353.9067874 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1795805353.928391 loading mesh "duckiebot.obj"
+time=1795805353.9287167 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795805354.2023065 loading texture "straight_1.png"
+time=1795805354.368151 using user tile start: [4, 0]
+time=1795805354.3692498 tile: {'coords': (4, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[2.34   , 0.     , 0.4095 ],
+        [2.48625, 0.     , 0.4095 ],
+        [2.77875, 0.     , 0.4095 ],
+        [2.925  , 0.     , 0.4095 ]],
+
+       [[2.925  , 0.     , 0.1755 ],
+        [2.77875, 0.     , 0.1755 ],
+        [2.48625, 0.     , 0.1755 ],
+        [2.34   , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x7589471fc370>, 'color': array([1, 1, 1])}
+time=1795805354.3717833 road_tile_size=0.585
+time=1795805354.3721282 Starting at [2.74220043 0.         0.15208888] 5.541279296396945
+time=1795805354.372406 Pos: [2.74220043 0.         0.15208888] angle 5.541279296396945
+time=1795805354.4811785 using DuckietownEnv
+time=1795805354.9060273 Pos: [2.74220043 0.         0.15208888] angle 5.541279296396945
+0.585
+2.742200434674237 0.15208888405606008
+0.585
+2.742200434674237 0.15208888405606008
+total reward =  -2.574111159439399
+False: Incorrect solution execution: cannot unpack non-iterable numpy.int32 object
