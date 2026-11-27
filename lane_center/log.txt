@@ -1,0 +1,48 @@
+False: StopAtLaneCenterChecker has failed
+time=1795808535.6843941 gym-duckietown 2019.0.0
+
+time=1795808536.5418415 Registering gym environment id: Duckietown-4way-v0
+time=1795808536.5419524 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795808536.5420108 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795808536.5421147 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795808536.542155 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795808536.5422082 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795808536.5422442 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795808536.5422683 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795808536.542291 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795808536.5423126 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795808536.5423348 Registering gym environment id: Duckietown-small_loop-v0
+time=1795808536.5423563 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795808536.5423772 Registering gym environment id: Duckietown-straight_road-v0
+time=1795808536.5423982 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795808536.5424194 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795808536.5424407 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795808536.5424616 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795808536.5424824 Registering gym environment id: Duckietown-udem1-v0
+time=1795808536.542503 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795808539.7187614 Falling back to non-multisampled frame buffer
+time=1795808539.7210274 Falling back to non-multisampled frame buffer
+time=1795808539.7238822 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1795808539.7279322 loading mesh "duckiebot.obj"
+time=1795808539.7280848 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795808539.950601 loading texture "straight_1.png"
+time=1795808540.0507028 using user tile start: [23, 0]
+time=1795808540.0512633 tile: {'coords': (23, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[13.455  ,  0.     ,  0.4095 ],
+        [13.60125,  0.     ,  0.4095 ],
+        [13.89375,  0.     ,  0.4095 ],
+        [14.04   ,  0.     ,  0.4095 ]],
+
+       [[14.04   ,  0.     ,  0.1755 ],
+        [13.89375,  0.     ,  0.1755 ],
+        [13.60125,  0.     ,  0.1755 ],
+        [13.455  ,  0.     ,  0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x738c0bf40370>, 'color': array([1, 1, 1])}
+time=1795808540.0520954 road_tile_size=0.585
+time=1795808540.0522747 Starting at [13.67052957  0.          0.43145458] 0.5967325102558058
+time=1795808540.0524163 Pos: [13.67052957  0.          0.43145458] angle 0.5967325102558058
+time=1795808540.1559772 using DuckietownEnv
+time=1795808540.5069585 Pos: [13.67052957  0.          0.43145458] angle 0.5967325102558058
+0.585
+13.670529571010393 0.4314545785784532
+-0.1494417826752944 -0.7540151497171483
+2
+False: StopAtLaneCenterChecker has failed
