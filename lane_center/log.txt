@@ -1,0 +1,49 @@
+False: Incorrect solution execution: 'LaneCenterTaskSolution' object has no attribute '_get_lane_error'
+time=1795791466.6738338 gym-duckietown 2019.0.0
+
+time=1795791469.775493 Registering gym environment id: Duckietown-4way-v0
+time=1795791469.7755885 Registering gym environment id: Duckietown-ado_map_1-v0
+time=1795791469.775633 Registering gym environment id: Duckietown-ado_map_2-v0
+time=1795791469.7757018 Registering gym environment id: Duckietown-ado_map_3-v0
+time=1795791469.775744 Registering gym environment id: Duckietown-loop_dyn_duckiebots-v0
+time=1795791469.7758029 Registering gym environment id: Duckietown-loop_empty-v0
+time=1795791469.7758508 Registering gym environment id: Duckietown-loop_obstacles-v0
+time=1795791469.7758915 Registering gym environment id: Duckietown-loop_one_duckie-v0
+time=1795791469.775932 Registering gym environment id: Duckietown-loop_only_duckies-v0
+time=1795791469.775972 Registering gym environment id: Duckietown-loop_pedestrians-v0
+time=1795791469.7760074 Registering gym environment id: Duckietown-small_loop-v0
+time=1795791469.7760413 Registering gym environment id: Duckietown-small_loop_cw-v0
+time=1795791469.7760768 Registering gym environment id: Duckietown-straight_road-v0
+time=1795791469.7761126 Registering gym environment id: Duckietown-straight_road_10_tiles_no_start_tile-v0
+time=1795791469.7761486 Registering gym environment id: Duckietown-straight_road_no_start_tile-v0
+time=1795791469.7761838 Registering gym environment id: Duckietown-straight_road_trafficlight-v0
+time=1795791469.7762177 Registering gym environment id: Duckietown-straight_road_with_side_floor-v0
+time=1795791469.7762525 Registering gym environment id: Duckietown-udem1-v0
+time=1795791469.7762907 Registering gym environment id: Duckietown-zigzag_dists-v0
+time=1795791475.1620991 Falling back to non-multisampled frame buffer
+time=1795791475.1642776 Falling back to non-multisampled frame buffer
+time=1795791475.1685524 loading map file "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/maps/straight_road_no_start_tile.yaml"
+time=1795791475.176596 loading mesh "duckiebot.obj"
+time=1795791475.1768074 loading materials from "/home/appuser/aido-auto/gym-duckietown/gym_duckietown/meshes/duckiebot.mtl"
+time=1795791475.406891 loading texture "straight_1.png"
+time=1795791475.421824 using user tile start: [8, 0]
+time=1795791475.4225557 tile: {'coords': (8, 0), 'kind': 'straight', 'angle': 1, 'drivable': True, 'curves': array([[[4.68   , 0.     , 0.4095 ],
+        [4.82625, 0.     , 0.4095 ],
+        [5.11875, 0.     , 0.4095 ],
+        [5.265  , 0.     , 0.4095 ]],
+
+       [[5.265  , 0.     , 0.1755 ],
+        [5.11875, 0.     , 0.1755 ],
+        [4.82625, 0.     , 0.1755 ],
+        [4.68   , 0.     , 0.1755 ]]]), 'texture': <gym_duckietown.graphics.Texture object at 0x749f9c4e1370>, 'color': array([1, 1, 1])}
+time=1795791475.4245033 road_tile_size=0.585
+time=1795791475.424712 Starting at [5.0789166  0.         0.22336869] 2.9572182188423004
+time=1795791475.4248931 Pos: [5.0789166  0.         0.22336869] angle 2.9572182188423004
+time=1795791475.5308697 using DuckietownEnv
+time=1795791475.6799624 Pos: [5.0789166  0.         0.22336869] angle 2.9572182188423004
+0.585
+5.07891659912214 0.223368685480122
+0.585
+5.07891659912214 0.223368685480122
+total reward =  -0.4786868548012202
+False: Incorrect solution execution: 'LaneCenterTaskSolution' object has no attribute '_get_lane_error'
